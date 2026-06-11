@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Intensity** | **MEDIUM** (closure sensitivity: watch for inflation and deflation, named in the safety callouts). Partner check-in recommended before starting; debrief after. Partner reachability required within 24 hours for the closing-declaration exchange. |
+| **Intensity** | **LOW** (closure sensitivity: watch for inflation and deflation, named in the safety callouts). Partner check-in recommended before starting; debrief after. Partner reachability required within 24 hours for the closing-declaration exchange. |
 | **Sittings** | 3 (break points marked in the text) |
 | **Tools for this module** | Study the map: [M20 · Map of Possibility](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html) · [M21 · Bright & Shadow Principles](../Map%20Atlas/M21%20-%20Bright%20Principles%20and%20Shadow%20Principles.html) · [M22 · Is-Glue](../Map%20Atlas/M22%20-%20Is-Glue%20and%20Is-Glue%20Dissolver.html) · [M23 · Three Powers](../Map%20Atlas/M23%20-%20Three%20Powers%20%28Choose%2C%20Ask%20Dangerous%20Questions%2C%20Declare%29.html) · [M44 · Linear and Nonlinear](../Map%20Atlas/M44%20-%20Linear%20and%20Nonlinear.html) · [M46 · Map of Matrix](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html) · Run the practice: [Declaration Composer](../Interactive%20Tools/Day%2010/declaration-composer.html) |
 | **Videos** | The written module is complete on its own. Videos are optional enrichment: see [Video Manifest](../Facilitator%20Resources/Video%20Manifest.md). This module's material is distilled from the Sparks and the Map of Possibility handouts; per-Spark citations appear where a distinction can be traced to its source. |
@@ -344,12 +344,13 @@ These pull the whole course together, not just Module 10. Journal at your own pa
 5. **The Low Drama you are now aware of.** Name one Low Drama you can now see yourself playing that you could not see 30 days ago. What does it cost? What would it cost to stop?
 6. **The declaration that scared you.** Of the three declarations from the embodied practice, which was hardest to say out loud? Why? What is on the other side of saying it cleanly?
 7. **What you do not yet know.** Name one thing you came to the course thinking you would find an answer to, and did not. The unanswered question is often the doorway to whatever comes next.
+8. **The trend line (the third scheduled row re-read).** Open your [Feelings Form](../Practice/Feelings%20Form.md) and read every row since Module 5, in order. Did the Numbness Bar move? Which feeling opened, which stayed shut, what raises the bars? Thirty rows are evidence no insight can substitute for. Write what the trend says, one line.
 
 ---
 
 ## Safety callouts for this module
 
-Module 10 is Medium intensity with a specific shape: most learners report it as grounding and quietly emotional rather than destabilizing, and the risk sits in the closing itself. Two patterns to watch for at integration:
+Module 10 is Low intensity with a specific shape: most learners report it as grounding and quietly emotional rather than destabilizing, and the risk sits in the closing itself. Two patterns to watch for at integration:
 
 - **Inflation.** A part of the Box, or the gremlin, can hijack the closing declaration into grandiosity. *"I am transformed. I am a Possibility Manager now. I have transcended my conditioning."* If your body recognizes the voice (too big, too clean, too triumphant), pause. A declaration sized to your actual life feels grounded and slightly humble; one sourced from inflation feels rehearsed. Inflation is the Box claiming victory over itself. (It is also is-glue in its loudest costume: "I AM transformed" welds a permanent identity onto a single good day. Dissolve it and re-speak what is actually true.) Soften until it matches what is true in your body.
 - **Deflation.** The opposite. *"Nothing actually changed. I am the same person. The course was a nice idea."* Also the Box, same Box, different costume, minimizing the work. Do not argue with the voice. Acknowledge it. Then make a small, specific declaration anyway, sized to the smallest piece of new ground you can honestly claim. Tiny is fine. Tiny is real. Real declarations compound; pretend ones do not.

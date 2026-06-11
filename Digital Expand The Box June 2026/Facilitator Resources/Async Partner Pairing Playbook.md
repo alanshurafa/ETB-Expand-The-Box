@@ -7,9 +7,9 @@
 | **Replaces** | The in-person "Breakout Room Designs" document |
 | **Reads alongside** | `02 - Async Delivery Framework.md` Section C · `03 - Safety and Facilitation Framework.md` Sections B, F · `04 - Container and Gatekeeping Protocol.md` Sections A, B, C, D, I |
 
-The pairing IS the matrix — the energetic infrastructure that lets the learner stay in their body while their thoughtware is upgrading. Without a working pairing, the modules become information. With one, transformation. Treat the matrix as load-bearing.
+The pairing IS the container — the energetic infrastructure that lets the learner stay in their body while their thoughtware is upgrading. Without a working pairing, the modules become information. With one, transformation. Treat the pairing as load-bearing.
 
-Doc 04 holds the protocols (partner agreement, tracker fields, unlock checklist, mismatch logic). This playbook holds the language — verbatim CM voice messages, per-module exchange shapes, and the decision trees that keep the matrix intact.
+Doc 04 holds the protocols (partner agreement, tracker fields, unlock checklist, mismatch logic). This playbook holds the language — verbatim CM voice messages, per-module exchange shapes, and the decision trees that keep the container intact.
 
 ---
 
@@ -159,7 +159,7 @@ That's the pattern where I step in.
 
 I'm re-matching unless you tell me by [date, 48h] that you have a 
 specific plan to get back on rhythm. No judgment. The modules ahead 
-([list 2 upcoming]) lean on the matrix being live.
+([list 2 upcoming]) lean on the pairing being live.
 
 Re-match, or specific plan?
 ```
@@ -181,7 +181,7 @@ tell me. Default is re-match.
 
 ## 5. The re-match protocol
 
-Re-matching is not failure. It is the matrix self-correcting. The CM frames it that way every time.
+Re-matching is not failure. It is the container self-correcting. The CM frames it that way every time.
 
 **When to re-match.**
 - Trigger 2 (Section 4), if either partner chose option 3
@@ -254,7 +254,7 @@ min with what you heard / what you noticed / one question.
 
 [Attach the Day NN partner prompt.]
 
-Confidentiality is real. The matrix you held in your own cohort 
+Confidentiality is real. The container you held in your own cohort 
 extends here.
 ```
 
@@ -316,24 +316,24 @@ The eight scenarios you will see most often, with what to do.
 
 **1. The ghost — one partner stops responding entirely.**
 
-After 6 days of no initiated exchange, default to a re-match for the responsive partner (Trigger 4, Section 4). Do not chase the silent partner more than twice. The silence is data; respect it. If the silent partner re-emerges later wanting to rejoin, the CM offers a witness-bench slot, not a new pairing — they re-earn matrix trust by witnessing before they are witnessed.
+After 6 days of no initiated exchange, default to a re-match for the responsive partner (Trigger 4, Section 4). Do not chase the silent partner more than twice. The silence is data; respect it. If the silent partner re-emerges later wanting to rejoin, the CM offers a witness-bench slot, not a new pairing — they re-earn the container's trust by witnessing before they are witnessed.
 
 **2. The carrier — one partner is doing all the work.**
 
-Voice-message the carrier privately: *"I notice you're holding more of the matrix than [partner] is right now. The pairing isn't built for that. Want me to surface it with them, or do you want to surface it yourself first?"* If the carrier wants to surface it themselves, the CM gives them the Day 8 completion-loop frame: name it cleanly, ask for what they need, close the loop. If they want the CM to surface it, the CM voice-messages the other partner with the standard cadence-drop language (Section 4, Trigger 2). Re-match if the imbalance persists past one more module.
+Voice-message the carrier privately: *"I notice you're holding more of the container than [partner] is right now. The pairing isn't built for that. Want me to surface it with them, or do you want to surface it yourself first?"* If the carrier wants to surface it themselves, the CM gives them the Day 8 completion-loop frame: name it cleanly, ask for what they need, close the loop. If they want the CM to surface it, the CM voice-messages the other partner with the standard cadence-drop language (Section 4, Trigger 2). Re-match if the imbalance persists past one more module.
 
 **3. The romantic interest — one partner becomes attracted to the other.**
 
 Item 7 forbids a sexual relationship during the course. The attraction itself is not the violation; acting on it during the cohort is. CM voice-messages the partner who surfaced the interest:
 
 ```
-Hi [name] — what you noticed is real. The matrix sometimes generates 
+Hi [name] — what you noticed is real. The container sometimes generates 
 this; you are not the first. Item 7 holds for the cohort. Notice the 
 energy; do not act on it inside the course. After Day 10 you and 
 [partner] decide what is between you in your own gameworld.
 
 If the attraction makes it hard to hold a clean witnessing stance, 
-tell me and I will re-match. Not punishment — choosing the matrix 
+tell me and I will re-match. Not punishment — choosing the container 
 over the shape it took.
 ```
 
@@ -402,8 +402,8 @@ The remaining partner is re-matched (Section 5). The withdrawing partner closes 
 
 ---
 
-The matrix is built one exchange at a time. The CM's job is not to make the exchanges happen — that is between the partners. The CM's job is to make sure the conditions for the exchanges to happen are in place: the agreement signed, the platform set, the cadence matched, the unlock checklist gated, the silence noticed before it becomes a default. Do those, and the matrix holds. The course does the rest.
+The container is built one exchange at a time. The CM's job is not to make the exchanges happen — that is between the partners. The CM's job is to make sure the conditions for the exchanges to happen are in place: the agreement signed, the platform set, the cadence matched, the unlock checklist gated, the silence noticed before it becomes a default. Do those, and the container holds. The course does the rest.
 
 ---
 
-<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>

@@ -26,7 +26,7 @@
 - [ ] **Archive what gets archived.** Pairing-tracker row marked closed (structure only; the CM never logged exchange content). Cohort-feed posts stay until the standard 14-day post-cohort archive. The referral packet stays delivered. Nothing the learner would need for re-entry is deleted.
 - [ ] **State the re-entry terms at leaving time**, so coming back is concrete, not vague goodwill:
   - The learner-facing path is [Coming Back](../Practice/Coming%20Back.md) (3+/7+/30+ day tiers, anti-binge rule, High-module rule).
-  - If their pairing was closed, re-entry runs through the **witness bench**: they witness one exchange before they are witnessed (Playbook §9: the ghost re-earns matrix trust by witnessing first). A declared leaver who stopped well re-enters on the same bench terms if their partner has been re-matched; nothing else is re-earned.
+  - If their pairing was closed, re-entry runs through the **witness bench**: they witness one exchange before they are witnessed (Playbook §9: the ghost re-earns the container's trust by witnessing first). A declared leaver who stopped well re-enters on the same bench terms if their partner has been re-matched; nothing else is re-earned.
 - [ ] **Log it for the post-cohort review:** leave date, module reached, silent/declared, re-entry terms stated. Structure, not story.
 
 ---

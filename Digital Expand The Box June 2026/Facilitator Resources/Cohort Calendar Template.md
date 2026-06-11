@@ -32,10 +32,10 @@ Intensity tags: **L** Low · **M** Medium · **H** High. ⚑ marks an SLA-releva
 | Course days | Beat | Tag | CM marks (⚑ = SLA-relevant) | Worked example | Your dates |
 |---|---|---|---|---|---|
 | 1–2 | **Module 00 · Start Here & Getting Your Container** | L | ⚑ Feed monitoring begins (every post read within 48h, standing until close) · confirm every learner posted a first feed line by Day 2 | Mon 5 – Tue 6 Oct | |
-| 3–5 | **Module 01 · Orientation, New Context, Radical Responsibility** | M | ⚑ Pairing tracker: first exchange logged per pair by Day 5; re-match anyone with no real exchange (Doc 02 §C.1) | Wed 7 – Fri 9 Oct | |
+| 3–5 | **Module 01 · Orientation, New Context, Radical Responsibility** | L | ⚑ Pairing tracker: first exchange logged per pair by Day 5; re-match anyone with no real exchange (Doc 02 §C.1) | Wed 7 – Fri 9 Oct | |
 | 6–8 | **Module 02 · Thoughtware, Thoughtmaps, Box** | M | Partner SLA watch (24h reply windows) now routine | Sat 10 – Mon 12 Oct | |
-| 9–11 | **Module 03 · Liquid State, Center-Ground-Bubble, Five Bodies** · **teach-back #1** closes the module | M | Confirm teach-back exchanges happened (logged, not heard) | Tue 13 – Thu 15 Oct | |
-| 12–14 | **Module 04 · Feedback, Coaching, Rapid Learning, Experiments** | M | ⚑ Backup-CM drill run and logged before any High module (Run-Book Part 5) | Fri 16 – Sun 18 Oct | |
+| 9–11 | **Module 03 · Liquid State, Center-Ground-Bubble, Five Bodies** · **teach-back #1** closes the module | L | Confirm teach-back exchanges happened (logged, not heard) | Tue 13 – Thu 15 Oct | |
+| 12–14 | **Module 04 · Feedback, Coaching, Rapid Learning, Experiments** | L | ⚑ Backup-CM drill run and logged before any High module (Run-Book Part 5) | Fri 16 – Sun 18 Oct | |
 | 15–17 | **Module 05 · Feelings vs Emotions, Old Map, Numbness Bar** | **H** | ⚑ Unlock checklist verified per learner before access (Doc 04 §D) · ⚑ light check-in DM to every learner · clinician confirmations on file where Screen 1/5 applied | Mon 19 – Wed 21 Oct | |
 | 18–21 | **Module 06 · Mixed Emotions & EHP** (the single heaviest module; give it 4 days) · **teach-back #2** closes the module | **H** | ⚑ Unlock checklist per learner · ⚑ both partners confirm 48h reachability before anyone starts · ⚑ check-in DM to every learner during the window | Thu 22 – Sun 25 Oct | |
 | 22 | **⏸ Consolidation pause**: one full low-demand day. No new content. Ground, sleep, journal, the 15-minute consolidation recall rep, partner check-in. Not skippable at any cadence. | — | ⚑ Watch the feed closely today; post-EHP tenderness surfaces here, not during Module 6 | Mon 26 Oct | |
@@ -44,7 +44,7 @@ Intensity tags: **L** Low · **M** Medium · **H** High. ⚑ marks an SLA-releva
 | 26–28 | **Module 08 · Listening, Speaking, Communication** (heavy Medium; the partner exchange *is* the module) | M | Confirm every pair scheduled the 45-minute exchange | Fri 30 Oct – Sun 1 Nov | |
 | 29 | **⏸ Rest day**: the low-demand beat before the last High module. No new content. | — | Good day for the CM to clear the action log backlog | Mon 2 Nov | |
 | 30–32 | **Module 09 · Ego States, Problem Ownership, Learning Spiral** · **teach-back #3** closes the module | **H** | ⚑ Unlock checklist per learner · ⚑ check-in DM · clinician confirmations where Screen 5 applied | Tue 3 – Thu 5 Nov | |
-| 33–35 | **Module 10 · Map of Possibility, Bright/Shadow, Is-Glue, Three Powers** | M | Watch for learners racing the ending; offer the stretched close | Fri 6 – Sun 8 Nov | |
+| 33–35 | **Module 10 · Map of Possibility, Bright/Shadow, Is-Glue, Three Powers** | L | Watch for learners racing the ending; offer the stretched close | Fri 6 – Sun 8 Nov | |
 | 36–38 | **Module 11 · Continuation: 90-Day Container & Possibility Team** · closing partner exchange · Learning Self-Assessment re-rate + anonymous submission window opens ([Learning Self-Assessment](Learning%20Self-Assessment.md)) | L | ⚑ Closing-witness requests: any learner whose partner is unreachable gets a witness for the closing declaration (bench or CM) | Mon 9 – Wed 11 Nov | |
 | 38 (evening) | **End-of-course integration call** (~90 min): declarations round, gratitude round, what's-next pointers | — | Same recording rules as mid-course | Wed 11 Nov, evening | |
 

@@ -56,7 +56,7 @@ Module 5 installs the Per-Feeling Bar Reading and promotes it to a standing dail
 The exact steps:
 
 1. **Arrive (30 seconds).** As in Phase A. Feet, breath.
-2. **Bar reading (3–4 minutes).** For each of the four feelings in order — anger, sadness, fear, joy — ask out loud: *"Right now, in my emotional body, how much of this feeling am I registering, 0 to 10?"* Write the number in today's row of the Form. Don't justify the number; the first reading is the reading. Then, for whichever feeling read lowest, ask once: *"If the bar were one notch lower, what would I be feeling?"* — and stay 20 seconds. The answer is usually a sensation, not a sentence. *Almost* nothing is data.
+2. **Bar reading (3–4 minutes).** For each of the four feelings in order (anger, sadness, fear, joy) ask out loud: *"Right now, in my emotional body, how much of this feeling am I registering, 0 to 10?"* Write the number in today's row of the Form. Don't justify the number; the first reading is the reading. Then, for whichever feeling read lowest, ask once: *"If the bar were one notch lower, what would I be feeling?"* Stay 20 seconds. The answer is usually a sensation, not a sentence. *Almost* nothing is data.
 3. **One-line note.** Finish the row with one line: where the bar sits today (*"anger low, fear medium, sadness and joy high"*). Your pattern, today. Tomorrow's will be different.
 4. **Beep! Book capture (3–4 minutes).** Steps 2–5 of Phase A, unchanged. The Form row and the Book page sit side by side; many learners keep the Form clipped inside the Book.
 5. **Close.** Done. The sit does not grow past ten minutes. If it keeps wanting to, that is material for the weekly review question, not a reason to extend.

@@ -17,7 +17,7 @@
 - Primary language for partner exchange: ______________
 - **I confirm I am 18 or older:** [ ] yes
 - Are you currently working with a therapist, coach, or psychiatrist? [ ] yes [ ] no *(just whether one exists, not a name)*
-- Do you have someone — a friend, family member, or professional — you would call if you were in distress? [ ] yes [ ] no (optional: who, a word rather than a name): ______________
+- Do you have someone (a friend, family member, or professional) you would call if you were in distress? [ ] yes [ ] no (optional: who, a word rather than a name): ______________
 - **In the past 60 days,** have you lost someone close to you, or has a central relationship ruptured (separation, divorce, estrangement, major betrayal)? [ ] yes [ ] no
   *(If yes: the CM talks with you before access opens. The course's emotional-body modules land differently inside fresh grief or rupture; the usual adjustment is a slower cadence, not a closed door.)*
 
@@ -31,13 +31,13 @@
 - [ ] I intended to act on it
 - [ ] None of the above
 
-**B2.** In the past 6 months, have you experienced any of the following — flashbacks, lost time, feeling outside your body, inability to function after emotional work, intrusive memories that disrupted your day?
+**B2.** In the past 6 months, have you experienced any of the following: flashbacks, lost time, feeling outside your body, inability to function after emotional work, intrusive memories that disrupted your day?
 
 - [ ] Yes — monthly or more often, OR any lost time, OR any hospitalization for these
 - [ ] Yes — less often than monthly, no lost time, and I am currently in care
 - [ ] None of the above
 
-**B3.** In the past 90 days, have any of the following felt out of your control to a degree that is affecting your life — alcohol, drugs (including cannabis), self-harm, restricting/bingeing food, gambling, sexual behavior, screens/scrolling?
+**B3.** In the past 90 days, have any of the following felt out of your control to a degree that is affecting your life: alcohol, drugs (including cannabis), self-harm, restricting/bingeing food, gambling, sexual behavior, screens/scrolling?
 
 - [ ] Yes — currently out of control, or I am less than 90 days from a severe addiction
 - [ ] Compulsive but not out of control, and I am in active recovery support
@@ -48,7 +48,7 @@
 - [ ] Yes
 - [ ] No
 
-**B5.** In the past 12 months, have you experienced any of the following — manic episodes, psychosis, hearing or seeing things others did not, severe paranoia, psychiatric hospitalization, major changes to psychiatric medication?
+**B5.** In the past 12 months, have you experienced any of the following: manic episodes, psychosis, hearing or seeing things others did not, severe paranoia, psychiatric hospitalization, major changes to psychiatric medication?
 
 - [ ] Yes, within the past 12 months
 - [ ] Recovered — no episodes in the past 12 months, stable on medication, in care

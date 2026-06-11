@@ -65,7 +65,7 @@ Module 7 is direct work. Drama is produced, not received: you generate it, on pu
 
 You install four distinctions. The **Low Drama Triangle** (Persecutor, Victim, Rescuer). The **gremlin** and what it eats. The way out: **shifting to the Responsible Game**. And the destination that shift points toward: **high drama**, radical responsibility taken at gameworld scale. None of this is moral. All of it is operational. By the end you will be able to detect a drama position in yourself in real time and name the food it is producing: the precondition for choosing differently.
 
-This module relies on Modules 5 and 6. If your distinction between feeling and emotion is not yet living in you, the drama work reads as personality typing rather than as the energetic accounting it actually is. If you can't yet locate a 5% sadness in your chest, you will not catch your Victim performance in the act. Pause and re-read M10 if you need to. Your morning bar reading continues through all of this; drama days make distinctive rows.
+This module relies on Modules 5 and 6. If your distinction between feeling and emotion is not yet living in you, the drama work reads as personality typing rather than as the energetic accounting it actually is. If you can't yet locate a 5% sadness in your chest, you will not catch your Victim performance in the act. Pause and re-read M10 if you need to. Your morning bar reading continues through all of this; drama days make distinctive rows. Before Sitting 1, take the second scheduled row re-read: scan your rows since Module 5 and mark the days a drama episode ran. The bars on those days are the energetic accounting in plain numbers.
 
 ---
 

@@ -2,9 +2,9 @@
 
 This is the operating protocol that turns the safety intentions in `03 - Safety and Facilitation Framework.md` and the structural intentions in `02 - Async Delivery Framework.md` into concrete mechanisms.
 
-**Audience.** The Community Manager (CM). Every action in this document is something the CM (or the platform standing in for them) does. Learners see only the outputs — the intake form, the referral packet, the welcome message.
+**Audience.** The Community Manager (CM). Every action in this document is something the CM (or the platform standing in for them) does. Learners see only the outputs: the intake form, the referral packet, the welcome message.
 
-**Status.** This protocol is **required**. A cohort run without it is not running with the safety framework — it is running with the safety framework's intentions. This document is the law; [05 - Operator Run-Book.md](05%20-%20Operator%20Run-Book.md) and the [CM First-Cohort Run-Book](Facilitator%20Resources/CM%20First-Cohort%20Run-Book.md) are the routes through it.
+**Status.** This protocol is **required**. A cohort run without it is not running with the safety framework. It is running with the safety framework's intentions. This document is the law; [05 - Operator Run-Book.md](05%20-%20Operator%20Run-Book.md) and the [CM First-Cohort Run-Book](Facilitator%20Resources/CM%20First-Cohort%20Run-Book.md) are the routes through it.
 
 Section letters A–L match v1. v2 additions: the intake lines in §A.1, §B.2 (witness recruitment), the §D re-screen line, §K.2 (the cohort cap), and §M (solo boundary).
 
@@ -18,7 +18,7 @@ The prospective learner has already met the plain-language self-screen (Doc 03 �
 
 ### A.1 Identity, cadence and referral routing
 
-Required fields (used to generate the per-learner referral packet — see Section E):
+Required fields (used to generate the per-learner referral packet; see Section E):
 
 - Name and preferred name
 - **Confirmation of age 18 or over** *(the course is built and screened for adults; under 18 → no enrollment, no exceptions, with an honest sentence about why)*
@@ -26,8 +26,8 @@ Required fields (used to generate the per-learner referral packet — see Sectio
 - Country and state/province (for region-appropriate crisis line; France: 3114)
 - Time zone and weekly availability windows (for partner matching)
 - Primary language for partner exchange
-- Are you currently working with a therapist, coach, or psychiatrist? *(Y/N — not the name, just the existence)*
-- Do you have someone — a friend, family member, or professional — you would call if you were in distress? *(Y/N — short text optional)*
+- Are you currently working with a therapist, coach, or psychiatrist? *(Y/N; not the name, just the existence)*
+- Do you have someone (a friend, family member, or professional) you would call if you were in distress? *(Y/N; short text optional)*
 - **In the last 60 days, has someone close to you died, or has a major part of your life come apart (separation, job loss, eviction, serious diagnosis)?** *(Y/N. Y → 1:1 CM consult before access; stretched cadence is the default offer. Routing, not denial; spec in Doc 03 §A.)*
 
 ### A.2 The five screens (gate questions)
@@ -49,7 +49,7 @@ Each screen has a specific question, a threshold, and an action. The CM (or the 
 
 #### Screen 2 — Trauma & dissociation
 
-**Question.** In the past 6 months, have you experienced any of the following — flashbacks, lost time, feeling outside your body, inability to function after emotional work, intrusive memories that disrupted your day?
+**Question.** In the past 6 months, have you experienced any of the following: flashbacks, lost time, feeling outside your body, inability to function after emotional work, intrusive memories that disrupted your day?
 
 **Thresholds and actions.**
 - Monthly or more frequent, OR any lost time, OR any hospitalization for these → **Defer enrollment unless a trauma-qualified clinician (TF-CBT, EMDR, somatic, or equivalent) confirms participation in writing.** Course runs on stretched cadence (Doc 02 §K). High modules require the same explicit confirmation from the clinician.
@@ -60,7 +60,7 @@ This gate protects the learner from using PM distinctions to bypass trauma care.
 
 #### Screen 3 — Active addiction / compulsive behavior
 
-**Question.** In the past 90 days, have any of the following felt out of your control to a degree that is affecting your life — alcohol, drugs (including cannabis), self-harm, restricting/bingeing food, gambling, sexual behavior, screens/scrolling?
+**Question.** In the past 90 days, have any of the following felt out of your control to a degree that is affecting your life: alcohol, drugs (including cannabis), self-harm, restricting/bingeing food, gambling, sexual behavior, screens/scrolling?
 
 **Thresholds and actions.**
 - Currently uncontrolled, OR less than 90 days sobriety from severe addiction → **Defer or require active professional support (12-step sponsor + meeting attendance, or treating clinician).** No High modules without an explicit support plan in writing.
@@ -81,7 +81,7 @@ This screen is one of the most important and the most often missed in thoughtwar
 
 #### Screen 5 — Mania, psychosis, spiritual emergency
 
-**Question.** In the past 12 months, have you experienced any of the following — manic episodes, psychosis, hearing or seeing things others did not, severe paranoia, psychiatric hospitalization, major changes to psychiatric medication?
+**Question.** In the past 12 months, have you experienced any of the following: manic episodes, psychosis, hearing or seeing things others did not, severe paranoia, psychiatric hospitalization, major changes to psychiatric medication?
 
 **Thresholds and actions.**
 - Yes, any of the above → **Defer access unless the prescribing clinician confirms participation in writing.** Archetypal and ego-state material (especially Module 9) can amplify these states. The course is not equipped to hold this.
@@ -149,7 +149,7 @@ Spouses and close friends, explicitly **allowed** here (unlike cohort pairing): 
 
 ## C. Pairing tracker (CM-side, no content logged)
 
-The CM maintains a simple per-module tracker. **It logs only that exchanges happened — never what was said.** Fields per module per pair:
+The CM maintains a simple per-module tracker. **It logs only that exchanges happened, never what was said.** Fields per module per pair:
 
 | Field | Example |
 |---|---|
@@ -164,7 +164,7 @@ The CM maintains a simple per-module tracker. **It logs only that exchanges happ
 Tracker lives in a private spreadsheet (Notion, Airtable, Excel) accessible only to the CM and their supervisor.
 
 **Trigger rules.**
-- Missed SLA twice in one module → CM DMs both partners with the standard "I noticed the cadence dropped — is the pairing still working?" message.
+- Missed SLA twice in one module → CM DMs both partners with the standard "I noticed the cadence dropped. Is the pairing still working?" message.
 - Missed SLA in two consecutive modules → CM offers a re-match.
 - One partner has not initiated any exchange in 6 days → CM offers the silent partner a re-match.
 
@@ -193,11 +193,11 @@ The reference platform is a static shell with no server logic, so this gate is *
 
 Generated at enrollment from the learner's Section A.1 inputs. It contains:
 
-1. **One crisis line for the learner's country** (with phone, text, web — whichever is region-appropriate). Listed *first*, not buried. France: **3114** (national, 24/7).
-2. **A short list of licensed mental health professionals** in the learner's region — minimally a directory link (Psychology Today, Therapy Den, region equivalent) and one or two PM-friendly clinicians where known. If the learner indicated they already have a clinician, this section is brief.
+1. **One crisis line for the learner's country** (with phone, text, web, whichever is region-appropriate). Listed *first*, not buried. France: **3114** (national, 24/7).
+2. **A short list of licensed mental health professionals** in the learner's region: minimally a directory link (Psychology Today, Therapy Den, region equivalent) and one or two PM-friendly clinicians where known. If the learner indicated they already have a clinician, this section is brief.
 3. **PM-aware coaches** in the learner's language, with rates and availability.
 4. **Local domestic violence and legal resources** *if* Screen 4 returned yes.
-5. **The not-therapy disclaimer** — one short paragraph.
+5. **The not-therapy disclaimer**: one short paragraph.
 
 The packet is generated as a PDF the learner downloads and is also kept on the platform for future access. The CM verifies the packet exists for the learner before access opens.
 
@@ -213,7 +213,7 @@ Every cohort-feed post and every learner DM is classified by the CM into one of 
 | **Yellow** | Stuck feeling for >24 hrs · increased numbing reported · partner-conflict surfacing · learner expressing they are over their head but functional · life stressor compounding the work | **CM DM within 24 hours.** "I noticed X — how are you doing? Want a quick voice call this week?" Offer pause, slower cadence, or 1:1 referral. | Document in action log |
 | **Red** | Suicidal ideation (any) · imminent harm to self or others · disclosure of abuse in progress · psychotic break or dissociative state in progress · medical emergency | **Same day, immediate.** Crisis-line numbers within the first message. Direct hand-off to clinician or emergency services. The CM does not "discuss" red flags — they refer. | Document; debrief with supervisor; review module |
 
-The 24-hour SLA in Doc 03 §G is for green and yellow flags. **Red is immediate** — not within 24 hours, not next business day, not "as soon as the CM is available." The CM ensures a backup contact exists for any window when they themselves may be unreachable.
+The 24-hour SLA in Doc 03 §G is for green and yellow flags. **Red is immediate**: not within 24 hours, not next business day, not "as soon as the CM is available." The CM ensures a backup contact exists for any window when they themselves may be unreachable.
 
 ---
 
@@ -261,7 +261,7 @@ The course operator selects a platform stack (reference stack: Doc 02 §F). Ever
 | Component | Minimum |
 |---|---|
 | Voice-message tool | Private 1:1 thread; no automatic AI transcription; no public forwarding; user can delete messages; end-to-end encryption preferred (Signal is the reference pick) |
-| Document hosting | Access-controlled or fully open by design (the v2 static shell is public content; learner *data* never touches it — all records are browser-local) |
+| Document hosting | Access-controlled or fully open by design (the v2 static shell is public content; learner *data* never touches it: all records are browser-local) |
 | Cohort feed | Closed to the cohort; not visible externally; posts deletable by author; CM can hide posts |
 | 1:1 CM channel | Private; CM logs metadata only; content of messages not shared with anyone unless one of the confidentiality exceptions applies (Doc 03 §K) |
 | Interactive tools | One origin; localStorage only; no analytics, no CDN calls, fonts self-hosted; **consent never persisted** (Doc 03 §I) |
@@ -279,7 +279,7 @@ Doc 02 §K lists cadence variants. The protocol fills in what happens when paire
 - Partners are matched on compatible cadence.
 - If partners drift more than **one module apart** for **4+ consecutive days**, the CM intervenes:
   - First: ask both whether the mismatch is workable for them (sometimes it is).
-  - If not: offer a **witness partner** — a third learner, a witness-bench member, or the CM themselves for a single exchange — so the slower learner is not left without a witness before their next High module.
+  - If not: offer a **witness partner** (a third learner, a witness-bench member, or the CM themselves for a single exchange) so the slower learner is not left without a witness before their next High module.
   - If chronic: re-match the faster learner to a new partner. The slower learner keeps the existing partner once they catch up, or is re-matched also.
 - **High modules do not unlock when partners are mismatched.** Either the faster learner waits, or a witness partner is assigned, or the faster learner re-matches. No exceptions.
 
@@ -295,7 +295,7 @@ Doc 02 §I points here. Given the responsibilities in this document, the CM must
 - Have a written CM agreement with the course operator covering scope, liability, and the confidentiality exceptions (templates: [CM Agreement Templates](Facilitator%20Resources/CM%20Agreement%20Templates.md))
 - Carry appropriate professional liability insurance for educator/coach roles in their jurisdiction (or be employed by an entity that does)
 
-The CM is not a PM trainer. The CM is also not a casual community moderator. The role sits between — and the qualifications must match the responsibilities. A cohort run by an underqualified CM is a cohort running without a safety framework, regardless of how strong the documents look.
+The CM is not a PM trainer. The CM is also not a casual community moderator. The role sits between, and the qualifications must match the responsibilities. A cohort run by an underqualified CM is a cohort running without a safety framework, regardless of how strong the documents look.
 
 ---
 

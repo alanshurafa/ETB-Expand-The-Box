@@ -395,7 +395,7 @@ This course is not therapy. The partner exchange is structured practice, not cou
 
 Module 9 is a High module: ego states, the Gremlin, the Demon locator. Between this module and that one, the course schedules **one deliberate rest day**. Not a catch-up day. A day with nothing due: the morning sit happens (the spine never pauses), and nothing else is asked of you.
 
-Open the printable schedule and tracker you set up in Module 0 and mark the rest day on it now, with a date, before you close this module. The back half of this course climbs; the rest day is part of the route, not a detour from it. If your week collapses and the rest day vanishes, that fact goes in the Beep! Book, and the day gets rescheduled rather than skipped.
+Open the printable schedule and tracker you set up in [Module 0](Day%2000%20-%20Start%20Here%20and%20Getting%20Your%20Container.md) and mark the rest day on it now, with a date, before you close this module. The back half of this course climbs; the rest day is part of the route, not a detour from it. If your week collapses and the rest day vanishes, that fact goes in the Beep! Book, and the day gets rescheduled rather than skipped.
 
 ---
 
