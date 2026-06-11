@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "etb-day1",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["-3.13", "-m", "http.server", "8731"],
+      "port": 8731,
+      "cwd": "C:/Users/alan/My Drive/__shurafa@gmail.com/_PM Possability Manangement/Digital Expand The Box/Interactive Tools/Day 01"
+    }
+  ]
+}

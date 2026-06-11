@@ -10,6 +10,7 @@ A complete, self-paced digital adaptation of the Expand The Box training from Po
 |---|---|---|
 | `Digital Expand The Box May 2026/` | v1 — the original 10-day digital course | **Frozen.** Reference only; never modified. |
 | `Digital Expand The Box June 2026/` | v2 — the 2026 rebuild (12 modules, practice container, HTML shell) | **Active build.** See `_build/HANDOFF.md` for build state. |
+| `Digital Expand The Box Group Version/` | Group/community edition — fork of June 2026 adding the Telegram commons + pods layer (self-paced together, Staking accountability) | **Active build.** See its `_build/PLAN-group-community.md`. |
 
 **Learners:** open the June 2026 folder and start at `START HERE.md` (or `index.html` once the shell ships).
 
