@@ -12,7 +12,7 @@ Every module file lives in `Days/` and carries: free-recall warm-up (5 min, prio
 
 | # | File (in `Days/`) | Intensity | Maps embedded | Atlas pages | Tool ("Run the practice") | Practice wiring | Beats |
 |---|---|---|---|---|---|---|---|
-| 00 | `Day 00 - Start Here and Getting Your Container.md` | Low | none (imageless; M30 in redraw queue) | — | standing utilities only (`journal.html`, `ground.html`) | Beep! Book installed; **spine Phase A starts**; printable schedule + tracker; 7-line witness agreement | container decision tree (cohort / recruit / solo) |
+| 00 | `Day 00 - Start Here and Getting Your Container.md` | Low | none (imageless; M30 in redraw queue) | — | standing utilities only (`journal.html`, `ground.html`) | Beep! Book installed; **spine Phase A starts**; printable schedule + tracker; 7-line witness agreement | container decision tree (cohort / **community pod** / recruit / solo; pod path links `Practice/Practicing in a Group.md`) |
 | 01 | `Day 01 - Orientation, New Context, Radical Responsibility.md` | Low | M01 · M24 · M28 · **M32★** (M31 in redraw queue) | M01, M24, M28, M32 | `Day 01/red-pill-ceremony.html` · `the-chain.html` · `four-levels.html` | Phase A | Screen-4 variant cue |
 | 02 | `Day 02 - Thoughtware, Thoughtmaps, Box Technology.md` | Medium | M02 · M03 · M04 | M02, M03, M04 | `Day 02/box-inventory.html` (per-visit survival-layer consent) | Phase A | partner check-in named in header |
 | 03 | `Day 03 - Liquid State, Center-Ground-Bubble, Five Bodies.md` | Low | M05 · M06 · M07 | M05, M06, M07 (M46 referenced for the matrix half-section; its embed lives in Module 10) | `Day 03/centering-practice.html` | Phase A; Script 3 named as standing daily centering practice | **teach-back #1** |
@@ -28,6 +28,23 @@ Every module file lives in `Days/` and carries: free-recall warm-up (5 min, prio
 ★ = new-in-v2 map embed. Teach-back slots are Modules **3, 6, 9** (partner teach-back from the Map Notes' "How to explain it verbally" material). The two scheduled pause beats are **after Module 6** (integration pause, at least one full low-demand day) and the **rest day between Modules 8 and 9**.
 
 Standing utilities, every module: [`Interactive Tools/journal.html`](Interactive%20Tools/journal.html) (local-only progress view + export/import) and [`Interactive Tools/ground.html`](Interactive%20Tools/ground.html) (the 60-second grounding script, standalone).
+
+---
+
+## 1b. Group & Community layer — artifact registry
+
+The optional Telegram group/community delivery (the fractal-container model: dyad → pod → commons; accountability by visibility, no gamification; High work never over text). These artifacts ship alongside the solo course and do not change any gate. The learner reaches the layer through `START HERE.md` and the Module 00 decision tree; operators run it from the facilitator artifacts.
+
+| Artifact | Path | Audience | What it is |
+|---|---|---|---|
+| **Doc 06 — Group and Community Framework** | `06 - Group and Community Framework.md` | Operator / canon | The canonical model: fractal tiers, the Staking choreography, safety adaptation, the scale table. Edits Docs 02/04/05 to register the pod container path, Space Holder role, and Telegram reference config. |
+| **Practicing in a Group** | `Practice/Practicing in a Group.md` | Learner | The learner-facing page for the whole group layer: commons-is-not-container, finding/forming a pod, the Staking choreography, calling on a witness, running rituals on calls, privacy, the high-work-never-over-text rule, solo readers fully supported. |
+| **Telegram Community Operator Guide** | `Facilitator Resources/Telegram Community Operator Guide.md` | Operator | Setup checklist, topic map, pinned-post texts, permissions, Space Holder staffing + triage adaptation, Wave launch sequence. |
+| **Community Message Templates** | `Facilitator Resources/Community Message Templates.md` | Operator | Adapted from Cohort Feed Templates: welcome, stake/close/Beep formats, skip-read, witness ask/offer, wave start. |
+| **Pod Charter** | `Facilitator Resources/Pod Charter.md` | Pod | The 3–12 agreement extending the 7-line dyad agreement; adopted by a pod before its first ritual call. |
+| **Worked Exemplars Pack — community section** | `Facilitator Resources/Worked Exemplars Pack.md` (appended) | Learner / operator | Stake / close-the-loop / Beep exemplar posts so people see what good looks like on the boards. |
+
+Links from learner-facing files: `Practice/Practicing in a Group.md` is linked from `START HERE.md` and the Module 00 decision tree; it links the Pod Charter, the Audio Companion Recording Kit (as call scripts), the Partner Emergency Card, Doc 03 (witness annex), the Worked Exemplars community section, and `journal.html`. Until the parallel artifacts land, the link checker reports them pending, not broken.
 
 ---
 

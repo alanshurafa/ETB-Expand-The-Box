@@ -10,6 +10,8 @@
 
 ---
 
+> **This is the GROUP VERSION** — a fork of the June 2026 edition adding the group/community delivery layer (Telegram commons + pods). The solo/cohort edition lives in `../Digital Expand The Box June 2026/`.
+
 **Taking the course?** Go to **[START HERE.md](START%20HERE.md)** (or `index.html` once built). This README is for operators and contributors.
 
 # Expand the Box v2 — operator and contributor orientation
@@ -84,7 +86,7 @@ Every module file lives in `Days/` and carries: free-recall warm-up (5 min, prio
 
 | # | File (in `Days/`) | Intensity | Maps embedded | Atlas pages | Tool ("Run the practice") | Practice wiring | Beats |
 |---|---|---|---|---|---|---|---|
-| 00 | `Day 00 - Start Here and Getting Your Container.md` | Low | none (imageless; M30 in redraw queue) | — | standing utilities only (`journal.html`, `ground.html`) | Beep! Book installed; **spine Phase A starts**; printable schedule + tracker; 7-line witness agreement | container decision tree (cohort / recruit / solo) |
+| 00 | `Day 00 - Start Here and Getting Your Container.md` | Low | none (imageless; M30 in redraw queue) | — | standing utilities only (`journal.html`, `ground.html`) | Beep! Book installed; **spine Phase A starts**; printable schedule + tracker; 7-line witness agreement | container decision tree (cohort / **community pod** / recruit / solo; pod path links `Practice/Practicing in a Group.md`) |
 | 01 | `Day 01 - Orientation, New Context, Radical Responsibility.md` | Low | M01 · M24 · M28 · **M32★** (M31 in redraw queue) | M01, M24, M28, M32 | `Day 01/red-pill-ceremony.html` · `the-chain.html` · `four-levels.html` | Phase A | Screen-4 variant cue |
 | 02 | `Day 02 - Thoughtware, Thoughtmaps, Box Technology.md` | Medium | M02 · M03 · M04 | M02, M03, M04 | `Day 02/box-inventory.html` (per-visit survival-layer consent) | Phase A | partner check-in named in header |
 | 03 | `Day 03 - Liquid State, Center-Ground-Bubble, Five Bodies.md` | Low | M05 · M06 · M07 | M05, M06, M07 (M46 referenced for the matrix half-section; its embed lives in Module 10) | `Day 03/centering-practice.html` | Phase A; Script 3 named as standing daily centering practice | **teach-back #1** |
@@ -100,6 +102,23 @@ Every module file lives in `Days/` and carries: free-recall warm-up (5 min, prio
 ★ = new-in-v2 map embed. Teach-back slots are Modules **3, 6, 9** (partner teach-back from the Map Notes' "How to explain it verbally" material). The two scheduled pause beats are **after Module 6** (integration pause, at least one full low-demand day) and the **rest day between Modules 8 and 9**.
 
 Standing utilities, every module: [`Interactive Tools/journal.html`](Interactive%20Tools/journal.html) (local-only progress view + export/import) and [`Interactive Tools/ground.html`](Interactive%20Tools/ground.html) (the 60-second grounding script, standalone).
+
+---
+
+## 1b. Group & Community layer — artifact registry
+
+The optional Telegram group/community delivery (the fractal-container model: dyad → pod → commons; accountability by visibility, no gamification; High work never over text). These artifacts ship alongside the solo course and do not change any gate. The learner reaches the layer through `START HERE.md` and the Module 00 decision tree; operators run it from the facilitator artifacts.
+
+| Artifact | Path | Audience | What it is |
+|---|---|---|---|
+| **Doc 06 — Group and Community Framework** | `06 - Group and Community Framework.md` | Operator / canon | The canonical model: fractal tiers, the Staking choreography, safety adaptation, the scale table. Edits Docs 02/04/05 to register the pod container path, Space Holder role, and Telegram reference config. |
+| **Practicing in a Group** | `Practice/Practicing in a Group.md` | Learner | The learner-facing page for the whole group layer: commons-is-not-container, finding/forming a pod, the Staking choreography, calling on a witness, running rituals on calls, privacy, the high-work-never-over-text rule, solo readers fully supported. |
+| **Telegram Community Operator Guide** | `Facilitator Resources/Telegram Community Operator Guide.md` | Operator | Setup checklist, topic map, pinned-post texts, permissions, Space Holder staffing + triage adaptation, Wave launch sequence. |
+| **Community Message Templates** | `Facilitator Resources/Community Message Templates.md` | Operator | Adapted from Cohort Feed Templates: welcome, stake/close/Beep formats, skip-read, witness ask/offer, wave start. |
+| **Pod Charter** | `Facilitator Resources/Pod Charter.md` | Pod | The 3–12 agreement extending the 7-line dyad agreement; adopted by a pod before its first ritual call. |
+| **Worked Exemplars Pack — community section** | `Facilitator Resources/Worked Exemplars Pack.md` (appended) | Learner / operator | Stake / close-the-loop / Beep exemplar posts so people see what good looks like on the boards. |
+
+Links from learner-facing files: `Practice/Practicing in a Group.md` is linked from `START HERE.md` and the Module 00 decision tree; it links the Pod Charter, the Audio Companion Recording Kit (as call scripts), the Partner Emergency Card, Doc 03 (witness annex), the Worked Exemplars community section, and `journal.html`. Until the parallel artifacts land, the link checker reports them pending, not broken.
 
 ---
 
@@ -496,6 +515,27 @@ v1 offered a platform menu with no pick; that gap is closed. Per ARCHITECTURE de
 
 Verification before launch is Step 1 of the [Operator Run-Book](05%20-%20Operator%20Run-Book.md). The v1 platform menu survives as Appendix A, marked *alternatives*.
 
+### F.2 The Telegram reference configuration (community scale)
+
+The §F stack runs a held cohort. When the shape is a community of up to ~100 people doing the work together at their own pace, the reference configuration adds Telegram alongside the static shell, not in place of it: the course pages, Atlas, and tools still serve from one origin (GitHub Pages works), and Telegram becomes the coordination space. The full model is [06 - Group and Community Framework.md](06%20-%20Group%20and%20Community%20Framework.md); this is the platform-layer summary.
+
+**v1 runs bot-less:** conventions and templates only, no custom software. A private Telegram group in **forum/Topics mode**, joined by invite plus a pinned self-screen acknowledgment. The topic map:
+
+| Topic | Holds |
+|---|---|
+| 📍 **Start Here** (pinned) | course links, the self-screen, the crisis card, how the community works |
+| 🔥 **Stake Board** | experiments posted in the Day-4 format, before they run |
+| ✅ **Loop Closings** | what happened, what was noticed (or merged into the Stake Board as replies; operator's choice) |
+| 🤝 **Witness Board** | structured ask/offer posts for witnesses, with the qualification path stated |
+| 🧭 **Pod Directory** | find and form pods, which then run as their own small private Telegram groups |
+| 📚 **Module rooms 00–11** | questions and shares per module, **Low/Medium content only** |
+| 🚨 **Ground & SOS** (pinned) | the `ground.html` link, crisis lines, "this group is not a crisis service, here is who is" |
+| 🕯 **Space Holder line** | the DM route to a Space Holder |
+
+**Privacy line, stated in Start Here:** a private group is still on Telegram's servers, so members share at the depth they choose; the Beep! Book stays private by default and a stake is chosen exposure; practice data stays in the browser (the `journal.html` export is the only copy that leaves the device). The High-work-never-over-text law (Doc 06 §B) governs every topic: the module rooms and boards coordinate the work and celebrate it, while the EHP and Demon-locator practices happen live on a call inside a dyad or pod, never in any topic. Telegram must still pass the Doc 04 §H minimums for the partner channel; the deployment checklist and the pinned-post texts live in the [Telegram Community Operator Guide](Facilitator%20Resources/Telegram%20Community%20Operator%20Guide.md).
+
+**Enabler:** the course must be URL-addressable for the Telegram links, so the operator enables GitHub Pages on the (already public) repo, a one-time step needing the owner's go-ahead. **Deferred (spec only):** a Telegram bot for stake templates, witness matching, and Wave reminders is a later, separate build; v1 needs none of it.
+
 ---
 
 ## G. SOLO MODE (sanctioned, gates intact)
@@ -865,7 +905,7 @@ This is the operating protocol that turns the safety intentions in `03 - Safety 
 
 **Status.** This protocol is **required**. A cohort run without it is not running with the safety framework. It is running with the safety framework's intentions. This document is the law; [05 - Operator Run-Book.md](05%20-%20Operator%20Run-Book.md) and the [CM First-Cohort Run-Book](Facilitator%20Resources/CM%20First-Cohort%20Run-Book.md) are the routes through it.
 
-Section letters A–L match v1. v2 additions: the intake lines in §A.1, §B.2 (witness recruitment), the §D re-screen line, §K.2 (the cohort cap), and §M (solo boundary).
+Section letters A–L match v1. v2 additions: the intake lines in §A.1, §B.2 (witness recruitment), the §D re-screen line, §K.2 (the cohort cap), §M (solo boundary), and §N (the container paths and the Space Holder role at group and community scale).
 
 ---
 
@@ -1208,6 +1248,40 @@ Solo mode is sanctioned (Doc 02 §G; Doc 03 §P) and this protocol does not gove
 
 ---
 
+## N. Container paths at group and community scale
+
+The held cohort (8–12, one CM) is one container path, not the only one. A dyad is a container, a solo reader satisfies the gate two named ways (§M), and at group and community scale two further paths exist. The full model is [06 - Group and Community Framework.md](06%20-%20Group%20and%20Community%20Framework.md); this section is the law it extends, stated as gatekeeping mechanism.
+
+### N.1 The pod is a recognized container path
+
+A **pod (3–12)** is a held container alongside the cohort, the dyad, and the solo path. Its instrument is the [Pod Charter](Facilitator%20Resources/Pod%20Charter.md), which extends the 7-line partner agreement (§B.1) to a small group; one **Pod Anchor** keeps the schedule and the charter, and is a coordinator, not a facilitator. Every gate in this protocol transfers down to the pod intact:
+
+- The High-module witness gate (§D) applies inside the pod: the EHP and Demon-locator practices happen live, on a call, with a qualified witness (§B.2), never over text.
+- Intake (§A) happens at the pod: a pod self-screens against the five screens and adopts the deployable [Intake Form](Facilitator%20Resources/Intake%20Form.md) before any High work. The Pod Anchor holds the pod to having done this, exactly as the §K gate holds a cohort.
+- Per-visit consent (Doc 03 §I) and the readiness checks (§D) are unchanged inside the pod.
+
+A pod is not a smaller cohort with the gates relaxed. It is a smaller cohort with the same gates, held by a Pod Anchor instead of a CM.
+
+### N.2 The Space Holder role (commons tier)
+
+A **commons (13–100)** is **not a container** (Doc 06 §A): no one can hold a hundred people the way a CM holds a cohort. The commons is staffed by **Space Holders**, a commons-tier role defined here relative to the CM.
+
+A Space Holder triages the commons against the §F rubric, keeps the crisis routing visible, and routes anything heavy down into a container or out to a referral. A Space Holder runs the §G crisis escalation on a red flag exactly as a CM does. A Space Holder is **not** a held-container CM: they do not run a per-pair pairing tracker (§C), do not carry High-week vigilance over named individuals, and do not run intake for the whole community (the real intake gate is at the pod, N.1). They hold coordination, not held attention.
+
+**Staffing minimum (binding): at least two Space Holders, at roughly one per 35 members.** The floor of two is structural, the same logic as the backup-CM requirement (§K.1): a single Space Holder who sleeps or falls ill leaves the commons with no one positioned for the 15-minute red-flag window. The qualification bar is the §J bar adapted to the role: completed ETB, current basic mental-health first aid (or equivalent), and a named person to consult for hard calls. A Space Holder is not a casual moderator and not a full CM; the qualifications match triage-and-route, not hold-and-carry.
+
+### N.3 The scale table
+
+| Scale | Container | Who holds | Intake gate |
+|---|---|---|---|
+| **2** | Dyad | The partner or recruited witness (§B) | Cohort intake, or solo self-screen (§M) |
+| **3–12** | Pod | The Pod Anchor; witnesses for High work (§B.2) | The pod adopts the Intake Form (N.1) |
+| **13–100** | Commons — **not a container** | Space Holders: triage and route, min 2, ~1/35 (N.2) | Pinned self-screen at the commons; the real gate is at pod level |
+
+The cohort (8–12, one CM, §K.2) remains the original held shape. The pod is its community-scale echo with the same gates and a lighter authority; the commons coordinates the pods and stays honest about not holding.
+
+---
+
 <sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
 
 
@@ -1371,6 +1445,40 @@ The course ends; the container hands off rather than evaporating. Module 11 sets
 **Next-cohort decision:** only after the §L review is delivered. Cap movement follows Doc 04 §K.2 (8–16 ceiling, evidence-based, never above 16 per CM).
 
 **Done-when:** three touchpoints scheduled at close (calendar or scheduler, written before the cohort ends) · leaver opt-ins recorded · PT guide linked in the Day-90 message · next-cohort decision minuted with the §L review attached.
+
+---
+
+## Annex A — Community variant (launching a commons + first Wave)
+
+Steps 0–5 sequence a single held cohort. When the shape is a **community of up to ~100 doing the work together at their own pace**, the operator runs the same steps with the deltas below. The model is [06 - Group and Community Framework.md](06%20-%20Group%20and%20Community%20Framework.md); the platform layer is [02 - Async Delivery Framework.md](02%20-%20Async%20Delivery%20Framework.md) §F.2; the setup checklist and pinned-post texts are the [Telegram Community Operator Guide](Facilitator%20Resources/Telegram%20Community%20Operator%20Guide.md). **Doc 04 is still the law** ([04 - Container and Gatekeeping Protocol.md](04%20-%20Container%20and%20Gatekeeping%20Protocol.md) §N).
+
+A 100-person launch is **one commons plus ~8–12 pods in one Wave** (a Wave is a set of pods starting Module 00 the same week). Run a single pilot pod first if this is the operator's first community.
+
+### What changes vs a held cohort
+
+| Step | Cohort | Community variant |
+|---|---|---|
+| **1 Platform** | one-origin shell + private feed | the same shell, plus the Telegram community in forum/Topics mode (Doc 02 §F.2). Enable GitHub Pages so the links resolve (owner's go-ahead). Configure the topic map, pin Start Here and Ground & SOS |
+| **2 Staffing** | one CM, sized table, backup drilled | **Space Holders, minimum 2, ~1 per 35 members** (Doc 04 §N.2), each qualified per the adapted §J bar with a backup so the 15-minute red-flag window never goes dark. Each pod names a **Pod Anchor** (schedule and charter keeper, not a facilitator) |
+| **3 Enrollment** | CM screens every applicant; one pairing pool | the commons pins the self-screen for entry; **each pod runs the real intake gate** (self-screen + adopt the Intake Form, Doc 04 §N.1) before any High work. Pairing happens inside pods; the Witness Board handles cross-pod witness asks |
+| **4 Run** | CM holds the container; weekly operator rhythm | Space Holders triage the commons (Doc 04 §F windows); the weekly heartbeat carries the pulse (Stake Monday, Loop-close Friday, Skip-read Sunday); the operator still reads counts, not content |
+| **5 Continuation** | alumni 30/60/90 from the operator | same touchpoints; pods that want to continue become standing practice groups or Possibility Teams |
+
+### What does NOT change
+
+- **The High-work-never-over-text law.** EHP and Demon-locator work happens live, on a call, in a dyad or pod, with a qualified witness. Never over text, never in the commons (Doc 04 §N.1, Doc 06 §B). This is the line the whole variant is built to protect.
+- **The gates.** Per-visit consent, the readiness checks, the High-module unlock checklist, and the witness qualification path all transfer down to the pod intact (Doc 04 §D, §B.2). The commons relaxes nothing.
+- **Intake is a real gate, not a waiver.** The pod self-screens and adopts the Intake Form; a pod that has not is not ready for the High modules (Doc 04 §N.1).
+- **No gamification.** Staking is visibility, not score: no points, streaks, or leaderboards (Doc 02 §L; Doc 06 §C).
+- **The container caps at held attention.** Held containers stay at 8–12 (pod ≤12); scaling to 100 nests containers, it never stretches one (Doc 04 §K.2, §N).
+
+### Staffing minimums at a glance
+
+- **Space Holders:** ≥2 always; ~1 per 35 members (35 → 2; 100 → 3). Each with a backup; the 15-minute red-flag SLA must survive one person sleeping (Doc 04 §N.2).
+- **Pod Anchor:** one per pod, coordinator not facilitator.
+- **Witnesses:** the Witness Board surfaces qualified witnesses commons-wide; the §B.2 qualification path is the bar, the same one a cohort's witness bench uses.
+
+**Done-when:** GitHub Pages live and links resolving · Telegram topic map configured with Start Here and Ground & SOS pinned · ≥2 Space Holders qualified, with backups, at ~1/35 · every launching pod has a Pod Anchor and has run the self-screen + Intake Form · the first Wave's Module 00 start date published.
 
 ---
 
@@ -3288,6 +3396,315 @@ The feed is small on purpose. Twelve good one-line posts per module is healthy. 
 <sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
 
 
+<!-- ===== source: Facilitator Resources/Community Message Templates.md ===== -->
+
+---
+
+# Community Message Templates
+
+| | |
+|---|---|
+| **For** | Space Holders and members of the ETB commons: ready-to-paste message formats |
+| **What it is** | The verbatim post formats for the commons: welcome, stake, witness, loop-close, Beep, the weekly pulse, pod-forming, Wave-start, and returning-member |
+| **Reads alongside** | [Telegram Community Operator Guide](Telegram%20Community%20Operator%20Guide.md) (where each format lives) · [Cohort Feed Templates](Cohort%20Feed%20Templates.md) (the good-vs-drift voice these adapt) · [Pod Charter](Pod%20Charter.md) · [Worked Exemplars Pack](Worked%20Exemplars%20Pack.md) (worked stake/close/Beep examples) |
+
+These are formats, not scripts to copy word for word. Copy the *shape*: the specificity, the by-when, the one-line discipline. The commons stays narrow the same way the cohort feed does: a small specific signal beats a long performance every time. The drift examples in [Cohort Feed Templates](Cohort%20Feed%20Templates.md) §3 and §4 are the calibration; the same drift shows up here, one tier wider.
+
+A reminder that governs every format below: the commons is Low/Medium ground. None of these formats is a place for High material. Deep work is live, witnessed, in a pod or dyad.
+
+---
+
+## 1. Welcome post (Space Holder pins or posts to a new member)
+
+The Start Here pin does the heavy welcome (see the Operator Guide §5). This is the lighter, human "you're in" note a Space Holder can post when someone joins.
+
+```
+Welcome, [name]. Glad you're here.
+
+Three things and you're oriented:
+  - 📍 Start Here has the self-screen and how this works. Read it
+    first; reply "self-screen read" to confirm.
+  - The weekly pulse is Stake Monday · Loop-close Friday ·
+    Skip-read Sunday. Jump in on any of them.
+  - Your deep work happens in a pod and with a witness, not here.
+    🧭 Pod Directory is where you find your people.
+
+No rush, no race. Post a small first stake when you're ready.
+```
+
+---
+
+## 2. Stake format (the Day-4 declaration)
+
+The core accountability artifact: the Day-4 experiment format, declared in public before you run it. Posted to 🔥 Stake Board.
+
+```
+STAKE
+
+What I will do: [one specific behavior in one real situation —
+  a sentence you could film]
+By when: [a real window — day and time]
+What I will notice: [body data + world data: what my body does,
+  what the other person or situation does]
+
+Module [N], self-paced / Wave. Witnesses welcome.
+```
+
+Worked shape (do not copy the words; copy the size):
+
+```
+STAKE
+What I will do: when the 1:1 with my manager runs past the agenda,
+  I say one sentence: "I want to stop here and pick the rest up
+  Thursday."
+By when: this Wednesday's 1:1.
+What I will notice: what my throat does when I say it, and whether
+  the meeting actually ends.
+Module 04. Witnesses welcome.
+```
+
+A stake is small, specific, and time-bounded. If it has no by-when, no observable action, or it is written for applause, it has drifted (see §11). Reps compound; a grand declaration does not.
+
+---
+
+## 3. Witnessed-by reply (the convention)
+
+Up to two people reply to a stake to become the humans the staker reports back to. This is the named hook, not a notification.
+
+```
+Witnessed 🕯
+```
+
+That is the whole reply. Optionally, one line of why you are taking the witness seat, no advice in it:
+
+```
+Witnessed 🕯 — I'm on the same edge with meetings this week, so
+I'll be glad to hear how it goes.
+```
+
+Two witnesses maximum per stake. A third just adds noise; the point is a named human, not a crowd. Witnessing a stake is not advising it: no "have you tried," no technique. You hold the report-back, nothing more.
+
+---
+
+## 4. Loop-close reply (close your own stake)
+
+You close your loop as a reply under your own stake (or in ✅ Loop Closings if the operator runs it separately). Short: what happened, what you noticed, the one Shift if there is one.
+
+```
+LOOP CLOSED
+
+What happened: [what you actually did — including the part that
+  didn't go to plan]
+What I noticed: [body data + world data, flat — no interpretation]
+Shift (if any): [one specific change for next time, or "none"]
+```
+
+Worked shape:
+
+```
+LOOP CLOSED
+What happened: said the sentence, voice came out quieter than I
+  planned. Manager said "sure," we stopped, then drifted back into
+  it five minutes later and I didn't re-say it.
+What I noticed: throat tight before, looser right after. Surprised
+  how fast it was over.
+Shift: next time, prepared to say it twice.
+```
+
+A clean close leaves no residue and gives the witnesses their report-back. Tag your witnesses so they see it.
+
+---
+
+## 5. Beep post (failed experiment as data)
+
+A failed experiment is a Beep, and Beeps are posted proudly. This is canon: failed experiments are Beeps, and the commons celebrates them as design data. A Beep post is a loop-close where the experiment did not land.
+
+```
+BEEP! (this one didn't land — posting it as data)
+
+The experiment: [the stake, one line]
+What happened: [where it broke — the design gap, flat]
+The Beep: [the precise gap, not a verdict about yourself]
+Shift: [one variable changed for the next rep]
+```
+
+Worked shape:
+
+```
+BEEP!
+The experiment: say the boundary sentence at Sunday lunch.
+What happened: never said it. The moment came and I changed the
+  subject instead.
+The Beep: I had no plan for the half-second of dread right before.
+  The experiment assumed I'd just say it.
+Shift: next time, hand flat on the table as the cue to speak. One
+  physical trigger.
+```
+
+The difference between a Beep and the Beep Swamp is the write-up. "No plan for the dread" produces the next experiment. "I'm spineless, I always cave" produces nothing. Post the Beep version. We answer Beeps with "🕯" or "good data," never with advice.
+
+---
+
+## 6. Sunday skip-read prompt (Space Holder posts weekly)
+
+The weekly Skip-read, straight from the [Daily Practice Spine](Practice/Daily%20Practice%20Spine.md) weekly review. Posted to the relevant topic each Sunday. Answering publicly is optional; the prompt itself is the ritual.
+
+```
+Skip-read Sunday.
+
+The week's one question, from the practice spine:
+  "What got skipped this week, and what does the skip say about
+   my Box?"
+
+A skipped sit, a stake not posted, an exchange let slide: pick one
+skip and read it. Not to fix it. To see where your Box routes you
+around the work. Post one line if you want, or just answer it in
+your Beep! Book. No score, no catching up. A week of skips is a
+precise reading, not a failure.
+```
+
+---
+
+## 7. Stake Monday / Loop-close Friday prompts (Space Holder posts weekly)
+
+The other two beats of the weekly pulse. Posted to 🔥 Stake Board (Monday) and the close topic (Friday).
+
+**Stake Monday:**
+
+```
+Stake Monday.
+
+Name one experiment for this week and stake it. Day-4 format:
+  What I will do · By when · What I will notice.
+Small. Specific. Post it before you run it. Up to two people take
+the witness seat with "Witnessed 🕯."
+
+Wherever you are in the modules, you can stake something this week.
+The pulse is shared; the pace is yours.
+```
+
+**Loop-close Friday:**
+
+```
+Loop-close Friday.
+
+Close the loop on this week's stake. What happened, what you
+noticed, the one Shift. Didn't land? That's a Beep. Post it proudly,
+it's data. Tag the people who witnessed you so they get the
+report-back. A named close is the loop working.
+```
+
+---
+
+## 8. Witness ask / offer (posted to 🤝 Witness Board)
+
+Structured calls for a witness for a small piece of work. The qualification path is stated so nobody is improvising High work with an unqualified witness.
+
+**Ask:**
+
+```
+WITNESS ASK
+
+What: [a small EHP / a closing declaration / a re-entry exchange /
+  a Module [N] partner exchange]
+Windows: [days + timezone]
+Format: live call (or async voice), not text.
+I hold the 7-line/Pod agreement, I've read the Doc 03 witness annex,
+and I have the Partner Emergency Card.
+```
+
+**Offer:**
+
+```
+WITNESS OFFER
+
+Available to witness this week: [days + timezone]
+What I can hold: [one exchange / a small EHP / a closing
+  declaration]
+I hold the agreement, I've read the witness annex, and I have the
+Partner Emergency Card. I witness; I don't advise or fix.
+```
+
+The three-line qualification (agreement + annex + emergency card) is not optional for High work. A witness offer that skips it is an offer for Low/Medium reflection only, and should say so. No "I learned a great technique" offers. That is teaching, not witnessing, and it gets the same redirect the cohort feed gives it.
+
+---
+
+## 9. Pod-forming post (posted to 🧭 Pod Directory)
+
+How a pod comes together. Post this, gather 3–12 people, then move to your own private group.
+
+```
+FORMING A POD
+
+Timezone / hours: [e.g. CET evenings]
+Cadence: [self-paced shared pulse / a Wave starting [date]]
+Language: [the language we'll run calls in]
+Looking for: [N] more, to make a pod of 3–12.
+We'll read the Pod Charter together, name an Anchor, and run our
+rituals and teach-backs on calls.
+
+Reply or DM if the fit is right.
+```
+
+When you have your 3–12: read the [Pod Charter](Pod%20Charter.md) together, fill it in, name a Pod Anchor (scheduler and charter-keeper, not a facilitator), and move to your own private Telegram group. The Directory is only for finding each other.
+
+---
+
+## 10. Wave-start announcement (Space Holder/operator posts)
+
+Opens a Wave: a set of pods starting Module 00 the same week. Posted ahead of a Wave per the Operator Guide §7 sequence.
+
+```
+WAVE STARTING [date].
+
+A Wave is the optional sync option: pods starting Module 00 the same
+week, sharing the weekly pulse, ending around the same time. You do
+not need a Wave to be here (self-paced is always open), but if you
+want company on the same rhythm, this is it.
+
+To join this Wave:
+  1. Read 📍 Start Here and acknowledge the self-screen.
+  2. Post in 🧭 Pod Directory to find or form your pod (3–12).
+  3. Your pod reads the Pod Charter, names an Anchor, and moves to
+     its own private group before Day 1.
+
+Sign-ups close [date]. Pods form the week before. We open [date].
+Bring your own pace; share the pulse.
+```
+
+---
+
+## 11. Returning-member welcome (Space Holder posts to someone coming back)
+
+Someone re-appears after a gap. Returning is a rep, not an apology. Point them at the course's own coming-back path.
+
+```
+Welcome back, [name]. Returning is a rep, not an apology. Good to
+see you.
+
+No back-filling, no catching up on missed weeks. Start from where
+you are:
+  - The course's own re-entry page is the shortest way in:
+    [Coming Back](Practice/Coming%20Back.md).
+  - Post a small stake this week to find your rhythm again.
+  - If you'd been doing High work, re-confirm your witness before
+    you pick it back up. 🤝 Witness Board if you need one.
+
+The pulse is still here: Stake Monday · Loop-close Friday ·
+Skip-read Sunday. Step back in on any of them.
+```
+
+---
+
+## 12. Holding the shape
+
+Every format here pulls toward one thing: a small, specific, owned signal that other people can see. The drift is always the same: long instead of short, performance instead of practice, advice instead of witnessing, grand instead of by-when. When a post drifts, the move is the cohort-feed move one tier wider: redirect gently, keep the person, lose the noise, and point at the format. The Worked Exemplars Pack's community-posts section shows a strong stake, its witnessed-by replies, a strong loop-close and Beep, and one drifting stake with the margin notes that name exactly what slipped. Hold one of your posts next to those before you decide a format "isn't working." Usually the format is fine; the post wandered.
+
+---
+
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+
+
 <!-- ===== source: Facilitator Resources/Enrollment Terms and Learner Agreement.md ===== -->
 
 ---
@@ -4831,6 +5248,131 @@ What you do instead: stay. Hold your own center, ground, bubble; your state is t
 <sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
 
 
+<!-- ===== source: Facilitator Resources/Pod Charter.md ===== -->
+
+---
+
+# Pod Charter
+
+| | |
+|---|---|
+| **For** | A pod of 3–12 people doing ETB together: the agreement you sign before you start |
+| **What it is** | The pod-level container, extending the 7-line dyad agreement to a small held group, with the Pod Anchor role and a copyable block |
+| **Reads alongside** | Module 00 (the 7-line partner agreement this extends) · [Partner Emergency Card](Partner%20Emergency%20Card.md) · `06 - Group and Community Framework.md` (the tier model) · [Telegram Community Operator Guide](Telegram%20Community%20Operator%20Guide.md) · [Async Partner Pairing Playbook](Async%20Partner%20Pairing%20Playbook.md) |
+
+A pod is the held group: 3–12 people who do the rituals together, witness each other's High work live on calls, and run the teach-backs and the Module 8 exchange together. The dyad (you and one witness) is still the unit of deepest work; the pod is the larger container around several dyads. A pod is small on purpose. Above twelve, one held container of attention cannot carry the group, and the pod is no longer a pod — it is a small commons that needs Space Holders, not a Charter.
+
+This Charter does not replace the 7-line partner agreement. It assumes it. Every person in the pod still has a witness with whom they hold the seven lines; the Charter adds the commitments that make a *group* safe on top of the pair. Read the 7-line agreement in Module 00 first; this builds on it.
+
+A pod has no facilitator. It has a Pod Anchor, who schedules and keeps the Charter, and otherwise the pod holds itself by the agreement everyone signed. That is the whole design: a flat group, held by a shared agreement and one logistical anchor, witnessing each other one dyad at a time.
+
+---
+
+## 1. What the pod commits to
+
+These extend the seven lines from the pair to the group. Every pod member agrees to all of them before the first pod call.
+
+**1. Confidentiality, group-wide.** What is shared in the pod stays in the pod. The dyad's confidentiality (line 3 and line 6 of the partner agreement) now holds across the whole group: nobody carries another member's material out of the pod, into the commons, or into any other context. A pod with a leak is not a container.
+
+**2. Consent, per call and per practice.** Nobody is in a practice they did not consent to today. The course's per-visit consent (every High module asks again) holds at pod scale: before any witnessed work on a call, the person doing the work says yes, now, to this. Anyone can decline any practice without a reason and stay fully in the pod.
+
+**3. No fixing, no advice.** The witnessing stance is the pod's stance. We reflect what we heard, we name what moved in us, we ask one open question. We do not advise, fix, diagnose, or cap each other's stories with our own. This is the hardest commitment and the one the whole pod is practicing; naming a slip ("that was advice") is allowed and is itself the practice.
+
+**4. Showing up.** We keep the agreements we make about calls and exchanges. If you cannot make a call, you say so ahead, to the Anchor; you do not vanish. A missed call named in advance is logistics; a silent no-show erodes the container the others are relying on. The 24-hour responsiveness of the dyad holds for pod exchanges too.
+
+**5. High work is live, with a qualified witness.** The non-negotiable line, carried from the audit and the dyad: the Module 6 EHP work and the Module 9 Demon work happen **live on a call, with a qualified witness, inside a dyad or a pod call** — never over text, never in the commons, never alone. A qualified witness has, with the person being witnessed: the 7-line/Pod agreement in place, has read the Doc 03 witness annex, and holds the [Partner Emergency Card](Partner%20Emergency%20Card.md). If no qualified witness is available for a given piece of High work, that work waits. The pod does not improvise it.
+
+**6. How the pod handles someone in trouble.** Every member holds the immediate-danger protocol from the [Partner Emergency Card](Partner%20Emergency%20Card.md), unchanged. If anyone in a pod call or exchange says something that signals danger, the witness asks the one question, *"Are you in immediate danger right now?"* If yes, the witness contacts local crisis services immediately and does not wait for any pod protocol. If no, the witness routes the person to their clinician and the referral list the same day, and tells the Pod Anchor (and the operator, if the pod runs under a commons). Trauma surfacing, ideation, or intent to act on the original event triggers the witness-overflow script (on the Emergency Card) and a same-day route-out. The pod is a held practice group; it is not a crisis service, and naming that limit honestly is part of holding it.
+
+**7. No charged dual relationships during the pod.** Carrying the dyad's line 7 to the group: no member enters a sexual, financial, or professional relationship with another pod member during the course in a way that compromises the witnessing. The container sometimes generates attraction; notice it, do not act on it inside the pod's life. After the pod closes, members decide their own gameworld.
+
+---
+
+## 2. The Pod Anchor
+
+Every pod names one Anchor before it starts. The Anchor is a **scheduler and charter-keeper, not a facilitator and not a teacher.** The role is logistics and the frame, never content.
+
+**What the Anchor does:**
+
+- **Schedules.** Finds the call times that work for the pod, sends the reminders, keeps the rhythm against the [Cohort Calendar Template](Cohort%20Calendar%20Template.md) if the pod is on a Wave.
+- **Keeps the Charter.** Holds the signed copyable block (§4), brings it back when the pod drifts ("we said no-fixing — let's come back to it"), and welcomes new members through it.
+- **Watches the frame, not the content.** Notices when a call is sliding into advice, theory debate, or High material without a qualified witness, and names it. The Anchor does not lead the practice, interpret anyone's material, or decide who is "ready."
+- **Routes out, like any member.** The Anchor holds no special clinical authority. On a danger signal, the Anchor follows the same Emergency Card protocol everyone holds, and is the person who tells the operator.
+
+**What the Anchor is not:** not a facilitator (the pod holds itself), not a teacher (the course teaches), not a witness-by-default (witnessing rotates among members by the agreement), and not a Space Holder (that is the commons tier). The Anchor role can rotate; a pod can change Anchors by agreement. One person carrying it forever is a single point of failure, the same risk the witness bench and the Space Holder rota are built to avoid.
+
+The Anchor is a volunteer logistical role, not a rank. A pod with a humble Anchor and a live Charter holds better than a pod with a charismatic leader and no agreement.
+
+---
+
+## 3. Joining and leaving well
+
+**Joining.** A new member joins by reading this Charter, agreeing to all seven commitments out loud or in writing to the pod, and signing the copyable block. They confirm they hold the 7-line agreement with at least one witness. No one is witnessed in the pod before they have agreed to witness under the Charter; you enter the container by taking the same commitments everyone else took.
+
+**Leaving.** Leaving a pod is clean, not a fade. Tell the Anchor and the pod, name nothing you do not want to name, and close any open exchange you are mid-way through (a half-finished witnessing leaves residue on the other person). Commitments 1, 6, and 7 (confidentiality, the danger protocol as honored ethics, and no charged dual relationships) continue after you leave, the way the dyad's confidentiality outlives the cohort. Showing up and the call cadence end with your membership.
+
+**When the pod shrinks below three,** it is no longer a pod. The remaining members either fold into another pod (via the 🧭 Pod Directory), continue as dyads on the 7-line agreement, or pause. A two-person pod is a dyad and runs by the dyad agreement, not this Charter.
+
+---
+
+## 4. The copyable block
+
+Paste this into your pod's private group. Each member signs by name and date before the first pod call. The Anchor keeps the filled copy.
+
+```
+POD CHARTER — [pod name], [start date]
+
+We are a pod of [N] (3–12) doing Expand the Box together. We each
+already hold the 7-line partner agreement with a witness. On top of
+that, we agree to these, as a group:
+
+1. Confidentiality, group-wide. What is shared in the pod stays in
+   the pod. We carry no one's material out of it.
+
+2. Consent, per call and per practice. Nobody is in a practice they
+   did not say yes to today. Anyone can decline anything, no reason
+   needed, and stay fully in the pod.
+
+3. No fixing, no advice. We witness: reflect what we heard, name
+   what moved in us, ask one open question. We do not advise,
+   diagnose, or cap each other's stories with our own.
+
+4. Showing up. We keep our call and exchange agreements. If we
+   can't make a call, we say so ahead, to the Anchor. We don't
+   vanish.
+
+5. High work is live, with a qualified witness. The Module 6 EHP
+   and Module 9 Demon work happen live on a call, with a witness who
+   holds the agreement, has read the Doc 03 witness annex, and has
+   the Partner Emergency Card — never over text, never in the
+   commons, never alone. No qualified witness, the work waits.
+
+6. Someone in trouble. We each hold the Partner Emergency Card
+   protocol. On a danger signal: "Are you in immediate danger right
+   now?" If yes, crisis services immediately, no waiting. If no,
+   clinician + referral list same day, and we tell the Anchor. The
+   pod is not a crisis service; we route out honestly.
+
+7. No charged dual relationships during the pod. No sexual,
+   financial, or professional relationship between members during
+   the course that compromises the witnessing.
+
+Our Pod Anchor (scheduler + charter-keeper, NOT a facilitator):
+   [name]
+
+Signed:
+   [name] — [date]
+   [name] — [date]
+   ...
+```
+
+A pod is held by this page being real to the people who signed it, not by anyone enforcing it. Read it together at the first call, come back to it when the pod drifts, and re-read it when someone joins. The Charter is the pod's container the way the 7-line agreement is the dyad's.
+
+---
+
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+
+
 <!-- ===== source: Facilitator Resources/Possibility Team Conversion Guide.md ===== -->
 
 ---
@@ -6097,6 +6639,403 @@ Welcome to your own equipment.
 <sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
 
 
+<!-- ===== source: Facilitator Resources/Telegram Community Operator Guide.md ===== -->
+
+---
+
+# Telegram Community Operator Guide
+
+| | |
+|---|---|
+| **For** | The operator standing up and running the ETB Telegram commons (the up-to-100 community tier) |
+| **What it is** | The setup checklist, the topic map with ready-to-paste pinned posts, permissions, Space Holder staffing, and the Wave launch sequence |
+| **Reads alongside** | `06 - Group and Community Framework.md` (the tier model this guide operationalizes) · [Community Message Templates](Community%20Message%20Templates.md) · [Pod Charter](Pod%20Charter.md) · [Async Partner Pairing Playbook](Async%20Partner%20Pairing%20Playbook.md) · `04 - Container and Gatekeeping Protocol.md` §F (the triage rubric this adapts) · [Cohort Calendar Template](Cohort%20Calendar%20Template.md) |
+
+The commons is the largest container in the model and the thinnest. It is not a cohort feed scaled up. A cohort feed is one held container of 8–12; the commons holds up to 100 and is held differently: by clear conventions, pinned routing, and a small Space Holder team who watch for the few posts that need a human, not by one person reading every line for charge. The held work happens one tier down, inside pods and dyads. The commons coordinates, declares, and finds people.
+
+Read that boundary before you build anything: **the commons is for coordination, declaration, Low and Medium sharing, and finding people. All High work happens live on a call inside a dyad or pod with a qualified witness, never over text, never here.** Every pinned post and every Space Holder move in this guide protects that line.
+
+This guide assumes Telegram v1: no bot. Conventions and templates only. A bot for stake templates, witness matching, and Wave reminders is a later, separate build.
+
+---
+
+## 1. Before you open: the enabler
+
+Telegram links point at URLs. The course must be URL-addressable for the Start Here and Ground pins to work. That is a one-time owner action: enable GitHub Pages on the repo (already public). Until that is done, every `[COURSE URL]` and the `ground.html` link below is a placeholder.
+
+**Done-when:** the course root and `ground.html` both resolve at a public URL you can paste into a browser and reach, and you have replaced every `[COURSE URL]` placeholder in the pinned posts below with the real address before pinning them.
+
+If Pages is not enabled yet, you can still build the group and stage every pinned post with the placeholders in place. Do not invite anyone until the links resolve. A Start Here pin whose course links 404 is worse than no group.
+
+---
+
+## 2. Setup checklist (done-when style)
+
+| # | Step | Done when |
+|---|---|---|
+| 1 | **Create the group.** New group in Telegram, name it for the community (not for one Wave). Set a group photo and a one-line description: "A private ETB practice commons. Self-screen pinned. Not a crisis service." | The group exists and you are the owner |
+| 2 | **Convert to a private supergroup.** Group settings → Group Type → Private. Invite-link join only; no public username. | "Group Type" reads Private and there is no public @username |
+| 3 | **Enable Topics (forum mode).** Group settings → toggle **Topics** on. The group is now a forum: posts live under named topics, not one stream. | The group shows a topic list, not a single chat |
+| 4 | **Create the topics** in §5, in that order, with those exact emoji and names. | All nine topics exist and are named per the map |
+| 5 | **Write the pinned posts.** Paste each pinned-post text from §5 into its topic and pin it. Start Here and Ground & SOS pins are non-negotiable before any invite. | Start Here and Ground & SOS are pinned with the real `[COURSE URL]` and `ground.html` link in place |
+| 6 | **Set permissions** per §4. Lock the structural topics so only admins post the frame; open the participation topics. | A test non-admin account can post in Stake Board but cannot post in Start Here |
+| 7 | **Staff the Space Holders** per §6. Minimum two, roughly one per 35 members. Each has read this guide, §F of Doc 04, and the [Partner Emergency Card](Partner%20Emergency%20Card.md). | At least two Space Holders are admins, briefed, and on a posted watch rota |
+| 8 | **Stage the Space Holder line.** A topic that routes a DM to the on-watch Space Holder. Pin the "how to reach a Space Holder" note. | A test DM reaches a Space Holder within the stated window |
+| 9 | **Generate the invite link.** One join link; regenerate per Wave if you want a clean headcount. Optional: turn on admin approval for joins. | You hold a working invite link and have decided approval on or off |
+| 10 | **Run the launch sequence** in §7 when you are ready to open a Wave. | The Wave-start announcement is posted and the first pods are forming in the Pod Directory |
+
+A group that passes every box is ready to hold people. A group missing box 5 or box 7 is not; do not invite into it.
+
+---
+
+## 3. The topic map at a glance
+
+Nine topics. Two are pinned-and-locked safety anchors (Start Here, Ground & SOS). The rest are participation rooms.
+
+| Topic | Purpose | Who posts |
+|---|---|---|
+| 📍 Start Here | Orientation, self-screen, crisis card, course links, how this works | Admins pin; members read |
+| 🔥 Stake Board | Day-4-format experiments declared before you run them | Everyone |
+| ✅ Loop Closings | Close your loop publicly (or as a reply under your stake) | Everyone |
+| 🤝 Witness Board | Structured witness ask / offer posts | Everyone |
+| 🧭 Pod Directory | Find and form pods; pods then run as their own small private groups | Everyone |
+| 📚 Module rooms 00–11 | Questions and Low/Medium shares per module | Everyone |
+| 🚨 Ground & SOS | Grounding link, crisis lines, the not-a-crisis-service line | Admins pin; members read |
+| 🕯 Space Holder line | DM route to the on-watch Space Holder | Members reach out; Space Holders respond |
+
+Loop Closings can merge into Stake Board as replies instead of a separate topic. Operator's choice; pick one and say which in the Start Here pin so people are not hunting.
+
+The twelve Module rooms can be one topic with module tags, or twelve sub-topics if your member count justifies it. Start with one tagged room; split only when a single room gets noisy.
+
+---
+
+## 4. Permissions and admin settings
+
+The structure is held by what people *cannot* post as much as by what they can.
+
+**Group-level permissions (Group settings → Permissions).**
+
+- Allow: send messages, send media (photos and voice), and replies. Voice messages matter; tone carries in voice.
+- Consider restricting: links from non-admins for the first days of a Wave (cuts spam and the "I learned this in another course, here is the link" drift). Loosen once the norm is set.
+- Turn off: adding members by non-admins. You control who comes in, by invite link or approval.
+
+**Topic locks.** Start Here and Ground & SOS are admin-post-only. Members read the pins and route out from them; they do not reply in them. Lock both. Every other topic is open to members.
+
+**Admin roles.** Space Holders are admins with: pin messages, delete messages, and manage the topics they watch. They do not need ban or invite rights unless you decide otherwise. Keep the owner account separate from day-to-day watching so an owner action is never confused with a moderation move.
+
+**Join control.** Two clean options:
+
+1. **Invite link + pinned self-screen acknowledgment.** Anyone with the link joins; the first thing they meet is the Start Here pin asking them to acknowledge the self-screen. Lighter touch, relies on the pin.
+2. **Admin approval for joins.** You approve each join request. Heavier, lets you confirm the person came through the right door (a Wave sign-up, a pod invite). Use this for the first Wave while you learn the load.
+
+Either way the self-screen lives in the Start Here pin and is the thing every member meets first.
+
+---
+
+## 5. The topics, with pinned-post text
+
+Each pinned post below is ready to paste. Replace `[COURSE URL]` with the real address from §1. Keep the wording; it carries the safety boundaries the model depends on.
+
+### 📍 Start Here (pinned, locked)
+
+```
+Welcome. This is the ETB practice commons.
+
+Everyone here has the course. This group is where we do it
+alongside each other: declare experiments, close loops out loud,
+find witnesses, form pods. It is self-paced. You can be on Module 2
+while the person next to you is on Module 9 and you share the same
+weekly pulse.
+
+HOW THIS WORKS
+  - The held work happens one tier down: in your dyad (you + one
+    witness) and your pod (3–12 people who meet on calls). This
+    commons coordinates and declares. It does not hold deep work.
+  - High work (the Module 6 EHP, the Module 9 Demon work) happens
+    LIVE on a call, with a qualified witness, inside a dyad or pod.
+    Never over text. Never in this commons. No exceptions.
+  - The weekly pulse: Stake Monday · Loop-close Friday ·
+    Skip-read Sunday. Join whichever you like; none are required.
+
+SELF-SCREEN — read before you post
+  This course is an education in distinctions, not therapy and not
+  a substitute for it. It goes into feelings, drama patterns, and
+  shadow material. Before you go further, check yourself honestly
+  against these. If any is true for you right now, the deep work
+  waits and you talk to a Space Holder first (🕯 topic):
+    - I am in an acute mental-health crisis right now.
+    - I am in active suicidal ideation or recent self-harm.
+    - I am in untreated psychosis or active severe addiction.
+    - I am inside trauma I have no qualified support for.
+  None of these mean you are unwelcome. They mean the Low and
+  Medium work is open to you and the High work waits until you have
+  the support that can hold it. Reply "self-screen read" in this
+  topic's acknowledgment thread (or DM a Space Holder) to confirm
+  you have read this.
+
+IF YOU ARE NOT OK RIGHT NOW
+  This group is not a crisis service. Go to 🚨 Ground & SOS for the
+  grounding tool and crisis lines. International helpline finder:
+  findahelpline.com
+
+THE COURSE
+  - Course home: [COURSE URL]
+  - Start Here (Module 00): [COURSE URL]
+  - Practicing in a Group: [COURSE URL]
+  (If a link does not open, tell a Space Holder.)
+
+PRIVACY, PLAINLY
+  A private group is still on Telegram's servers. Share at the depth
+  you choose. Your Beep! Book stays private by default; a stake is
+  exposure you choose. Your practice data stays in your browser
+  (export it from journal.html). Nothing here is the place for the
+  deep material — that is your pod and your witness.
+
+Loop Closings: we post them as replies under each stake on 🔥 Stake
+Board. [OR, if you run a separate topic: "...in the ✅ Loop Closings
+topic."] Pick the one that matches your setup and delete the other.
+```
+
+### 🔥 Stake Board (pinned)
+
+```
+This is where you stake your word in front of the community.
+
+Post an experiment in the Day-4 format BEFORE you run it:
+  WHAT I will do · BY WHEN · WHAT I WILL NOTICE
+One experiment at a time. Small and specific. A sentence you could
+film, not "be more present."
+
+Posting it = staking it. Up to two people reply "Witnessed 🕯" —
+they are the two humans you report back to. Not a notification; a
+named hook.
+
+Then close the loop here (reply to your own stake) with what
+happened and what you noticed. Failed experiments are Beeps, and
+Beeps are data — post them and we celebrate them. There is no score
+here. Being seen is the whole mechanism.
+
+This is Low/Medium ground. Deep material goes to your pod and your
+witness, not here. Format examples are pinned in
+[Community Message Templates / link].
+```
+
+### ✅ Loop Closings (pinned, if run as a separate topic)
+
+```
+Close your loop here, or as a reply under your stake on 🔥 Stake
+Board — operator's choice, pick one and stay consistent.
+
+A loop-close is short: what you actually did, what you noticed in
+your body and in the world, and the one Shift for next time if
+there is one. A failed experiment closes as a Beep: design data,
+not a verdict. We post Beeps proudly. The miss that gets named is
+the loop working.
+```
+
+### 🤝 Witness Board (pinned)
+
+```
+This is where you call on a witness for a small piece of work.
+
+A witness for High work must, with you:
+  - have the 7-line / Pod agreement in place,
+  - have read the Doc 03 witness annex,
+  - have the Partner Emergency Card.
+That is the qualification path. No shortcut.
+
+ASK format:
+  "Seeking a witness for [small EHP / closing declaration / re-entry].
+   Windows: [days + timezone]. I have read the witness annex and
+   hold the agreement. Live call, not text."
+
+OFFER format:
+  "Available to witness this week: [days + timezone]. I hold the
+   agreement and have read the annex. One exchange."
+
+No advice in this topic. No "here is a technique." A witness holds
+space; a witness does not fix. Full formats are in
+[Community Message Templates / link].
+```
+
+### 🧭 Pod Directory (pinned)
+
+```
+A pod is 3–12 people who do the rituals together on calls and
+witness each other's High work live. A pod is held by its Pod
+Charter and one Pod Anchor (a scheduler and charter-keeper, NOT a
+facilitator).
+
+To form or join a pod:
+  - Post a pod-forming note (timezone, cadence, language, Wave or
+    self-paced). Format in [Community Message Templates / link].
+  - When 3–12 of you have agreed, read the [Pod Charter / link]
+    together, fill it in, and move to your own small PRIVATE
+    Telegram group. The pod runs there; this directory is only for
+    finding each other.
+
+Pods carry the held work. The commons carries the coordination.
+Keep deep material in your pod group, never here.
+```
+
+### 📚 Module rooms 00–11 (pinned)
+
+```
+Questions and shares per module. Tag your post with the module
+number (#M05) or use the matching sub-topic.
+
+FOR: a question about a distinction, one line on what landed, a
+small Low/Medium noticing.
+
+NOT FOR: long processing of personal material (that is your pod and
+your witness), advice to other learners (the course teaches
+witnessing, not advising), or High material (EHP detail, Demon
+work — those are live, witnessed, and not posted anywhere).
+
+If a post belongs in a pod, a Space Holder will gently point you
+there. That redirect is care, not correction.
+```
+
+### 🚨 Ground & SOS (pinned, locked)
+
+```
+This group is not a crisis service. It cannot watch over you in
+real time. Here is who can.
+
+RIGHT NOW, IF YOU ARE NOT OK
+  - 60-second grounding tool: [COURSE URL]/Interactive Tools/ground.html
+  - International helpline finder (free, confidential, by country):
+    findahelpline.com
+  - Your local emergency number if you are in immediate danger.
+
+If you are in immediate danger, contact local emergency services or
+your country's crisis line now. Do not wait for anyone here.
+
+If you are not in immediate danger but you are over your head, reach
+a Space Holder in 🕯 (DM route). A Space Holder is not a clinician
+and will route you to one; they will not leave you alone with it.
+
+The grounding tool above works with no login and stores nothing.
+Bookmark it now, before you need it.
+```
+
+### 🕯 Space Holder line (pinned)
+
+```
+Space Holders watch this commons. They are not facilitators, not
+therapists, not your witness. They keep the frame, point you to the
+right tier, and route anything heavy to where it belongs.
+
+To reach one: DM the on-watch Space Holder (handles below) or post
+here and tag them.
+  On watch this week: [@handle], [@handle]
+  Typical response: within [X hours] for ordinary asks; same-day
+  for anything urgent; immediate routing for a crisis.
+
+When to use this line:
+  - You are over your head but not in danger → reach out here.
+  - You read the self-screen and one item is true for you → here.
+  - A post in the commons needs a human → tag a Space Holder.
+
+In immediate danger, do not wait for a Space Holder — go to
+🚨 Ground & SOS and contact crisis services now.
+```
+
+---
+
+## 6. Space Holder staffing
+
+The Space Holder is the commons-tier adaptation of the CM triage role. Where a CM holds 8–12 in depth, a Space Holder watches a slice of up to 100 in breadth: they are not reading every post for charge, they are scanning for the few that need a human and keeping the conventions alive.
+
+**Minimum and ratio.** Two Space Holders is the floor to open a commons, the same single-point-of-failure logic the witness bench uses: one person watching alone is no watch at all. Staff roughly **one Space Holder per 35 members**. A 100-person Wave wants three. Add one before you cross each 35-member line, not after.
+
+**Who qualifies.** The witness-bench bar applies: has done this work in a held container, can hold a frame without fixing, signs the partner agreement (all seven lines, including the immediate-danger protocol), and is reachable in the windows they accept. A Space Holder additionally reads this guide, §F of Doc 04 (the triage rubric), and the [Partner Emergency Card](Partner%20Emergency%20Card.md) before their first watch.
+
+**What they watch.** Not everything. Specifically:
+
+- The participation topics for **drift** (advice between members, theory debate, long confessionals, High material posted as text) and the gentle redirect (§8).
+- The 🕯 Space Holder line for DMs.
+- New joins acknowledging the self-screen.
+- Stakes and loop-closes for the rare post that reads as a Yellow or Red flag.
+
+They do **not** read pod-internal groups. Those are held by the Pod Anchor and the pod's own witnesses. The commons Space Holder's reach ends at the commons.
+
+**The triage rubric, adapted to the commons.** The three flags from Doc 04 §F carry over; the response shifts because the commons is breadth, not depth.
+
+| Flag | What it looks like in the commons | Space Holder action | Response window |
+|---|---|---|---|
+| **Green** | A clean stake, a Beep posted proudly, an ordinary module question, a witness offer | None required. Optional: a "Witnessed 🕯" or a light acknowledgment | No window |
+| **Yellow** | Someone over their head but functional · a stake that reads as a cry rather than a commitment · repeated drift from one member · a self-screen item disclosed | **DM the member.** Move it out of the commons into the 🕯 line. Offer the right tier: pod, witness, slower pace, or referral. If it is a drift pattern, the redirect script (§8) | Same day |
+| **Red** | Suicidal ideation (any) · imminent harm · abuse in progress · psychotic or dissociative state · medical emergency, posted or DM'd | **Immediate.** Crisis-line numbers and findahelpline.com in the first message. Direct hand-off to crisis services. Do not discuss; route. Tell the operator the same day | Immediate, not "within 24h" |
+
+**When to DM vs post vs route out.** This is the Space Holder's core judgment:
+
+- **Post in the topic** when the move teaches the whole room: a public "this belongs in a pod" redirect that models the norm for everyone reading. Keep it warm and short.
+- **DM the member** when it is about *them*, not the room: a Yellow flag, a self-screen disclosure, a repeated drift you do not want to call out publicly. Move the person, not the spotlight.
+- **Route out** when it exceeds the commons: a Red flag goes to crisis services; trauma or clinical material goes to the member's clinician and the referral list; anything over a Space Holder's head goes to the operator. The Space Holder is the relay, never the clinician.
+
+**Watch rota.** Post who is on watch each week in the 🕯 pin. Cover the windows your membership actually spans (a 100-person multi-timezone Wave needs more than one timezone covered). No Space Holder watches alone for a whole Wave; rotate, and debrief lightly after anything heavy (the two bench questions: *anything you flagged? anything heavier than the role should carry?*).
+
+**Backup.** Name a backup for any window a Space Holder is unreachable, exactly as the CM names a backup for Red flags. A commons with one Space Holder asleep and no backup has a hole in it.
+
+---
+
+## 7. The Wave launch sequence
+
+A Wave is the optional sync option: a set of pods starting Module 00 the same week. A 100-person launch is one commons plus roughly 8–12 pods in one Wave. Self-paced members live in the same commons without a Wave; a Wave is a pulse some people opt into, not a gate.
+
+Run a Wave off the [Cohort Calendar Template](Cohort%20Calendar%20Template.md): the Wave's shared dates (start, the pause beats, the weekly pulse, the close) come straight from that calendar, scaled to pods instead of pairs. The sequence:
+
+| When | Step | Done when |
+|---|---|---|
+| Wave minus 2 weeks | **Open sign-ups.** Post the Wave-start announcement (template) with the start date and the self-screen. Take join requests | The roster is collecting and each joiner has acknowledged the self-screen |
+| Wave minus 1 week | **Form pods.** Run the Pod Directory: members post pod-forming notes, group into pods of 3–12 by timezone/cadence/language, each pod names a Pod Anchor and reads the [Pod Charter](Pod%20Charter.md) | Every Wave member is in a pod, each pod has an Anchor and a filled Charter, each pod has its own private group |
+| Wave minus 1 week | **Confirm witnessing inside each pod.** Each pod confirms its members hold the 7-line/Pod agreement and the High-work-live-with-witness rule is understood | Every pod can witness its own High modules |
+| Wave minus 3 days | **Staff to size.** Confirm Space Holders at one per 35, briefed, on the rota, backups named | The rota is posted in 🕯 and covers the roster's timezones |
+| Wave minus 1 day | **Stage the pins.** Every pinned post current, every `[COURSE URL]` live, the calendar pinned in 📍 Start Here | A test account walking in meets a complete, working Start Here |
+| Wave Day 1 | **Open.** Post the Wave-start go-live message. The weekly pulse begins: first Stake Monday this week | Members are posting stakes; pods are meeting |
+| Through the Wave | **Hold the pulse.** Stake Monday / Loop-close Friday / Skip-read Sunday prompts posted weekly; Space Holders watch; pods run their rituals and teach-backs on calls | The pulse posts land each week and the feed shows stakes and loop-closes, not long confessionals |
+| Wave close | **Close it.** Close-out per the calendar; pods decide their own continuation; the commons stays open for self-paced members and the next Wave | The Wave is closed cleanly and the commons persists |
+
+The commons outlives any one Wave. Close a Wave; do not close the commons. Returning members and the next Wave land in the same room.
+
+---
+
+## 8. Moderation edge cases
+
+Most moderation is one move: notice drift, redirect gently, keep the person and lose the noise. The drift categories and the cohort-feed redirect language carry over from [Cohort Feed Templates](Cohort%20Feed%20Templates.md) §4 (long confessional, advice between members, theory debate, witness-offer-that-is-advice). Adapt the destination: in the commons the right home is usually a pod or a witness, not "your partner."
+
+**The one that is specific to the commons: High content posted in the commons.** Someone posts EHP detail, Demon-work material, or raw deep processing in a public topic. This is the line the whole model protects. The redirect is gentle, fast, and moves the material out of public view.
+
+The gentle redirect script (paste, adapt the name and topic):
+
+```
+Hi [name] — thank you for trusting the group with this. What you are
+describing is High work, and the one firm line we hold is that High
+work happens live, with a witness, in your pod or dyad — never in
+the open commons, for your protection and everyone's. I am going to
+hide this post (your words are safe; I will send them back to you
+privately if you want them). Take it to your pod or your witness as
+a live exchange. If you do not have a witness lined up, the 🤝
+Witness Board is exactly for that, and I can help you find one.
+I am glad you are in it. This is me keeping the container, not
+moving you away.
+```
+
+Then: hide or delete the public post, DM the member the preserved text if they want it, and if the material itself reads as a Yellow or Red flag, switch to the triage rubric (§6) rather than treating it as ordinary drift. A disclosure of crisis dressed as a "stake" is a Red flag first and a moderation question second.
+
+Two more commons-specific edges:
+
+- **The performance stake.** A stake that is really a bid for attention (grand, vague, no by-when, written for applause). Not a safety issue; a drift toward the wrong attractor. A Space Holder can model the fix by replying with the format, or DM the member the Day-4 frame. The Worked Exemplars Pack's drifting-stake example is the calibration.
+- **The crisis dressed as a Beep.** "Failed at everything, gave up, here is my Beep." Read for charge: if it is genuine failed-experiment data, celebrate it; if it is despair wearing the Beep costume, it is a Yellow or Red flag and goes to the 🕯 line or to crisis routing, same day.
+
+The commons holds because the conventions are visible, the routing is pinned, and a small team watches for the few posts that need a human. Build those three and the room can hold a hundred people doing the work alongside each other, each at their own pace.
+
+---
+
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+
+
 <!-- ===== source: Facilitator Resources/Video Manifest.md ===== -->
 
 ---
@@ -6857,6 +7796,86 @@ Drift is not a character flaw. Every one of these moves comes from wanting to he
 - **(3) The "not yet," stated flat, with the precise shape of the gap.** Not "I'm bad at this." The learner can find numbness in retrospect but not live; that one sentence tells them (and would tell a CM, in aggregate) exactly what to practice next.
 - **(4) The "not yet" is treated as information: it produces a plan, not a mood.** Revisit the practice, take the edge to the partner, stretch the cadence if needed. Those are the course's own three moves for a readiness gap, chosen calmly, because a "not yet" caught *before* Module 6 is the instrument working.
 - **(5) The delta is modest and real.** Not "I have transformed my relationship to my emotions." One specific default sentence, retired. That is what installed thoughtware actually looks like at week two.
+
+---
+
+## F. Community posts: a strong stake, its witnesses, a loop-close, a Beep, then a drifting stake
+
+**The named criteria ([Community Message Templates](Community%20Message%20Templates.md) and the Staking choreography):** a stake is the Day-4 experiment format made public — *what I will do / by when / what I will notice* · the action is one specific behavior you could film, the by-when is a real window · witnessed-by is a named human hook, not advice · the loop-close reports what happened flat, with one Shift · a Beep is a failed experiment posted as design data, never a verdict · visibility is the whole mechanism, and nothing here is High material.
+
+### F.1 The strong stake
+
+*Posted to the Stake Board by a learner on Module 4, before running the experiment.*
+
+> **STAKE** **(1)**
+> What I will do: when the team standup runs past twenty minutes, I say one sentence: "I need to drop, I'm at my limit for this one." **(2)**
+> By when: Thursday's standup. **(3)**
+> What I will notice: what my shoulders do while I say it, and whether anyone actually minds. **(4)**
+> Module 04, self-paced. Witnesses welcome.
+
+Two replies followed:
+
+> "Witnessed 🕯" **(5)**
+>
+> "Witnessed 🕯 — I'm on the same edge with meetings, glad to hear how it lands." **(6)**
+
+**Margin notes:**
+
+- **(1) The stake is the Day-4 format, unchanged.** It is not a new genre. It is the experiment artifact the course already teaches, posted before the rep instead of captured after it. That is the entire move: declaration made public.
+- **(2) One filmable behavior.** A specific sentence, in a specific recurring situation. Compare the drift below: "be better about boundaries at work" is not a stake, because nobody could witness it happening.
+- **(3) A real by-when.** A named day, this week. A stake with no by-when is a wish; the deadline is what makes it stake-able.
+- **(4) Noticing decided in advance, body data and world data.** Shoulders (body) and whether anyone minds (world). Chosen before the rep, because noticing picked afterward is the Box editing.
+- **(5) The bare witness reply is complete.** "Witnessed 🕯" is the whole convention. The staker now has a named human to report back to. No advice attached.
+- **(6) One line of resonance, no advice.** "Same edge, glad to hear how it lands" names the witness as a real person and adds zero technique, zero "have you tried." Two witnesses is the cap; this stake now has its two.
+
+### F.2 The strong loop-close
+
+*The same learner, replying to their own stake two days later.*
+
+> **LOOP CLOSED** **(1)**
+> What happened: said the sentence. Voice came out flatter than I meant, but it came out. Standup actually ended; one person said "yeah, good call." Then it drifted back for two minutes and I didn't re-say it. **(2)**
+> What I noticed: shoulders up around my ears before, dropped right after the sentence. Nobody minded. The minding was all mine. **(3)**
+> Shift: next standup, same sentence, and I stay on mute-off until it's actually closed. **(4)**
+
+**Margin notes:**
+
+- **(1) The close is a reply to the stake, not a new post.** The loop closes where it opened, so the witnesses see the report-back in one thread. That is the completion-loop discipline applied to the commons.
+- **(2) Flat report, including what didn't go to plan.** The drift-back and the not-re-saying are in there, unvarnished. No spin, no "but overall I crushed it."
+- **(3) Body and world, separated and specific.** Shoulders located and tracked across the moment; the realization ("the minding was all mine") stated as a noticing, not a life-lesson.
+- **(4) One Shift, one variable.** Same sentence, one added move. Not a personality overhaul. The rep compounds because the design improves one notch.
+
+### F.3 The strong Beep
+
+*A different learner, Module 4, posting a failed experiment proudly.*
+
+> **BEEP!** (this one didn't land, posting it as data) **(1)**
+> The experiment: say the boundary sentence to my dad at Sunday lunch. **(2)**
+> What happened: never said it. The moment came, my mouth opened, and I changed the subject instead. **(3)**
+> The Beep: I had no plan for the half-second of dread right before speaking. The experiment just assumed I'd say it. **(4)**
+> Shift: next time, hand flat on the table as the physical cue to speak. One trigger, prepared in advance. **(5)**
+
+**Margin notes:**
+
+- **(1) Posted as data, not confession.** The header itself frames the failure correctly: a Beep is design information. The room answers a Beep with "🕯" or "good data," never with advice. Failed experiments are Beeps, and Beeps are exactly what the board is for.
+- **(2) The original stake, restated in one line** so the Beep is readable on its own.
+- **(3) What actually happened, flat.** No story about being weak, no history of every other time. Just the event.
+- **(4) The Beep is a precise design gap,** not a verdict. "No plan for the dread" is a fixable specification. Compare the verdict version ("I always cave, I'm spineless"), which produces nothing but the Beep Swamp.
+- **(5) The Shift changes one variable** and adds a concrete physical trigger. That is a real next experiment, not a resolution to "try harder."
+
+### F.4 A drifting stake
+
+*Posted to the Stake Board, well-meant and off the shape. The drift moments are flagged.*
+
+> **STAKE** I'm finally committing to doing the deep work and really showing up for myself this season. **(D1)** I'm going to work on being more present and setting better boundaries in all my relationships, **(D2)** and honestly process some heavy stuff that came up about my mother that I've been carrying for years. **(D3)** This is a big one for me, I can feel it's going to be transformative. Sending love to everyone on this journey, we've got this!! 🙏✨ **(D4)**
+
+**Drift notes:**
+
+- **(D1) A declaration of intent, not a stake.** "Committing to showing up for myself this season" has no action and no by-when. It is a mood with a deadline of "someday." The fix is a single filmable behavior and a real date.
+- **(D2) Vague and plural.** "More present," "better boundaries," "all my relationships" — nothing here could be witnessed happening. A stake is one behavior, one situation, once. The Box loves the plural because the plural can never be checked.
+- **(D3) High material in the commons.** "Process some heavy stuff about my mother" is exactly the work that is live, witnessed, and in a pod — never declared as a public stake and never processed over text. A Space Holder redirects this gently to the Witness Board and the pod (the redirect script is in the [Telegram Community Operator Guide](Telegram%20Community%20Operator%20Guide.md) §8). This is the line the whole model protects.
+- **(D4) Performance, not practice.** "Transformative," "sending love," "we've got this," the emoji garland — the post is written for applause, which is the wrong attractor. Visibility is the mechanism so you actually run the rep, not so the room cheers the announcement. The fix is smaller, plainer, and by Thursday.
+
+Every drift here comes from sincerity, the same way the partner-exchange drift in section A does. The practice is the same too: catch the want-to-be-seen-as-doing-the-work, and come back to one small thing you will actually do, by when, and what you will notice.
 
 ---
 

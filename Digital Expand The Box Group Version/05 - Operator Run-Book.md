@@ -157,6 +157,40 @@ The course ends; the container hands off rather than evaporating. Module 11 sets
 
 ---
 
+## Annex A — Community variant (launching a commons + first Wave)
+
+Steps 0–5 sequence a single held cohort. When the shape is a **community of up to ~100 doing the work together at their own pace**, the operator runs the same steps with the deltas below. The model is [06 - Group and Community Framework.md](06%20-%20Group%20and%20Community%20Framework.md); the platform layer is [02 - Async Delivery Framework.md](02%20-%20Async%20Delivery%20Framework.md) §F.2; the setup checklist and pinned-post texts are the [Telegram Community Operator Guide](Facilitator%20Resources/Telegram%20Community%20Operator%20Guide.md). **Doc 04 is still the law** ([04 - Container and Gatekeeping Protocol.md](04%20-%20Container%20and%20Gatekeeping%20Protocol.md) §N).
+
+A 100-person launch is **one commons plus ~8–12 pods in one Wave** (a Wave is a set of pods starting Module 00 the same week). Run a single pilot pod first if this is the operator's first community.
+
+### What changes vs a held cohort
+
+| Step | Cohort | Community variant |
+|---|---|---|
+| **1 Platform** | one-origin shell + private feed | the same shell, plus the Telegram community in forum/Topics mode (Doc 02 §F.2). Enable GitHub Pages so the links resolve (owner's go-ahead). Configure the topic map, pin Start Here and Ground & SOS |
+| **2 Staffing** | one CM, sized table, backup drilled | **Space Holders, minimum 2, ~1 per 35 members** (Doc 04 §N.2), each qualified per the adapted §J bar with a backup so the 15-minute red-flag window never goes dark. Each pod names a **Pod Anchor** (schedule and charter keeper, not a facilitator) |
+| **3 Enrollment** | CM screens every applicant; one pairing pool | the commons pins the self-screen for entry; **each pod runs the real intake gate** (self-screen + adopt the Intake Form, Doc 04 §N.1) before any High work. Pairing happens inside pods; the Witness Board handles cross-pod witness asks |
+| **4 Run** | CM holds the container; weekly operator rhythm | Space Holders triage the commons (Doc 04 §F windows); the weekly heartbeat carries the pulse (Stake Monday, Loop-close Friday, Skip-read Sunday); the operator still reads counts, not content |
+| **5 Continuation** | alumni 30/60/90 from the operator | same touchpoints; pods that want to continue become standing practice groups or Possibility Teams |
+
+### What does NOT change
+
+- **The High-work-never-over-text law.** EHP and Demon-locator work happens live, on a call, in a dyad or pod, with a qualified witness. Never over text, never in the commons (Doc 04 §N.1, Doc 06 §B). This is the line the whole variant is built to protect.
+- **The gates.** Per-visit consent, the readiness checks, the High-module unlock checklist, and the witness qualification path all transfer down to the pod intact (Doc 04 §D, §B.2). The commons relaxes nothing.
+- **Intake is a real gate, not a waiver.** The pod self-screens and adopts the Intake Form; a pod that has not is not ready for the High modules (Doc 04 §N.1).
+- **No gamification.** Staking is visibility, not score: no points, streaks, or leaderboards (Doc 02 §L; Doc 06 §C).
+- **The container caps at held attention.** Held containers stay at 8–12 (pod ≤12); scaling to 100 nests containers, it never stretches one (Doc 04 §K.2, §N).
+
+### Staffing minimums at a glance
+
+- **Space Holders:** ≥2 always; ~1 per 35 members (35 → 2; 100 → 3). Each with a backup; the 15-minute red-flag SLA must survive one person sleeping (Doc 04 §N.2).
+- **Pod Anchor:** one per pod, coordinator not facilitator.
+- **Witnesses:** the Witness Board surfaces qualified witnesses commons-wide; the §B.2 qualification path is the bar, the same one a cohort's witness bench uses.
+
+**Done-when:** GitHub Pages live and links resolving · Telegram topic map configured with Start Here and Ground & SOS pinned · ≥2 Space Holders qualified, with backups, at ~1/35 · every launching pod has a Pod Anchor and has run the self-screen + Intake Form · the first Wave's Module 00 start date published.
+
+---
+
 ## Pin these (operator edition)
 
 - **Doc 04 is the law; this is the route.** When in doubt mid-run, the answer is in Doc 04, not in your judgment of the moment.

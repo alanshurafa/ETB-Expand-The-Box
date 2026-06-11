@@ -6,7 +6,7 @@ This is the operating protocol that turns the safety intentions in `03 - Safety 
 
 **Status.** This protocol is **required**. A cohort run without it is not running with the safety framework. It is running with the safety framework's intentions. This document is the law; [05 - Operator Run-Book.md](05%20-%20Operator%20Run-Book.md) and the [CM First-Cohort Run-Book](Facilitator%20Resources/CM%20First-Cohort%20Run-Book.md) are the routes through it.
 
-Section letters A–L match v1. v2 additions: the intake lines in §A.1, §B.2 (witness recruitment), the §D re-screen line, §K.2 (the cohort cap), and §M (solo boundary).
+Section letters A–L match v1. v2 additions: the intake lines in §A.1, §B.2 (witness recruitment), the §D re-screen line, §K.2 (the cohort cap), §M (solo boundary), and §N (the container paths and the Space Holder role at group and community scale).
 
 ---
 
@@ -346,6 +346,40 @@ The review is shared with the course operator and the CM's supervisor. Patterns 
 ## M. Solo readers: the boundary
 
 Solo mode is sanctioned (Doc 02 §G; Doc 03 §P) and this protocol does not govern solo readers: there is no CM, no intake, no SLA to enforce. What this document contributes is the boundary: **the High-module witness gate applies to everyone.** A solo reader satisfies it through §B.2 (recruit-a-witness) or honors the defer-list. There is no third path, and no course artifact may describe one. The defer-list is a boundary, not a workaround to be engineered around; the course states this before the climb, not after.
+
+---
+
+## N. Container paths at group and community scale
+
+The held cohort (8–12, one CM) is one container path, not the only one. A dyad is a container, a solo reader satisfies the gate two named ways (§M), and at group and community scale two further paths exist. The full model is [06 - Group and Community Framework.md](06%20-%20Group%20and%20Community%20Framework.md); this section is the law it extends, stated as gatekeeping mechanism.
+
+### N.1 The pod is a recognized container path
+
+A **pod (3–12)** is a held container alongside the cohort, the dyad, and the solo path. Its instrument is the [Pod Charter](Facilitator%20Resources/Pod%20Charter.md), which extends the 7-line partner agreement (§B.1) to a small group; one **Pod Anchor** keeps the schedule and the charter, and is a coordinator, not a facilitator. Every gate in this protocol transfers down to the pod intact:
+
+- The High-module witness gate (§D) applies inside the pod: the EHP and Demon-locator practices happen live, on a call, with a qualified witness (§B.2), never over text.
+- Intake (§A) happens at the pod: a pod self-screens against the five screens and adopts the deployable [Intake Form](Facilitator%20Resources/Intake%20Form.md) before any High work. The Pod Anchor holds the pod to having done this, exactly as the §K gate holds a cohort.
+- Per-visit consent (Doc 03 §I) and the readiness checks (§D) are unchanged inside the pod.
+
+A pod is not a smaller cohort with the gates relaxed. It is a smaller cohort with the same gates, held by a Pod Anchor instead of a CM.
+
+### N.2 The Space Holder role (commons tier)
+
+A **commons (13–100)** is **not a container** (Doc 06 §A): no one can hold a hundred people the way a CM holds a cohort. The commons is staffed by **Space Holders**, a commons-tier role defined here relative to the CM.
+
+A Space Holder triages the commons against the §F rubric, keeps the crisis routing visible, and routes anything heavy down into a container or out to a referral. A Space Holder runs the §G crisis escalation on a red flag exactly as a CM does. A Space Holder is **not** a held-container CM: they do not run a per-pair pairing tracker (§C), do not carry High-week vigilance over named individuals, and do not run intake for the whole community (the real intake gate is at the pod, N.1). They hold coordination, not held attention.
+
+**Staffing minimum (binding): at least two Space Holders, at roughly one per 35 members.** The floor of two is structural, the same logic as the backup-CM requirement (§K.1): a single Space Holder who sleeps or falls ill leaves the commons with no one positioned for the 15-minute red-flag window. The qualification bar is the §J bar adapted to the role: completed ETB, current basic mental-health first aid (or equivalent), and a named person to consult for hard calls. A Space Holder is not a casual moderator and not a full CM; the qualifications match triage-and-route, not hold-and-carry.
+
+### N.3 The scale table
+
+| Scale | Container | Who holds | Intake gate |
+|---|---|---|---|
+| **2** | Dyad | The partner or recruited witness (§B) | Cohort intake, or solo self-screen (§M) |
+| **3–12** | Pod | The Pod Anchor; witnesses for High work (§B.2) | The pod adopts the Intake Form (N.1) |
+| **13–100** | Commons — **not a container** | Space Holders: triage and route, min 2, ~1/35 (N.2) | Pinned self-screen at the commons; the real gate is at pod level |
+
+The cohort (8–12, one CM, §K.2) remains the original held shape. The pod is its community-scale echo with the same gates and a lighter authority; the commons coordinates the pods and stays honest about not holding.
 
 ---
 

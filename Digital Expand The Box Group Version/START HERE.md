@@ -28,6 +28,7 @@ Everything taught here originates in **Possibility Management**, the body of tho
 - **One partner for the whole course.** Voice messages, a few minutes each way, once per module. Your partner witnesses; they do not advise or fix.
 - **Modules 5–9 are the climb.** Four High-intensity modules and a heavy Medium, back to back. They are gated: a consent check and a reachable partner before each one, a built-in pause after Module 6, and a rest day between Modules 8 and 9. The course names this stretch honestly so you can schedule around it, not be surprised by it.
 - **Every module has two buttons:** *Study the map* opens the interactive [Map Atlas](Map%20Atlas/index.html); *Run the practice* opens that module's tool in [Interactive Tools](Interactive%20Tools/index.html). Everything those tools record stays in your browser. [The journal](Interactive%20Tools/journal.html) shows your records and exports them; [ground.html](Interactive%20Tools/ground.html) holds the 60-second grounding script, one tap away, always.
+- **Doing this with others?** You can run the course inside a community pod, at your own pace, sharing one weekly pulse: see [Practicing in a Group](Practice/Practicing%20in%20a%20Group.md). It is optional, and the solo path stays fully supported.
 
 ---
 

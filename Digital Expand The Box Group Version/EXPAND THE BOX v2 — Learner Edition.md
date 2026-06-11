@@ -40,6 +40,7 @@ Everything taught here originates in **Possibility Management**, the body of tho
 - **One partner for the whole course.** Voice messages, a few minutes each way, once per module. Your partner witnesses; they do not advise or fix.
 - **Modules 5–9 are the climb.** Four High-intensity modules and a heavy Medium, back to back. They are gated: a consent check and a reachable partner before each one, a built-in pause after Module 6, and a rest day between Modules 8 and 9. The course names this stretch honestly so you can schedule around it, not be surprised by it.
 - **Every module has two buttons:** *Study the map* opens the interactive [Map Atlas](Map%20Atlas/index.html); *Run the practice* opens that module's tool in [Interactive Tools](Interactive%20Tools/index.html). Everything those tools record stays in your browser. [The journal](Interactive%20Tools/journal.html) shows your records and exports them; [ground.html](Interactive%20Tools/ground.html) holds the 60-second grounding script, one tap away, always.
+- **Doing this with others?** You can run the course inside a community pod, at your own pace, sharing one weekly pulse: see [Practicing in a Group](Practice/Practicing%20in%20a%20Group.md). It is optional, and the solo path stays fully supported.
 
 ---
 
@@ -199,10 +200,13 @@ This course hard-gates its deepest work on being witnessed. That is structure, n
 **Question 1: Is an operator-run cohort open to you right now?**
 A cohort gives you a community manager who screens, pairs, and holds the container, a matched partner, and a cohort feed. If a cohort is open and you can join it: **join the cohort.** This is the held path; everything in the course works as written. Complete the cohort's intake before Module 1, and stop reading this tree.
 
-**Question 2: No cohort. Is there one person in your life who would do this with you?**
+**Question 2: No cohort, but is there a community pod you could join or form?**
+A pod is 3 to 12 people doing the course together: they run the rituals on calls, witness each other's High work, and share one weekly pulse, while you still pair with one named partner inside it. The pod is your held container; the wider community around it is company, not container. If a community is open to you: **join or form a pod.** Find one in the Pod Directory or start your own, and the pod adopts the Pod Charter (it extends the 7-line agreement below) before the first ritual call. The full learner's map of this layer, including the privacy rules and the high-work-never-over-text line, is in [Practicing in a Group](Practice/Practicing%20in%20a%20Group.md).
+
+**Question 3: No cohort and no pod. Is there one person in your life who would do this with you?**
 They do not enroll, study the maps, or learn any vocabulary. They listen to a voice message once per module and reply within 24 hours under a short agreement. A friend qualifies. A colleague qualifies. The two poor fits: someone you live inside a charged conflict with right now, and someone who cannot stop themselves from giving advice. If you have such a person: **recruit a witness.** Send them the 7-line agreement below, ask them to reply "signed," and agree on a private voice-message channel (Signal, WhatsApp with encryption on, Telegram: a private 1:1 thread, no group chats, no AI transcription). That is the entire setup.
 
-**Question 3: Neither.**
+**Question 4: None of these.**
 Then you go **solo with the defer-list**, and the course says clearly what that means rather than pretending it changes nothing. Every Low and Medium module is fully available to you: the teaching, the maps, the solo practices, the experiments, the reflections. Two pieces of work are **deferred until you are witnessed**: the Emotional Healing Process work in Module 6, and the Demon-related ego-state work in Module 9. Deferred means you read the teaching and do the locator-level practices, and you do not run the deep practice until a witness exists. Modules 5, 6, 7, and 9 each repeat this at the point of use. The defer-list is not a punishment for being alone. It is the course refusing to put you somewhere it cannot hold you.
 
 You can move between paths at any time. Most solo readers eventually recruit a witness, and the deferred work is still there when they do.

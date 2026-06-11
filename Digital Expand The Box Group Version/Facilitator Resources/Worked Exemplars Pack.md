@@ -171,6 +171,86 @@ Drift is not a character flaw. Every one of these moves comes from wanting to he
 
 ---
 
+## F. Community posts: a strong stake, its witnesses, a loop-close, a Beep, then a drifting stake
+
+**The named criteria ([Community Message Templates](Community%20Message%20Templates.md) and the Staking choreography):** a stake is the Day-4 experiment format made public — *what I will do / by when / what I will notice* · the action is one specific behavior you could film, the by-when is a real window · witnessed-by is a named human hook, not advice · the loop-close reports what happened flat, with one Shift · a Beep is a failed experiment posted as design data, never a verdict · visibility is the whole mechanism, and nothing here is High material.
+
+### F.1 The strong stake
+
+*Posted to the Stake Board by a learner on Module 4, before running the experiment.*
+
+> **STAKE** **(1)**
+> What I will do: when the team standup runs past twenty minutes, I say one sentence: "I need to drop, I'm at my limit for this one." **(2)**
+> By when: Thursday's standup. **(3)**
+> What I will notice: what my shoulders do while I say it, and whether anyone actually minds. **(4)**
+> Module 04, self-paced. Witnesses welcome.
+
+Two replies followed:
+
+> "Witnessed 🕯" **(5)**
+>
+> "Witnessed 🕯 — I'm on the same edge with meetings, glad to hear how it lands." **(6)**
+
+**Margin notes:**
+
+- **(1) The stake is the Day-4 format, unchanged.** It is not a new genre. It is the experiment artifact the course already teaches, posted before the rep instead of captured after it. That is the entire move: declaration made public.
+- **(2) One filmable behavior.** A specific sentence, in a specific recurring situation. Compare the drift below: "be better about boundaries at work" is not a stake, because nobody could witness it happening.
+- **(3) A real by-when.** A named day, this week. A stake with no by-when is a wish; the deadline is what makes it stake-able.
+- **(4) Noticing decided in advance, body data and world data.** Shoulders (body) and whether anyone minds (world). Chosen before the rep, because noticing picked afterward is the Box editing.
+- **(5) The bare witness reply is complete.** "Witnessed 🕯" is the whole convention. The staker now has a named human to report back to. No advice attached.
+- **(6) One line of resonance, no advice.** "Same edge, glad to hear how it lands" names the witness as a real person and adds zero technique, zero "have you tried." Two witnesses is the cap; this stake now has its two.
+
+### F.2 The strong loop-close
+
+*The same learner, replying to their own stake two days later.*
+
+> **LOOP CLOSED** **(1)**
+> What happened: said the sentence. Voice came out flatter than I meant, but it came out. Standup actually ended; one person said "yeah, good call." Then it drifted back for two minutes and I didn't re-say it. **(2)**
+> What I noticed: shoulders up around my ears before, dropped right after the sentence. Nobody minded. The minding was all mine. **(3)**
+> Shift: next standup, same sentence, and I stay on mute-off until it's actually closed. **(4)**
+
+**Margin notes:**
+
+- **(1) The close is a reply to the stake, not a new post.** The loop closes where it opened, so the witnesses see the report-back in one thread. That is the completion-loop discipline applied to the commons.
+- **(2) Flat report, including what didn't go to plan.** The drift-back and the not-re-saying are in there, unvarnished. No spin, no "but overall I crushed it."
+- **(3) Body and world, separated and specific.** Shoulders located and tracked across the moment; the realization ("the minding was all mine") stated as a noticing, not a life-lesson.
+- **(4) One Shift, one variable.** Same sentence, one added move. Not a personality overhaul. The rep compounds because the design improves one notch.
+
+### F.3 The strong Beep
+
+*A different learner, Module 4, posting a failed experiment proudly.*
+
+> **BEEP!** (this one didn't land, posting it as data) **(1)**
+> The experiment: say the boundary sentence to my dad at Sunday lunch. **(2)**
+> What happened: never said it. The moment came, my mouth opened, and I changed the subject instead. **(3)**
+> The Beep: I had no plan for the half-second of dread right before speaking. The experiment just assumed I'd say it. **(4)**
+> Shift: next time, hand flat on the table as the physical cue to speak. One trigger, prepared in advance. **(5)**
+
+**Margin notes:**
+
+- **(1) Posted as data, not confession.** The header itself frames the failure correctly: a Beep is design information. The room answers a Beep with "🕯" or "good data," never with advice. Failed experiments are Beeps, and Beeps are exactly what the board is for.
+- **(2) The original stake, restated in one line** so the Beep is readable on its own.
+- **(3) What actually happened, flat.** No story about being weak, no history of every other time. Just the event.
+- **(4) The Beep is a precise design gap,** not a verdict. "No plan for the dread" is a fixable specification. Compare the verdict version ("I always cave, I'm spineless"), which produces nothing but the Beep Swamp.
+- **(5) The Shift changes one variable** and adds a concrete physical trigger. That is a real next experiment, not a resolution to "try harder."
+
+### F.4 A drifting stake
+
+*Posted to the Stake Board, well-meant and off the shape. The drift moments are flagged.*
+
+> **STAKE** I'm finally committing to doing the deep work and really showing up for myself this season. **(D1)** I'm going to work on being more present and setting better boundaries in all my relationships, **(D2)** and honestly process some heavy stuff that came up about my mother that I've been carrying for years. **(D3)** This is a big one for me, I can feel it's going to be transformative. Sending love to everyone on this journey, we've got this!! 🙏✨ **(D4)**
+
+**Drift notes:**
+
+- **(D1) A declaration of intent, not a stake.** "Committing to showing up for myself this season" has no action and no by-when. It is a mood with a deadline of "someday." The fix is a single filmable behavior and a real date.
+- **(D2) Vague and plural.** "More present," "better boundaries," "all my relationships" — nothing here could be witnessed happening. A stake is one behavior, one situation, once. The Box loves the plural because the plural can never be checked.
+- **(D3) High material in the commons.** "Process some heavy stuff about my mother" is exactly the work that is live, witnessed, and in a pod — never declared as a public stake and never processed over text. A Space Holder redirects this gently to the Witness Board and the pod (the redirect script is in the [Telegram Community Operator Guide](Telegram%20Community%20Operator%20Guide.md) §8). This is the line the whole model protects.
+- **(D4) Performance, not practice.** "Transformative," "sending love," "we've got this," the emoji garland — the post is written for applause, which is the wrong attractor. Visibility is the mechanism so you actually run the rep, not so the room cheers the announcement. The fix is smaller, plainer, and by Thursday.
+
+Every drift here comes from sincerity, the same way the partner-exchange drift in section A does. The practice is the same too: catch the want-to-be-seen-as-doing-the-work, and come back to one small thing you will actually do, by when, and what you will notice.
+
+---
+
 ## How to use this pack on your own work
 
 Once per module, hold one artifact of yours next to the matching exemplar and ask three questions: *Is mine specific where theirs is specific? Is mine modest where theirs is modest? Did mine stop where the practice ends?* Three yeses, carry on. Any no: the margin note next to the gap names the criterion to practice. That check is feedback you can give yourself, which is the point; the course will not always be there to do it for you.
