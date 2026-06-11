@@ -8,6 +8,12 @@
 
 **At a glance.** Surface · Story · Survival → behaviors (visible) · beliefs and rules (semi-visible) · identity-level commitments under early threat (mostly invisible) · The Box had a function → kept you alive; not bad, just obsolete · Has-glue vs is-glue → *I am angry* glues you to it, *I have anger* puts you next to it · You have a box, you are not your box → the load-bearing sentence · Predictable defenses → justification, righteousness, withdrawal, collapse *(each a Box move)* · Box ≠ Gremlin → structural standing thoughtware vs active drama-seeker.
 
+## How to explain it verbally
+
+The Box is the survival kit you built as a small child to get through the exact family, body, and era you were born into: what got rewarded, what got punished, what kept the adults from coming apart. It worked. The problem is that by adulthood it fused so completely with your sense of self that if I ask who you are, you describe your Box and call it yourself. So the move is not to fight or destroy it. It is disidentification: hearing the difference between *I am angry*, which glues you to it, and *I have anger*, which sets you beside it.
+
+**If you only remember one thing:** you have a Box; you are not your Box, and that one grammatical shift is the whole work.
+
 ---
 
 > **This is a map card.** The full teaching and practice now live in two places:
@@ -17,4 +23,4 @@
 
 ---
 
-<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>

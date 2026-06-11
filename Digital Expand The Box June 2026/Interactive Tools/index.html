@@ -249,6 +249,72 @@ h1.display em {
   margin-top: 6px;
 }
 
+/* quiet per-day completion dot — presence indicator only, no scoring */
+.day-dot {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-top: 4px;
+}
+.day-dot .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.5px solid var(--rule);
+  display: inline-block;
+}
+.day-dot .dot.present { background: var(--mustard); border-color: var(--mustard-text); }
+
+/* journal + ground utility row */
+.utility-row {
+  margin: 72px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+.utility-row a {
+  display: block;
+  padding: 24px 28px;
+  background: var(--ivory-shade);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--vermillion);
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.25s;
+}
+.utility-row a:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(14,10,5,0.14); }
+.utility-row .ut-kicker {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--vermillion);
+  margin-bottom: 8px;
+}
+.utility-row .ut-name {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 22px;
+  font-variation-settings: 'opsz' 144, 'SOFT' 50;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.utility-row .ut-name em { font-style: italic; color: var(--vermillion); }
+.utility-row .ut-desc { font-size: 15px; color: var(--ink-soft); line-height: 1.5; }
+.dots-legend {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin: 44px 0 -16px;
+}
+
 /* tiny ascii arrow rendered */
 .flow {
   margin: 16px 0;
@@ -337,6 +403,8 @@ footer.bottom {
     </div>
   </section>
 
+  <p class="dots-legend">A filled dot beside a day means this device holds a saved record from that day's tool — a quiet presence indicator, not a score.</p>
+
   <!-- PHASE 1: Container & frame -->
   <div class="phase-divider">
     <div class="phase-num">I</div>
@@ -357,6 +425,7 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity low">Low</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="01"></span>Record</span>
     </div>
   </a>
 
@@ -370,6 +439,7 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity low">Low</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="02"></span>Record</span>
     </div>
   </a>
 
@@ -393,6 +463,7 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity low">Low</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="03"></span>Record</span>
     </div>
   </a>
 
@@ -406,6 +477,7 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity low">Low</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="04"></span>Record</span>
     </div>
   </a>
 
@@ -429,6 +501,7 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity high">High</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="05"></span>Record</span>
     </div>
   </a>
 
@@ -442,6 +515,7 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity high">High</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="06"></span>Record</span>
     </div>
   </a>
 
@@ -465,6 +539,7 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity high">High</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="07"></span>Record</span>
     </div>
   </a>
 
@@ -478,6 +553,7 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity medium">Medium</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="08"></span>Record</span>
     </div>
   </a>
 
@@ -501,6 +577,7 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity high">High</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="09"></span>Record</span>
     </div>
   </a>
 
@@ -514,8 +591,23 @@ footer.bottom {
     <div class="day-meta">
       <span class="intensity low">Low</span>
       <span class="open">Open day →</span>
+      <span class="day-dot" title="This device has a saved record from this day's tool."><span class="dot" data-day="10"></span>Record</span>
     </div>
   </a>
+
+  <!-- always-available utilities: your records + emergency grounding -->
+  <div class="utility-row">
+    <a href="journal.html">
+      <div class="ut-kicker">Your records</div>
+      <div class="ut-name">The <em>Journal</em></div>
+      <div class="ut-desc">Everything the tools saved on this device, gathered in one place, with an export. Nothing leaves your browser.</div>
+    </a>
+    <a href="ground.html">
+      <div class="ut-kicker">If it gets heavy</div>
+      <div class="ut-name">Ground · <em>60 sec</em></div>
+      <div class="ut-desc">The 60-second grounding script, one tap away, always. If anything feels too far, too fast — ground first, then decide.</div>
+    </a>
+  </div>
 
   <section class="about">
     <div>
@@ -549,6 +641,42 @@ footer.bottom {
     <div>Built for the async ETB online course · all 10 days</div>
   </footer>
 </div>
+
+<script>
+/* Quiet per-day completion dots. A dot fills if this device holds any
+   etb_day0N_* localStorage key for that day's tool (plus Day 01's named
+   keys). Presence only — no scores, streaks, percentages, or badges.
+   Consent keys are never written, so they can never light a dot. */
+(function(){
+  var keys = [];
+  try {
+    for (var i = 0; i < localStorage.length; i++) {
+      var k = localStorage.key(i);
+      if (k && k.indexOf('etb_') === 0) keys.push(k);
+    }
+  } catch (e) { return; }  /* storage blocked — leave dots empty */
+
+  /* extra named keys some tools use instead of the etb_dayNN_ prefix */
+  var EXTRA = { '01': ['etb_chain_walks', 'etb_levels_sets'] };
+
+  function dayPresent(dd){
+    var prefix = 'etb_day' + dd + '_';
+    for (var i = 0; i < keys.length; i++){
+      if (keys[i].indexOf(prefix) === 0) return true;
+    }
+    var extra = EXTRA[dd] || [];
+    for (var j = 0; j < extra.length; j++){
+      if (keys.indexOf(extra[j]) !== -1) return true;
+    }
+    return false;
+  }
+
+  document.querySelectorAll('.day-dot .dot').forEach(function(dot){
+    var dd = dot.getAttribute('data-day');
+    if (dayPresent(dd)) dot.classList.add('present');
+  });
+})();
+</script>
 
 <!-- World Copyleft 2026 — Expand the Box (Digital). Licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community. Please share, share-alike. Powered by Possibility Management — possibilitymanagement.org. Full terms: LICENSE.md in the course root. -->
 </body>

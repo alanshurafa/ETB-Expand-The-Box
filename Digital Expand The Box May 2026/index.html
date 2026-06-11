@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expand the Box — May 2026 (Archived Edition)</title>
+<link rel="stylesheet" href="_assets/fonts/fonts.css">
+<style>
+:root {
+  --ivory: #f4ecdc;
+  --ivory-shade: #ece2c8;
+  --ivory-deep: #e3d7b9;
+  --ink: #0e0a05;
+  --ink-soft: #2a221a;
+  --ink-mute: #4a3f30;
+  --rule: #b8a98a;
+  --vermillion: #c43b1c;
+  --vermillion-deep: #962a13;
+  --vermillion-soft: rgba(196,59,28,0.08);
+  --mustard: #d8b04a;
+  --mustard-text: #b8902c;
+  --mustard-soft: rgba(216,176,74,0.18);
+  --sky: #4a6b7c;
+  --display: 'Fraunces','EB Garamond',Georgia,serif;
+  --body: 'EB Garamond',Georgia,serif;
+  --mono: 'JetBrains Mono','Courier New',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--body);
+  background:var(--ivory);
+  color:var(--ink);
+  font-size:18px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse at top left,rgba(216,176,74,0.06) 0%,transparent 40%),
+    radial-gradient(ellipse at bottom right,rgba(196,59,28,0.04) 0%,transparent 50%);
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:1;opacity:0.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.055 0 0 0 0 0.04 0 0 0 0 0.02 0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.wrap{max-width:960px;margin:0 auto;padding:36px 48px 80px;position:relative;z-index:2;}
+
+/* Archive banner */
+.archive-banner{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  color:var(--ink-mute);background:var(--mustard-soft);
+  border:1px solid var(--mustard);border-left:4px solid var(--mustard);
+  padding:12px 18px;margin-bottom:36px;
+}
+.archive-banner a{color:var(--ink-mute);text-decoration:underline;}
+.archive-banner a:hover{color:var(--vermillion);}
+
+/* Top nav bar */
+header.top{
+  display:flex;justify-content:space-between;align-items:baseline;
+  font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--ink-mute);padding-bottom:28px;border-bottom:1px solid var(--rule);gap:24px;
+  flex-wrap:wrap;
+}
+header.top a{
+  color:var(--ink-mute);text-decoration:none;
+  border-bottom:1px solid transparent;padding-bottom:2px;transition:all 0.2s;
+}
+header.top a:hover{color:var(--vermillion);border-bottom-color:var(--vermillion);}
+
+/* Hero */
+.hero{margin:52px 0 40px;max-width:840px;}
+.eyebrow{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.22em;text-transform:uppercase;
+  color:var(--vermillion);margin-bottom:16px;
+}
+h1.display{
+  font-family:var(--display);font-weight:350;
+  font-size:clamp(2rem,5vw,3.4rem);
+  letter-spacing:-0.015em;line-height:1.1;color:var(--ink);margin-bottom:24px;
+}
+.lead{font-size:1.05rem;color:var(--ink-soft);max-width:680px;line-height:1.65;}
+
+/* Sections */
+section{margin-top:52px;}
+section h2{
+  font-family:var(--display);font-weight:350;font-size:1.4rem;
+  color:var(--ink);border-bottom:1px solid var(--rule);padding-bottom:12px;margin-bottom:20px;
+}
+p{margin-bottom:1em;}
+a{color:var(--vermillion-deep);text-decoration:underline;}
+a:hover{color:var(--vermillion);}
+strong{font-weight:700;}
+em{font-style:italic;}
+code{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:1px 5px;border-radius:2px;
+}
+
+/* Module grid */
+.module-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;
+  margin-top:16px;
+}
+.module-card{
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:18px 22px;text-decoration:none;color:var(--ink);
+  transition:all 0.18s;display:block;
+}
+.module-card:hover{
+  border-color:var(--vermillion);
+  background:var(--vermillion-soft);
+  color:var(--ink);text-decoration:none;
+}
+.module-card .label{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.16em;text-transform:uppercase;
+  color:var(--vermillion);margin-bottom:6px;
+}
+.module-card .title{font-family:var(--display);font-weight:350;font-size:1.05rem;line-height:1.3;}
+.module-card .tag{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.10em;text-transform:uppercase;
+  color:var(--ink-mute);margin-top:8px;
+}
+
+/* Quick links list */
+.quick-links{list-style:none;margin:8px 0;padding:0;display:flex;flex-direction:column;gap:6px;}
+.quick-links li a{
+  font-family:var(--mono);font-size:12px;letter-spacing:0.08em;
+  color:var(--ink-mute);text-decoration:none;
+  display:inline-block;padding:4px 0;
+  border-bottom:1px solid transparent;transition:all 0.18s;
+}
+.quick-links li a:hover{color:var(--vermillion);border-bottom-color:var(--vermillion);}
+
+/* Orientation block */
+.orient-block{
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  border-left:3px solid var(--vermillion);padding:20px 24px;margin:16px 0;
+}
+.orient-block ol,
+.orient-block ul{padding-left:1.4em;margin-top:0.5em;}
+.orient-block li{margin-bottom:0.4em;}
+
+/* Footer */
+footer{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.08em;
+  color:var(--ink-mute);text-align:center;
+  padding:28px 40px;border-top:1px solid var(--rule);
+  position:relative;z-index:2;
+}
+footer a{color:var(--ink-mute);text-decoration:underline;}
+
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+@media(max-width:600px){.wrap{padding:24px 20px 60px;} .module-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- Archive notice -->
+  <div class="archive-banner">
+    Archived May 2026 edition &mdash; the current course is the
+    <a href="../Digital%20Expand%20The%20Box%20June%202026/index.html">June 2026 edition</a>.
+  </div>
+
+  <!-- Top navigation bar -->
+  <header class="top">
+    <div style="display:flex;gap:24px;flex-wrap:wrap;align-items:baseline;">
+      <span style="color:var(--ink-mute);">Expand the Box</span>
+      <span style="color:var(--rule);">|</span>
+      <span style="color:var(--mustard-text);font-weight:500;">May 2026 Archive</span>
+    </div>
+    <div style="display:flex;gap:20px;flex-wrap:wrap;align-items:baseline;">
+      <a href="#course">Course modules</a>
+      <a href="Interactive%20Tools/index.html">Interactive tools</a>
+      <a href="Map%20Atlas/index.html">Map atlas</a>
+      <a href="LICENSE.md">License</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <p class="eyebrow">Archived edition &middot; May 2026</p>
+    <h1 class="display">Expand the Box</h1>
+    <p class="lead">
+      A 10-module, self-paced online course in <strong>Possibility Management</strong> &mdash;
+      the body of thoughtware developed by Clinton Callahan and the PM community.
+      This is the May 2026 first-complete-draft edition, preserved as a reference archive.
+      The active course is the
+      <a href="../Digital%20Expand%20The%20Box%20June%202026/index.html">June 2026 edition</a>.
+    </p>
+  </div>
+
+  <!-- What this is -->
+  <section>
+    <h2>What this course is for</h2>
+    <p>
+      A learner who wants their thoughtware upgraded. Specifically: the Box becomes
+      visible enough to disidentify from; the four feelings become distinct archetypal
+      energies rather than &ldquo;things to manage&rdquo;; the Low Drama Triangle becomes
+      detectable in real time; listening and speaking become acts of possibility;
+      the three powers &mdash; choosing, asking dangerous questions, declaring &mdash;
+      become operational.
+    </p>
+    <p>
+      The course delivers this through 10 self-paced modules, async partner pairings,
+      embodied practices, between-module experiments, and a structured safety container.
+    </p>
+    <p>
+      <strong>This course is not therapy. Not coaching. Not trauma treatment.</strong>
+      It is an educational course in PM thoughtware.
+    </p>
+  </section>
+
+  <!-- Orientation for a learner -->
+  <section>
+    <h2>Before you open Day 1</h2>
+    <p>
+      Read <a href="Course/start-here.html">Start Here (Learner Welcome)</a> first &mdash;
+      that single page is your whole orientation (the rhythm, the agreements, the grounding
+      practice, what to do if it gets to be too much). It takes about fifteen minutes.
+    </p>
+    <div class="orient-block">
+      <strong>Learner checklist:</strong>
+      <ol>
+        <li>Read <a href="Course/start-here.html">Start Here</a> (&asymp;15 min)</li>
+        <li>Complete intake screening (your community manager sends it)</li>
+        <li>Confirm you have your region&rsquo;s referral packet within reach</li>
+        <li>Get paired with a partner</li>
+        <li>Open <a href="Course/day-01.html">Day 1 &mdash; Orientation, New Context, Radical Responsibility</a></li>
+      </ol>
+    </div>
+    <p>
+      You do <em>not</em> need to read the operator docs (the numbered
+      <code>.md</code> files in the root) &mdash; those are for community managers.
+    </p>
+  </section>
+
+  <!-- Module list -->
+  <section id="course">
+    <h2>Course modules</h2>
+    <p>Ten modules, one every &asymp;3 days. Start with <em>Start Here</em>, then work in order.</p>
+
+    <div class="module-grid" style="margin-top:20px;">
+
+      <a class="module-card" href="Course/start-here.html">
+        <div class="label">Orientation</div>
+        <div class="title">Start Here &mdash; Learner Welcome</div>
+        <div class="tag">Read before Day 1</div>
+      </a>
+
+      <a class="module-card" href="Course/day-01.html">
+        <div class="label">Day 1 &middot; Low</div>
+        <div class="title">Orientation &middot; New Context &middot; Radical Responsibility</div>
+        <div class="tag">&asymp;2 hours active</div>
+      </a>
+
+      <a class="module-card" href="Course/day-02.html">
+        <div class="label">Day 2 &middot; Medium</div>
+        <div class="title">Thoughtware &middot; Thoughtmaps &middot; Box Technology</div>
+        <div class="tag">&asymp;2.5 hours active</div>
+      </a>
+
+      <a class="module-card" href="Course/day-03.html">
+        <div class="label">Day 3 &middot; Low</div>
+        <div class="title">Liquid State &middot; Center-Ground-Bubble &middot; Five Bodies</div>
+        <div class="tag">Load-bearing &mdash; don&rsquo;t skim</div>
+      </a>
+
+      <a class="module-card" href="Course/day-04.html">
+        <div class="label">Day 4 &middot; Low</div>
+        <div class="title">Feedback &middot; Coaching &middot; Rapid Learning &middot; Experiments</div>
+        <div class="tag">&asymp;2 hours active</div>
+      </a>
+
+      <a class="module-card" href="Course/day-05.html">
+        <div class="label">Day 5 &middot; High</div>
+        <div class="title">Feelings vs Emotions &middot; Old Map of Feelings &middot; Numbness Bar</div>
+        <div class="tag">Partner check-in required</div>
+      </a>
+
+      <a class="module-card" href="Course/day-06.html">
+        <div class="label">Day 6 &middot; High</div>
+        <div class="title">Mixed Emotions &middot; Emotional Healing Process</div>
+        <div class="tag">Partner check-in required</div>
+      </a>
+
+      <a class="module-card" href="Course/day-07.html">
+        <div class="label">Day 7 &middot; High</div>
+        <div class="title">Low Drama &middot; Gremlin Food &middot; Shifting to Responsible Game</div>
+        <div class="tag">Integration pause before this day</div>
+      </a>
+
+      <a class="module-card" href="Course/day-08.html">
+        <div class="label">Day 8 &middot; Medium</div>
+        <div class="title">Listening &middot; Speaking &middot; Communication &middot; Completion Loops</div>
+        <div class="tag">&asymp;2.5 hours active</div>
+      </a>
+
+      <a class="module-card" href="Course/day-09.html">
+        <div class="label">Day 9 &middot; High</div>
+        <div class="title">Ego States &middot; Problem Ownership &middot; Learning Spiral</div>
+        <div class="tag">Partner check-in required</div>
+      </a>
+
+      <a class="module-card" href="Course/day-10.html">
+        <div class="label">Day 10 &middot; Low</div>
+        <div class="title">Map of Possibility &middot; Bright Principles &middot; Three Powers &middot; Integration</div>
+        <div class="tag">Closure sensitivity &mdash; see safety callouts</div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Supporting materials -->
+  <section>
+    <h2>Supporting materials</h2>
+    <ul class="quick-links">
+      <li><a href="00%20-%20START%20HERE%20(Learner%20Welcome).md">Start Here (source .md)</a></li>
+      <li><a href="Interactive%20Tools/index.html">Interactive Tools suite</a></li>
+      <li><a href="Map%20Atlas/index.html">Map Atlas &mdash; 29 interactive map tools</a></li>
+      <li><a href="LICENSE.md">LICENSE.md &mdash; CC BY-SA 4.0 / World Copyleft terms</a></li>
+    </ul>
+  </section>
+
+  <!-- Provenance -->
+  <section>
+    <h2>Provenance and lineage</h2>
+    <p>
+      All Possibility Management distinctions in this course originate with Clinton Callahan
+      and the PM community since the late 1980s. This course re-presents those distinctions
+      in clean facilitator language for async delivery. The course does not reproduce source
+      videos, transcripts, or photographed maps from the source library.
+    </p>
+    <p>
+      <strong>Course version 1.0</strong> &mdash; first complete draft (May 2026).
+      The locked templates and working agreements cannot change mid-cohort;
+      see the operator docs for the full structure.
+    </p>
+    <p>
+      This folder is the <strong>archived</strong> copy. The active course lives in the
+      <a href="../Digital%20Expand%20The%20Box%20June%202026/index.html">June 2026 edition</a>.
+    </p>
+  </section>
+
+</div><!-- /wrap -->
+
+<footer>
+  <p>
+    Archived May 2026 edition &mdash;
+    🄯 World Copyleft 2026 &middot;
+    <em>Expand the Box (Digital)</em> &middot;
+    licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> &middot;
+    re-presents Possibility Management thoughtware originated by Clinton Callahan &amp; the PM community &middot;
+    please share, share-alike &middot;
+    <a href="LICENSE.md">full terms</a>
+  </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 3 — Liquid State · Center-Ground-Bubble · Five Bodies · Expand the Box (May 2026 archive)</title>
+<link rel="stylesheet" href="../_assets/fonts/fonts.css">
+<style>
+
+:root {
+  --ivory: #f4ecdc;
+  --ivory-shade: #ece2c8;
+  --ivory-deep: #e3d7b9;
+  --ink: #0e0a05;
+  --ink-soft: #2a221a;
+  --ink-mute: #4a3f30;
+  --rule: #b8a98a;
+  --vermillion: #c43b1c;
+  --vermillion-deep: #962a13;
+  --vermillion-soft: rgba(196,59,28,0.08);
+  --mustard: #d8b04a;
+  --mustard-text: #b8902c;
+  --sky: #4a6b7c;
+  --display: 'Fraunces','EB Garamond',Georgia,serif;
+  --body: 'EB Garamond',Georgia,serif;
+  --mono: 'JetBrains Mono','Courier New',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--body);
+  background:var(--ivory);
+  color:var(--ink);
+  font-size:18px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse at top left,rgba(216,176,74,0.06) 0%,transparent 40%),
+    radial-gradient(ellipse at bottom right,rgba(196,59,28,0.04) 0%,transparent 50%);
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:1;opacity:0.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.055 0 0 0 0 0.04 0 0 0 0 0.02 0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.wrap{max-width:860px;margin:0 auto;padding:36px 40px 80px;position:relative;z-index:2;}
+.archive-banner{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  color:var(--ink-mute);background:var(--ivory-shade);border:1px solid var(--rule);
+  border-left:3px solid var(--mustard);padding:10px 16px;margin-bottom:28px;
+}
+.archive-banner a{color:var(--ink-mute);text-decoration:underline;}
+.archive-banner a:hover{color:var(--vermillion);}
+nav.breadcrumb{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--ink-mute);padding-bottom:24px;border-bottom:1px solid var(--rule);
+  margin-bottom:32px;display:flex;gap:16px;flex-wrap:wrap;align-items:baseline;
+}
+nav.breadcrumb a{color:var(--ink-mute);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;transition:all 0.2s;}
+nav.breadcrumb a:hover{color:var(--vermillion);border-bottom-color:var(--vermillion);}
+nav.breadcrumb .sep{color:var(--rule);}
+nav.page-nav{
+  display:flex;justify-content:space-between;align-items:center;
+  margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  flex-wrap:wrap;gap:12px;
+}
+nav.page-nav a{
+  color:var(--ink-mute);text-decoration:none;
+  border:1px solid var(--rule);padding:8px 16px;
+  transition:all 0.2s;
+}
+nav.page-nav a:hover{color:var(--vermillion);border-color:var(--vermillion);}
+main h1{
+  font-family:var(--display);font-weight:350;font-size:clamp(1.8rem,4vw,2.8rem);
+  letter-spacing:-0.01em;line-height:1.15;color:var(--ink);margin:8px 0 32px;
+}
+main h2{
+  font-family:var(--display);font-weight:350;font-size:1.5rem;
+  color:var(--ink);margin:2.4em 0 0.6em;
+}
+main h3{
+  font-family:var(--body);font-weight:700;font-size:1.05rem;
+  color:var(--ink-soft);margin:2em 0 0.5em;
+}
+main h4{font-family:var(--body);font-weight:700;font-size:0.95rem;margin:1.6em 0 0.4em;}
+main p{margin-bottom:1.1em;}
+main a{color:var(--vermillion-deep);text-decoration:underline;}
+main a:hover{color:var(--vermillion);}
+main strong{font-weight:700;}
+main em{font-style:italic;}
+main code{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:1px 5px;border-radius:2px;
+}
+main pre{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:16px 20px;overflow-x:auto;margin:1.2em 0;line-height:1.45;
+}
+main pre code{background:none;border:none;padding:0;font-size:inherit;}
+main blockquote{
+  border-left:3px solid var(--vermillion);
+  margin:1.4em 0;padding:12px 24px;
+  background:var(--vermillion-soft);color:var(--ink-soft);
+}
+main blockquote p:last-child{margin-bottom:0;}
+main table{
+  width:100%;border-collapse:collapse;margin:1.4em 0;font-size:0.92em;
+}
+main th,main td{
+  border:1px solid var(--rule);padding:8px 14px;text-align:left;
+}
+main th{background:var(--ivory-shade);font-family:var(--mono);font-size:0.8em;letter-spacing:0.06em;text-transform:uppercase;}
+main ul,main ol{margin:0.6em 0 1em 1.8em;}
+main li{margin-bottom:0.3em;}
+main hr{border:none;border-top:1px solid var(--rule);margin:2.4em 0;}
+main img{max-width:100%;height:auto;display:block;margin:1.4em auto;border:1px solid var(--rule);}
+footer{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.08em;
+  color:var(--ink-mute);text-align:center;
+  padding:28px 40px;border-top:1px solid var(--rule);
+  position:relative;z-index:2;
+}
+footer a{color:var(--ink-mute);text-decoration:underline;}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+@media(max-width:600px){.wrap{padding:24px 20px 60px;}}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="archive-banner">Archived May 2026 edition — the current course is the <a href="../Digital%20Expand%20The%20Box%20June%202026/index.html">June 2026 edition</a>.</div>
+  <nav class="breadcrumb">
+    <a href="../index.html">Expand the Box — May 2026</a>
+    <span class="sep">/</span>
+    <a href="../index.html#course">Course</a>
+    <span class="sep">/</span>
+    <span>Day 3 — Liquid State · Center-Ground-Bubble · Five Bodies</span>
+  </nav>
+  <main>
+<h1>Day 3 — Liquid State · Center, Grounding Cord, Bubble · Five Bodies</h1>
+<table>
+<tr><th><strong>Intensity</strong></th><th>Low</th></tr>
+<tr><td><strong>Time</strong></td><td>~2.5 hours active across 2–3 days</td></tr>
+<tr><td><strong>Partner check-in required before?</strong></td><td>No (partner must be active; you will exchange after)</td></tr>
+<tr><td><strong>Source videos</strong></td><td><code>06 - LiquidState_EN.mp4</code> · <code>07 - 5Bodies_EN.mp4</code></td></tr>
+<tr><td><strong>Maps (taught in this module)</strong></td><td>M05 Liquid State · M06 Map of 5 Bodies · M07 Being Centered — each also a standalone interactive tool in the <a href="../Map%20Atlas/index.html"><strong>Map Atlas</strong></a></td></tr>
+</table>
+<blockquote>
+<p><strong>Grounding (60 seconds).</strong> Top of <code>03 - Safety and Facilitation Framework.md</code> Section D. Read it now. You will use it inside this module.</p>
+</blockquote>
+<hr>
+<h2>Purpose</h2>
+<p>To install the infrastructure the rest of the course runs on.</p>
+<p>Day 1 changed the context. Day 2 made the Box visible. Day 3 is the day the learner gets the equipment they need to be in contact with what happens <em>next</em>: a working map of what they actually are (a five-body organism, not a brain with plumbing), and a working set of energetic-body practices (center, grounding cord, bubble, golden cube) that let them stay present while their thoughtware is loosening.</p>
+<p>The condition in which thoughtware can loosen is called <strong>liquid state.</strong> It is not optional. It is what allows distinction-density to land in the body instead of bouncing off the intellect. Without the equipment, liquid state is destabilising. With it, liquid state is workable.</p>
+<p>Day 3 is tagged Low intensity because the content is cognitive and embodied-light. Do not confuse low intensity with low importance, and do not skim this module. Days 5, 6, 7 and 9 assume the equipment installed here is live in your body. If it is not, the High modules will not have anywhere to put their weight. A learner who reads Day 3 as an intellectual proposition and moves on has done one-fifth of the work — the other four bodies, where it would have worked, stayed where they were.</p>
+<hr>
+<h2>Core PM concepts</h2>
+<ul>
+<li><strong>Liquid state</strong> — the condition in which thoughtware can be changed. The Box has loosened. Symptomatic across all five bodies; not all liquid states are transformative.</li>
+<li><strong>The five bodies</strong> — intellectual, emotional, physical, energetic, archetypal. What a human actually is.</li>
+<li><strong>Over-identification with one body</strong> — the default condition most learners arrive in (usually intellectual). The course is a recalibration.</li>
+<li><strong>Center</strong> — the energetic location in your body (typically lower belly / hara) from which your choices, will and authority come.</li>
+<li><strong>Grounding cord</strong> — an energetic line declared from your center to the centre of the earth. Allows discharge; allows you to stay in your body when intensity rises.</li>
+<li><strong>Bubble</strong> — an arm's-length energetic boundary. A distinction, not a protection. Marks what is yours and what isn't.</li>
+<li><strong>Golden cube / workspace</strong> — a portable, declared creative space in which new thoughtware is constructed and tested.</li>
+</ul>
+<hr>
+<h2>Learning outcomes</h2>
+<p>By the end of this module you will:</p>
+<ol>
+<li>Recognise, in your own experience, what liquid state feels like across at least three of your five bodies — and distinguish a <em>transformative</em> liquid state from a non-transformative one.</li>
+<li>Locate each of the five bodies in yourself and name which one you are over-identified with.</li>
+<li>Declare a <strong>center</strong>, drop a <strong>grounding cord</strong>, set a <strong>bubble</strong>, and open a <strong>golden cube</strong> — and hold all four through one external interruption.</li>
+<li>Have completed a partner exchange in which you report the practice as you actually experienced it.</li>
+</ol>
+<hr>
+<h2>Module flow</h2>
+<table>
+<tr><th>Step</th><th>Time</th><th>What you do</th></tr>
+<tr><td>1</td><td>10 min</td><td>Read this header and scan the module</td></tr>
+<tr><td>2</td><td>15 min</td><td>Watch <code>06 - LiquidState_EN.mp4</code></td></tr>
+<tr><td>3</td><td>15 min</td><td>Watch <code>07 - 5Bodies_EN.mp4</code></td></tr>
+<tr><td>4</td><td>35 min</td><td>Read <strong>Concept teaching notes</strong> below, slowly — study each map image where it sits</td></tr>
+<tr><td>5</td><td>25 min</td><td><strong>Centering · grounding cord · bubble · golden cube</strong> (solo, embodied)</td></tr>
+<tr><td>6</td><td>20 min</td><td><strong>Partner voice exchange</strong> (record + send)</td></tr>
+<tr><td>7</td><td>—</td><td>Receive partner reply within 24 hours; record your reply</td></tr>
+<tr><td>8</td><td>2 days</td><td>Run the <strong>between-module experiment</strong></td></tr>
+<tr><td>9</td><td>15 min</td><td>Journal the <strong>reflection prompts</strong></td></tr>
+<tr><td>10</td><td>1 min</td><td>Post one line to the cohort feed</td></tr>
+</table>
+<p>Spread the module across 2–3 days. The energetic-body practices need at least one night of sleep between the first attempt and the partner exchange — your nervous system installs them while you are not looking.</p>
+<hr>
+<h2>Concept teaching notes</h2>
+<h3>What liquid state is</h3>
+<p><img src="../Maps/M05.png" alt="Liquid State" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M05%20-%20Liquid%20State.html">Explore M05 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map before reading on. Notice it does not draw a peak or a high — it draws a <em>condition</em>: solid thoughtware on one side, the same thoughtware temporarily workable on the other, and the holding context that decides which way it resolves. That shape — not any particular feeling — is the distinction.</p>
+<p>Most of the time your thoughtware is solid. It holds its shape. You think the thoughts it permits and choose the options it makes visible. This solidity is the reason most adults change so little after twenty-five.</p>
+<p><strong>Liquid state is the temporary condition in which solid thoughtware loosens.</strong> Distinctions you have read about for years suddenly <em>land</em>. The Box that ran your last conversation is now visible <em>as</em> a Box rather than as <em>you</em>. Choices appear that did not exist five minutes ago. The room looks the same; the perceiver inside it does not.</p>
+<p>Liquid state can show up across <strong>all five bodies.</strong> Four of them you will notice and work with directly today — physical, intellectual, emotional, energetic. The fifth, the <strong>archetypal body</strong>, also stirs in a real liquid state, but you do not hunt archetypal meaning today — that body is named and worked on Day 9. For now, notice the four below and let the fifth be.</p>
+<ul>
+<li><strong>Intellectual body</strong> — confusion. Categories that worked yesterday are vague. The grab for certainty is the Box trying to re-solidify.</li>
+<li><strong>Emotional body</strong> — intensity. Feelings may rise; old emotional charge may also surface. <strong>Do not mix them together</strong> — for now, just notice whether what's moving is present-time feeling or old stored emotion. Day 5 will name the distinction precisely.</li>
+<li><strong>Physical body</strong> — fatigue or restlessness. Your nervous system is doing more work than usual.</li>
+<li><strong>Energetic body</strong> — disorientation. The "feel" of your day is different. The bubble you didn't know you had is being moved.</li>
+</ul>
+<p>If two or three are happening, you are in some degree of liquid state. That is the work. Not malfunction.</p>
+<h3>Not every liquid state is transformative</h3>
+<p>A liquid state created by alcohol, MDMA, ayahuasca, exhaustion, fever, grief or rupture is real — the thoughtware is genuinely loosened — but it <strong>does not change thoughtware</strong>, because there is no holding context inside which new thoughtware can be installed. The liquid state runs, dissipates, the solid Box reforms in the same shape. Sometimes worse, because the experience produced a story ("I had a breakthrough") the Box now incorporates as decoration.</p>
+<p>A liquid state becomes <strong>transformative</strong> when it occurs inside a <strong>holding context</strong> — a structure that names what is happening, supplies distinctions for the new thoughtware to take shape around, gives the learner equipment to stay present (center, ground, bubble), and closes the container before they leave. This course is one such context. So is a competent therapy, an in-person ETB, a Possibility Lab. Substance-induced liquid states without a holding context are spectacles, not upgrades. The discipline of doing this work in a held container is the difference between thoughtware upgrade and thoughtware tourism.</p>
+<p>A liquid state <strong>ends one of two ways</strong>: new thoughtware installs and the Box is upgraded, or the prior Box reforms in the same shape and the loosening dissipated. The five-body signature is <em>identical</em> in both cases — you cannot tell from the inside, mid-state, which one you are heading for. The holding context is what tips it toward installation. That is the whole reason not to do this work alone in an unheld liquid state: the symptoms feel the same either way, and only the container decides the outcome.</p>
+<p><strong>Common misunderstandings about liquid state.</strong></p>
+<ul>
+<li><em>"Liquid state is a peak experience."</em> It is a <em>condition</em>, not a feeling. It shows up as confusion, fatigue, or sadness as readily as expansion. The marker is that thoughtware is workable — not that anything pleasant is happening.</li>
+<li><em>"If I'm not in liquid state I'm not learning."</em> Liquid state is a window, not a destination. You spend most of the course in solid state using what was installed during the windows. Trying to <em>stay</em> liquid is a Box move dressed as spiritual practice.</li>
+<li><em>"I should fix the confusion / intensity / fatigue."</em> That discomfort is the five-body signature of the state you are here for. Center, ground, do not grab for certainty — the grab is the Box re-solidifying. Let the new distinction take.</li>
+<li><em>"I understood the distinction intellectually, so it's installed."</em> Distinctions install in liquid state, across multiple bodies, inside a holding context. Reading alone keeps the work in the intellectual body; the other four stay where they were.</li>
+</ul>
+<h3>What an actual human is — the five bodies</h3>
+<p><img src="../Maps/M06.png" alt="Map of 5 Bodies" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M06%20-%20Five%20Bodies.html">Explore M06 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map before reading on — five bodies side by side, each with its own location, its own language, its own food, no one of them sitting above the others. It is an instrument panel, not a ladder. Read the image and the table together. (A short mini-lecture exists at <code>Mini ETB Documents/The_Map_of_5_Bodies.mp4</code> — optional, watch after the main module video if you want a second pass.)</p>
+<p>You did not arrive in this course as a brain with plumbing. You arrived as a five-body organism in which the brain was the loudest body. The first job of Day 3 is to recover the other four.</p>
+<table>
+<tr><th>Body</th><th>Where it lives</th><th>Language</th><th>Fed by</th></tr>
+<tr><td><strong>Intellectual</strong></td><td>Brain · inner narrator</td><td>Words, concepts, plans</td><td>Reading, study, debate</td></tr>
+<tr><td><strong>Emotional</strong></td><td>Chest · belly · throat · soft places</td><td>The four feelings as sensations</td><td>Naming · letting it move · being witnessed</td></tr>
+<tr><td><strong>Physical</strong></td><td>Bones · muscles · breath · gut · skin</td><td>Sensation, hunger, fatigue, posture</td><td>Sleep, food, movement, touch</td></tr>
+<tr><td><strong>Energetic</strong></td><td>The subtle field around and through you · your "feel" in a room</td><td>Presence, charge, contraction, expansion</td><td>Centering, grounding, bubble work, attention</td></tr>
+<tr><td><strong>Archetypal</strong></td><td>Larger-than-personal patterns moving through you</td><td>Ego states (Parent · Child · Adult · Gremlin · Demon — Day 9), bright/shadow principles</td><td>Initiation, archetypal work, talisman, service</td></tr>
+</table>
+<p>Each body has its own <strong>intelligence</strong> as well as its own location. The emotional body knows things the intellect does not. The energetic body reads a room before the intellect catches up. The physical body holds memory the brain cannot recall. None of them is reducible to the others, and none is "higher" — calling energetic and archetypal "spiritual" and physical "lower" has quietly imported a different framework. The map is diagnostic, not a hierarchy.</p>
+<p>The point is to <strong>notice you have more bodies than you have been operating.</strong> Most learners run the intellectual body at 90% and the other four at whatever percentage their day accidentally requires. By Day 10 you should be able to <em>locate</em> any of the five in yourself within ten seconds.</p>
+<p>One distinction the map makes possible matters for everything ahead: <strong>numbness is local to one body, not global.</strong> You can be intellectually sharp and emotionally numb, physically alive and energetically collapsed. So "am I numb?" is the wrong question. The right one is <em>which body is online right now, and which is on emergency power?</em> — read each separately. (Day 5 takes this further into the emotional body specifically, where the numbness has its own measure.)</p>
+<p>A distinction lives in <strong>all five bodies.</strong> Sour milk shows up in taste (physical), nausea (emotional), the word <em>spoiled</em> (intellectual), contraction (energetic), the something-is-off recognition that crosses cultures (archetypal). When this course says <em>"experience the distinction,"</em> it means <em>register it across multiple bodies</em> — not understand it intellectually. A learner who treats every PM distinction as an intellectual proposition is doing PM in one body. The other four are where it would have worked.</p>
+<p><strong>Common misunderstandings about the five bodies.</strong></p>
+<ul>
+<li><em>"The five bodies are metaphors."</em> They are an experientially real PM map — five channels of intelligence and responsibility — not metaphor and not medical anatomy. The emotional body feels in chest and belly; the energetic body has a size and an edge. Treating them as metaphor keeps the work in the intellectual body; treating them as anatomy misses the point.</li>
+<li><em>"Some bodies are higher — energetic and archetypal are 'spiritual,' physical is 'lower.'"</em> No body is higher. Strong energetic perception with a collapsed physical body is no further along than the reverse.</li>
+<li><em>"I'm not emotional / physical / energetic — that's just not me."</em> You have all five whether you operate them or not. "Not me" is the report of a body that has been numb since you were a child. Numbness is a <em>state</em> of a body, not its absence.</li>
+<li><em>"I should work on my weakest body first."</em> PM works on all five in parallel; every module engages at least three. "Specialising" recruits the intellectual body to <em>manage</em> the weak one — the original problem in a new costume.</li>
+<li><em>"If I can't perceive my energetic body, I don't have one."</em> Everyone has all five. The energetic body's perceptual interface comes online by being practised, not by being insisted on. It develops with reps.</li>
+</ul>
+<h3>Center</h3>
+<p><img src="../Maps/M07.png" alt="Being Centered" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.html">Explore M07 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map before reading on. It draws the centering distinction directly — your center as the seat of your power, authority, and real voice, and the spaceholder's clean <em>"no thanks, I don't want your center."</em> The grounding cord, bubble, and golden cube are not on this map; they live in the text and the practice script below, because the four are taught together as one set of equipment even though one image carries the first.</p>
+<p>In ordinary usage <em>center</em> means <em>the middle</em>. In PM it means something specific: <strong>the energetic location in your body from which your choices, your will and your authority come.</strong> Not a metaphor.</p>
+<p>For most people it is in the <strong>lower belly</strong> — a hand's-width below the navel, in the area martial artists call the <em>hara</em>. For some it sits in the heart. You do not pick it; you find where it actually is.</p>
+<p>When you are not centered, your authority is somewhere else — in the other person's reaction, in your phone, in yesterday's conversation. From there you cannot make a clean choice; the Box runs the show, because the Box is what you defaulted to when you vacated the building.</p>
+<p><strong>Centering</strong> is a choice: move your attention — by intention, not visualisation — to where your authority actually lives, and remain there. Two notes:</p>
+<ul>
+<li><strong>You will not stay there.</strong> You will center, take three breaths, and discover thirty seconds later you are out in the room again. Not failure. The rep is <em>noticing you have left and returning</em>.</li>
+<li><strong>"Giving your center away"</strong> is the PM name for what most adults do most of the time — handing authority to whoever in the room seems to have it. Asking permission you don't need to ask. Pre-emptively softening your answer. You will start to see this everywhere.</li>
+</ul>
+<h3>Grounding cord</h3>
+<p>Once centered, you ground. <strong>You declare</strong> — by intention — a thick energetic cord (ship's rope, not wire) from your center to the centre of the earth. Real in the same way center is real: not a picture, a <em>declaration</em>.</p>
+<p>Two functions: <strong>discharge</strong> — energy not yours drains through the cord, you don't carry the room home; and <strong>stability</strong> — when intensity rises (emotional, energetic, archetypal), the cord lets you stay in your body rather than fly out. The difference between feeling 70% anger and being able to choose what to do with it, versus feeling 70% anger and dissociating into the ceiling. Not insulation. Not protection. A path for energy that needs a place to go.</p>
+<p>Some learners report a colour — silver, dark blue, copper. The colour does not mean anything; it is the perceptual system's way of giving you a handle on something subtle. Others report only weight in the seat. Some report nothing — still grounded, the perceptual interface has just not come online yet. It develops with practice. Do not skip the practice because it does not feel "real" yet.</p>
+<h3>Bubble</h3>
+<p>An <strong>energetic boundary</strong> declared around you — arm's-length sphere, all the way around, including under your feet and above your head. <strong>A distinction, not a protection.</strong> It does not block anything. It clarifies <em>what is yours and what is not.</em></p>
+<p>Inside: your feelings, thoughts, rhythm, energy. Outside: someone else's — real, perceptible, <em>not yours</em>.</p>
+<p>Most adults walk through the world with the bubble too big, too small, or too porous. Too big — they enmesh with everyone they get near and end the day exhausted. Too small — they collapse into themselves and report being "in their head" all the time. Too porous — they pick up every charge in the room, call it <em>theirs</em>, and spend hours processing emotions that originated three offices over.</p>
+<p><strong>A clean bubble lets you be in contact without merging.</strong> Sit with a partner in 90% sadness without taking it on. Hold a difficult conversation without bringing it home in your body. A learner with no bubble cannot do conscious feelings work safely (Day 5) — every feeling in the room becomes their feeling. A learner with no bubble gets pulled into other people's drama triangles by reflex (Day 7).</p>
+<h3>Golden cube (workspace)</h3>
+<p>A portable workshop: a cube of light, roughly the size of a small room, opened in front of you when you have something specific to construct or test. Used to try on a distinction before adopting it, run an experiment in imagination, examine a piece of your Box from outside, or test a small piece of new thoughtware before bringing it into your life.</p>
+<p>Not a "safe place" to escape to. Closer to an architect's drafting table. Workspace. Repeatable. Today opens it once. By Day 10 it should be portable and quick — opened in seconds, used, closed.</p>
+<p>The four practices <strong>compound</strong>. They are clumsy and theatrical on the first pass and available in seconds by the third or fourth. The operating posture of a PM learner at any moment of intensity is <em>centered, grounded, bubbled, with the cube open if work is being done</em> — that is what the rest of the course assumes you can reach for.</p>
+<p><strong>Common misunderstandings about center, cord, bubble, and cube.</strong></p>
+<ul>
+<li><em>"The bubble protects me from negative energy / energy vampires / attack."</em> It is a distinction, not protection. It does not block anything. Treating it as armour loses the actual function — contact without merging.</li>
+<li><em>"I can't feel anything, so it isn't real."</em> The energetic body's perceptual interface comes online by being practised. The cord, bubble, and cube work whether or not you can sense them yet. Days 5–6 will use the equipment either way.</li>
+<li><em>"Once I'm centered I should stay centered all day."</em> You will leave constantly — thirty seconds later you are out in the room again. The rep is <em>noticing you have left and returning</em>. Trying to <em>stay</em> is the Box's performance of stillness.</li>
+<li><em>"I already meditate / do yoga, so I'll use that vocabulary instead."</em> For thirty days, run the PM sequence as written, in PM terms — no chakras, no crown-opening, no channelling layered on top. Distinctions only land cleanly if you don't translate them on the way in.</li>
+<li><em>"Declaring versus visualising is the same thing."</em> It is not. <em>"My grounding cord is dropped." "My bubble is set." "The cube is open."</em> — they exist because you said so. Visualising a picture of a cord keeps the practice in the intellectual body; declaring it is an energetic-body act.</li>
+</ul>
+<hr>
+<h2>Embodied practice (solo) — Centering, Grounding Cord, Bubble, Golden Cube</h2>
+<p>A single sequence. ~15 minutes. Done alone in a room you will not be interrupted in. Sit upright or stand. You will need: a chair, water, a notebook, silence (no music, no phone).</p>
+<p>Read the script through once before doing it.</p>
+<blockquote>
+<p><strong>Script.</strong></p>
+<p>Sit upright, both feet on the floor, hands on thighs. Or stand, feet hip-width apart, knees soft, shoulders down.</p>
+<p>Three breaths. Exhale longer than inhale. Audible exhale.</p>
+<p><strong>1. Center.</strong> Move your attention to your lower belly — a hand's-width below your navel, deep inside, behind the abdominal wall. Put a hand there if it helps. Say silently or aloud: <em>"My center is here."</em> Notice if your attention is actually there or has drifted to your head. Bring it back. Sixty seconds.</p>
+<p>If your center turns out to live in your heart or somewhere else specific in your torso — locate where it actually is. Do not move it to where you think it should be.</p>
+<p><strong>2. Grounding cord.</strong> <strong>Declare</strong> — by intention — a thick energetic cord (the diameter of a ship's rope) dropping from your center, through your seat, through the floor, through the soil, to the centre of the earth. Not a visualisation. A declaration: <em>"My grounding cord is dropped."</em> It exists because you said so. Sixty seconds.</p>
+<p>Now use it. Let excess energy — tension in the shoulders, charge from your day, anything that wants to leave — drain down the cord. You do not push it. You allow it. Sixty seconds.</p>
+<p>If a colour comes — silver, blue, copper, anything — note it without making it mean anything. If no colour comes, note that too.</p>
+<p><strong>3. Bubble.</strong> Declare a sphere of personal space around you — arm's length in every direction, including under your feet and above your head. <em>"My bubble is set."</em> Notice what is inside (your body, sensations, breath, feelings, thoughts) and what is outside (the room, street noise, whoever you were just thinking about). Sixty seconds.</p>
+<p>Check the size. Is the bubble bigger than arm's length — out into the next room, the conversation that ended an hour ago? Pull it in. Is it collapsed against your skin? Push it out. Roughly arm's length.</p>
+<p><strong>4. Hold all three.</strong> Center. Cord. Bubble. All three live at the same time. Three breaths. This is the operating posture for everything ahead. Notice what it feels like — not what it <em>should</em> feel like. Quiet weight in the seat, easier breathing, a felt edge where the bubble is, or very little. Any of these is a report.</p>
+<p><strong>5. Golden cube.</strong> From this centered, grounded, bubbled state, open a cube of golden light in front of you, roughly the size of a small room, two paces away. <em>"The cube is open."</em></p>
+<p>Place <strong>one small piece of thoughtware work</strong> inside it — pick one:</p>
+<ul>
+<li>The words <em>liquid state</em> — look at them in the cube; what rises in your body?</li>
+<li>A piece of your Box from Day 2 — look at it from outside the bubble; what does it look like with this much distance?</li>
+<li>A specific situation in your life this week — a conversation, a decision — ask, <em>"What would I do here from center, ground, and bubble?"</em></li>
+</ul>
+<p>Stay centered, grounded, bubbled while you look at what is in the cube. Two or three minutes. Do not solve. Look.</p>
+<p><strong>6. Close.</strong> <em>"The cube is closed."</em> Keep your center, cord, and bubble. Three breaths. Open your eyes if they were closed. Drink water.</p>
+<p>In your notebook, fast, no editing: <em>Center — where I found it · Cord — colour or sensation · Bubble — size before / after · Cube — what I placed, what I noticed.</em> Three or four lines. The point is not insight. The point is the rep.</p>
+</blockquote>
+<p><strong>What to expect.</strong> The first attempt is partly successful, partly bewildering. Center is findable; cord is harder to <em>feel</em>; bubble seems abstract; cube feels theatrical. Normal first-day report. Repeat the sequence once more before the partner exchange — preferably with a night of sleep between. By the third pass the equipment is yours.</p>
+<p>If you go up into analysis (<em>"am I doing this right? is the cube supposed to be gold or yellow?"</em>) — that is the intellectual body trying to do an energetic-body practice. Notice it, drop back to center, continue.</p>
+<p>If you cannot find your center at all — keep looking. The Box has been occupying the location; it takes persistence to notice the underlying address.</p>
+<p>If you dissociate — float, watch yourself from outside, lose track of where you are — stop, run the universal grounding script, end the practice for today. Voice-message your partner. Try again tomorrow with eyes open.</p>
+<blockquote>
+<p><strong>Companion practice — Liquid-state recognition (~10 min).</strong> Run this once, on its own, before or after the main sequence — ideally on a different sitting. It builds the felt reference for liquid state so that when <em>this course</em> produces one, you recognise it as the work rather than as malfunction. Sit upright. Three breaths, audible exhale. Bring to mind <strong>one liquid-state moment from the past year</strong> — not a peak, but a stretch of fifteen minutes or a day where your usual thoughtware felt different: categories did not hold, options appeared that had not been there. A hard conversation. A loss. A long walk. A previous training. Pick one and stay with it 30 seconds — do not analyse. Now scan the five bodies, naming what was happening in each <em>during</em> that moment, one sentence each: <strong>intellectual</strong> — confusion, categories blurring? <strong>emotional</strong> — what intensity, feelings mixing or arriving faster? <strong>physical</strong> — fatigue or restlessness, and where do you hold the memory? <strong>energetic</strong> — disoriented, larger or smaller than usual? <strong>archetypal</strong> — was something larger than your day in the room? Then the diagnostic, one sentence: <strong>was that liquid state held by a context, or did it run you?</strong> Did anything name what was happening, supply distinctions, close the container — or did it dissipate and the prior Box reform in the same shape? Close with three breaths and water. The point is not insight; it is that you now own a felt reference for what liquid state is <em>in you</em>.</p>
+</blockquote>
+<hr>
+<h2>Partner exchange (async)</h2>
+<p>Same structure as before: record, send, receive, reply. Voice messages only — speak from your body, not from a script.</p>
+<p><strong>Prompt to record (4–8 minutes):</strong></p>
+<p>Speak to your partner directly. Three things:</p>
+<ol>
+<li><strong>Which of the five bodies you arrived over-identified with</strong> — and what surprised you about meeting one of the other four as a <em>body</em>. Be specific. Not "I learned a lot." <em>"I arrived almost entirely in my intellectual body. What surprised me was discovering my energetic body has a size, and mine was huge — I was occupying half the house."</em></li>
+<li><strong>What happened in the centering / cord / bubble sequence</strong> — as it actually went, not as you assume it was supposed to. Where did you find your center? What was the cord like? What size was your bubble before adjusting it? Did anything land — or not? Either is data.</li>
+<li><strong>One liquid-state moment from this past week</strong> — when did the thoughtware loosen? What was happening across the five bodies? Were you in a holding context, or was the liquid state running you?</li>
+</ol>
+<p>If you stumble, leave the stumble in. Do not edit.</p>
+<p><strong>When you receive your partner's message: listen all the way through once before replying.</strong> Then record (3–7 minutes):</p>
+<ol>
+<li><strong>What you heard them say</strong> — paraphrase the part that landed.</li>
+<li><strong>What you noticed in your own body while listening</strong> — a feeling (locate it), a sensation, an energetic shift. <em>"While you described your bubble, mine pulled in by a foot."</em> That kind of report.</li>
+<li><strong>One open-ended question</strong> that lands in their body, not their head. <em>"How big was your bubble in your last hard conversation?"</em> is the shape.</li>
+</ol>
+<p>No advice. No fixing. Witnessing only. If your partner reports a liquid-state moment larger than partner-exchange can hold, gently say so and remind them the CM is reachable — then continue witnessing.</p>
+<hr>
+<h2>Between-module experiment</h2>
+<p>Pick <strong>one</strong>. Run it once, in your actual life, before Day 4.</p>
+<ol>
+<li><strong>The centered conversation.</strong> In one ordinary conversation in the next 48 hours, silently center, drop the cord, and set the bubble before you start speaking — and hold them through. No announcement. Notice what is different in you and in the other person. (Most learners report the other person changes noticeably without knowing why.)</li>
+<li><strong>The body-of-the-day scan.</strong> Three times in the next 48 hours — morning, mid-work, before sleep — stop for thirty seconds and rate each body 0–10, in order: <strong>intellectual</strong> (clear, foggy, looping, quiet?) · <strong>emotional</strong> (anything in chest, belly, throat — anger, sadness, fear, joy at any percentage?) · <strong>physical</strong> (tension where, hunger, fatigue, breath?) · <strong>energetic</strong> (collapsed, expanded, leaking, contained — bubble size?) · <strong>archetypal</strong> (anything larger than my day present?). Write the five numbers in a row. Notice <strong>which is highest</strong> (usually intellectual) and <strong>which is lowest</strong> (usually emotional or energetic). Three rows of five numbers over the two days; you will start to see which bodies live on emergency power in your week and which get fed. Not a problem to fix — the map of where you are.</li>
+<li><strong>The bubble check at a high-charge moment.</strong> Next time you feel a strong charge in a public space — meeting, supermarket, family dinner — pause and check the bubble. How big is it? The size of you, or the size of the room? Pull it back to arm's length. Notice what changes — usually the charge drops by half.</li>
+</ol>
+<p>Capture in 2–3 sentences what happened. You will use it in your reflection.</p>
+<hr>
+<h2>Reflection prompts</h2>
+<p>Journal at your own pace. Longhand if you can.</p>
+<ol>
+<li>Of the five bodies, which one have I been running my adult life from? What has been the cost? What would change if the other four came online?</li>
+<li>Where, exactly, is my center? Not where I think it should be — where I actually found it. What was the felt difference between being centered and not?</li>
+<li>When in my recent life have I been in liquid state <em>without</em> a holding context — a break-up, an exhausted week, a substance experience, a sudden loss? What thoughtware <em>almost</em> changed, then re-set?</li>
+<li>My bubble — what is its default size? When does it expand (whose presence makes me leak out)? When does it collapse? What would my week look like with the bubble at arm's-length all day?</li>
+<li>Where in my life do I keep giving my center away? Name the specific situation, person, and habit. You do not have to change it yet. Just see it.</li>
+</ol>
+<hr>
+<h2>Safety callouts for this module</h2>
+<p>Day 3 is <strong>Low intensity</strong>. The cognitive content lands easily; the energetic-body practices are subtle. Three things to watch for:</p>
+<ul>
+<li><strong>The "this is woo" reaction.</strong> Particularly common in intellectually-trained learners when asked to <em>declare</em> a cord or <em>set</em> a bubble. The Box hears the instructions as silly. The Box is correct that these are not intellectual-body instructions; the Box is incorrect that this makes them unreal. You do not have to <em>believe</em> the cord exists. You have to <em>declare</em> it and notice what changes. Doing the practice while the intellectual body protests is part of the rep.</li>
+<li><strong>The "I can't feel anything" reaction.</strong> Some learners report nothing — no center, no cord, no bubble. Not failure. The energetic body's perceptual interface comes online by being practised, not by being insisted on. Do the sequence again tomorrow. Days 5–6 will use the equipment whether or not you can yet sense it directly; it works either way.</li>
+<li><strong>Old practices interfering.</strong> Learners with meditation, yoga, or somatic-therapy background sometimes find their existing practices want to take over — adding chakras, opening crowns, channelling, breath patterns. Notice the substitution. For the next 30 days, run the PM sequence as written, in PM terms. Distinctions only land cleanly if you don't translate them into vocabulary from elsewhere on the way in.</li>
+</ul>
+<p>The universal grounding script (top of <code>03 - Safety and Facilitation Framework.md</code>) applies. If you notice you are floating, dissociating, or shutting down — stop, ground, decide.</p>
+<p>This course is not therapy. The energetic-body practices are not a treatment for anything. If today's material brings up something larger than the course is built to hold, use the referral list.</p>
+<hr>
+<h2>Cohort feed post (suggested)</h2>
+<p>One line each, no more:</p>
+<ul>
+<li>Which body I arrived over-identified with: …</li>
+<li>What my center / cord / bubble / cube practice surfaced: …</li>
+<li>(Optional) one question for the group: …</li>
+</ul>
+<hr>
+<h2>Glossary additions</h2>
+<ul>
+<li><strong>Liquid state</strong> — the temporary condition in which solid thoughtware loosens and new thoughtware can be installed; symptomatic across all five bodies; transformative only when held by a context</li>
+<li><strong>Holding context</strong> — the structure that turns a liquid state from spectacle into thoughtware upgrade; names what is happening, supplies distinctions, provides equipment, closes the container</li>
+<li><strong>The five bodies</strong> — intellectual, emotional, physical, energetic, archetypal; what a human actually is</li>
+<li><strong>Intellectual body</strong> — thoughts, concepts, language, planning; the loudest body for most modern adults</li>
+<li><strong>Emotional body</strong> — present-time feelings (anger, sadness, fear, joy) as sensations; worked Days 5–6</li>
+<li><strong>Physical body</strong> — sensation, movement, breath, gut, skin, posture</li>
+<li><strong>Energetic body</strong> — the subtle field around and through you; presence, charge, the "feel" of you in a room</li>
+<li><strong>Archetypal body</strong> — larger-than-personal patterns moving through you; ego states (Day 9), bright/shadow principles (Day 10)</li>
+<li><strong>Over-identification with one body</strong> — running adult life from a single body while the other four operate on emergency power; the default the course recalibrates</li>
+<li><strong>Local numbness</strong> — numbness is per-body, not global; you can be intellectually sharp and emotionally numb, physically alive and energetically collapsed; the question is <em>which body is online</em>, not <em>am I numb</em></li>
+<li><strong>Declared, not visualised</strong> — the energetic-body practices (cord, bubble, cube) exist because you state them, not because you picture them; visualising keeps the practice in the intellectual body</li>
+<li><strong>Center</strong> — the energetic location in your body (typically lower belly / hara) from which your choices, will and authority come; not a metaphor</li>
+<li><strong>Centering</strong> — moving attention by intention to your center and remaining there; the rep is <em>noticing you have left and returning</em></li>
+<li><strong>Giving your center away</strong> — handing authority to whoever in the room seems to have it; pre-emptive softening; asking permission you do not need</li>
+<li><strong>Grounding cord</strong> — an energetic cord declared from your center to the centre of the earth; discharge and stability</li>
+<li><strong>Bubble</strong> — an arm's-length energetic boundary; a distinction, not a protection; clarifies what is yours and what is not</li>
+<li><strong>Golden cube / workspace</strong> — a portable, declared creative space inside which thoughtware is constructed and tested</li>
+</ul>
+<hr>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+  </main>
+  <nav class="page-nav">
+    <a href="day-02.html">&#8592; Day 2</a>
+    <a href="../index.html">&#8962; Front Door</a>
+    <a href="day-04.html">Day 4 &#8594;</a>
+  </nav>
+</div>
+<footer>
+  <p>Archived May 2026 edition &mdash; <a href="../"
+     >current edition June 2026</a> &mdash;
+  🄯 World Copyleft 2026 &middot; CC BY-SA 4.0 &middot;
+  <a href="../LICENSE.md">LICENSE.md</a></p>
+</footer>
+</body>
+</html>

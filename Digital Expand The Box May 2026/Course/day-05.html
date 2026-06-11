@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 5 — Feelings vs Emotions · Old Map of Feelings · Numbness Bar · Expand the Box (May 2026 archive)</title>
+<link rel="stylesheet" href="../_assets/fonts/fonts.css">
+<style>
+
+:root {
+  --ivory: #f4ecdc;
+  --ivory-shade: #ece2c8;
+  --ivory-deep: #e3d7b9;
+  --ink: #0e0a05;
+  --ink-soft: #2a221a;
+  --ink-mute: #4a3f30;
+  --rule: #b8a98a;
+  --vermillion: #c43b1c;
+  --vermillion-deep: #962a13;
+  --vermillion-soft: rgba(196,59,28,0.08);
+  --mustard: #d8b04a;
+  --mustard-text: #b8902c;
+  --sky: #4a6b7c;
+  --display: 'Fraunces','EB Garamond',Georgia,serif;
+  --body: 'EB Garamond',Georgia,serif;
+  --mono: 'JetBrains Mono','Courier New',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--body);
+  background:var(--ivory);
+  color:var(--ink);
+  font-size:18px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse at top left,rgba(216,176,74,0.06) 0%,transparent 40%),
+    radial-gradient(ellipse at bottom right,rgba(196,59,28,0.04) 0%,transparent 50%);
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:1;opacity:0.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.055 0 0 0 0 0.04 0 0 0 0 0.02 0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.wrap{max-width:860px;margin:0 auto;padding:36px 40px 80px;position:relative;z-index:2;}
+.archive-banner{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  color:var(--ink-mute);background:var(--ivory-shade);border:1px solid var(--rule);
+  border-left:3px solid var(--mustard);padding:10px 16px;margin-bottom:28px;
+}
+.archive-banner a{color:var(--ink-mute);text-decoration:underline;}
+.archive-banner a:hover{color:var(--vermillion);}
+nav.breadcrumb{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--ink-mute);padding-bottom:24px;border-bottom:1px solid var(--rule);
+  margin-bottom:32px;display:flex;gap:16px;flex-wrap:wrap;align-items:baseline;
+}
+nav.breadcrumb a{color:var(--ink-mute);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;transition:all 0.2s;}
+nav.breadcrumb a:hover{color:var(--vermillion);border-bottom-color:var(--vermillion);}
+nav.breadcrumb .sep{color:var(--rule);}
+nav.page-nav{
+  display:flex;justify-content:space-between;align-items:center;
+  margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  flex-wrap:wrap;gap:12px;
+}
+nav.page-nav a{
+  color:var(--ink-mute);text-decoration:none;
+  border:1px solid var(--rule);padding:8px 16px;
+  transition:all 0.2s;
+}
+nav.page-nav a:hover{color:var(--vermillion);border-color:var(--vermillion);}
+main h1{
+  font-family:var(--display);font-weight:350;font-size:clamp(1.8rem,4vw,2.8rem);
+  letter-spacing:-0.01em;line-height:1.15;color:var(--ink);margin:8px 0 32px;
+}
+main h2{
+  font-family:var(--display);font-weight:350;font-size:1.5rem;
+  color:var(--ink);margin:2.4em 0 0.6em;
+}
+main h3{
+  font-family:var(--body);font-weight:700;font-size:1.05rem;
+  color:var(--ink-soft);margin:2em 0 0.5em;
+}
+main h4{font-family:var(--body);font-weight:700;font-size:0.95rem;margin:1.6em 0 0.4em;}
+main p{margin-bottom:1.1em;}
+main a{color:var(--vermillion-deep);text-decoration:underline;}
+main a:hover{color:var(--vermillion);}
+main strong{font-weight:700;}
+main em{font-style:italic;}
+main code{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:1px 5px;border-radius:2px;
+}
+main pre{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:16px 20px;overflow-x:auto;margin:1.2em 0;line-height:1.45;
+}
+main pre code{background:none;border:none;padding:0;font-size:inherit;}
+main blockquote{
+  border-left:3px solid var(--vermillion);
+  margin:1.4em 0;padding:12px 24px;
+  background:var(--vermillion-soft);color:var(--ink-soft);
+}
+main blockquote p:last-child{margin-bottom:0;}
+main table{
+  width:100%;border-collapse:collapse;margin:1.4em 0;font-size:0.92em;
+}
+main th,main td{
+  border:1px solid var(--rule);padding:8px 14px;text-align:left;
+}
+main th{background:var(--ivory-shade);font-family:var(--mono);font-size:0.8em;letter-spacing:0.06em;text-transform:uppercase;}
+main ul,main ol{margin:0.6em 0 1em 1.8em;}
+main li{margin-bottom:0.3em;}
+main hr{border:none;border-top:1px solid var(--rule);margin:2.4em 0;}
+main img{max-width:100%;height:auto;display:block;margin:1.4em auto;border:1px solid var(--rule);}
+footer{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.08em;
+  color:var(--ink-mute);text-align:center;
+  padding:28px 40px;border-top:1px solid var(--rule);
+  position:relative;z-index:2;
+}
+footer a{color:var(--ink-mute);text-decoration:underline;}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+@media(max-width:600px){.wrap{padding:24px 20px 60px;}}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="archive-banner">Archived May 2026 edition — the current course is the <a href="../Digital%20Expand%20The%20Box%20June%202026/index.html">June 2026 edition</a>.</div>
+  <nav class="breadcrumb">
+    <a href="../index.html">Expand the Box — May 2026</a>
+    <span class="sep">/</span>
+    <a href="../index.html#course">Course</a>
+    <span class="sep">/</span>
+    <span>Day 5 — Feelings vs Emotions · Old Map of Feelings · Numbness Bar</span>
+  </nav>
+  <main>
+<h1>Day 5 — Feelings vs Emotions · Old Map of Feelings · Numbness Bar</h1>
+<table>
+<tr><th><strong>Intensity</strong></th><th><strong>HIGH</strong></th></tr>
+<tr><td><strong>Time</strong></td><td>~3 hours active across 3–4 days</td></tr>
+<tr><td><strong>Partner check-in required before?</strong></td><td><strong>YES — required, no override.</strong> See unlock checklist in <code>04 - Container and Gatekeeping Protocol.md</code> Section D.</td></tr>
+<tr><td><strong>Source videos</strong></td><td><code>12 - Old Map of Feelings_EN.mp4</code> · <code>13 - Map of Numbness Bar_EN.mp4</code> · <code>14 - New Map of Feelings_EN.mp4</code></td></tr>
+<tr><td><strong>Maps (taught in this module)</strong></td><td>M08 Old Map of Feelings · M09 Numbness Bar · M10 New Map of Feelings — each also a standalone interactive tool in the <a href="../Map%20Atlas/index.html"><strong>Map Atlas</strong></a></td></tr>
+</table>
+<blockquote>
+<p><strong>Grounding (60 seconds).</strong> Top of <code>03 - Safety and Facilitation Framework.md</code> Section D. Read it now. You will use it inside this module.</p>
+</blockquote>
+<hr>
+<h2>Consent check (read before continuing)</h2>
+<blockquote>
+<p>This module engages <strong>the emotional body directly</strong>. Material that has been managed by avoidance — anger you were not allowed to feel, sadness you cut off, fear you learned to call something else, joy you suppressed — may surface.</p>
+<p>Before continuing, confirm to yourself:</p>
+<ul>
+<li>My partner is reachable today and tomorrow.</li>
+<li>I have at least 90 uninterrupted minutes ahead of me.</li>
+<li>I am not in acute crisis or under the influence right now.</li>
+<li>I know how to ground.</li>
+<li>I know how to reach the CM if I need to.</li>
+</ul>
+<p>If any of the above is not true, pause this module and come back when it is. If all are true and you choose to continue, take a slow breath and begin.</p>
+</blockquote>
+<blockquote>
+<p><strong>Readiness check (10 seconds).</strong> Can you find your center, drop a grounding cord, and set a bubble on demand (Day 3)? This module asks you to stay present <em>while feelings move</em> — that takes the equipment. If you can't yet, that's not failure: re-read <a href="../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md">M07</a> and do its practice first. (Full self-check: <code>Facilitator Resources/Learning Self-Assessment.md</code>.)</p>
+</blockquote>
+<blockquote>
+<p><strong>If your partner has gone quiet.</strong> This module is partner-gated for a reason — you should not do it alone. But a silent partner must never strand you. If your partner hasn't responded and you want to proceed, <strong>message your CM</strong>: there is a real fallback — a witness partner, or a CM-held exchange — so you are accompanied. Don't do the High-intensity practice with no one on the other end, and don't let a non-responsive pairing stall you indefinitely. The fallback is yours to ask for.</p>
+</blockquote>
+<hr>
+<h2>Purpose</h2>
+<p>To install the three distinctions the rest of the emotional-body work depends on: <strong>feeling vs. emotion</strong>, the <strong>Old Map</strong> you arrived with, and the <strong>Numbness Bar</strong> you have been operating above.</p>
+<p>Day 5 is not the day you heal anything — Day 6 is. Day 5 is the day you build the map you will be healing with. Without these distinctions, Day 6 looks like generic catharsis. With them, it looks like surgery — you know which tissue is feeling, which is emotion, which is story, and what each one is for.</p>
+<p>This module relies on the five-bodies work from Day 3. You will need to find your emotional body as distinct from your intellectual body. If that distinction is not yet living for you, pause and re-read M07 before continuing.</p>
+<hr>
+<h2>Core PM concepts</h2>
+<ul>
+<li><strong>Feeling</strong> — a present-time archetypal energy in the emotional body. One of <strong>four</strong>: anger, sadness, fear, joy. Clean, time-limited (3–5 minutes), informational, takes responsible action.</li>
+<li><strong>Emotion</strong> — a past-time, mixed, story-laden state. A feeling that did not move when it arose, got stored, and is now running on autopilot. Lasts longer than 5 minutes. Repeats rather than acts.</li>
+<li><strong>The Old Map of Feelings</strong> — patriarchal-paradigm thoughtware: feelings sorted into "good" and "bad," three of four forbidden, maintained through numbness.</li>
+<li><strong>Numbness Bar</strong> — threshold below which feelings do not register. Installed in childhood as protection. Lowers with practice.</li>
+<li><strong>The four feelings as archetypal energies</strong> — anger, sadness, fear, joy as forces, not problems. Each has a body location, a purpose, and a shadow form when stored.</li>
+<li><strong>Conscious feelings work</strong> — feeling on purpose, at chosen intensity, for chosen duration, in service of what you actually care about.</li>
+</ul>
+<hr>
+<h2>Learning outcomes</h2>
+<p>By the end of this module you will:</p>
+<ol>
+<li>State, in your own words, the difference between <strong>feeling</strong> and <strong>emotion</strong> — and apply the <strong>5-minute test</strong> to your own experience.</li>
+<li>Name each of the <strong>four feelings</strong> by its archetypal purpose, body location, asked-for action, and common shadow form.</li>
+<li>Have located, in your own history, three specific items on <strong>your Old Map of Feelings</strong>.</li>
+<li>Have experienced lowering your <strong>Numbness Bar</strong> at least one notch — registering a feeling at low intensity (≤20%) you would normally not have noticed.</li>
+<li>Have completed a partner exchange in which you spoke a feeling rather than a story about a feeling.</li>
+</ol>
+<hr>
+<h2>Module flow</h2>
+<table>
+<tr><th>Step</th><th>Time</th><th>What you do</th></tr>
+<tr><td>1</td><td>10 min</td><td>Read the header and consent check. Confirm partner is reachable.</td></tr>
+<tr><td>2</td><td>12 min</td><td>Watch <code>12 - Old Map of Feelings_EN.mp4</code></td></tr>
+<tr><td>3</td><td>10 min</td><td>Watch <code>13 - Map of Numbness Bar_EN.mp4</code></td></tr>
+<tr><td>4</td><td>15 min</td><td>Watch <code>14 - New Map of Feelings_EN.mp4</code></td></tr>
+<tr><td>5</td><td>35 min</td><td>Read <strong>Concept teaching notes</strong>, slowly — study each map image where it sits, and do the two micro-practices inline</td></tr>
+<tr><td>6</td><td>25 min</td><td><strong>Low-Intensity Feelings practice</strong> (solo, embodied)</td></tr>
+<tr><td>7</td><td>20 min</td><td><strong>Partner voice exchange</strong> (record + send)</td></tr>
+<tr><td>8</td><td>—</td><td>Receive partner reply within 24 hours; record your reply</td></tr>
+<tr><td>9</td><td>2 days</td><td>Run the <strong>between-module experiment</strong></td></tr>
+<tr><td>10</td><td>20 min</td><td>Journal the <strong>reflection prompts</strong></td></tr>
+<tr><td>11</td><td>1 min</td><td>Post one line to the cohort feed</td></tr>
+</table>
+<p>Spread the module across 3–4 days. The emotional body needs time to digest material between sessions.</p>
+<hr>
+<h2>Concept teaching notes</h2>
+<h3>Feeling vs emotion</h3>
+<p>Most of the popular world uses <em>feeling</em> and <em>emotion</em> interchangeably. PM does not.</p>
+<p>A <strong>feeling</strong> is a present-time experience in the emotional body. It arises because of something happening <em>right now</em>. It is one of four: anger, sadness, fear, joy. It is short — three to five minutes at full intensity, then it passes. It is <strong>informational</strong> — it tells you what you care about and what to do next. It is <strong>clean</strong> — no story, no interpretation, no "because you always…"</p>
+<p>An <strong>emotion</strong> is a past-time experience. A feeling that arose at some earlier point — a year ago, twenty years ago, in childhood — and was not allowed to move. It got stored. It is now running on autopilot, often triggered by something in the present that resembles the past. Emotions last <em>longer</em> than five minutes. They mix together. They come with a story. They do not take responsible action — they repeat.</p>
+<blockquote>
+<p>The clearest field test: <strong>how long has this been going on?</strong> If five minutes later you are still in it, you are in an emotion. The feeling, if there ever was one underneath, has been replaced by the emotional loop on top.</p>
+</blockquote>
+<p>Both are real. Both are useful. They have <strong>different purposes</strong>. A <strong>feeling</strong> brings the information of your values into your consciousness and gives you fuel to create what you care about. Anger says <em>make a boundary</em>. Sadness says <em>let this go</em>. Fear says <em>prepare</em>. Joy says <em>more of this</em>. An <strong>emotion</strong> brings the information of your survival-thoughtware into your consciousness and gives you fuel to <strong>heal</strong> — through the emotional healing process (Day 6). An emotion is an open wound waiting for the right conditions to close.</p>
+<p>Confusing the two is the single most common error. The learner feels an emotion of anger toward their partner, mistakes it for a present-time feeling, "expresses" it as if it were information about the partner — and creates damage. The anger had nothing to do with the partner. It was about the third-grade teacher. The partner was the trigger, not the source.</p>
+<p>This is not subtle. It is the difference between a useful tool and a recurring blast radius.</p>
+<h3>The Old Map of Feelings</h3>
+<p><img src="../Maps/M08.png" alt="Old Map of Feelings" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M08%20-%20Old%20Map%20of%20Feelings.html">Explore M08 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map before reading on. Notice its shape: two columns, a good one and a bad one, with three of the four feelings dropped into "bad" and the fourth held under suspicion. That sort — not the contents — is the whole error.</p>
+<p>You arrived at this course with a map of feelings. You did not choose it. It was installed in childhood by the culture, the family, the schoolyard, the workplace. It is patriarchal-paradigm thoughtware — built for control, maintained through numbness.</p>
+<p>The Old Map sorts feelings into <strong>good</strong> and <strong>bad</strong>:</p>
+<table>
+<tr><th>Feeling</th><th>Old Map verdict</th><th>Old Map rule</th></tr>
+<tr><td><strong>Anger</strong></td><td>BAD — dangerous, "out of control." Especially forbidden for women and "nice" people.</td><td>Swallow it. Or redirect to a safer target. Never at the actual source.</td></tr>
+<tr><td><strong>Sadness</strong></td><td>BAD — weakness, self-pity, "bringing everyone down."</td><td>Get over it. Don't cry in public. Don't cry at work.</td></tr>
+<tr><td><strong>Fear</strong></td><td>BAD — cowardice, "you're being dramatic."</td><td>Hide it. Pretend confidence. Push through.</td></tr>
+<tr><td><strong>Joy</strong></td><td>SUSPECT — self-indulgent, "what's wrong, you're too happy."</td><td>Tone it down. Don't make others jealous.</td></tr>
+</table>
+<p>The Old Map has <strong>no good feelings</strong>, only a thin permitted band of muted positive states ("fine," "good," "not too bad"). Three of the four are forbidden outright; the fourth is conditionally allowed and routinely diluted.</p>
+<p>The sort is <strong>gendered and cultural</strong>. Which feeling sits in which column shifts with where you were raised and who you were raised to be. Across most patriarchal cultures, anger is suppressed hardest in women and in people trained to be "nice"; sadness and fear are suppressed hardest in men. The specifics vary by culture. The structure does not.</p>
+<p>What happens to a feeling the Old Map forbids? It does not disappear. It gets <strong>stored</strong> — becomes an emotion — and shows up later, in distorted form, at the wrong place, the wrong intensity, toward the wrong person. The costs are predictable: stored emotion, mixed-emotion soup, recurring "for no reason" outbursts, drama (because feelings that cannot flow directly find indirect routes), and chronic low-grade depression dressed up as "stress."</p>
+<p>The Old Map keeps people functional inside patriarchal cultures. It also makes them <strong>numb</strong>. The numbness is not a side effect — it is the load-bearing mechanism. The map only works if the person stops noticing what they actually feel. (That mechanism has a name and a shape — the <strong>Numbness Bar</strong> — and it is the next thing this module installs.) Put differently: the Old Map is appropriate technology for the wrong destination. It is functional in patriarchal culture and cannot run an archiarchal one — a culture organized around bright principles, distributed authority, and conscious relating. This is not a moral verdict on the map. It is a statement about what it was built to do.</p>
+<p>You are not here to fight your Old Map. You are here to <strong>see</strong> it — to identify the specific rules you carry — so it stops running you in the background. Naming the rule is most of the work.</p>
+<p><strong>Common misunderstandings about the Old Map.</strong></p>
+<ul>
+<li><em>"The Old Map is bad and I need to get rid of it."</em> No. It is functional thoughtware for a particular culture. Fighting it just installs another version of it — the same good/bad sort, now with "fighting my map" in the good column. The move is to <strong>see</strong> it and name its rules, then stop running them silently.</li>
+<li><em>"My family was healthy — we didn't have Old Map rules."</em> Every learner arrived with an Old Map. If you cannot find your rules, your Numbness Bar is set high enough that they are running below your registration. Look smaller. Ask which feeling you literally cannot find when you go looking for it.</li>
+<li><em>"The Old Map is a Western / modern / capitalist thing."</em> Versions of it run in nearly every patriarchal culture on the planet. The contents differ; the structure is the same.</li>
+<li><em>"Once I see my Old Map, I'm done with it."</em> Seeing the map is the start, not the finish. The emotions it already stored are still in your emotional body — those get released later, through the emotional healing process (Day 6), not by insight today.</li>
+</ul>
+<h3>The Numbness Bar</h3>
+<p><img src="../Maps/M09.png" alt="Numbness Bar" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M09%20-%20Numbness%20Bar.html">Explore M09 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map: a single horizontal line drawn across the emotional body. Everything above it, you feel. Everything below it is still happening — you just don't perceive it. Hold that image while you read.</p>
+<p>Picture a horizontal line in your emotional body. Above the line, feelings register. Below the line, feelings still happen, but you do not perceive them. That line is your <strong>Numbness Bar</strong>.</p>
+<p>It was installed early, often before age six. It was protective: as a child you encountered feelings that were too big, that no one helped you process, that put you in danger if you expressed them. The Numbness Bar cut them off so you could keep functioning. This was intelligent. It was survival.</p>
+<p>It is also obsolete. You are no longer six. The bar that protected you then is now the reason you cannot register the warning anger when a colleague crosses a line, cannot feel the sadness that would let you grieve a finished relationship, cannot detect the fear that would tell you not to take the meeting, cannot access the joy that would tell you you have found your work.</p>
+<p>Most adults live with the bar at <strong>70–90% numb</strong> — they experience 10–30% of their emotional body's signal and call that their full range. When the course says "lower the numbness bar," learners often hear "feel everything at maximum intensity" and brace. The opposite happens: learners discover that <strong>full intensity is far less than they feared</strong>, because they have been operating on so little signal they assumed "full" must be overwhelming.</p>
+<p>One thing the map flattens that matters in practice: <strong>the bar is local, not global.</strong> You do not have one Numbness Bar — you have four, one per feeling. You can feel anger fully and be numb to joy. You can be wide open in fear and shut down in sadness. So "am I numb?" is the wrong question. The right question is <em>which feeling can I find right now, and which one can't I?</em> Read each feeling separately.</p>
+<p>And the bar is not a fixed setting you adjust once. It <strong>moves with conditions</strong> — stress, exhaustion, the Box feeling threatened all raise it temporarily. The work is not "lower it once and you're done." It is "keep noticing where the line sits today."</p>
+<p>The bar drops over time. Not in one practice. Not in one module. Through repeated, <strong>low-intensity</strong> work — feeling 5%, then 10%, then 20% of a feeling on purpose, with consent, in a held container. Each rep lowers the bar a notch. (There are two tools for two layers here: solo low-intensity practice, like this module's, lowers the bar for everyday real-time signal; the emotional healing process in Day 6 goes after the <em>stored</em> material the bar has been holding down. Different layers, different tools.)</p>
+<p>The Numbness Bar is the reason this module's practice starts at <strong>low intensity</strong>. You are not here to crack open. You are here to register a signal you have not been receiving.</p>
+<blockquote>
+<p><strong>Micro-practice — the Per-Feeling Bar Reading (3 minutes).</strong> Do this now, before reading on. Center, ground, drop a bubble. For each of the four feelings — anger, sadness, fear, joy — ask out loud: <em>"Right now, in my emotional body, how much of this feeling am I registering, 0 to 10?"</em> Say the number. Don't justify it; the first reading is the reading. Then for each one ask: <em>"If the bar were one notch lower, what would I be feeling?"</em> — and stay 20 seconds. The answer is usually a sensation, not a sentence — a flicker of heat, a small tightness, an almost-imperceptible buzz. <em>Almost</em> nothing is data. Finish with one line: <em>"Today my anger bar is low, my fear bar is medium, my sadness and joy bars are high"</em> — your own pattern. That sentence is your bar reading for today. Tomorrow's will be different. You are not fixing anything; you are learning where the line sits.</p>
+</blockquote>
+<p><strong>Common misunderstandings about the Numbness Bar.</strong></p>
+<ul>
+<li><em>"If I don't feel anything, the feeling isn't there."</em> Below the bar the feeling is present and unregistered — still operating in your system, still using your energy, still surfacing later as a mixed emotion. The bar is a perceptual cutoff, not a vacuum.</li>
+<li><em>"I should feel everything at full intensity to lower the bar fast."</em> High-intensity flooding usually triggers the Box to reinstall the bar harder. The lever is the 2%, not the 100%.</li>
+<li><em>"I'm just not an emotional person."</em> "Not emotional" is almost always a high Numbness Bar. You have the same emotional body anyone has — you have been operating above the bar so long it feels like baseline. The bar lowers; the baseline shifts.</li>
+<li><em>"Lowering the bar means I'll be a wreck and unable to function."</em> The opposite. More signal reaching you in real time means better choices. Functionality usually improves once stored emotions stop running you from underneath.</li>
+</ul>
+<h3>The new map — the four feelings as they actually are</h3>
+<p><img src="../Maps/M10.png" alt="New Map of Feelings" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M10%20-%20New%20Map%20of%20Feelings.html">Explore M10 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map before reading on — four feelings, each with a body location, a purpose, an asked-for action, and a shadow form it takes when stored. No good column. No bad column. Just four tools and what each one is for. The table below is the same map in words; read the image and the table together.</p>
+<p>PM treats the four feelings as <strong>archetypal energies</strong> — forces with characteristic shape, body location, purpose, and a recognizable shadow form when stored rather than moved.</p>
+<table>
+<tr><th>Feeling</th><th>Body location</th><th>Purpose / energy is for</th><th>Asked-for action</th><th>Shadow form (stored as emotion)</th></tr>
+<tr><td><strong>Anger</strong></td><td>Bones · big muscles of legs, arms, jaw · hands</td><td>Make boundaries · change what is not life · clarify what matters · start and stop things — <em>without blame</em></td><td>Say no. Stand. Push back. Make the cut. Decide.</td><td>Rage · resentment · bitterness · passive aggression · collapsed compliance · violence</td></tr>
+<tr><td><strong>Sadness</strong></td><td>Heart · throat · soft tissue of the face · eyes</td><td>Release · honor what is gone · open the heart · receive care</td><td>Cry. Slow down. Let go. Be held.</td><td>Depression · self-pity · chronic grief · emotional shutdown · martyr stance</td></tr>
+<tr><td><strong>Fear</strong></td><td>Nervous system · skin · the small nerves · belly</td><td>Bring presence · prepare · avoid actual danger · catalyze precision</td><td>Slow down. Sense. Check the ground. <em>Move away only if the signal says move.</em></td><td>Anxiety · paranoia · panic · avoidance · hyper-vigilance · freeze</td></tr>
+<tr><td><strong>Joy</strong></td><td>Energetic body · whole organism · the eyes</td><td>Connect · appreciate · celebrate · expand · invite others in</td><td>Speak it. Move toward it. Share it.</td><td>Mania · forced positivity · spiritual bypass · addictive pleasure · numb pleasantness</td></tr>
+</table>
+<p>Four notes on the new map:</p>
+<ul>
+<li><strong>There are four. Not five. Not eight.</strong> "Love" is not a feeling — it is an archetypal force of nature, much larger than the emotional body. "Frustration," "overwhelm," "stress," "burnout" are not feelings — they are stories about mixed emotions. The discipline of the four is what makes the work clean. Resist the pull to add to the list.</li>
+<li><strong>None of the four is good or bad.</strong> Each is a tool. The shadow form is what happens when the tool was not allowed to do its job in real time, so it stuck. Even the shadow forms are not "bad" — they are signals that emotional healing process work is waiting.</li>
+<li><strong>Sensation, not story.</strong> When you locate a feeling, locate the <strong>sensation</strong> — <em>heat in the chest, tightness in the jaw, buzzing in the hands, weight behind the eyes.</em> The sensation is the feeling. The thought about it is the story. The course will keep asking you to drop from the second to the first.</li>
+<li><strong>The feeling tells you what you care about.</strong> If you feel anger, something you value is being violated. If sadness, something you valued is gone. If fear, something you value is at risk. If joy, something you value is alive and present. The feeling is information about you, not about the trigger.</li>
+</ul>
+<p><strong>Common misunderstandings about the new map.</strong></p>
+<ul>
+<li><em>"The body locations are metaphorical."</em> They are literal. Anger lives in bones and big muscles. Sadness in heart and throat. Fear in the nervous system and belly. When you go looking for a feeling, look for the sensation in <em>those specific places</em>. The location is anatomy, not poetry.</li>
+<li><em>"Frustration is a feeling."</em> Frustration is a story about a mixed emotion — usually some anger plus a story about helplessness. Restate it as its components: <em>"I have some anger and some sadness."</em> Same for "overwhelm," "stress," "burnout."</li>
+<li><em>"If I feel two things at once, one of them must be wrong."</em> Multiple feelings often arrive together. That is normal. When they tangle, store, and attach to a memory and a story, that is a <em>mixed emotion</em> — and it gets processed in Day 6, not untangled by force today.</li>
+<li><em>"Shadow forms are pathologies I need to fix."</em> A shadow form is a signal that the feeling underneath got stored. You do not fix the shadow form. You release the stored feeling — through the emotional healing process (Day 6) — and its energy returns.</li>
+</ul>
+<h3>Low-intensity feelings</h3>
+<p>Learners assume feelings only count when they are big. <em>Real</em> anger is rage. <em>Real</em> sadness is sobbing. This is the Old Map talking.</p>
+<p>In the new map, <strong>low-intensity feelings are the most useful kind</strong> — because they arrive in real time, give you information, and let you respond before the situation has compounded into emotion. A 5% anger noticed in the moment a colleague crosses a line lets you say <em>"that one I want to come back to."</em> A 70% anger noticed three weeks later, in your kitchen, at your partner who was not there, is an emotional healing process waiting to happen.</p>
+<p>The course works the low end on purpose. Here, the rep is: notice the 5%. Lower the bar.</p>
+<hr>
+<h2>Embodied practice (solo) — Low-Intensity Feelings</h2>
+<p>A single concrete practice. ~25 minutes. Done alone, in a room you will not be interrupted in. You will need: a chair, water, a notebook, and a small object from your surroundings (a mug, a book, a photo, a piece of clothing — anything within arm's reach).</p>
+<p>Read the script through once before you do it.</p>
+<blockquote>
+<p><strong>Script.</strong></p>
+<p>Sit. Both feet on the floor. Center, ground, drop a bubble (Day 3 practice — if it has fallen out of your body, re-read M05 first).</p>
+<p>Pick up the object. Hold it. Look at it.</p>
+<p>Ask yourself, out loud: <em>"Right now, in my emotional body, with this object — am I feeling some anger, some sadness, some fear, some joy?"</em></p>
+<p>Do not look for big feelings. Look for low-intensity ones. 2%. 5%. The almost-imperceptible kind. They are there. You have been not registering them.</p>
+<p>Name the first feeling out loud: <em>"I feel some [anger / sadness / fear / joy] looking at this [object]."</em></p>
+<p>Locate the sensation in the body. Where exactly? Bones? Heart? Nervous system? Eyes? Be specific. Touch the place with your hand if it helps.</p>
+<p>Stay with the sensation for 60 seconds. Do not analyze. Do not story. Do not figure out why. Just register. Breathe.</p>
+<p>Notice if a second feeling surfaces underneath the first. Often the first is on top and the next is deeper. Name it. Locate it. 60 seconds. If a third surfaces, repeat.</p>
+<p>When the feelings stop arriving, set the object down. Take three breaths.</p>
+<p>In your notebook, write fast, no editing: <em>Object · feeling · location · what the feeling seemed to be about, if anything came clear.</em> Three or four lines. The point is not insight — the point is the rep.</p>
+<p>Pick a second object. Do it again. Do three objects total.</p>
+</blockquote>
+<p><strong>What to expect.</strong> Most learners report the first object yields almost nothing — "I don't feel anything." This is the Numbness Bar speaking. Stay another 30 seconds. Look smaller. The 2% is there. By the second or third object, the bar drops a notch and feelings register that were not available ten minutes earlier.</p>
+<blockquote>
+<p><strong>Variation B — the Four-Bodies Check-In (~12 min).</strong> If the object practice keeps you in your head, or if you want to drill the new map's body locations directly, run this instead of or after the object version. Sit, center, ground, drop a bubble. Take the four feelings <em>in order — anger, sadness, fear, joy</em> — and give each a 3-minute micro-cycle: (1) find the body region — anger → bones, jaw, big muscles; sadness → heart, throat, eyes; fear → nervous system, skin, belly; joy → whole organism, face, chest; (2) place a hand there and breathe into it for 30 seconds; (3) ask out loud, <em>"Right now, in this place, is there any [feeling] present, even at 2%?"</em>; (4) stay with the sensation 60 seconds — no analysis, no story, look smaller than you think you should; (5) write one line: <em>feeling · location · sensation · approximate intensity · what it might be about, if anything came clear.</em> After all four, read your four lines aloud. The region easiest to land in is where your Numbness Bar is lowest today; the one furthest away is where it is highest. Finish by naming, out loud, the asked-for action of whichever feeling registered most cleanly — <em>"my anger is asking me to make a boundary about X"</em> — with no commitment to act. Just name what the feeling was for.</p>
+</blockquote>
+<p>If you find yourself in an emotion — a feeling about something years ago, with a story attached, lasting longer than five minutes — stop, ground, and note it. Do not try to process it. Day 6 is for emotional healing process. Today is for <strong>registering</strong>.</p>
+<p>If you find yourself dissociating — floating, watching from outside, unable to feel anything anywhere — stop, ground (Section D, top of file), end the practice. Voice-message your partner that you stopped. This is not failure. Your system told you it was at limit.</p>
+<hr>
+<h2>Partner exchange (async)</h2>
+<p>Same structure as before: record, send, receive, reply. Voice messages only — speak from your body, not from your script.</p>
+<p><strong>Before recording: do the partner check-in.</strong> Verify your partner is reachable in this 48-hour window. If not, pause and contact the CM. (Structural requirement for all High modules. No override.)</p>
+<p><strong>Prompt to record (5–10 minutes):</strong></p>
+<p>Speak to your partner directly. Three things, in this order:</p>
+<ol>
+<li><strong>One item from your Old Map of Feelings.</strong> A specific rule you grew up with about one specific feeling. Not "my family didn't talk about feelings" — too general. <em>"In my family, anger meant my father had been drinking, so I learned: if you feel angry, leave the room."</em> That specific. Name the feeling, the rule, the source if you know it.</li>
+<li><strong>What surfaced in the Low-Intensity Feelings practice.</strong> Which feelings showed up with which objects. Where you located the sensations. Whether you hit the Numbness Bar — what that felt like. If you hit an emotion, name it but do not process it.</li>
+<li><strong>One feeling alive in you right now</strong>, as you record. Use the form: <em>"Right now I feel some [feeling], and the sensation is [location and quality], and what I think it is about is [one sentence, if you have it]."</em> Speak from the feeling, not about it.</li>
+</ol>
+<p>If you stumble, leave the stumble in. Do not edit.</p>
+<p><strong>When you receive your partner's message: listen all the way through once before replying.</strong> Then record (3–7 minutes):</p>
+<ol>
+<li><strong>What you heard them say</strong> — paraphrase the core. Not all of it. The part that landed in your body.</li>
+<li><strong>What feeling surfaced in you while listening</strong> — name it from the four, locate it, note its intensity. <em>"While you were speaking I felt some sadness in my throat, low intensity, maybe 10%."</em></li>
+<li><strong>One question.</strong> Open-ended. Lands in their body, not their head. <em>"What would you do with that anger if you let it move?"</em> is the shape.</li>
+</ol>
+<p>No advice. No fixing. No "I had a similar experience." Witnessing only. If your partner names an emotion bigger than the partner exchange can hold, gently say so and remind them the CM is reachable — then continue witnessing.</p>
+<hr>
+<h2>Between-module experiment</h2>
+<p>Pick <strong>one</strong>. Run it once in your actual life before you start Day 6.</p>
+<ol>
+<li><strong>The 5-minute test.</strong> In the next 48 hours, the next time you find yourself in a difficult internal state — irritation at a co-worker, anxiety about a meeting, sadness in your day — start a quiet stopwatch. Is this still happening after 5 minutes? After 15? After an hour? Do not try to change it. Do not act on it. Just clock it. If it is past 5 minutes, you are in an emotion. Note which one.</li>
+<li><strong>The Old Map Roll Call.</strong> In one sitting, write the rule you grew up with for each of the four feelings, in order — anger, sadness, fear, joy. One sentence per feeling, specific not general: <em>"In my family, fear meant you'd be ridiculed, so I learned: never admit you're scared"</em> — not <em>"my family was tough on emotions."</em> If two or three rules come for one feeling, write them all. For each, name the source — parent, teacher, religion, peer group, profession, partner. The named source is half the work: it locates the rule in time and place so it stops feeling like just-how-things-are. Then read the four rules aloud, slowly, in your own voice, and notice your body — which rule has the most charge? Which one did you almost not write down because it felt too small to count? Keep the page where you can see it through Days 5 and 6; you will reference it in the emotional healing process.</li>
+<li><strong>The low-intensity check.</strong> Three times in the next 48 hours — set phone reminders — stop for 30 seconds and ask: <em>"In my emotional body, right now, what 2% feelings are present?"</em> Register. Do not act. Do not story.</li>
+</ol>
+<p>Capture in 2–3 sentences what happened. You will use it in Day 6.</p>
+<hr>
+<h2>Reflection prompts</h2>
+<p>Journal at your own pace. Longhand if you can.</p>
+<ol>
+<li>Which of the four feelings was most forbidden in the world I grew up in? What was the specific rule? Who enforced it? What did I do with the feeling instead?</li>
+<li>Which of the four feelings is hardest for me to register <em>right now</em> in my adult life? (Not which I most avoid — which I literally cannot find when I look.) What does that tell me about where my Numbness Bar is set?</li>
+<li>The Low-Intensity Feelings practice — which object surprised me? Which feeling arrived that I did not expect? What does it seem to be telling me I care about?</li>
+<li>Have I been mistaking an emotion for a feeling in some current relationship — running an old loop on a present person? Name the person and the emotion, without writing a story about either.</li>
+<li>What would change in my week if I lowered the Numbness Bar one notch — registered 5% more of my emotional body than I currently do? What might I stop doing? What might become possible?</li>
+</ol>
+<hr>
+<h2>Safety callouts for this module</h2>
+<p>Day 5 is <strong>High intensity</strong>. Specific things that come up in this module, and what to do:</p>
+<ul>
+<li><strong>Anger surfacing toward parents (living or dead).</strong> Common. The Old Map work makes visible whose rules you have been carrying, and the anger that arrives is often decades old. <strong>It is an emotion, not a feeling about the present.</strong> Do not call your parents in the middle of the module. Do not write the letter today. Note it as an emotional healing process candidate (Day 6) and voice-message your partner. Action, if any, comes after the processing.</li>
+<li><strong>Sadness stuck in a loop — you start crying and the crying does not feel like a clean wave, it feels like falling.</strong> Cue to <strong>ground, then stop the module for today</strong>. Sadness that moves cleanly comes in waves with arrival, peak, and dissipation in under 5 minutes. Sadness that loops with no exit is an emotion. Trying to "complete it" inside this module is the wrong container. Pause. Voice-message your partner. Re-enter tomorrow.</li>
+<li><strong>Fear of going crazy.</strong> When the Numbness Bar drops a notch, some learners register so much new signal they conclude <em>something is wrong with me, this is too much</em>. The signal is not wrong. You are perceiving more of your emotional body than you have for years. Ground. Slow down. The flood feeling is the Box reacting to losing its numbness-based control — not evidence of damage.</li>
+<li><strong>"I started crying and couldn't stop."</strong> Ground first. If the crying continues past 10 minutes and is not arriving, peaking, and passing in waves — it is an emotion, not a feeling, and it needs the Day 6 container or a professional. Voice-message your partner that you are stopping. Voice-message the CM if you need a check-in.</li>
+<li><strong>Urge to call your old therapist while flooded.</strong> If you have one, calling them is not a problem. Be precise: <em>"I am doing a feelings-vs-emotions module. I think I hit an emotion. I am grounded. Can I check in?"</em> That gives them what they need. Do not start unprocessed emotional material with a brand-new therapist mid-module. If you do not have one and feel you need one, contact the CM for the referral list.</li>
+<li><strong>Wanting to drink, scroll, eat, work, or otherwise numb after the module.</strong> Common. The Numbness Bar dropping is uncomfortable; the Box wants to re-install the bar by familiar means. Notice the urge. Voice-message your partner about it before acting. If you act anyway, name it as a numbing action in your journal — data for Day 6.</li>
+</ul>
+<p>The universal grounding script applies (top of <code>03 - Safety and Facilitation Framework.md</code>). If you notice you are dissociating, floating, or shutting down: stop, ground, decide.</p>
+<p>This course is not therapy. Emotional healing process (Day 6) is in scope. Trauma processing is not. If today's material brings up specific traumatic memory, use the referral list and bring a qualified clinician alongside.</p>
+<hr>
+<h2>Cohort feed post (suggested)</h2>
+<p>One line each, no more:</p>
+<ul>
+<li>What I noticed about my Old Map: …</li>
+<li>Where my Numbness Bar showed up: …</li>
+<li>(Optional) one question for the group: …</li>
+</ul>
+<hr>
+<h2>Glossary additions</h2>
+<ul>
+<li><strong>Feeling</strong> — present-time archetypal energy in the emotional body; one of four (anger, sadness, fear, joy); 3–5 minutes; informational; takes responsible action</li>
+<li><strong>Emotion</strong> — past-time, mixed, story-laden state; a feeling that did not move and got stored; longer than 5 minutes; an open wound until processed</li>
+<li><strong>The four feelings</strong> — anger, sadness, fear, joy; treated as archetypal energies, not problems</li>
+<li><strong>Old Map of Feelings</strong> — patriarchal-paradigm map most learners arrived with: three of four feelings forbidden, the fourth diluted</li>
+<li><strong>New Map of Feelings</strong> — the PM map: four energies, each with body location, purpose, asked-for action, and shadow form</li>
+<li><strong>Numbness Bar</strong> — threshold below which feelings do not register; installed in childhood; lowers with practice</li>
+<li><strong>Low-intensity feelings</strong> — feelings registered at 2–20%; the most useful kind in real-time life; the rep that lowers the Numbness Bar</li>
+<li><strong>Shadow form</strong> — what a feeling becomes when stored as emotion (anger → rage, resentment; sadness → depression, self-pity; fear → anxiety, panic; joy → mania, forced positivity)</li>
+<li><strong>Conscious feelings work</strong> — feeling on purpose, at chosen intensity, for chosen duration, in service of what you actually care about</li>
+<li><strong>5-minute test</strong> — the simplest field test for distinguishing feeling from emotion: still happening after 5 minutes? Emotion.</li>
+</ul>
+<hr>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+  </main>
+  <nav class="page-nav">
+    <a href="day-04.html">&#8592; Day 4</a>
+    <a href="../index.html">&#8962; Front Door</a>
+    <a href="day-06.html">Day 6 &#8594;</a>
+  </nav>
+</div>
+<footer>
+  <p>Archived May 2026 edition &mdash; <a href="../"
+     >current edition June 2026</a> &mdash;
+  🄯 World Copyleft 2026 &middot; CC BY-SA 4.0 &middot;
+  <a href="../LICENSE.md">LICENSE.md</a></p>
+</footer>
+</body>
+</html>

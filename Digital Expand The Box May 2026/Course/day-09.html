@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 9 — Ego States · Problem Ownership · Learning Spiral · Expand the Box (May 2026 archive)</title>
+<link rel="stylesheet" href="../_assets/fonts/fonts.css">
+<style>
+
+:root {
+  --ivory: #f4ecdc;
+  --ivory-shade: #ece2c8;
+  --ivory-deep: #e3d7b9;
+  --ink: #0e0a05;
+  --ink-soft: #2a221a;
+  --ink-mute: #4a3f30;
+  --rule: #b8a98a;
+  --vermillion: #c43b1c;
+  --vermillion-deep: #962a13;
+  --vermillion-soft: rgba(196,59,28,0.08);
+  --mustard: #d8b04a;
+  --mustard-text: #b8902c;
+  --sky: #4a6b7c;
+  --display: 'Fraunces','EB Garamond',Georgia,serif;
+  --body: 'EB Garamond',Georgia,serif;
+  --mono: 'JetBrains Mono','Courier New',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--body);
+  background:var(--ivory);
+  color:var(--ink);
+  font-size:18px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse at top left,rgba(216,176,74,0.06) 0%,transparent 40%),
+    radial-gradient(ellipse at bottom right,rgba(196,59,28,0.04) 0%,transparent 50%);
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:1;opacity:0.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.055 0 0 0 0 0.04 0 0 0 0 0.02 0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.wrap{max-width:860px;margin:0 auto;padding:36px 40px 80px;position:relative;z-index:2;}
+.archive-banner{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  color:var(--ink-mute);background:var(--ivory-shade);border:1px solid var(--rule);
+  border-left:3px solid var(--mustard);padding:10px 16px;margin-bottom:28px;
+}
+.archive-banner a{color:var(--ink-mute);text-decoration:underline;}
+.archive-banner a:hover{color:var(--vermillion);}
+nav.breadcrumb{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--ink-mute);padding-bottom:24px;border-bottom:1px solid var(--rule);
+  margin-bottom:32px;display:flex;gap:16px;flex-wrap:wrap;align-items:baseline;
+}
+nav.breadcrumb a{color:var(--ink-mute);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;transition:all 0.2s;}
+nav.breadcrumb a:hover{color:var(--vermillion);border-bottom-color:var(--vermillion);}
+nav.breadcrumb .sep{color:var(--rule);}
+nav.page-nav{
+  display:flex;justify-content:space-between;align-items:center;
+  margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  flex-wrap:wrap;gap:12px;
+}
+nav.page-nav a{
+  color:var(--ink-mute);text-decoration:none;
+  border:1px solid var(--rule);padding:8px 16px;
+  transition:all 0.2s;
+}
+nav.page-nav a:hover{color:var(--vermillion);border-color:var(--vermillion);}
+main h1{
+  font-family:var(--display);font-weight:350;font-size:clamp(1.8rem,4vw,2.8rem);
+  letter-spacing:-0.01em;line-height:1.15;color:var(--ink);margin:8px 0 32px;
+}
+main h2{
+  font-family:var(--display);font-weight:350;font-size:1.5rem;
+  color:var(--ink);margin:2.4em 0 0.6em;
+}
+main h3{
+  font-family:var(--body);font-weight:700;font-size:1.05rem;
+  color:var(--ink-soft);margin:2em 0 0.5em;
+}
+main h4{font-family:var(--body);font-weight:700;font-size:0.95rem;margin:1.6em 0 0.4em;}
+main p{margin-bottom:1.1em;}
+main a{color:var(--vermillion-deep);text-decoration:underline;}
+main a:hover{color:var(--vermillion);}
+main strong{font-weight:700;}
+main em{font-style:italic;}
+main code{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:1px 5px;border-radius:2px;
+}
+main pre{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:16px 20px;overflow-x:auto;margin:1.2em 0;line-height:1.45;
+}
+main pre code{background:none;border:none;padding:0;font-size:inherit;}
+main blockquote{
+  border-left:3px solid var(--vermillion);
+  margin:1.4em 0;padding:12px 24px;
+  background:var(--vermillion-soft);color:var(--ink-soft);
+}
+main blockquote p:last-child{margin-bottom:0;}
+main table{
+  width:100%;border-collapse:collapse;margin:1.4em 0;font-size:0.92em;
+}
+main th,main td{
+  border:1px solid var(--rule);padding:8px 14px;text-align:left;
+}
+main th{background:var(--ivory-shade);font-family:var(--mono);font-size:0.8em;letter-spacing:0.06em;text-transform:uppercase;}
+main ul,main ol{margin:0.6em 0 1em 1.8em;}
+main li{margin-bottom:0.3em;}
+main hr{border:none;border-top:1px solid var(--rule);margin:2.4em 0;}
+main img{max-width:100%;height:auto;display:block;margin:1.4em auto;border:1px solid var(--rule);}
+footer{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.08em;
+  color:var(--ink-mute);text-align:center;
+  padding:28px 40px;border-top:1px solid var(--rule);
+  position:relative;z-index:2;
+}
+footer a{color:var(--ink-mute);text-decoration:underline;}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+@media(max-width:600px){.wrap{padding:24px 20px 60px;}}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="archive-banner">Archived May 2026 edition — the current course is the <a href="../Digital%20Expand%20The%20Box%20June%202026/index.html">June 2026 edition</a>.</div>
+  <nav class="breadcrumb">
+    <a href="../index.html">Expand the Box — May 2026</a>
+    <span class="sep">/</span>
+    <a href="../index.html#course">Course</a>
+    <span class="sep">/</span>
+    <span>Day 9 — Ego States · Problem Ownership · Learning Spiral</span>
+  </nav>
+  <main>
+<h1>Day 9 — Ego States · Problem Ownership · Learning Spiral</h1>
+<table>
+<tr><th><strong>Intensity</strong></th><th><strong>HIGH</strong></th></tr>
+<tr><td><strong>Time</strong></td><td>~3 hours active across 3–4 days</td></tr>
+<tr><td><strong>Partner check-in required before?</strong></td><td><strong>YES — required, no override.</strong> See unlock checklist in <code>04 - Container and Gatekeeping Protocol.md</code> Section D.</td></tr>
+<tr><td><strong>Source videos</strong></td><td><code>16 - EgoStates_EN.mp4</code> · <code>18 - ProblemOwnership_EN.mp4</code> · <code>19 - LearningSpiral_EN.mp4</code></td></tr>
+<tr><td><strong>Maps (taught in this module)</strong></td><td>M17 Ego States · M18 Problem Ownership · M19 Learning Spiral — each also a standalone interactive tool in the <a href="../Map%20Atlas/index.html"><strong>Map Atlas</strong></a></td></tr>
+<tr><td><strong>Also referenced</strong></td><td><a href="../Map%20Notes/M27%20-%20Your%20Gremlin.md">M27 — Your Gremlin</a> (owned by Day 7 — the Gremlin as one of the five ego states; named here, transformed there)</td></tr>
+</table>
+<blockquote>
+<p><strong>Grounding (60 seconds).</strong> Top of <code>03 - Safety and Facilitation Framework.md</code> Section D. Read it now. You will use it inside this module.</p>
+</blockquote>
+<hr>
+<h2>Consent check (read before continuing)</h2>
+<blockquote>
+<p>This module engages <strong>ego state work</strong> directly — including the Gremlin and the Demon. Material that has been managed by performance, identification, or denial may surface. The Demon is not a metaphor in PM; every adult has one, and Day 9 names it on purpose.</p>
+<p>Before continuing, confirm to yourself:</p>
+<ul>
+<li>My partner is reachable today and tomorrow.</li>
+<li>I have at least 90 uninterrupted minutes ahead of me.</li>
+<li>I am not in acute crisis or under the influence right now.</li>
+<li>I know how to ground.</li>
+<li>I know how to reach the CM if I need to.</li>
+<li>If the intake mania/psychosis screen (Doc 04 Section A.5) applied to me, my clinician has confirmed in writing that I may do this module.</li>
+</ul>
+<p>If any of the above is not true, pause and come back when it is. If all are true and you choose to continue, take a slow breath and begin.</p>
+</blockquote>
+<blockquote>
+<p><strong>Readiness check (10 seconds).</strong> Can you return to center and find your Adult on demand (Day 3 + Day 5)? Ego-state work needs a home base to come back to — naming Parent/Child/Gremlin/Demon from a centered Adult is the work; doing it ungrounded is just getting tossed around by the states. If center isn't reliable, re-read <a href="../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md">M07</a> first. (Full self-check: <code>Facilitator Resources/Learning Self-Assessment.md</code>.)</p>
+</blockquote>
+<blockquote>
+<p><strong>If your partner has gone quiet.</strong> This module is partner-gated for a reason — you should not do it alone. But a silent partner must never strand you. If your partner hasn't responded and you want to proceed, <strong>message your CM</strong>: there is a real fallback — a witness partner, or a CM-held exchange — so you are accompanied. Don't do the High-intensity practice with no one on the other end, and don't let a non-responsive pairing stall you indefinitely. The fallback is yours to ask for.</p>
+</blockquote>
+<hr>
+<h2>Purpose</h2>
+<p>To install the lens that lets you see — in real time — <strong>which part of you is speaking, feeling, choosing, or trying to claim a problem that isn't yours.</strong></p>
+<p>Day 9 is the integration module. The eight prior modules each installed a distinction. Day 9 hands you the tool that lets you use all of them at once. When the Box speaks, it speaks from one of these states. When the Gremlin reaches for food, it reaches from one of these states. When you rescue someone who has not asked, you are misowning a problem from a particular state. The same map shows you the one location — Adult — from which PM is actually practiced.</p>
+<p>This module also names something most personal-development work refuses to name. PM is direct about the <strong>Demon</strong> — the part of you with the capacity for real harm. Not metaphorically. The work is not to claim it, deny it, or perform it. The work is to <em>know</em> it. A known Demon is far safer than an unknown one.</p>
+<p>The Learning Spiral, which closes the module, names what has actually been happening across the course — and what will keep happening for years if you stay in it.</p>
+<hr>
+<h2>Core PM concepts</h2>
+<ul>
+<li><strong>Ego state.</strong> A coherent location from which you speak, feel and choose. Not a personality. A <em>state</em> you are in for the duration of a sentence, a phone call, a decade.</li>
+<li><strong>Parent.</strong> Internalized voices of authority — your literal parents plus teachers, religion, culture, the boss. <strong>Critical Parent</strong> judges. <strong>Nurturing Parent</strong> takes care of.</li>
+<li><strong>Child.</strong> Your actual childhood self, still here. <strong>Free Child</strong> is spontaneous, curious, alive. <strong>Adapted Child</strong> is the version that learned to perform, comply, please, hide, or rebel to survive the room.</li>
+<li><strong>Adult.</strong> The present-time grown human. <strong>The state from which PM is practiced.</strong></li>
+<li><strong>Gremlin.</strong> The part of you that wants gremlin food — drama, suffering, righteousness, distraction. Speaks <em>sotto voce</em>. Distinct from Parent, Child, and Adult.</li>
+<li><strong>Demon.</strong> The part of you with the <strong>capacity for real harm to self or others.</strong> Not a creative force. Every adult has one. The work is to know yours.</li>
+<li><strong>Problem ownership.</strong> The first PM question when something is "wrong": <em>whose problem is this?</em> Three options — my problem, the other person's problem, explicitly shared.</li>
+<li><strong>No "we" in responsibility.</strong> Responsibility is individual. <em>"We have a problem"</em> hides whose Adult is doing the work.</li>
+<li><strong>Learning Spiral.</strong> Real learning is not linear. Try → notice → name → adjust → try again. Each lap, more becomes visible.</li>
+</ul>
+<hr>
+<h2>Learning outcomes</h2>
+<p>By the end of this module you will:</p>
+<ol>
+<li>Name the <strong>five ego states</strong> in your own words, and locate one example from your last 24 hours of speaking from each.</li>
+<li>Have completed the <strong>Ego State Locator</strong> — felt the posture and the voice of each state, including a brief, bounded contact with your Demon.</li>
+<li>State the difference between <strong>owning a problem</strong>, <strong>misowning the other person's problem</strong>, and the <strong>Rescuer pattern</strong> as a special case of misowning.</li>
+<li>Detect, in language, an <strong>I-statement</strong> (owned) versus a <strong>you-statement</strong> (misowned).</li>
+<li>Describe the <strong>Learning Spiral</strong> and locate two earlier course modules that have already cycled back into clearer view.</li>
+</ol>
+<hr>
+<h2>Module flow</h2>
+<table>
+<tr><th>Step</th><th>Time</th><th>What you do</th></tr>
+<tr><td>1</td><td>10 min</td><td>Read header and consent check. Confirm partner is reachable.</td></tr>
+<tr><td>2</td><td>18 min</td><td>Watch <code>16 - EgoStates_EN.mp4</code></td></tr>
+<tr><td>3</td><td>12 min</td><td>Watch <code>18 - ProblemOwnership_EN.mp4</code></td></tr>
+<tr><td>4</td><td>10 min</td><td>Watch <code>19 - LearningSpiral_EN.mp4</code></td></tr>
+<tr><td>5</td><td>30 min</td><td>Read <strong>Concept teaching notes</strong>, slowly — study each map image where it sits, and do the smaller embodiment practices inline where offered</td></tr>
+<tr><td>6</td><td>30 min</td><td><strong>Ego State Locator</strong> (solo, embodied)</td></tr>
+<tr><td>7</td><td>20 min</td><td><strong>Partner voice exchange</strong> (record + send)</td></tr>
+<tr><td>8</td><td>—</td><td>Receive partner reply within 24 hours; record your reply</td></tr>
+<tr><td>9</td><td>2 days</td><td>Run the <strong>between-module experiment</strong></td></tr>
+<tr><td>10</td><td>15 min</td><td>Journal the <strong>reflection prompts</strong></td></tr>
+<tr><td>11</td><td>1 min</td><td>Post one line to the cohort feed</td></tr>
+</table>
+<p>Spread this module across 3–4 days. The ego state map is not a thing you "get" in one sitting. It is a lens you start using, and the seeing gets sharper for weeks.</p>
+<hr>
+<h2>Concept teaching notes</h2>
+<h3>Five states, not three</h3>
+<p><img src="../Maps/M17.png" alt="Map of Ego-States" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M17%20-%20Ego%20States.html">Explore M17 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map before reading on. Notice that the five states are drawn as separate <em>locations</em>, not stacked layers — Parent, Child, Adult, Gremlin, Demon, each a place you can stand. That is the whole point: you move between them, sometimes mid-sentence, and nothing visible changes on the outside when you do.</p>
+<p>You probably arrived able to notice "speaking as an adult" versus "speaking as a child." What you almost certainly could not do was distinguish, in a single phone call, the moment your Critical Parent took over from your Adult, then the moment your Adapted Child took over because being scolded by your own internal Parent felt like being scolded by your real father, then the moment your Gremlin took over because there was now drama in the air and the Gremlin eats that. From the outside the conversation looked like one person talking. From inside the map, four different states were on the line, none of them your Adult, and the clean decision never got made.</p>
+<p>This is what the map is for. <strong>It is a lens for noticing which state is speaking in any given moment.</strong> Not a personality test. Not a developmental stage. A <em>state</em> — you move in and out of all five, sometimes within one sentence. Treating any one of them as "who I am" is a category error.</p>
+<p>The map is <em>related to</em> the Parent/Child/Adult model from Transactional Analysis but is <strong>not the same map.</strong> TA does not include the Gremlin or the Demon. PM names both on purpose — without those two locations a learner keeps mistaking gremlin food for adult choice and shadow material for personality.</p>
+<p><strong>Parent.</strong> The internalized authority. <em>"You should…", "Good people don't…", "That's not how this is done."</em> Not just your literal parents — every teacher, religion, culture, boss whose voice you absorbed. <strong>Critical Parent</strong> judges. <strong>Nurturing Parent</strong> takes care of. Both are useful in their place. Both are tyrannical when they are the only state available.</p>
+<p><strong>Child.</strong> Your actual childhood self, still alive in your nervous system. <strong>Free Child</strong> is spontaneous, curious, alive — the part that delights, plays, sulks, dances without shame. <strong>Adapted Child</strong> is the version that learned early that being themselves was unsafe — so it performs, complies, pleases, hides, or rebels. The Adapted Child often runs adult life.</p>
+<p><strong>Adult.</strong> The present-time grown human. Not "mature" in the moralistic sense. The state from which you hold distinctions, contract, choose on purpose, take responsibility, and act. <strong>PM is practiced from here.</strong> When you cannot find your Adult, you cannot do PM.</p>
+<p><strong>Gremlin.</strong> The part of you that wants gremlin food. You met it on Day 7 (M27, <em>Your Gremlin</em>) as the engine of Low Drama. Here it is named again as one of the five ego states — the one most likely to pass itself off as "adult insight." Gremlin speaks <em>sotto voce</em> — <em>"you're not enough," "they never listen," "this is hopeless," "just one more."</em> The voice often passes for thought, for insight, for "what I really feel." It is none of those. Naming and meeting the Gremlin is in scope here; the deeper container — Gremlin Transformation — is where the Gremlin is actually worked. Day 9 is the lens; Gremlin Transformation is the journey. (Day 7 owns the full Gremlin map; this module only borrows it as one of the five locations.)</p>
+<p><strong>Demon.</strong> The part of you with the <strong>capacity for real harm</strong>. Not a force for transformation. Not a sacred shadow. The cold, intelligent, harm-capable part that can use adult resources without remorse — often in service of revenge, domination, destruction, or annihilation. Its defining feature is that it can do damage — to you, to others, to what you have built. Where the Gremlin <em>feeds</em>, the Demon <em>damages</em>. Every adult has one. Most people spend their lives pretending they do not, then are surprised by what they do under pressure. The Demon makes the affair, makes the cruelty, makes the slow erosion of a marriage by ten thousand small contemptuous looks. It also makes the slow erosion of the self.</p>
+<p><strong>The work is not to integrate the Demon. The work is to know your Demon</strong> — its texture, its triggers, its preferred targets — so that when it stirs, you can name it and not let it drive. <strong>A known Demon is far safer than an unknown one.</strong> PM uses <em>Demon</em> as a precise term, not a religious one — chosen because softer words ("shadow," "dark side," "inner critic") let the learner pretend the part is less dangerous than it is. The course is gated by Screen 5 at intake for this reason.</p>
+<blockquote>
+<p><strong>Scope note — Demon is a <em>locator</em> here, not a journey.</strong> On Day 9 this map names the Demon as a state and helps you find where it sits in your body. That is the entry, and it is as far as this module goes. We are <strong>not entering Demon process work.</strong> Active Demon work is held inside a PM trainer container (Gremlin Transformation Training is the longer container) or with a trauma-qualified clinician. Naming the Demon is one room; processing it is a different room with a different door — and you do not open that door alone, in a digital module, without that container in place.</p>
+</blockquote>
+<h3>Which state is speaking right now?</h3>
+<p>The question you take into the next forty years of your life:</p>
+<blockquote>
+<p><em>Which ego state am I speaking from right now?</em></p>
+</blockquote>
+<p>Asked honestly, the answer is sometimes flattering, often unflattering, occasionally surprising. You thought you were being an Adult and you were being Critical Parent. You thought you were being kind and you were being Nurturing Parent over an Adapted Child who never asked for help. You thought you were having an insight and you were Gremlin-fed.</p>
+<p>The point of the lens is not to be in Adult all the time — no one is — but to <strong>see which state is here so you can decide whether to speak from it.</strong> Sometimes Free Child is exactly right. Sometimes Nurturing Parent is exactly right. Almost never is Critical Parent right; almost never is Gremlin right; never is Demon right as a <em>choice</em>.</p>
+<p><strong>Common misunderstandings about ego states.</strong></p>
+<ul>
+<li><em>"I'm a Parent type"</em> / <em>"I'm more of a Child."</em> Ego states are <em>locations</em>, not personality types — you move in and out of all five, sometimes within one sentence. Treating any of them as "who I am" collapses the map into the very thing it is teaching you to see through.</li>
+<li><em>"This is just Transactional Analysis with new names."</em> TA does not include the Gremlin or the Demon. PM adds both on purpose; without those two locations, gremlin food gets mistaken for adult insight and shadow material gets mistaken for personality.</li>
+<li><em>"The Demon is a metaphor — my 'shadow,' my 'inner critic,' a dark creative force I'm meant to integrate."</em> The Demon is the part with the capacity for real harm. Not metaphorical, not creative. The work is to <em>know</em> yours — not integrate, claim, or perform it. Romanticizing it is precisely how it stays unknown, which is how it does damage.</li>
+<li><em>"I've integrated my shadow / claimed my Demon."</em> Almost without exception, that claim is the Gremlin in costume. You do not integrate the Demon; you know it. <em>"I have so much more to learn about my Demon"</em> is clean territory. <em>"I have integrated my shadow"</em> is being run by the part you think you have transcended.</li>
+</ul>
+<blockquote>
+<p><strong>Smaller embodiment practice — the Adult posture, located (10 min, optional inline).</strong> This is <em>not</em> the full Ego State Locator below — it skips the Gremlin and Demon and just drills the Adult so you can find it under pressure. Run it now if you want a gentler on-ramp, or save it as a maintenance rep after the module. Stand, center, ground, drop a bubble (Day 3). Three postures in sequence. <strong>Critical Parent (90 sec):</strong> spine up, chin raised, hands on hips or one finger pointing — the posture authority took when it was being <em>parental</em> at you. One real sentence — <em>"you should… good people don't…"</em> Notice your jaw, shoulders, breath. Return to center. <strong>Adapted Child (90 sec):</strong> chin down, weight down, the posture your body takes when it is about to please, comply, hide, or apologize. <em>"It's okay, I don't need anything. I'm sorry. Is that all right?"</em> Notice how old you feel. Return to center. <strong>Adult (4 min):</strong> both feet on the floor, knees soft, shoulders down, weight even, eye level, hands easy. Your present-time grown body, here, now, not performing. Plainly: <em>"I am here. I can think clearly about this. I am willing to take responsibility for my part."</em> Stay an extra minute — the posture is the least dramatic of the three, the voice is plain. Get the felt sense of <em>this is Adult</em> so you can find your way back. Write three lines: <em>where my Adult posture sat in my body · what the voice sounded like · where in my week I will most need to find this again.</em></p>
+</blockquote>
+<h3>Problem ownership</h3>
+<p><img src="../Maps/M18.png" alt="Map of Problem Ownership" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M18%20-%20Problem%20Ownership.html">Explore M18 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map before reading on — three boxes, not two: <em>my problem · their problem · explicitly shared.</em> The precision is in the third box, and in the fact that it is almost always empty until two Adults put something there on purpose. Hold that image while you read.</p>
+<p>When something is "wrong" between you and another person, the first PM question is not <em>who is right</em> or <em>what should happen.</em> It is:</p>
+<blockquote>
+<p><strong>Whose problem is this?</strong></p>
+</blockquote>
+<p>Three honest options:</p>
+<ul>
+<li><strong>My problem</strong> — <em>I</em> have an unmet need. The clean response is to own it (<em>"I have a problem — I need X and I am not getting it"</em>) and take responsibility for what I do about it.</li>
+<li><strong>The other person's problem</strong> — <em>they</em> have an unmet need. The clean response, if the relationship matters, is to listen, witness, complete the loop (Day 8) — and <strong>not to take the problem on as if it were mine.</strong> That is the Rescuer move from Day 7, structurally a misowning.</li>
+<li><strong>Shared problem</strong> — both of us have an unmet need, and we have agreed, explicitly, to work on it together. This is rarer than people think. Most "shared problems" are one person's problem the other has been guilt-tripped into co-owning. A genuinely shared problem requires an explicit contract — <em>we both have an unmet need, we both agree to work on it together, here is how</em> — in words said out loud, with both Adults present.</li>
+</ul>
+<p>Note that <strong>ownership is about whose unmet need is in play, not about who is wrong.</strong> It is not blame. It is which person has the unmet need that is driving this.</p>
+<p><strong>Owning a problem does not mean fixing it.</strong> It means being clear the unmet need is mine and taking responsibility for what <em>I</em> do about it — and the options include asking, waiting, doing nothing on purpose, or grieving. Owning is not the same as solving.</p>
+<p><strong>There is no "we" in responsibility.</strong> There is <em>I am responsible, and you are responsible, and we are choosing to collaborate.</em> The word "we" sounds inclusive and is often a slippage — it lets one person's Adult do the work while the other's Adapted Child watches.</p>
+<p><strong>I-statements and you-statements</strong> are the field test, and they are <strong>functional, not stylistic.</strong> <em>"I am angry. I want a clearer agreement"</em> owns the problem. <em>"You're being difficult. You always do this"</em> misowns it. The grammar reports which person you have located the unmet need inside of. <em>You</em>-statements are almost always misowned problems wearing a costume — and rephrasing <em>"You always do this"</em> as <em>"I feel like you always do this"</em> is still a you-statement in costume. The test is ownership, not phrasing.</p>
+<p>The Rescuer pattern (Day 7) is now visible as a special case. The Rescuer takes on someone else's problem as if it were their own, then gets resentful when their unrequested help is not appreciated. That whole loop is one act of misowning followed by a Gremlin-fed payoff. Naming it here integrates Days 7, 8 and 9 into one lens. And listening to another person's problem without taking it on is not cold or withholding — it is the Adult move. The cleanest care for someone else's problem is presence without ownership.</p>
+<p><strong>Common misunderstandings about problem ownership.</strong></p>
+<ul>
+<li><em>"I-statements are just a politer way to say what you-statements say."</em> They are functional, not cosmetic. <em>"I feel like you always do this"</em> is a you-statement in costume — it still locates the unmet need in the other person. The test is about ownership, not word choice.</li>
+<li><em>"'Shared problem' is the most mature option."</em> Defaulting to shared erases whose Adult is doing the work. A genuinely shared problem needs an explicit contract with both Adults present; <em>"we have a problem"</em> is most often one person's problem the other got recruited into co-owning.</li>
+<li><em>"Owning a problem means I have to fix it."</em> Owning means being clear the unmet need is yours and choosing what <em>you</em> do — which may be to ask, wait, do nothing on purpose, or grieve.</li>
+<li><em>"If I witness someone's problem without taking it on, I'm being cold."</em> Taking on what is not yours is the Rescuer move — feels caring, reliably leads to resentment. Presence without ownership is the clean care.</li>
+</ul>
+<blockquote>
+<p><strong>Smaller embodiment practice — the three-column sort (10 min, optional inline).</strong> Sit, pen and paper. Pick one current "problem" you are carrying that involves another specific person — partner, colleague, parent, child, friend. One problem. Draw three columns: <strong>my problem · their problem · shared (explicitly contracted).</strong> Set a six-minute timer. Take each element — what is unresolved, what bothers you, what you keep thinking about — and sort it. <em>I want a clearer agreement about Thursdays. I am angry I was not told</em> → column one. <em>They are struggling at work. They are not sleeping</em> → column two (their unmet need you have been carrying). For anything that feels shared, ask whether you have <em>explicitly contracted</em> to work on it together, out loud, both Adults present — if not, it is not yet column three. When the timer ends, read the columns aloud, slowly. Notice what you have been carrying that is not yours, what you have been handing off that is yours, what you have been calling shared that was never contracted. For the last two minutes, write one sentence: <em>the one ownership move I am willing to make this week</em> — returning a problem to its owner, naming one of your own, or requesting an explicit contract. Specific enough that you would know whether you had done it. <strong>Do not act today.</strong> Action without integration is a Box move; the sort itself is the rep.</p>
+</blockquote>
+<h3>The Learning Spiral</h3>
+<p><img src="../Maps/M19.png" alt="Map of Learning Spiral" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M19%20-%20Learning%20Spiral.html">Explore M19 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map before reading on. It is drawn as a coil, not an arrow and not a staircase — the same words placed at intervals on each lap. That shape is the claim: you return to the same <em>territory</em> at a <em>different resolution</em>. A circle returns to the same point at the same resolution; a line goes one way and never returns; only a spiral does what learning actually does.</p>
+<p>The fantasy you were sold, probably for most of your life, is that learning is linear. Read the book, take the class, get it, apply it, done.</p>
+<p>This is not how learning works in PM and is not how it has been working for you for the last 30 days. Real learning is <strong>spiral.</strong> Try. Notice. Name a distinction. Adjust. Try again. Notice more — including things you could not see the first time because the first lap installed the distinction that lets you see them. Each lap, the same territory shows you something you missed.</p>
+<p>The course itself has been a spiral. The Box you met on Day 2 looks different now, because Days 5, 7 and 9 installed the distinctions that let you see how the Box uses ego states, gremlin food, and misowned problems to stay in business. The center-ground-bubble from Day 3 is usable in places it was not at the start. The feelings work from Day 5 keeps cycling back as you register, three weeks later, a 5% anger you would have missed in Week 1. The next lap of any module is, in effect, a different module than the one you first walked through.</p>
+<p>The spiral continues for years. A PM practitioner ten years in keeps meeting the same distinctions on different rungs, and the distinctions keep teaching them things they were not ready for the first eight times. The spiral does not converge on mastery. It deepens. The course is a quick entry, not the whole thing — thirty days installs the maps and starts the first lap; the maps keep teaching for as long as you keep using them.</p>
+<p>One reaction is common: <em>"so this is self-improvement that never ends."</em> No. Self-improvement is the linear fantasy with shame attached — the implicit claim that there is a finished version of you up ahead you have not yet reached. The Learning Spiral is the structure of being alive and paying attention. There is no "further along." There is only this lap, what it is showing you, and whether you stay in it on purpose.</p>
+<p><strong>Common misunderstandings about the Learning Spiral.</strong></p>
+<ul>
+<li><em>"I finished the course, so I have learned PM."</em> The course is a quick entry — it installs the maps and starts the first lap. Treating Day 10 as graduation collapses the spiral back into the linear fantasy.</li>
+<li><em>"The spiral converges on mastery — eventually I'll 'get' all of this."</em> It does not converge; it deepens. Practitioners ten years in keep meeting the same distinctions at finer resolution. There is no finished version of you up ahead.</li>
+<li><em>"The Learning Spiral is just 'growth mindset.'"</em> Growth mindset is a <em>stance</em> about your capacity to develop. The spiral is a <em>structural pattern</em> of how learning lands across time — it happens whether or not you hold the stance; the only question is whether you stay in it on purpose.</li>
+<li><em>"Going around the same territory again means I'm stuck."</em> Each lap is the same territory at higher resolution. Returning to the Box on Day 9 is the <em>only</em> way to see what the Day 5 and Day 7 distinctions made newly visible inside it. The repetition is the mechanism, not the failure.</li>
+</ul>
+<blockquote>
+<p><strong>Smaller embodiment practice — the lap-back review (12 min, optional inline).</strong> Sit with the journal you have kept across this course (from memory works too, more slowly). You are going to take one lap back, on purpose, to <em>feel</em> the spiral — not to study the maps, but to notice what is now visible that was not the first time. For each of three earlier modules — <strong>Day 2 (Box) · Day 5 (Feelings) · Day 7 (Low Drama)</strong> — three minutes each: re-read the <em>reflection prompts</em> from that day (just the prompts, not your old answers), and ask, <em>"what do I now see in this question that I did not see the first time I answered it?"</em> Often it is a sentence you wrote without knowing what you were writing. Name one specific thing per module, out loud, in your own voice — <em>"On Day 2 I wrote about my Box and could not yet see it was using my Adapted Child to do it. I see that now."</em> After all three, sit still one minute and notice: the territory has not changed — the Box is still the Box, anger is still anger — what changed is your capacity to see what was always there. Write two sentences: <em>one thing I now see on Day 2 that I did not see then, and one thing I expect to see three months from now that I cannot yet see today.</em> The second is harder; write it anyway — even <em>"I do not know what it will be, but I expect there will be one"</em> is enough. The point is to take the next lap on purpose.</p>
+</blockquote>
+<hr>
+<h2>Embodied practice (solo) — The Ego State Locator</h2>
+<p>One concrete practice. ~30 minutes. Done alone, in a room where you will not be interrupted. You need: space to stand, water, a notebook.</p>
+<p>This is <strong>not</strong> a deep Demon journey. It is a brief locator — you visit each of the five states in your body, speak one to two sentences from each, and notice. The Demon visit is the shortest and is explicitly bounded.</p>
+<p>Read the script all the way through once before you start.</p>
+<blockquote>
+<p><strong>Script.</strong></p>
+<p>Stand. Both feet on the floor. Center, ground, drop a bubble (Day 3 — if it has fallen out of your body, re-read M05 first).</p>
+<p>You will visit five states. Each gets a posture and a sentence or two. Return to center between each.</p>
+<p><strong>1. Parent (3 min).</strong> Take the posture of authority. Spine up, chin slightly raised, hands on hips or one finger pointing — whichever your body recognizes as the posture a parent (or teacher, boss) took when they were <em>being parental</em> at you. Out loud: one Critical Parent sentence — <em>"You should…", "Good people don't…", "That's not how this is done."</em> Use a real one. Then, same posture, one Nurturing Parent sentence — <em>"Let me take care of that for you,"</em> or whatever the over-functioning helper-voice in you actually says. Notice whose voice it actually is. Return to center.</p>
+<p><strong>2. Child (3 min).</strong> Soften the posture. Drop the chin. Let your weight come down. Some learners crouch or sit on the floor. Find the posture your body takes when no one is watching and the day has been long. Out loud: one Free Child sentence — <em>"I want…", "That looks fun," "Let's…"</em> — with appetite, like a six-year-old. Then, same softer posture, one Adapted Child sentence — <em>"It's okay, I don't need anything," "I'm sorry," "Is that all right?"</em> Notice how old you feel. Return to center.</p>
+<p><strong>3. Adult (4 min).</strong> Stand again. Both feet on the floor. Knees soft. Shoulders down. Weight even. Eye level. Hands easy at your sides. This is your present-time grown body, here, now, not performing anything. Out loud: <em>"I am here. I can think clearly about this. I am willing to take responsibility for my part. I am asking you to take responsibility for yours."</em> Or any sentence in that shape, in your own words. Notice that the posture is the least dramatic of the five. The voice is plain. <strong>This is the state PM is practiced from.</strong> Stay an extra 30 seconds. Get the felt sense of it so you can find your way back later. Return to center.</p>
+<p><strong>4. Gremlin (3 min).</strong> Shift posture. The Gremlin's body is often slightly hunched, slightly turned away, conspiratorial — leaning in, like at a bar, telling someone something they shouldn't. Find the posture your body takes when you are about to enjoy something you know you shouldn't. Out loud, in a <em>sotto voce</em> tone — quieter than normal, almost muttered — one Gremlin sentence: <em>"They never appreciate you," "You're not actually going to do this," "You're better than them," "Just give up," "Go on, have one."</em> Use one your Gremlin actually says. Notice the small charge of pleasure — that's gremlin food. Notice it without indulging it. Return to center. <strong>Take three breaths before the next one.</strong></p>
+<p><strong>5. Demon (90 seconds, bounded).</strong> The shortest and most specific visit. You are not going to perform your Demon. You are not going to enter it. You are going to <strong>locate it in your body and acknowledge it is here.</strong></p>
+<p>Stand still. Place one hand on your sternum, the other on your belly. Out loud, in your own voice, plainly, say once: <em>"I have a Demon. I know it is here. It has the capacity to harm. I am not it. I am the one who can know it."</em></p>
+<p>Notice where in your body the awareness of the Demon lives. Some learners feel coldness, some tightness, some a strange calm, some feel nothing — that is also data.</p>
+<p><strong>Do not perform the Demon's voice. Do not give it lines. Do not try to "meet" it. This is a locator, not a journey.</strong></p>
+<p>Take three slow breaths, audible exhale. Both hands on your sternum. Out loud: <em>"I am here. I am in my Adult. The Demon is known. I am not it."</em> Return to center fully.</p>
+<p>Sit down. Drink water. Write fast, no editing: <em>which state was easiest to find · which was hardest · which surprised me · what posture each one took in my body.</em> Five or six lines. The point is the rep, not insight.</p>
+</blockquote>
+<p><strong>What to expect.</strong> Most learners find Adult harder to locate than the others — Adult does not perform, and the body has been rewarded for performance most of its life. Some find Gremlin embarrassingly easy. Some locate the Demon position, and some honestly do not yet — both are valid; the locator is the rep. The Demon visit is 90 seconds on purpose. A separately-held PM container (Gremlin Transformation) exists for deeper work.</p>
+<p>If you find yourself dissociating — floating, watching from outside, unable to feel anything anywhere — stop, ground, end the practice. Voice-message your partner that you stopped. This is not failure. Your system told you it was at limit.</p>
+<p>If visiting the Demon location surfaces actual urges toward self-harm or harm to others — the buddy immediate-danger protocol (Doc 03 Section F) and the partner agreement (Doc 04 Section B) apply. Use them. Crisis lines are in your referral packet.</p>
+<hr>
+<h2>Partner exchange (async)</h2>
+<p>Same structure as before: record, send, receive, reply. Voice messages only.</p>
+<p><strong>Before recording: do the partner check-in.</strong> Verify your partner is reachable in this 48-hour window. If not, pause and contact the CM. (Structural requirement for all High modules. No override.)</p>
+<p>The topic is <strong>ego state recognition, not deep Gremlin or Demon work.</strong> You are naming which state you were speaking from in your recent exchanges with this partner. Acknowledgment, no judgment.</p>
+<p><strong>Prompt to record (5–10 minutes):</strong></p>
+<p>Speak to your partner directly. Three things, in this order:</p>
+<ol>
+<li><strong>One moment in our recent partner exchanges where you can now identify the ego state you were speaking from.</strong> Be specific. <em>"In my Day 7 voice message about my work conflict, listening back now, I was speaking from Critical Parent for most of the first three minutes, then dropped into Adapted Child when I asked you what you thought."</em> One moment, one state, what you can now see.</li>
+<li><strong>What you noticed in the Ego State Locator.</strong> Which state was easiest. Which was hardest. Whether you located your Demon and what your body did. If you hit something you did not expect, name it — but do not process it here.</li>
+<li><strong>One ego state you want to find more reliably in the next month.</strong> Often this is Adult. Sometimes Free Child. Sometimes the conscious <em>non</em>-use of Critical Parent. Name it, and one situation in your week where finding it would matter.</li>
+</ol>
+<p>If you stumble, leave the stumble in.</p>
+<p><strong>When you receive your partner's message: listen all the way through once before replying.</strong> Then record (3–7 minutes):</p>
+<ol>
+<li><strong>What you heard them say</strong> — paraphrase the core. The part that landed in your body.</li>
+<li><strong>Which ego state you noticed in yourself while listening</strong> — say it plainly. <em>"While you were speaking I noticed my Nurturing Parent wanted to take care of you. I am noticing it. I am not acting from it. I am staying in Adult."</em></li>
+<li><strong>One question.</strong> Open-ended, lands in their body not their head. <em>"What does your Adult know about that situation that the Critical Parent does not?"</em> — <em>"What would your Free Child do with that, if it were allowed?"</em> The shape is the question that opens, not the question that diagnoses.</li>
+</ol>
+<p>No advice. No fixing. Witnessing only. If your partner names material bigger than the exchange can hold — particularly anything around the Demon that touches on imminent harm — apply the buddy immediate-danger protocol (Doc 03 Section F) before anything else.</p>
+<hr>
+<h2>Between-module experiment</h2>
+<p>Pick <strong>one</strong>. Run it before you start Day 10. Pick the one that is least appealing — that is usually the one your Box does not want you to see.</p>
+<ol>
+<li><strong>The mid-sentence catch.</strong> In the next 48 hours, catch yourself <strong>once</strong> in the middle of a sentence — out loud, in a conversation — and silently ask: <em>"Which ego state am I speaking from right now?"</em> Notice. Do not change anything. Do not announce it. Do not finish the sentence differently. Just see. The point is the noticing.</li>
+<li><strong>The whose-problem-is-this audit.</strong> Pick one current "problem" that involves another person. On paper, write three columns — <em>my problem · their problem · shared (and explicitly contracted).</em> Sort the elements honestly. Notice what you have been carrying that is not yours, and what you have been handing off that is yours. Do not act yet. Just sort.</li>
+<li><strong>The I-statement substitution.</strong> In one conversation in the next 48 hours, replace one <em>you</em>-statement with the <em>I</em>-statement underneath it. <em>"You're being unreasonable"</em> becomes <em>"I am frustrated and I am asking for X."</em> One time. Notice what changes in the room.</li>
+</ol>
+<p>Capture in 2–3 sentences what happened. You will use it in your reflection and in Day 10.</p>
+<hr>
+<h2>Reflection prompts</h2>
+<p>Journal at your own pace. Longhand if you can.</p>
+<ol>
+<li>Of the five ego states, which is my <strong>default</strong> — the one I run most of my life from? Which do I most pretend I am running from when I am actually running from a different one? (Common: claiming Adult while running Critical Parent. Claiming Free Child while running Adapted Child. Claiming insight while running Gremlin.)</li>
+<li>The Ego State Locator — which posture was I least comfortable taking? What does that say about which state has been least available? My <strong>Adult posture</strong> — describe it precisely. Where will I need it most in the next month?</li>
+<li>My Demon — what is its <strong>texture</strong> as I now know it? Where in my body does the awareness live? What does it want me to do that I have, so far, not done? (You are writing this so the Demon is <em>known</em> on the page rather than running underground. If writing it down is itself unsafe — skip this prompt.)</li>
+<li>One current "problem" where I have been <strong>misowning</strong> — carrying a problem that is the other person's, or trying to make them own one that is mine. Name the person and the problem. What would change if I returned the problem to its rightful owner?</li>
+<li>The Learning Spiral — name two specific things from earlier in this course that have already cycled back into clearer view. What does that tell me about what is still ahead on the next lap?</li>
+</ol>
+<hr>
+<h2>Safety callouts for this module</h2>
+<p>Day 9 is <strong>High intensity</strong>. Specifically:</p>
+<ul>
+<li><strong>Demon material is real.</strong> If the locator practice or the journaling surfaces actual urges toward self-harm or harm to another person, <strong>stop the module, contact your partner immediately, and apply the buddy immediate-danger protocol</strong> (Doc 03 Section F). If the urge is acute, call the crisis line in your referral packet <em>before</em> contacting the partner. The Demon being known is the work; the Demon driving action is the cue to reach for outside help, immediately, with no shame.</li>
+<li><strong>Gremlin work can produce sharp self-criticism that masquerades as insight.</strong> Many learners hit a moment where they think <em>"I've been a gremlin my whole life,"</em> or <em>"my whole personality is a performance."</em> That voice <strong>is the Gremlin.</strong> Total self-condemnation dressed as breakthrough. The Adult notices the sentence and does not believe it. Ground. Voice-message your partner.</li>
+<li><strong>Parent voices may surface as old family voices.</strong> The Parent state work makes visible whose rules you have been carrying. Anger, sadness or grief that arrives is often decades old. <strong>It is an emotion, not a present-time feeling about your living parents.</strong> Do not call your mother in the middle of this module. Do not write the letter today. Note it as an emotional healing process candidate (Day 6) and voice-message your partner. Action, if any, comes after the processing.</li>
+<li><strong>If you are currently in active conflict with a living parent</strong>, Day 9 can compound. The Parent state work and a real fight in your real life can amplify each other. Pace gently — consider stretching this module to 5–7 days. If the real-life conflict is acute, contact the CM and consider deferring.</li>
+<li><strong>The mania/psychosis intake screen (Doc 04 Section A.5) should have caught learners for whom archetypal and ego-state language is contraindicated.</strong> If you reached this module without that screen having been applied — if you self-enrolled around an intake step, or your circumstances have changed since enrollment in any way that touches Screen 5 — <strong>stop, contact the CM, and do not do this module today.</strong> Ego state work amplifies the perceptual shifts the screen exists to protect against. Structural requirement, not a recommendation.</li>
+<li><strong>Inflation risk — the claim that you have "integrated your shadow."</strong> Some learners walk out convinced they have <em>met</em> their Demon, <em>claimed</em> it, <em>transformed</em> it. The claim is, almost without exception, the Gremlin in costume. The PM stance is direct: <strong>you do not integrate the Demon. You know it.</strong> A learner who finishes saying <em>"I have so much more to learn about my Demon"</em> is in clean territory. A learner who finishes saying <em>"I have integrated my shadow"</em> is being run by the part they think they have transcended. If you catch this in yourself, ground, voice-message your partner, name it. The catching is the work.</li>
+<li><strong>Wanting to numb after the module.</strong> Common, especially after the Demon locator. Notice the urge. Voice-message your partner about it before acting. If you act anyway, name it as a numbing action in your journal — data, not failure.</li>
+</ul>
+<p>The universal grounding script applies (top of <code>03 - Safety and Facilitation Framework.md</code>). If you notice you are dissociating, floating, or shutting down: stop, ground, decide.</p>
+<p>This course is not therapy. Ego state work is in scope as a thoughtware module; sustained therapeutic work with childhood wounds, complex trauma, or active mental health conditions is not. If today's material brings up specific traumatic memory, use the referral list and bring a qualified clinician alongside.</p>
+<hr>
+<h2>Cohort feed post (suggested)</h2>
+<p>One line each, no more:</p>
+<ul>
+<li>The ego state I now see I have been running: …</li>
+<li>The problem I have been misowning: …</li>
+<li>(Optional) one question for the group: …</li>
+</ul>
+<hr>
+<h2>Glossary additions</h2>
+<ul>
+<li><strong>Ego state</strong> — a coherent location from which you speak, feel and choose; not a personality; a state you move in and out of</li>
+<li><strong>Parent (ego state)</strong> — internalized voices of authority; Critical Parent (judging) and Nurturing Parent (taking care of)</li>
+<li><strong>Child (ego state)</strong> — actual childhood self still present; Free Child (spontaneous) and Adapted Child (performing safety)</li>
+<li><strong>Adult (ego state)</strong> — present-time grown human; the state from which PM is practiced</li>
+<li><strong>Gremlin (ego state)</strong> — the part wanting drama, suffering, righteousness, distraction; speaks <em>sotto voce</em>; eats gremlin food</li>
+<li><strong>Demon (ego state)</strong> — the part with the capacity for real harm to self or others; known, not denied; not romanticized as a creative force</li>
+<li><strong>Problem ownership</strong> — whose unmet need is this; three options (my problem, their problem, explicitly shared); first PM question when something is "wrong"</li>
+<li><strong>No "we" in responsibility</strong> — the precise claim that responsibility is individual; "we have a problem" hides whose Adult is doing the work</li>
+<li><strong>I-statement / you-statement</strong> — grammar test for problem ownership; <em>I</em> = owned, <em>you</em> = misowned</li>
+<li><strong>Rescuer (re-named here)</strong> — the special case of misowning the other person's problem; structurally a Day 7 pattern visible from Day 9's vantage</li>
+<li><strong>Learning Spiral</strong> — the non-linear shape of integration; try → notice → name → adjust → try again; each lap, more becomes visible; continues for years</li>
+</ul>
+<hr>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+  </main>
+  <nav class="page-nav">
+    <a href="day-08.html">&#8592; Day 8</a>
+    <a href="../index.html">&#8962; Front Door</a>
+    <a href="day-10.html">Day 10 &#8594;</a>
+  </nav>
+</div>
+<footer>
+  <p>Archived May 2026 edition &mdash; <a href="../"
+     >current edition June 2026</a> &mdash;
+  🄯 World Copyleft 2026 &middot; CC BY-SA 4.0 &middot;
+  <a href="../LICENSE.md">LICENSE.md</a></p>
+</footer>
+</body>
+</html>

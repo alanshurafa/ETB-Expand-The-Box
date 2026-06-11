@@ -8,6 +8,12 @@
 
 **At a glance.** Each body has its own intelligence → the emotional body knows what the intellect doesn't; the energetic body reads a room first · Numbness is local → *which* body is numb, not a single "I am numb" · Over-identification with one body is the default → intellect at 90%, the rest on emergency power · PM works all five in parallel → the intellectual body alone reinstalls the Box · Diagnostic, not hierarchical → no body is "higher."
 
+## How to explain it verbally
+
+You did not arrive as a brain with plumbing. You arrived as five bodies, and the brain was just the loudest one. There is the intellectual body of thoughts and words, the emotional body where the four feelings live as sensations, the physical body of bones and breath, the energetic body that is your feel in a room, and the archetypal body where larger-than-personal patterns move through you. Each has its own intelligence and language. Most of us are over-identified with the intellect, running the other four on emergency power since about age nine. A distinction installs in all five, or it is one-fifth done.
+
+**If you only remember one thing:** you are five bodies, not one, and numbness is local, so ask *which* body has gone quiet, not whether you feel.
+
 ---
 
 > **This is a map card.** The full teaching and practice now live in two places:
@@ -17,4 +23,4 @@
 
 ---
 
-<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>

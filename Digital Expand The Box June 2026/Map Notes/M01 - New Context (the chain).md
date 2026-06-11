@@ -8,6 +8,12 @@
 
 **At a glance.** Context → the invisible source-frame, upstream of everything *(not your surroundings)* · Behavior & results → farthest downstream, least leveraged · Causal direction → left-to-right only; you don't get a new context by collecting new results · Not steps to do but layers to see — stand in the new context, the rest cascades · Behavior change without context change reverts *(the old context eats it)*.
 
+## How to explain it verbally
+
+When I teach the chain, I draw an arrow that runs one way only: context, then thoughtware, thoughtmaps, options, choices, behavior, results. The result you hate started way over on the left, in a context you cannot normally see, the way a fish cannot see water. Most people try to change the result directly, on the right, by gritting their teeth and acting different. The old context just eats that, and the behavior reverts. You do not collect new results to get a new context. You stand in a new context, and the rest reorganizes by itself.
+
+**If you only remember one thing:** work the left end of the chain, the context, because everything downstream is just the context showing its work.
+
 ---
 
 > **This is a map card.** The full teaching and practice now live in two places:
@@ -17,4 +23,4 @@
 
 ---
 
-<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>

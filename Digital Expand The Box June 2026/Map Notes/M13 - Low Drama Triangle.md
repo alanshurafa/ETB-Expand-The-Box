@@ -8,6 +8,12 @@
 
 **At a glance.** Persecutor → attacks, blames, makes wrong · Victim → collapses, declares helplessness, controls through misery · Rescuer → steps in unasked, builds dependency. Rotation is structural — Rescuer unappreciated becomes Persecutor, Persecutor challenged collapses to Victim. All three feed gremlin food. Distinct from Karpman → same shape, but the mechanism is gremlin-food production, not "dysfunction," so the exit differs. The move out → the Responsible Game: notice, name, step out, ask what is happening / what I want / what I can choose. It feels less alive at first because the gremlin is starving.
 
+## How to explain it verbally
+
+The Low Drama Triangle is three positions one person rotates through: Persecutor, who says it is your fault; Victim, who says I have no choice; and Rescuer, who jumps in unasked to fix you. They look like three people but they are one Box-pattern in three costumes, and the same person flips between them inside a single conversation. A Rescuer who goes unappreciated becomes a Persecutor; a Persecutor who gets challenged collapses into Victim. The triangle also names what it is all *for*: gremlin food. Low drama is produced, not received. You are in it because something in you eats what the position generates.
+
+**If you only remember one thing:** three costumes, one machine, and you are wearing it because something in you is feeding on the drama.
+
 ---
 
 > **This is a map card.** The full teaching and practice now live in two places:
@@ -17,4 +23,4 @@
 
 ---
 
-<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>

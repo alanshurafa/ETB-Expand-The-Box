@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Start Here · Expand the Box (May 2026 archive)</title>
+<link rel="stylesheet" href="../_assets/fonts/fonts.css">
+<style>
+
+:root {
+  --ivory: #f4ecdc;
+  --ivory-shade: #ece2c8;
+  --ivory-deep: #e3d7b9;
+  --ink: #0e0a05;
+  --ink-soft: #2a221a;
+  --ink-mute: #4a3f30;
+  --rule: #b8a98a;
+  --vermillion: #c43b1c;
+  --vermillion-deep: #962a13;
+  --vermillion-soft: rgba(196,59,28,0.08);
+  --mustard: #d8b04a;
+  --mustard-text: #b8902c;
+  --sky: #4a6b7c;
+  --display: 'Fraunces','EB Garamond',Georgia,serif;
+  --body: 'EB Garamond',Georgia,serif;
+  --mono: 'JetBrains Mono','Courier New',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--body);
+  background:var(--ivory);
+  color:var(--ink);
+  font-size:18px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse at top left,rgba(216,176,74,0.06) 0%,transparent 40%),
+    radial-gradient(ellipse at bottom right,rgba(196,59,28,0.04) 0%,transparent 50%);
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:1;opacity:0.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.055 0 0 0 0 0.04 0 0 0 0 0.02 0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.wrap{max-width:860px;margin:0 auto;padding:36px 40px 80px;position:relative;z-index:2;}
+.archive-banner{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  color:var(--ink-mute);background:var(--ivory-shade);border:1px solid var(--rule);
+  border-left:3px solid var(--mustard);padding:10px 16px;margin-bottom:28px;
+}
+.archive-banner a{color:var(--ink-mute);text-decoration:underline;}
+.archive-banner a:hover{color:var(--vermillion);}
+nav.breadcrumb{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--ink-mute);padding-bottom:24px;border-bottom:1px solid var(--rule);
+  margin-bottom:32px;display:flex;gap:16px;flex-wrap:wrap;align-items:baseline;
+}
+nav.breadcrumb a{color:var(--ink-mute);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;transition:all 0.2s;}
+nav.breadcrumb a:hover{color:var(--vermillion);border-bottom-color:var(--vermillion);}
+nav.breadcrumb .sep{color:var(--rule);}
+nav.page-nav{
+  display:flex;justify-content:space-between;align-items:center;
+  margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  flex-wrap:wrap;gap:12px;
+}
+nav.page-nav a{
+  color:var(--ink-mute);text-decoration:none;
+  border:1px solid var(--rule);padding:8px 16px;
+  transition:all 0.2s;
+}
+nav.page-nav a:hover{color:var(--vermillion);border-color:var(--vermillion);}
+main h1{
+  font-family:var(--display);font-weight:350;font-size:clamp(1.8rem,4vw,2.8rem);
+  letter-spacing:-0.01em;line-height:1.15;color:var(--ink);margin:8px 0 32px;
+}
+main h2{
+  font-family:var(--display);font-weight:350;font-size:1.5rem;
+  color:var(--ink);margin:2.4em 0 0.6em;
+}
+main h3{
+  font-family:var(--body);font-weight:700;font-size:1.05rem;
+  color:var(--ink-soft);margin:2em 0 0.5em;
+}
+main h4{font-family:var(--body);font-weight:700;font-size:0.95rem;margin:1.6em 0 0.4em;}
+main p{margin-bottom:1.1em;}
+main a{color:var(--vermillion-deep);text-decoration:underline;}
+main a:hover{color:var(--vermillion);}
+main strong{font-weight:700;}
+main em{font-style:italic;}
+main code{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:1px 5px;border-radius:2px;
+}
+main pre{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:16px 20px;overflow-x:auto;margin:1.2em 0;line-height:1.45;
+}
+main pre code{background:none;border:none;padding:0;font-size:inherit;}
+main blockquote{
+  border-left:3px solid var(--vermillion);
+  margin:1.4em 0;padding:12px 24px;
+  background:var(--vermillion-soft);color:var(--ink-soft);
+}
+main blockquote p:last-child{margin-bottom:0;}
+main table{
+  width:100%;border-collapse:collapse;margin:1.4em 0;font-size:0.92em;
+}
+main th,main td{
+  border:1px solid var(--rule);padding:8px 14px;text-align:left;
+}
+main th{background:var(--ivory-shade);font-family:var(--mono);font-size:0.8em;letter-spacing:0.06em;text-transform:uppercase;}
+main ul,main ol{margin:0.6em 0 1em 1.8em;}
+main li{margin-bottom:0.3em;}
+main hr{border:none;border-top:1px solid var(--rule);margin:2.4em 0;}
+main img{max-width:100%;height:auto;display:block;margin:1.4em auto;border:1px solid var(--rule);}
+footer{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.08em;
+  color:var(--ink-mute);text-align:center;
+  padding:28px 40px;border-top:1px solid var(--rule);
+  position:relative;z-index:2;
+}
+footer a{color:var(--ink-mute);text-decoration:underline;}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+@media(max-width:600px){.wrap{padding:24px 20px 60px;}}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="archive-banner">Archived May 2026 edition — the current course is the <a href="../Digital%20Expand%20The%20Box%20June%202026/index.html">June 2026 edition</a>.</div>
+  <nav class="breadcrumb">
+    <a href="../index.html">Expand the Box — May 2026</a>
+    <span class="sep">/</span>
+    <a href="../index.html#course">Course</a>
+    <span class="sep">/</span>
+    <span>Start Here</span>
+  </nav>
+  <main>
+<h1>Start Here</h1>
+<p><em>Read this once before you open Day 1. It's the only orientation you need. Fifteen minutes.</em></p>
+<p>Welcome to Expand the Box. This page tells you how the course actually works — the rhythm, the people, the safety net, and what to do on your first day. The Day modules teach Possibility Management. This page teaches you how to <em>take</em> the course.</p>
+<hr>
+<h2>What this is, in one breath</h2>
+<p>Ten modules over about thirty days. You watch short videos, read a tightly-written module, do one solo practice, exchange a voice message with one partner, run one small experiment in your actual life, and write a few reflections. Then you do it again, nine more times. The work is not in the watching. It's in the practices and the experiments — the small reps you run between the videos.</p>
+<p>It is <strong>not</strong> therapy, coaching, or treatment. It is an education in a set of distinctions and maps. It will sometimes be uncomfortable — that's the work — but discomfort that overwhelms you is your cue to pause and reach for support, not to push through. More on that below.</p>
+<hr>
+<h2>The rhythm of one module</h2>
+<p>You move through one module every <strong>~3 days</strong>. There's no clock forcing you; this is the shape that works:</p>
+<ul>
+<li><strong>Day one of the cycle:</strong> watch the module's video(s), read the module, do the solo practice (~2 hours on lighter days, ~3 on the heavier ones — each module's header tells you its real time).</li>
+<li><strong>Across the next day or two:</strong> run the <em>between-module experiment</em> — a small specific rep you do inside your ordinary life (a conversation you were going to have anyway, a meeting, dinner). It costs no extra scheduled time.</li>
+<li><strong>Before the next module:</strong> send your partner a voice message, listen to theirs, write your reflections, post one line to the cohort feed.</li>
+</ul>
+<p>Faster is fine (≈20 days). Slower is fine (≈60). What matters is the rhythm — <em>content → practice → experiment → reflection</em> — not the speed.</p>
+<hr>
+<h2>The intensity tags</h2>
+<p>Every module is tagged <strong>Low</strong>, <strong>Medium</strong>, or <strong>High</strong>. The tag is in the module header and it's honest about what the day asks of you.</p>
+<ul>
+<li><strong>Low</strong> (Days 1, 3, 4, 10): mostly cognitive and embodied-light. <em>One exception:</em> <strong>Day 3 is Low emotional intensity but it is load-bearing</strong> — it installs the centering, grounding, and bubble practices that every hard day later stands on. Don't skim Day 3.</li>
+<li><strong>Medium</strong> (Days 2, 8): real but manageable charge.</li>
+<li><strong>High</strong> (Days 5, 6, 7, 9): these directly engage your feelings, your drama patterns, and your shadow. They can surface material you haven't met before. They require an active partner and a consent check before you begin. Take them when you have time, privacy, and your partner is reachable — not at the end of a hard day.</li>
+</ul>
+<p>The three High modules in a row — <strong>Days 5, 6, 7</strong> — are the heaviest stretch of the course. There's a built-in integration pause between Day 6 and Day 7. Use it. Don't power through.</p>
+<hr>
+<h2>The four agreements</h2>
+<p>Beginning Day 1 means agreeing to four things. They're repeated at the top of each module. They are what make the work safe.</p>
+<ol>
+<li><strong>Choice is always available.</strong> You can pause, skip a practice, slow down, take a longer break, or stop entirely. Nothing here is mandatory. No part of this course requires you to push through anything. If your body says no, the answer is no.</li>
+<li><strong>Consent is ongoing.</strong> Each High module asks your consent again before it begins. Agreeing once at enrollment doesn't carry forward into every exercise. You can decline any single practice and keep going.</li>
+<li><strong>You are responsible for your own state.</strong> The course gives you the practices — center, ground, drop a bubble, feel, choose. You use them. If you can't reach them in a moment, you pause and reach for support.</li>
+<li><strong>Your partner is alive.</strong> Before the High modules (5, 6, 7, 9), you confirm your partner is reachable. If they're not, the module waits. This isn't a suggestion — it's the structure.</li>
+</ol>
+<hr>
+<h2>Your partner</h2>
+<p>You'll be matched with one other learner for the whole course. You exchange voice messages — usually 3–8 minutes each way, once per module. They are your witness, not your therapist, coach, or fixer. What they do: listen, reflect back what they actually heard, ask you one open question. What they don't do: advise, diagnose, or fix.</p>
+<p>You don't need to be good at this yet — the course teaches the listening and speaking on Day 8. Until then, "I heard you say… here's what moved in me… here's one question I'm leaving with you" is enough.</p>
+<p><strong>If your partner goes quiet:</strong> tell your community manager (see below). There's a real fallback — a witness partner or a CM-held exchange — so a silent partner never strands you. You don't have to solve it alone, and you don't have to wait indefinitely.</p>
+<hr>
+<h2>The cohort feed</h2>
+<p>A shared space where everyone posts a line or two after each module — what landed, what's sticking sideways, an optional question. Keep it brief; the deep processing goes to your partner, not the feed. Don't post other people's stories. Don't give advice. It's a place to be witnessed by the group, lightly.</p>
+<hr>
+<h2>Your community manager (CM)</h2>
+<p>One person holds the container for your cohort. They're reachable by message — within 24 hours for ordinary things, <strong>immediately</strong> for anything urgent. Reach the CM when: your partner isn't working, something in your life changed that affects whether you should continue, you want a referral, or you're worried about yourself or someone else in the cohort.</p>
+<p>The CM is not your therapist. They keep the container intact and point you to the right support. That's a real and skilled job — it's just not clinical care.</p>
+<hr>
+<h2>When it gets to be too much</h2>
+<p>This is the part to read twice.</p>
+<p><strong>The 60-second grounding practice</strong> — use it any time you notice you're floating, can't follow the words, your heart is racing without cause, you're watching yourself from outside, or you have a strong urge to flee, attack, or shut down:</p>
+<blockquote>
+<ol>
+<li>Stop. Close the video or the page.</li>
+<li>Stand up. Both feet on the floor. Knees soft.</li>
+<li>Breathe out longer than you breathe in — three times. Out loud is fine.</li>
+<li>Name three things you can see.</li>
+<li>Name one thing you can hear.</li>
+<li>One hand on your chest, one on your belly. Notice your body is here.</li>
+<li>Then decide: continue, pause ten minutes, or stop for today.</li>
+</ol>
+</blockquote>
+<p>The interactive tools on the High days have a <strong>GROUND NOW</strong> button that opens this script with one tap. The script lives at the top of every module too.</p>
+<p><strong>Three levels of "this is hard":</strong></p>
+<ul>
+<li>Discomfort that is <em>moving</em> → keep going gently. This is the work.</li>
+<li>Discomfort that is <em>stuck or escalating</em> → ground, pause at least ten minutes, then re-decide.</li>
+<li>Discomfort that is <em>unmistakably crisis</em> → stop, contact your partner, and if needed the referral list. If you or someone else may be in immediate danger, contact local emergency services or your country's crisis line <strong>now</strong> — don't wait for the course.</li>
+</ul>
+<p>You received a <strong>referral packet</strong> when you enrolled — crisis lines, clinicians, and coaches for your region. Keep it somewhere you can reach in thirty seconds. If you don't have it, ask your CM before you start Day 1.</p>
+<p><strong>This course is not a substitute for therapy or medical care.</strong> If what surfaces is bigger than a thoughtware course is built to hold, that's not you doing it wrong — it's the signal to bring in someone qualified. The course will still be here.</p>
+<hr>
+<h2>A few words you'll meet on Day 1</h2>
+<p>You don't need to study these — they're taught as you go. Just so they're not strangers:</p>
+<ul>
+<li><strong>The Box</strong> — the survival-and-protection thoughtware you assembled as a kid. The whole course turns on one line: <em>you have a Box, you are not your Box.</em></li>
+<li><strong>Thoughtware</strong> — what you think <em>with</em> (the operating system), as distinct from what you think <em>about</em>.</li>
+<li><strong>Liquid state</strong> — the loosened state in which thoughtware can actually change.</li>
+<li><strong>Gremlin</strong> — the part of you that feeds on drama. Met directly later.</li>
+<li><strong>Beep! Book</strong> — a literal notebook you'll start on Day 4 as your engineering log of small experiments. Have a notebook ready.</li>
+<li><strong>Experiment</strong> — a small, specific, real-life rep with a clear <em>what I'll do / by when / what I'll notice</em>. The reps compound.</li>
+</ul>
+<hr>
+<h2>Before you open Day 1, check:</h2>
+<ul>
+<li><input type="checkbox" disabled> [ ] You've been matched with a partner (or your CM is matching you).</li>
+<li><input type="checkbox" disabled> [ ] You have your region's referral packet within reach.</li>
+<li><input type="checkbox" disabled> [ ] You know how to message your CM.</li>
+<li><input type="checkbox" disabled> [ ] You have a notebook for your reflections and (from Day 4) your Beep! Book.</li>
+<li><input type="checkbox" disabled> [ ] You have ~90 uninterrupted minutes for the module itself.</li>
+</ul>
+<p>That's everything. When you're ready, open <strong>Day 1 — Orientation, New Context, Radical Responsibility</strong>. It starts by asking you to choose, on purpose, to be here.</p>
+<p>Welcome in.</p>
+<hr>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+  </main>
+  <nav class="page-nav">
+    <span></span>
+    <a href="../index.html">&#8962; Front Door</a>
+    <a href="day-01.html">Day 1 &#8594;</a>
+  </nav>
+</div>
+<footer>
+  <p>Archived May 2026 edition &mdash; <a href="../"
+     >current edition June 2026</a> &mdash;
+  🄯 World Copyleft 2026 &middot; CC BY-SA 4.0 &middot;
+  <a href="../LICENSE.md">LICENSE.md</a></p>
+</footer>
+</body>
+</html>

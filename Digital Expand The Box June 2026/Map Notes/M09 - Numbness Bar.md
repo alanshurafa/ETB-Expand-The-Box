@@ -8,6 +8,12 @@
 
 **At a glance.** Numbness bar vs absence of feeling → numbed feelings are present but unregistered, a perceptual cutoff not a vacuum · Bar drops over time → each rep of registering a 2%, 5%, 10% feeling lowers it a notch · "Full intensity" is far less than the learner expects · The bar is local, not global → each feeling has its own bar · Numbness is the load-bearing mechanism of the Old Map (M08) · Low-intensity work is the lever, not high-intensity catharsis.
 
+## How to explain it verbally
+
+Picture a horizontal line across your emotional body. Above it, you feel things. Below it, the feelings still happen, you just do not perceive them. That line is your Numbness Bar, installed early, often before you were six, because a small body could not safely process adult-sized intensity, so it cut off the bottom of the signal. That was survival, and now it is obsolete: it is why you miss the warning anger when a colleague crosses a line. Most adults live seventy to ninety percent numb and call that their full range. The bar drops a notch at a time, through small reps of feeling the two percent.
+
+**If you only remember one thing:** numb does not mean empty; the feeling is there below the line, and small low-intensity reps are what lower the line.
+
 ---
 
 > **This is a map card.** The full teaching and practice now live in two places:
@@ -17,4 +23,4 @@
 
 ---
 
-<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>

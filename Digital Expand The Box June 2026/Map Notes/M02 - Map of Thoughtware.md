@@ -8,6 +8,12 @@
 
 **At a glance.** Thoughtware vs thoughts → architecture vs content *(swapping thoughts is the self-help failure mode)* · Upgradeable, not fixed → technology, not personality or fate · Invisible by default → the glasses you can't see while wearing them; distinctions make it briefly visible · Inherited vs chosen → installed in childhood without consent, selectable going forward · Box-thoughtware vs possibility-thoughtware → the survival config (M04) vs one organized around creating possibility.
 
+## How to explain it verbally
+
+I explain thoughtware by separating what you think *about* from what you think *with*. Your opinions, beliefs, and memories are content, the thoughts running on top. Thoughtware is the architecture underneath that decides which thoughts are even available to you. You did not choose it. You inherited it from family, school, culture, and your language, before you could object. It is like the glasses you forget you are wearing: invisible while you look through it. The whole claim of this course is that thoughtware is upgradeable, and almost nothing else durably changes until it is.
+
+**If you only remember one thing:** swapping your thoughts is self-help; upgrading the thing you think *with* is the actual work.
+
 ---
 
 > **This is a map card.** The full teaching and practice now live in two places:
@@ -17,4 +23,4 @@
 
 ---
 
-<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>

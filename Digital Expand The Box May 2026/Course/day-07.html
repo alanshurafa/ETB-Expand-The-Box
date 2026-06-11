@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 7 — Low Drama · Gremlin Food · Shifting to Responsible Game · Expand the Box (May 2026 archive)</title>
+<link rel="stylesheet" href="../_assets/fonts/fonts.css">
+<style>
+
+:root {
+  --ivory: #f4ecdc;
+  --ivory-shade: #ece2c8;
+  --ivory-deep: #e3d7b9;
+  --ink: #0e0a05;
+  --ink-soft: #2a221a;
+  --ink-mute: #4a3f30;
+  --rule: #b8a98a;
+  --vermillion: #c43b1c;
+  --vermillion-deep: #962a13;
+  --vermillion-soft: rgba(196,59,28,0.08);
+  --mustard: #d8b04a;
+  --mustard-text: #b8902c;
+  --sky: #4a6b7c;
+  --display: 'Fraunces','EB Garamond',Georgia,serif;
+  --body: 'EB Garamond',Georgia,serif;
+  --mono: 'JetBrains Mono','Courier New',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--body);
+  background:var(--ivory);
+  color:var(--ink);
+  font-size:18px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+  background-image:
+    radial-gradient(ellipse at top left,rgba(216,176,74,0.06) 0%,transparent 40%),
+    radial-gradient(ellipse at bottom right,rgba(196,59,28,0.04) 0%,transparent 50%);
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:1;opacity:0.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.055 0 0 0 0 0.04 0 0 0 0 0.02 0 0 0 0.18 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.wrap{max-width:860px;margin:0 auto;padding:36px 40px 80px;position:relative;z-index:2;}
+.archive-banner{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  color:var(--ink-mute);background:var(--ivory-shade);border:1px solid var(--rule);
+  border-left:3px solid var(--mustard);padding:10px 16px;margin-bottom:28px;
+}
+.archive-banner a{color:var(--ink-mute);text-decoration:underline;}
+.archive-banner a:hover{color:var(--vermillion);}
+nav.breadcrumb{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--ink-mute);padding-bottom:24px;border-bottom:1px solid var(--rule);
+  margin-bottom:32px;display:flex;gap:16px;flex-wrap:wrap;align-items:baseline;
+}
+nav.breadcrumb a{color:var(--ink-mute);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;transition:all 0.2s;}
+nav.breadcrumb a:hover{color:var(--vermillion);border-bottom-color:var(--vermillion);}
+nav.breadcrumb .sep{color:var(--rule);}
+nav.page-nav{
+  display:flex;justify-content:space-between;align-items:center;
+  margin-top:56px;padding-top:24px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:11px;letter-spacing:0.10em;text-transform:uppercase;
+  flex-wrap:wrap;gap:12px;
+}
+nav.page-nav a{
+  color:var(--ink-mute);text-decoration:none;
+  border:1px solid var(--rule);padding:8px 16px;
+  transition:all 0.2s;
+}
+nav.page-nav a:hover{color:var(--vermillion);border-color:var(--vermillion);}
+main h1{
+  font-family:var(--display);font-weight:350;font-size:clamp(1.8rem,4vw,2.8rem);
+  letter-spacing:-0.01em;line-height:1.15;color:var(--ink);margin:8px 0 32px;
+}
+main h2{
+  font-family:var(--display);font-weight:350;font-size:1.5rem;
+  color:var(--ink);margin:2.4em 0 0.6em;
+}
+main h3{
+  font-family:var(--body);font-weight:700;font-size:1.05rem;
+  color:var(--ink-soft);margin:2em 0 0.5em;
+}
+main h4{font-family:var(--body);font-weight:700;font-size:0.95rem;margin:1.6em 0 0.4em;}
+main p{margin-bottom:1.1em;}
+main a{color:var(--vermillion-deep);text-decoration:underline;}
+main a:hover{color:var(--vermillion);}
+main strong{font-weight:700;}
+main em{font-style:italic;}
+main code{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:1px 5px;border-radius:2px;
+}
+main pre{
+  font-family:var(--mono);font-size:0.82em;
+  background:var(--ivory-shade);border:1px solid var(--rule);
+  padding:16px 20px;overflow-x:auto;margin:1.2em 0;line-height:1.45;
+}
+main pre code{background:none;border:none;padding:0;font-size:inherit;}
+main blockquote{
+  border-left:3px solid var(--vermillion);
+  margin:1.4em 0;padding:12px 24px;
+  background:var(--vermillion-soft);color:var(--ink-soft);
+}
+main blockquote p:last-child{margin-bottom:0;}
+main table{
+  width:100%;border-collapse:collapse;margin:1.4em 0;font-size:0.92em;
+}
+main th,main td{
+  border:1px solid var(--rule);padding:8px 14px;text-align:left;
+}
+main th{background:var(--ivory-shade);font-family:var(--mono);font-size:0.8em;letter-spacing:0.06em;text-transform:uppercase;}
+main ul,main ol{margin:0.6em 0 1em 1.8em;}
+main li{margin-bottom:0.3em;}
+main hr{border:none;border-top:1px solid var(--rule);margin:2.4em 0;}
+main img{max-width:100%;height:auto;display:block;margin:1.4em auto;border:1px solid var(--rule);}
+footer{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.08em;
+  color:var(--ink-mute);text-align:center;
+  padding:28px 40px;border-top:1px solid var(--rule);
+  position:relative;z-index:2;
+}
+footer a{color:var(--ink-mute);text-decoration:underline;}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}
+@media(max-width:600px){.wrap{padding:24px 20px 60px;}}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="archive-banner">Archived May 2026 edition — the current course is the <a href="../Digital%20Expand%20The%20Box%20June%202026/index.html">June 2026 edition</a>.</div>
+  <nav class="breadcrumb">
+    <a href="../index.html">Expand the Box — May 2026</a>
+    <span class="sep">/</span>
+    <a href="../index.html#course">Course</a>
+    <span class="sep">/</span>
+    <span>Day 7 — Low Drama · Gremlin Food · Shifting to Responsible Game</span>
+  </nav>
+  <main>
+<h1>Day 7 — Low Drama · Gremlin Food · Shifting to the Responsible Game</h1>
+<table>
+<tr><th><strong>Intensity</strong></th><th><strong>HIGH</strong></th></tr>
+<tr><td><strong>Time</strong></td><td>~3 hours active across 3–4 days</td></tr>
+<tr><td><strong>Partner check-in required before?</strong></td><td><strong>YES — required, no override.</strong> See unlock checklist in <code>04 - Container and Gatekeeping Protocol.md</code> Section D.</td></tr>
+<tr><td><strong>Source videos</strong></td><td><code>09 - LowDrama_EN.mp4</code> (canonical) · <code>Mini ETB Documents/The_Low_Drama_Trap.mp4</code> (short mini-lecture)</td></tr>
+<tr><td><strong>Maps (taught in this module)</strong></td><td>M13 Low Drama Triangle · M27 Your Gremlin · M29 Map of Reactivities — each also a standalone interactive tool in the <a href="../Map%20Atlas/index.html"><strong>Map Atlas</strong></a></td></tr>
+</table>
+<blockquote>
+<p><strong>Grounding (60 seconds).</strong> Top of <code>03 - Safety and Facilitation Framework.md</code> Section D. Read it now. You will use it inside this module.</p>
+</blockquote>
+<hr>
+<h2>Consent check (read before continuing)</h2>
+<blockquote>
+<p>This module engages <strong>the drama patterns of your daily life directly</strong>. The roles you have been playing — Persecutor, Victim, Rescuer — were learned early and have been running, in some form, every day since. Expect the gremlin to turn this material against you: self-disgust, special-awful, beyond-hope. That is food, not truth.</p>
+<p>Before continuing, confirm to yourself:</p>
+<ul>
+<li>My partner is reachable today and tomorrow.</li>
+<li>I have at least 90 uninterrupted minutes ahead of me.</li>
+<li>I am not in acute crisis or under the influence right now.</li>
+<li>I know how to ground.</li>
+<li>I know how to reach the CM if I need to.</li>
+<li><strong>My primary relationship is not currently in active crisis.</strong> If it is — pause, contact the CM, do not proceed without that conversation.</li>
+</ul>
+<p>If any of the above is not true, pause this module and come back when it is. If all are true and you choose to continue, take a slow breath and begin.</p>
+</blockquote>
+<blockquote>
+<p><strong>You just came through the heaviest stretch.</strong> Days 5, 6 and 7 are three High modules close together. If you have not taken the <strong>integration pause between Day 6 and Day 7</strong> (see your delivery schedule), take it now — at least a day of ground, sleep, journal, and a partner check-in before you open this. This material lands cleaner on a rested system.</p>
+</blockquote>
+<blockquote>
+<p><strong>Readiness check (10 seconds).</strong> Can you locate a 5% feeling in your body (Day 5)? Without it you will not catch your own Victim or Persecutor performance in the act, and the drama work flattens into personality typing. If not, re-read <a href="../Map%20Notes/M10%20-%20New%20Map%20of%20Feelings.md">M10</a> first. (Full self-check: <code>Facilitator Resources/Learning Self-Assessment.md</code>.)</p>
+</blockquote>
+<blockquote>
+<p><strong>If your partner has gone quiet.</strong> This module is partner-gated for a reason — you should not do it alone. But a silent partner must never strand you. If your partner hasn't responded and you want to proceed, <strong>message your CM</strong>: there is a real fallback — a witness partner, or a CM-held exchange — so you are accompanied. Don't do the High-intensity practice with no one on the other end, and don't let a non-responsive pairing stall you indefinitely. The fallback is yours to ask for.</p>
+</blockquote>
+<hr>
+<h2>Purpose</h2>
+<p>To make visible the daily-life drama you have been generating and to name what it has been for.</p>
+<p>Day 7 is direct work. Drama is not a thing other people do to you — it is a thing you produce, on purpose, because something in you eats it. Days 5 and 6 cleared the emotional body enough that you can finally see what the drama was substituting for. Day 7 asks the unflattering question: <em>what have I been feeding, and at whose expense?</em></p>
+<p>You install three distinctions. The <strong>Low Drama Triangle</strong> (Persecutor, Victim, Rescuer). The <strong>gremlin</strong> and what it eats. The move out — <strong>shifting to the Responsible Game</strong>. None of this is moral. All of it is operational. By the end you will be able to detect a drama position in yourself in real time and name the food it is producing — the precondition for choosing differently.</p>
+<p>This module relies on Days 5 and 6. If your distinction between feeling and emotion has not landed, the drama work reads as personality typing rather than as the energetic accounting it actually is. If you can't yet locate a 5% sadness in your chest, you will not catch your Victim performance in the act. Pause and re-read M10 if you need to.</p>
+<hr>
+<h2>Core PM concepts</h2>
+<ul>
+<li><strong>Low Drama</strong> — the daily-life kind that hides in plain sight; distinct from high drama (theatrical, staged, often productive). Low drama is the small chronic kind: complaint, blame, "I had to," "you always," the sigh, the eye-roll, the rescue nobody asked for.</li>
+<li><strong>The Low Drama Triangle</strong> — three positions a person rotates through: <strong>Persecutor</strong> (attacks, blames, controls), <strong>Victim</strong> (collapses, "this is happening to me," manipulates through helplessness), <strong>Rescuer</strong> (steps in unasked, takes over, builds dependency). All three are the same Box-pattern. A person flips between them. One machine, not three personalities.</li>
+<li><strong>Gremlin</strong> — the part of you that wants drama. Distinct from the Box (which keeps you safe). Hungrier and louder. Part of the system — naming it is not condemning it.</li>
+<li><strong>Gremlin food</strong> — what drama is actually for. Being right, being wronged, being special, being misunderstood, being a victim, being a savior, being above it all, being beneath it all. The drama produces the food; the gremlin eats. The Low Drama Triangle is gremlin food production at industrial scale.</li>
+<li><strong>The Responsible Game</strong> — what is left when you decline drama. Simpler, less stimulating, feels less alive at first because the gremlin is starving. The move: notice → name → step out → ask what is actually happening, what you actually want, what you can actually choose.</li>
+<li><strong>Fighting reality</strong> — the first ingredient of low drama. <em>Whatever is happening should not be happening.</em> Set that posture, you are inside the triangle.</li>
+<li><strong>Reactivity</strong> — any time something external sets off an automatic internal reaction that is not a present-time conscious choice. The hook is a kind of reactivity; so is the button that opens a drama. The <strong>Map of Reactivities</strong> sorts reactivity into <strong>six kinds</strong> — Buttons, Voices, Activated Traumas, Hooks, Triggers, Imbalances — each routing to a <em>different</em> tool already in this course. From the inside they all feel the same; the first move is always to name which one fired.</li>
+</ul>
+<hr>
+<h2>Learning outcomes</h2>
+<p>By the end of this module you will:</p>
+<ol>
+<li>Name the three drama positions and recognize which one you flip into most habitually under stress.</li>
+<li>Name at least three of your own gremlin foods — including the one you are most uncomfortable admitting.</li>
+<li>Apply the <strong>low-drama detector</strong> to a specific drama within the last 7 days of your life: which position were you in, what was the food, what was the Responsible Game move.</li>
+<li>Detect the energetic difference between speaking from a drama position and speaking from the Responsible Game.</li>
+<li>Given a reactivity, name <strong>which of the six kinds</strong> it is (Button · Voice · Activated Trauma · Hook · Trigger · Imbalance) and the tool each one routes to — so you stop applying one favourite tool to every reaction.</li>
+<li>Have completed a partner exchange in which you named a gremlin food out loud and were witnessed without being fixed.</li>
+</ol>
+<hr>
+<h2>Module flow</h2>
+<table>
+<tr><th>Step</th><th>Time</th><th>What you do</th></tr>
+<tr><td>1</td><td>10 min</td><td>Read the header and consent check. Confirm partner is reachable.</td></tr>
+<tr><td>2</td><td>30 min</td><td>Watch <code>09 - LowDrama_EN.mp4</code></td></tr>
+<tr><td>3</td><td>5 min</td><td>Watch the short <code>The_Low_Drama_Trap.mp4</code> mini-lecture</td></tr>
+<tr><td>4</td><td>35 min</td><td>Read <strong>Concept teaching notes</strong> below, slowly — study each map image where it sits</td></tr>
+<tr><td>5</td><td>30 min</td><td><strong>Low-drama detector practice</strong> (solo, embodied, with journaling)</td></tr>
+<tr><td>6</td><td>25 min</td><td><strong>Partner voice exchange</strong> (record + send)</td></tr>
+<tr><td>7</td><td>—</td><td>Receive partner reply within 24 hours; record your reply</td></tr>
+<tr><td>8</td><td>48 hr</td><td>Run the <strong>between-module experiment</strong></td></tr>
+<tr><td>9</td><td>20 min</td><td>Journal the <strong>reflection prompts</strong></td></tr>
+<tr><td>10</td><td>1 min</td><td>Post one line to the cohort feed</td></tr>
+</table>
+<p>Spread the module across 3–4 days. The drama work has a way of going underground for a few hours and then surfacing in a conversation with someone you live with — give it that room.</p>
+<hr>
+<h2>Concept teaching notes</h2>
+<h3>Low drama is not high drama</h3>
+<p>The phrase <em>low drama</em> is easily misread. People hear <em>low</em> and assume mild, small, harmless. The opposite is true. Low drama is the kind so woven into ordinary life it is <strong>invisible</strong>. The sigh when your partner leaves a cup out. The story you tell yourself driving home about what your colleague <em>really</em> meant. The reassuring noise you make to the friend complaining about the same thing for the fourth month. The eye roll. The "I had to." The "you always."</p>
+<p>It is low not because the stakes are low — over years the stakes are enormous; most relationships die from it rather than from anything dramatic — but because it operates <strong>below the threshold of noticing.</strong></p>
+<p><strong>High drama is something else</strong> — theatrical, staged, often productive. A surgeon in an emergency. A trainer holding a charged moment. Intentional, contained, time-limited, serves something. Not the subject of this module.</p>
+<p>Both are gremlin food. The course goes after the low kind because <strong>it is the one you cannot see yet, and the one that runs your life.</strong></p>
+<h3>The Low Drama Triangle — three positions of one machine</h3>
+<p><img src="../Maps/M13.png" alt="Low Drama" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M13%20-%20Low%20Drama%20Triangle.html">Explore M13 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map before reading on. It is a triangle: <strong>Persecutor</strong> at one upper corner, <strong>Rescuer</strong> at the other, <strong>Victim</strong> at the bottom, with arrows showing the rotation between them. Three positions — but read the arrows, not the corners. The corners look like three different people; the arrows are the truth: one machine, rotating. (A related map worth glancing at — <code>Possability Lab NY October 2025/Map of Frying Pan.pdf</code> — shows what happens when drama escalates instead of being interrupted. Background, not required.)</p>
+<p>The load-bearing claim sits underneath the drawing: low drama is <strong>produced, not received.</strong> You are not in the triangle because someone put you there. You are in it because something in you eats what the position generates. <em>Getting pulled in</em> is itself a Victim framing — and a clue about your preferred food.</p>
+<p>The Triangle has three positions. Most learners arrive recognizing one or two of them and being certain the third is "not me." By the end of Day 7 most learners discover they rotate through all three, often within a single conversation.</p>
+<p><strong>Persecutor.</strong> <em>"It's your fault. Let me show you why."</em> Attacks, blames, controls, criticizes, makes wrong. Scans the room for what is not right and announces it. Energetically big — chest out, jaw set, voice over the top. The food is being <strong>right</strong>, being <strong>superior</strong>, being <strong>the one who sees clearly</strong>. Persecutor does not require yelling — the most refined Persecutors do it quietly: the precisely-worded email, the calm comparison to a sibling, the sociological critique of a partner.</p>
+<p><strong>Victim.</strong> <em>"I have no choice. This is happening to me. Help me."</em> Collapsed, helpless, often physically smaller. Words say <em>I cannot</em> and the body confirms it. The food is being <strong>wronged</strong>, being <strong>innocent</strong>, being <strong>special in suffering</strong>. Victim is more powerful than it looks — a skilled Victim runs entire households by making others do for them what they have declared themselves incapable of. The collapsed energy is itself a control: <em>if you do not rescue me, you are cruel.</em> The Victim does not feel powerful while doing this; the Victim feels miserable. The misery is part of the food.</p>
+<p>A live moment from this cohort, when a learner noticed she was blaming herself, the trainer named it: <em>a certain kind of telenovela with yourself. Only you can be the victim and only you can be the persecutor and only you can stop the show.</em> This is the internal version. You can run the triangle entirely between parts of yourself and never involve another person.</p>
+<p><strong>Rescuer.</strong> <em>"Let me fix it for you."</em> Steps in unasked. Takes over. Builds dependency. The food is being <strong>good</strong>, being <strong>needed</strong>, being <strong>above the problem because solving it for someone beneath</strong>. Rescuer is the most morally camouflaged position — rescuing looks like kindness and is often praised. The damage is structural: the Rescuer needs there to be a Victim, and so subtly cultivates one. The friend you cannot stop helping is the friend you have made dependent. The Rescuer's reward is the appreciation — until the appreciation runs out, at which point the Rescuer rotates.</p>
+<p><strong>The rotation.</strong> A person does not stay in one position. The Rescuer who is not appreciated becomes Persecutor — <em>after everything I did for you</em>. The Victim who finally gets angry weaponizes the helplessness — <em>look what you made me do</em>. The Persecutor who is challenged collapses into Victim — <em>no one understands me, I am being attacked</em>. The Rescuer who is overwhelmed recasts the rescue as suffering — <em>I do everything around here, no one helps me</em>.</p>
+<p>One machine, three faces. The faces look different. The function is the same — <strong>produce gremlin food</strong>.</p>
+<p><strong>Common misunderstandings about the Low Drama Triangle.</strong></p>
+<ul>
+<li><em>"I am a Rescuer — that's my type."</em> You are not a type. You are a person who rotates through all three positions, with a preferred entry point. Naming one corner as your identity is the Box parking you somewhere comfortable so it never has to watch you flip into the other two. By the end of Day 7 most learners catch all three running in a single conversation.</li>
+<li><em>"Drama is something other people do to me — I get pulled in."</em> Drama is produced, not received. <em>Getting pulled in</em> is already a Victim framing, and the very fact that it is your reflex explanation tells you something about your favourite food.</li>
+<li><em>"If I shift to the Responsible Game I'll feel better."</em> At first you feel <em>less alive</em>, because the gremlin is starving. The real aliveness of the Responsible Game is quieter and takes time to recognize. Expecting to feel better immediately is how people abandon the move thirty seconds in.</li>
+<li><em>"Once I see my pattern I'll be free of it."</em> Seeing it is the first move, not the last. The gremlin is patient; the same discipline is required at year five as at week one.</li>
+</ul>
+<h3>The gremlin — what it is and what it eats</h3>
+<p><img src="../Maps/M27.png" alt="Your Gremlin" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M27%20-%20Your%20Gremlin.html">Explore M27 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map: a hand-drawn creature, impish, clawed, grinning. It is not a diagram of parts — it is a <em>portrait of the thing itself</em>, drawn so you stop treating it as an abstraction and start treating it as a resident. The text on the map names it exactly: <strong>the King or Queen of your Underworld — and it owns your life. Currently on a low-drama gremlin feast.</strong> Hold that phrase. The gremlin is sovereign down below, running the show from beneath your awareness, and the map states the cost plainly: until you meet it on purpose, <em>it owns your life.</em></p>
+<p>The Box (Day 2) keeps you safe according to its rules. The gremlin is different. The gremlin <strong>wants drama</strong>. Hungrier than the Box, more cunning, louder. The part of you that, when something is going well, finds the thing that is not going well and dwells on it. The part of you that re-tells the painful conversation eight times in your head — not to understand it, but to keep the food coming.</p>
+<p>This is the cut that makes the gremlin usable: <strong>the Box wants safety; the gremlin wants food.</strong> Different appetite, different location. You have both. You are neither. The gremlin speaks <em>sotto voce</em> — quiet, conspiratorial, intimate: <em>they never appreciate you; you're better than this; just give up; go on, have one.</em> The trap is that the voice passes for thought, for insight, for "what I really feel." It is none of those. The feeling of truth is part of the bait.</p>
+<p>And the gremlin <strong>eats in both directions.</strong> It is just as well fed by <em>"I'm the worst"</em> as by <em>"I'm the best."</em> Grandiosity and self-disgust are the same meal served two ways. This is why the gremlin is <strong>not the inner critic</strong> — an inner critic only runs you down; the gremlin feeds on the glory just as happily as the shame.</p>
+<p>The gremlin also comes in <strong>types</strong> — the map marks <em>Type 1 / Type 2</em>. Your gremlin has its own characteristic flavour, its own favourite food. Type-1 gremlins, in the transcripts, <em>like being caught — yes, I did that, I'm really good at this game.</em> When you spot it clearly, it often grins. The grin is information.</p>
+<p>The gremlin is not a bad part of you. <strong>The gremlin is part of the system.</strong> Naming the gremlin is not condemnation. You have a gremlin. You are not your gremlin. The gremlin will be with you for life — you do not kill it, you cannot, and trying to eliminate it is usually the gremlin's own strategy (the war on the gremlin is itself gremlin food: being right, being on the side of good). The work is to <strong>meet it, know its diet, befriend it, and put it to conscious use.</strong> A gremlin you know can be directed. A gremlin you refuse to look at runs your life.</p>
+<blockquote>
+<p><strong>Scope note — what is in this room and what is not.</strong> Meeting your gremlin, naming it, and catching its low-drama feast in progress is <strong>in scope</strong> for this course. Deep gremlin process work — <strong>Gremlin Transformation</strong> (the map's <em>Preface, Chapter 0, Chapter 1</em>) — is a separate, longer container held by a PM trainer (the GT training). <strong>Do not attempt to "transform" your gremlin solo.</strong> Naming it is the work here; processing it is a different room. (Same discipline as the Demon scope note in M17 and the EHP carve-out: naming is the entry, processing is held elsewhere.)</p>
+</blockquote>
+<p>The classic gremlin foods — your list will overlap and have its own colors:</p>
+<table>
+<tr><th>Food</th><th>What it sounds like</th></tr>
+<tr><td>Being right</td><td>"I told you so." "I knew it." "I am the only one who sees this."</td></tr>
+<tr><td>Being wronged</td><td>"After everything I did." "Why does this always happen to me."</td></tr>
+<tr><td>Being special</td><td>"Nobody understands what I go through." "I am not like the others."</td></tr>
+<tr><td>Being misunderstood</td><td>"You don't get it. You'll never get it." (And the satisfaction of being right about that.)</td></tr>
+<tr><td>Being a victim</td><td>"I had no choice." "It's not my fault." "What was I supposed to do."</td></tr>
+<tr><td>Being a savior</td><td>"Without me this would fall apart." "They need me."</td></tr>
+<tr><td>Being above it all</td><td>"I don't engage in that kind of thing." (The contempt is the food.)</td></tr>
+<tr><td>Being beneath it all</td><td>"I'm just trying my best." "I'm so tired." "I can't keep up."</td></tr>
+</table>
+<p>Most people have a primary food, two or three secondary, and one they are deeply uncomfortable admitting they enjoy. The uncomfortable one is usually the most operational. <strong>Knowing your foods is the first step. Catching the gremlin in the act of being fed is the second.</strong></p>
+<p>A learner in the transcripts names being <em>"the one people underestimate, so I overperform."</em> The trainer's response: <em>your gremlin likes all of this. Type-one gremlins really like being caught — yes, I did that, I'm really good at this game.</em> When you spot your gremlin clearly, it often grins. The grin is information.</p>
+<p><strong>Common misunderstandings about your gremlin.</strong></p>
+<ul>
+<li><em>"My gremlin is evil — it's something to get rid of."</em> The gremlin is not the enemy and cannot be killed. The war on the gremlin is itself gremlin food — being right, being on the side of good. The work is to know it and put it to conscious use. You have a gremlin; you are not your gremlin.</li>
+<li><em>"The gremlin is just my negative self-talk — my inner critic."</em> No. The inner critic is closer to the Critical Parent (Day 9). The gremlin wants <em>food</em> — drama, suffering, righteousness — and it feeds whether the talk is negative <em>or</em> grandiose. An inner critic only goes one direction; the gremlin eats <em>"I'm the worst"</em> and <em>"I'm the best"</em> with the same appetite.</li>
+<li><em>"The gremlin and the Box are the same thing."</em> Distinct locations. <strong>Box</strong> = survival and safety. <strong>Gremlin</strong> = appetite for drama-food. Confuse them and you will try to feed the gremlin with safety, or soothe the Box with drama — and neither move lands.</li>
+<li><em>"If I've named my gremlin, I've handled it."</em> Naming is the start, not the finish. The appetite does not disappear because you named it once. What changes is that you can now catch the feast in progress and choose whether to feed it. Deep work is <strong>Gremlin Transformation</strong>, a separate container.</li>
+</ul>
+<h3>Fighting reality — the first move of every low drama</h3>
+<p>There is a single move that initiates every low drama. <strong>Fighting reality.</strong> The internal sentence: <em>whatever is happening should not be happening.</em></p>
+<p>Your partner is late. The traffic is bad. The colleague did the thing again. The weather. The diagnosis. The bill. Reality presents you with what is, and you object to its being what is. From that objection — that quiet <em>no</em> to what is already true — you enter the triangle. You become Victim of the late partner, Persecutor of the colleague, Rescuer of the situation.</p>
+<p>The transcript names it cleanly: <em>one of the basic first steps of any kind of low drama is fighting reality. You are saying whatever is happening should not be. And — Victim, boom, you're in low drama.</em></p>
+<p>The Responsible Game does not require you to like what is happening. It requires you to stop arguing with the fact of it. From <em>this is happening, what do I want to do with it</em>, a different range of moves opens. From <em>this should not be happening</em>, you go into the triangle every time.</p>
+<h3>Shifting to the Responsible Game</h3>
+<p>The Responsible Game is what is left when you decline drama. Not heroic. Not virtuous. Not impressive. The simpler, less-stimulating thing that becomes available when you stop producing food.</p>
+<p>The move has a shape:</p>
+<ol>
+<li><strong>Notice</strong> you are in a drama position. Most of the work is here — the position is invisible until you have practiced enough to see it. The body usually knows first: tight jaw is often Persecutor; collapsed chest is often Victim; pulled-forward posture toward someone else's problem is often Rescuer.</li>
+<li><strong>Name it</strong>, out loud or silently. <em>I am in Persecutor right now.</em> The naming is itself a small act of stepping out. You cannot be fully in a position you are accurately naming.</li>
+<li><strong>Step out.</strong> Change posture, take a breath, drop the body. Ground, center, drop a bubble (Day 3 equipment). The position needs the energetic posture; loosen the posture and the position weakens.</li>
+<li><strong>Ask three questions.</strong> <em>What is actually happening, in fact, without my story about it? What do I actually want? What can I actually choose, right now, from here?</em> Not rhetorical. Sit with each.</li>
+</ol>
+<p>A learner in the cohort, mid-conversation with a partner: <em>I told her where my attention was — my attention is on analyzing and being right. And then I just put this question. I asked, I wonder what else is possible for me with you right now? And then I was just quiet.</em> The shift is that compact. Naming the position, asking a different question, becoming quiet. That is the move.</p>
+<p><strong>A warning.</strong> The Responsible Game <strong>feels less alive at first.</strong> Structural, not a sign you are doing it wrong. The drama was producing food, the food was producing a charge, you mistook the charge for aliveness. Without the food, the gremlin is starving and your body reads the starvation as <em>something is missing</em>. This passes — usually within hours, sometimes within days. It returns every time you decline a drama. <strong>Stay with it.</strong></p>
+<p><strong>A second warning.</strong> The shift gets easier with practice but is <strong>never automatic.</strong> The gremlin is patient. When one food source dries up, the gremlin finds another. Catching it requires the same discipline at year five as at week one. People who claim they have transcended drama have usually just found a more sophisticated kind that flatters them.</p>
+<h3>The Map of Reactivities — name which one fired before you reach for a tool</h3>
+<p><img src="../Maps/M29.png" alt="Map of Reactivities" loading="lazy" style="max-width:100%;height:auto;display:block;margin:1.2em 0;"></p>
+<p><em>▶ <a href="../Map%20Atlas/M29%20-%20Map%20of%20Reactivities.html">Explore M29 as an interactive tool in the Map Atlas →</a></em></p>
+<p>Study the map. A <strong>reactivity</strong> is when something external sets off an automatic internal reaction that is <em>not</em> a present-time conscious choice — something happens and you are already reacting before you decided to. The hook you just met is one kind of reactivity. So is the button that opens a drama. The map's load-bearing claim is the one that saves you the most wasted work: <strong>not all reactivity is the same kind, and each kind has a different antidote.</strong> From the inside they all feel identical — a jolt, a charge, a sudden <em>no</em> — so the untrained move is to grab one favourite tool every time (process it, push through it, analyse it). The map says: stop, and ask <em>which of the six is this?</em></p>
+<p>The six types, each with what it is and <strong>where it routes</strong>:</p>
+<table>
+<tr><th>Reactivity</th><th>What it is</th><th>Route (the tool it needs)</th></tr>
+<tr><td><strong>Buttons</strong></td><td>Box rules and sensibilities firing automatically — quick, neurotic, repeatable. Someone leaves a cup out and <em>people should clean up after themselves</em> fires before you choose. The button is on the Box, not on you.</td><td><strong>Expand the Box</strong> (Day 2 / M04).</td></tr>
+<tr><td><strong>Voices</strong></td><td>Internalised external authority — the shoulds, the nags. A parent's, a teacher's, a culture's voice replaying as if it were yours. Cousin to the Critical Parent (Day 9).</td><td><strong>Shoot the voices</strong> — recognise the voice is not yours and decline its authority.</td></tr>
+<tr><td><strong>Activated Traumas</strong></td><td>The past happening in the present — a present-time trigger reaches old stored material and it floods forward as if the original event were happening now.</td><td><strong>The Emotional Healing Process</strong> (Day 6 / M12) for the in-scope stored <em>emotion</em> — with the hard carve-out below.</td></tr>
+<tr><td><strong>Hooks</strong></td><td>Gremlin seductions into a low-drama game (this module) — the pull toward drama, righteousness, sex-energy, and <em>becoming hookable</em>, leaving the loop open so the gremlin gets fed.</td><td><strong>Catch the hook, decline the gremlin food</strong> — the Responsible Game move you just learned.</td></tr>
+<tr><td><strong>Triggers</strong></td><td>Specific trigger sentences and draining "vampire" energies — the exact phrase, person, or energy that drains you the instant it lands.</td><td><strong>Close the cake</strong> — stop leaving yourself energetically open to the thing that feeds on you.</td></tr>
+<tr><td><strong>Imbalances</strong></td><td>The reactivity that is really just one of the <strong>5 bodies</strong> (Day 3 / M06) out of balance — tired, hungry, energetically leaking. Not a psychological event at all.</td><td><strong>Bring the body to balance</strong> — eat, sleep, ground, stop the leak.</td></tr>
+</table>
+<blockquote>
+<p><strong>The hard line on Activated Traumas.</strong> The EHP completes a stored <em>emotion</em>; it does not process <strong>trauma</strong>. Actual trauma — the early situations in which you first learned a drama position included — goes to a qualified clinician, not the EHP and not this module. (This is the same carve-out the safety callouts state below and that M12 holds. Naming which reactivity fired is in scope; trauma processing is a different room.)</p>
+</blockquote>
+<p><strong>The diagnostic move.</strong> When you catch yourself reacting, do not reach for a tool yet. Ask first: <em>which of the six is this?</em> Treating an Imbalance as if it were an Activated Trauma — sitting down to do deep inner work when you were actually just hungry — wastes the work and teaches your body the wrong lesson. Treating a Hook as a Button keeps you "expanding the Box" while the gremlin quietly eats. Naming the kind is what tells you the route. Often more than one is present at once — <strong>name the loudest first.</strong> This is why Day 7 puts the hook beside the other five: the gremlin's hook is one reactivity among several, and the discipline that catches it is the discipline that sorts them all.</p>
+<p><strong>Common misunderstandings about reactivity.</strong></p>
+<ul>
+<li><em>"All reactivity is psychological and needs deep inner work."</em> The Imbalances type is the standing reminder that some "reactivity" is just a tired, hungry, or leaking body. Check the five bodies <em>first</em>. A snap at dinner is often low blood sugar, not a wound.</li>
+<li><em>"If I'm reacting, something is wrong with me."</em> Reactivity is information about which system fired — not a verdict on your worth. The map turns <em>I'm being reactive</em> into <em>which reactivity is this, and what's its route?</em></li>
+<li><em>"I should just push through the reaction and suppress it."</em> Suppression banks it — that is the mechanism behind the Numbness Bar (Day 5) and Mixed Emotions. Pushing through does not clear a reactivity; it stores it for later. Route it instead.</li>
+<li><em>"Once I find my one tool, I can apply it to everything."</em> One tool per kind. Box work clears a Button and does nothing for an Imbalance; food clears an Imbalance and does nothing for a Voice. Using the wrong route is exactly why "I tried to work on it and nothing happened."</li>
+</ul>
+<h3>A note on Karpman</h3>
+<p>Some learners have encountered Karpman's drama triangle from transactional analysis (1968). The shape is similar — Persecutor, Victim, Rescuer, rotation between them. PM differs in one important way. Karpman names the roles as <strong>dysfunctional patterns</strong>. PM names them as <strong>gremlin food production</strong>. Same positions, different account of what they are for. In Karpman, you stop because the roles are unhealthy. In PM, you stop because you can finally see what the drama was feeding, and you have built (over Days 1–6) the equipment to feed yourself differently. If Karpman is already in your vocabulary, hold the two frames side by side; do not collapse them.</p>
+<hr>
+<h2>Embodied practice (solo) — the low-drama detector</h2>
+<p>~25–30 minutes. Done alone, with a notebook. You will need a specific drama from your actual life within the last 7 days — pick it before you start. Not the biggest drama of your life. A small one. Recent. The kind you would not normally have noticed as drama.</p>
+<p>Examples of the right size:</p>
+<ul>
+<li>The argument with your partner about dishes / weekend plans / the mother-in-law.</li>
+<li>The work conversation where you walked away with a story about what your colleague meant.</li>
+<li>The complaint you made to a friend that you have made before, about the same thing.</li>
+<li>The internal loop you ran for forty-five minutes about an email someone sent you.</li>
+</ul>
+<p>Read the script through once before you do it.</p>
+<blockquote>
+<p><strong>Script.</strong></p>
+<p>Sit. Both feet on the floor. Notebook open. Center, ground, drop a bubble (Day 3 equipment — re-read M07 if it has fallen out of your body).</p>
+<p><strong>Bring the drama to mind.</strong> The specific one. Who was there, what happened, what was said, how it ended. Spend ~3 minutes letting it become present. Notice your body. Notice the charge that arrives with the memory. The charge is data.</p>
+<p><strong>Step One — Which position was I in?</strong> Out loud: <em>In this drama, I was in [Persecutor / Victim / Rescuer].</em> Try the first one that comes. Then check the other two — were you also in one of them, even briefly? Most dramas have you in at least two positions across the event.</p>
+<p>Write: the position(s) and one specific moment where you can locate each. <em>"When I said X, I was in Persecutor. When she replied Y, I rotated into Victim."</em> Be specific. Generalities will let you off the hook.</p>
+<p><strong>Step Two — What was the gremlin eating?</strong> Out loud: <em>The food I was producing here was [name the food].</em> Try the list. Try your own words. Notice which naming makes your body do something — a flinch, a flush, a tightening, a quiet <em>oh</em>. That somatic response is the gremlin being spotted.</p>
+<p>Write: the food. Be precise. Not "I wanted to be right" — <em>"I wanted to prove that I have been carrying this relationship and she does not appreciate it."</em> That specific. If more than one food was produced, name each.</p>
+<p><strong>Step Three — What would the Responsible Game move have been?</strong> Out loud: <em>The Responsible Game move would have been to [specific action].</em></p>
+<p>Walk it through. <em>What was actually happening, in fact?</em> Strip the story off the event and describe it as a camera would. <em>What did I actually want?</em> Not the gremlin's want (to be right, to be appreciated, to be rescued) — the underlying want (to be understood, to share a workload, to feel close, to be left alone). <em>What could I have chosen, from there?</em></p>
+<p>Write: the actual move. The sentence you could have said. The thing you could have done. The position you could have declined.</p>
+<p><strong>Step Four — Notice your gremlin's response.</strong> Now that you have named the food and named the Responsible Game move, your gremlin will do one of two things. Either protest — <em>that's not what was happening, you're being too hard on yourself, the other person was actually wrong.</em> Or go quiet and pivot to a new food — <em>now I am going to feel terrible about being a gremlin, which is a new gremlin food called "being beneath it all."</em></p>
+<p>Watch this happen. Name what your gremlin tries. Write it down. Spotting it twice in one practice is excellent work.</p>
+<p><strong>Close.</strong> Put the notebook down. Stand up. Three breaths. Notice you are not actually inside the drama right now — you are in your room, in your body, in a different moment than the one you just walked through. The drama is over. The work is to have seen it.</p>
+</blockquote>
+<p><strong>What to expect.</strong> Most learners report the practice is uncomfortable but not destabilizing — the discomfort is the gremlin being spotted. A strong urge to dismiss the whole exercise as <em>I was actually right and they were actually wrong</em> is itself gremlin food (being right). Notice it; do the practice anyway.</p>
+<p>If you discover the drama is much bigger than you thought — sitting on top of a decades-old pattern with this person — note it as a candidate for emotional healing process (Day 6 work) and <strong>do not try to process the larger pattern in this practice.</strong> Today is for registering.</p>
+<p>If you find yourself in shame rather than seeing — <em>I am a terrible person, I have been doing this my whole life, my relationships are ruined</em> — ground, stop the practice for today, voice-message your partner. Shame is not learning. The gremlin is using the practice itself to produce a new food. See the safety callouts.</p>
+<blockquote>
+<p><strong>Variation B — the three-corner stand (~10 min).</strong> If the detector keeps you in your head, walk the triangle with your body instead. Mark three spots on the floor about three steps apart — coins, post-its — labelled <strong>Persecutor</strong>, <strong>Victim</strong>, <strong>Rescuer</strong>. Bring the same small recent drama to mind. Stand on <strong>Persecutor</strong>: take the posture — chest out, jaw set, weight forward — and say out loud what your inner Persecutor says about the situation; feel the charge; name the food (<em>being right, being the one who sees clearly</em>). Step to <strong>Victim</strong>: chest collapsed, shoulders down, weight back; say what your Victim says (<em>I had no choice, look what is happening to me</em>); name the food (<em>being wronged, being innocent, being special in suffering</em>). Step to <strong>Rescuer</strong>: leaning forward, hands ready, eyes on the other's problem; say what your Rescuer says (<em>let me handle it, don't worry</em>); name the food (<em>being needed, being good, being above the problem</em>). Then step <em>off</em> the triangle into the middle, equidistant from all three. Drop the postures. Ground — feet down, weight low, eyes soft. Ask the three Responsible Game questions out loud: <em>What is actually happening, in fact, without my story? What do I actually want? What can I actually choose, right now?</em> Notice the off-triangle spot is quieter, less charged. The gremlin will protest — <em>this is boring, nothing is happening.</em> That protest is the gremlin spotting the starvation. Stay in the middle anyway. Write two sentences about what you noticed when you stepped off.</p>
+</blockquote>
+<blockquote>
+<p><strong>Add-on — meet your gremlin's favourite food (≤15 min).</strong> A <em>locator</em>, not a transformation (see the gremlin scope note above — do not try to transform your gremlin solo). Sit, centre, ground, drop a bubble. <strong>Give the gremlin the pen (5 min):</strong> on paper, let your gremlin say what it says when it wants its favourite food — petty, righteous, superior, collapsed, smug, whatever it actually is. Prompt it: <em>what does it want right now — to be right? wronged? special? the victim? above it all?</em> Write the real sentences in its voice, <em>sotto voce</em>: <em>they never appreciate what I do; I'm the only one who sees clearly; nobody understands what I go through; I had no choice.</em> Notice the small charge of pleasure that comes with some of them — that charge is the food being eaten. <strong>Name the favourite food, out loud (2 min):</strong> read it back, find the one that shows up most or gives the biggest charge, and say it plainly once: <em>"That's my gremlin, and its favourite food is ___."</em> Be specific — not <em>"being right"</em> in the abstract but <em>"being the one who was carrying everything while no one noticed."</em> <strong>Do not argue with it, do not fix it</strong> — the moment you debate the gremlin (<em>that's not fair, the other person was actually wrong</em>) you have fed it a fresh meal. Just name the food and stop; naming starves it slightly. Close: pen down, three audible exhales, out loud — <em>"I have a gremlin. I know one of its foods now. I am not it. I am the one who can know it."</em> Write three lines: <em>favourite food · where in the body the charge landed · where in my week it is most likely eating.</em> If the gremlin turns this into self-disgust — <em>I've been like this my whole life, I'm beyond hope</em> — that is a new food (being especially awful), not the truth: ground, stop for today, voice-message your partner.</p>
+</blockquote>
+<blockquote>
+<p><strong>Add-on — name which one fired (~10 min).</strong> Drill the Map of Reactivities directly. Sit, centre, ground, drop a bubble, notebook open. <strong>Bring one recent moment to mind</strong> — a time in the last few days you snapped, withdrew, got hooked, got defensive, went cold. A small, ordinary one. Let it become present ~2 minutes; notice the charge (data, not a verdict). <strong>Now walk the six, out loud, one at a time</strong>, feeling for the body's answer each time: <em>Was it a Button?</em> (a Box rule firing — <em>this should not be like this</em> — the same reaction you always have to that exact thing). <em>Was it a Voice?</em> (a should, a nag, an authority figure — and is that voice actually yours, or swallowed?). <em>Was it an Activated Trauma?</em> (something old and much larger than the moment flooding forward). <em>Was it a Hook?</em> (gremlin food — righteousness, drama, being right — did you get hooked because something wanted the food?). <em>Was it a Trigger?</em> (a specific sentence, person, or energy that drained you the instant it landed). <em>Was it an Imbalance?</em> (be honest — were you just tired, hungry, ungrounded? had you eaten? slept?). <strong>Name which one fired:</strong> <em>That was a [Button / Voice / Activated Trauma / Hook / Trigger / Imbalance]</em> — name the loudest first, then any others; notice which naming makes your body do something. <strong>Name its route:</strong> <em>The route for this one is [Expand the Box / shoot the voices / EHP / decline the gremlin food / close the cake / bring my body to balance].</em> You are not running the route now — you are practising the diagnosis, the single move the whole map is built around. Close: notebook down, stand, three breaths. Notice that naming the kind already changed the charge, even though you did nothing about it yet. That shift is the map working.</p>
+</blockquote>
+<hr>
+<h2>Partner exchange (async)</h2>
+<p>Same structure as Days 5 and 6: record, send, receive, reply. Voice messages only. Speak from your body, not from your script.</p>
+<p><strong>Before recording: do the partner check-in.</strong> Confirm your partner is reachable in this 48-hour window. If not, pause and contact the CM. (Structural requirement for all High modules. No override.)</p>
+<p><strong>Prompt to record (5–10 minutes):</strong></p>
+<p>Speak to your partner directly. Three things, in this order:</p>
+<ol>
+<li><strong>One of your gremlin foods — the one you are most uncomfortable admitting.</strong> Not the safe one. The one that, when you write it down, your body tightens. <em>"My gremlin eats being the smartest person in the room and looking down on everyone who isn't."</em> That specific. Name it. Do not justify it. Do not soften it with self-deprecation (itself a gremlin food). Just name it. <strong>Naming the food starves it slightly.</strong></li>
+<li><strong>The drama you used in the detector practice.</strong> Which position you were in, what the food was, what the Responsible Game move would have been. Brief — the work was solo; the share is the headline, not the whole story.</li>
+<li><strong>One thing alive in you right now</strong>, as you record. Use the Day 5 form: <em>"Right now I feel some [feeling], the sensation is [location and quality], and what I think it is about is [one sentence]."</em> The Day 7 material often surfaces fresh feeling underneath the drama — speak it.</li>
+</ol>
+<p>If you stumble, leave the stumble in. Do not edit.</p>
+<p><strong>When you receive your partner's message: listen all the way through once before replying.</strong> Then record (3–7 minutes):</p>
+<ol>
+<li><strong>What you heard them name as their food.</strong> Repeat it back to them, in their words. The repetition is the witnessing. <em>"You said your gremlin eats being the one who never asks for help. I heard that."</em></li>
+<li><strong>What feeling surfaced in you while listening</strong> — name it from the four, locate it, note its intensity. <em>"While you spoke I felt some sadness in my chest, maybe 15%."</em></li>
+<li><strong>No question this time.</strong> No advice. No "have you considered." No "I have a similar food." Naming a food and being witnessed without being fixed is the practice. Witnessing only. End with: <em>"Thank you for telling me that."</em></li>
+</ol>
+<p>If your partner names a food that lands on you — that you have been a target of, or that you do too — notice it in your own body, do not bring it back to them in the reply, and journal about it separately. The drama-detection skills you are building are <strong>for your own life first</strong>.</p>
+<p><strong>Critical: do not use the drama vocabulary on the person you live with this week.</strong> Naming your partner's Persecutor / Victim / Rescuer position out loud to them is almost always the wrong move on Day 7. You have one week of vocabulary and they have not done the module. See the safety callouts.</p>
+<hr>
+<h2>Between-module experiment</h2>
+<p>One experiment. Run it for 48 hours, starting the day you finish this module.</p>
+<p><strong>Catch yourself in one drama position over the next 48 hours. Name it silently. Don't try to "fix" it — just see it.</strong></p>
+<p>That is the whole experiment. Find one moment. It will not be hard — by Day 7 your detector is sharp enough that the dramas show up like neon signs you used to walk past. The moment can be tiny. <em>The eye-roll at the news. The sigh when the kid does the thing. The forty-five seconds of internal Persecutor rehearsal in the shower. The moment of Rescuer when your friend texted and you felt yourself getting drawn in.</em></p>
+<p>When you catch it:</p>
+<ul>
+<li>Silently, in your head: <em>That was Persecutor</em> (or Victim, or Rescuer).</li>
+<li>Notice the gremlin food. <em>I was eating being right about the political thing.</em></li>
+<li>Do not act. Do not fix. Do not announce. Do not "shift to the Responsible Game" as a performance. Today is for <strong>seeing</strong>. Choosing comes later.</li>
+</ul>
+<p>Capture in 2–3 sentences what you saw. If you catch yourself two or three times in 48 hours, that is excellent.</p>
+<p>If you cannot catch yourself once in 48 hours, that is also data. Either the dramas are still invisible — revisit the detector practice with a different recent event — or you are catching them and quietly judging yourself rather than naming them clean. Judgment is a gremlin food; the gremlin will run the experiment itself if you let it.</p>
+<hr>
+<h2>Reflection prompts</h2>
+<p>Journal at your own pace. Longhand if you can.</p>
+<ol>
+<li>Which position do I rotate to first under stress — Persecutor, Victim, or Rescuer? Which one did my body recognize before my intellect did? In whose company does this position show up most reliably?</li>
+<li>Of the gremlin foods listed in the teaching notes, which one am I most uncomfortable admitting I enjoy? What is the specific shape of it in my life — what does it sound like, who is it usually about, what does it produce?</li>
+<li>Name one chronic low drama in my life that I can now see was always there but had not noticed as drama. (A long-running complaint about a person, situation, or institution.) What gremlin food has it been producing? What would I lose if I stopped producing it?</li>
+<li>The drama I worked in the detector practice — has it shifted in my body now that I have named it, even though I have not done anything about it? What does that tell me about the relationship between naming and changing?</li>
+<li>The Responsible Game, as I currently understand it, sounds <strong>less interesting</strong> than the drama. Where does my gremlin protest most loudly against "less interesting"? What would it cost it for me to choose less-interesting on purpose, more often, for a week?</li>
+<li>Where in my life am I in <strong>internal</strong> drama — running Persecutor and Victim and Rescuer entirely between parts of myself, with no other person involved? Who is each part to me, and what is being fed by the loop?</li>
+<li>Think of a reaction I keep having that I have been treating as one thing. Walking the six kinds of reactivity — Button, Voice, Activated Trauma, Hook, Trigger, Imbalance — which one is it <em>actually</em>? How often, honestly, has it been an <strong>Imbalance</strong> (tired, hungry, ungrounded) wearing the costume of something deeper? What tool have I been mis-applying to it, and what is its real route?</li>
+</ol>
+<hr>
+<h2>Safety callouts for this module</h2>
+<p>Day 7 is <strong>High intensity</strong>. The drama work has predictable shadows. Knowing them in advance is half of being able to handle them.</p>
+<ul>
+<li><strong>The gremlin will fight back. It will use Day 7 against you.</strong> Some learners report intense self-criticism after Day 7 — <em>"I am terrible at relationships," "I've been doing this my whole life," "I am a Persecutor pretending to be a Rescuer pretending to be a Victim, I am awful."</em> <strong>That is the gremlin.</strong> It is using the Day 7 material to produce a new, sophisticated food — being beneath it all, being beyond hope, being especially awful. Name it as the gremlin, not as truth. The work of Day 7 is to see your drama, not to be devastated by it. If you cannot tell which one you are doing, ground, voice-message your partner, and pause for the day.</li>
+<li><strong>Relationships may temporarily get worse before they get better.</strong> Once you can see your own drama positions, you can also see other people's. <strong>This is a trap.</strong> Naming your partner's Persecutor position out loud to them is almost never the right move on Day 7, no matter how clearly you see it. You have one week of vocabulary, they have not done the module, and the naming will land as Persecutor on your side (which it is, in that moment). <strong>Run the experiments on yourself first.</strong></li>
+<li><strong>Numbing may increase.</strong> Without the gremlin food, the body reads the starvation as <em>something is missing</em>. Some learners ramp up substances, screens, work, food, sex, or scrolling. Catch this. Voice-message the buddy when you notice the urge increasing, before you act on it. (Same mechanism as Day 5; same response.)</li>
+<li><strong>Couples already on the edge.</strong> Day 7 can be destabilizing for relationships already in active crisis. The new vocabulary lets a person see patterns they had been managing by not seeing, and the seeing can collapse a structure that was holding by inertia. <strong>If your primary relationship is currently in active crisis, name it to the CM before starting Day 7, not after.</strong> The CM may recommend pausing Day 7, slowing the cadence, or proceeding with explicit additional support. This is not gatekeeping — it is what the safety framework was built for.</li>
+<li><strong>Wanting to call your old therapist or coach.</strong> If you have one, calling them is not a problem. Be precise: <em>"I am working a module on drama patterns. I saw a lot. I am grounded. Can I check in?"</em> Do not begin unprocessed drama-position material with a brand-new therapist mid-module. If you do not have one and feel you need one, contact the CM for the referral list.</li>
+<li><strong>The Persecutor-of-self loop.</strong> Some learners discover that the drama they have been most reliably running is <strong>on themselves</strong> — internal Persecutor of an internal Victim, with both being you. The "telenovela with yourself" the transcript describes. If this loop is loud after Day 7, the right work is not to "stop being mean to yourself" (which is more Persecutor). The right work is to <strong>see</strong> the loop, name both parts as parts (not as you), and notice the gremlin food the loop has been producing. Day 9 (ego states) gives you more equipment. For now, see it, name it, do not try to resolve it.</li>
+</ul>
+<p>The universal grounding script applies (top of <code>03 - Safety and Facilitation Framework.md</code>). If you notice you are dissociating, floating, or shutting down: stop, ground, decide.</p>
+<p>This course is not therapy. Drama-detection is in scope. Trauma processing — including the early situations in which you first learned a drama position — is not. If today's material brings up specific traumatic memory, use the referral list and bring a qualified clinician alongside.</p>
+<hr>
+<h2>Cohort feed post (suggested)</h2>
+<p>One line each, no more:</p>
+<ul>
+<li>The drama position I caught myself in: …</li>
+<li>The gremlin food I named: …</li>
+<li>(Optional) one question for the group: …</li>
+</ul>
+<hr>
+<h2>Glossary additions</h2>
+<ul>
+<li><strong>Low drama</strong> — the daily-life, sub-threshold kind of drama; the kind you do not yet notice; distinct from high drama (theatrical, intentional, contained)</li>
+<li><strong>Low Drama Triangle</strong> — three positions of a single Box-pattern: Persecutor, Victim, Rescuer; person rotates between them; produces gremlin food</li>
+<li><strong>Persecutor</strong> — drama position: attacks, blames, controls, makes wrong; food is being right, being superior</li>
+<li><strong>Victim</strong> — drama position: collapses, "this is happening to me," controls through helplessness; food is being wronged, being innocent, being special in suffering</li>
+<li><strong>Rescuer</strong> — drama position: steps in unasked, takes over, builds dependency; food is being good, being needed, being above-the-problem</li>
+<li><strong>Gremlin</strong> — the King or Queen of your Underworld; the part of the learner that wants drama-food; distinct from the Box (which wants safety); eats in both directions (<em>"I'm the worst"</em> and <em>"I'm the best"</em> equally), so not the inner critic; comes in types; not the enemy and not the learner; met and named here, transformed only in the separate <strong>Gremlin Transformation</strong> container</li>
+<li><strong>Gremlin food</strong> — what drama is for; emotional/energetic substances the gremlin eats (being right, being wronged, being special, being misunderstood, being a victim, being a savior, being above or beneath it all)</li>
+<li><strong>Gremlin Transformation (GT)</strong> — the deeper, longer gremlin-process container held by a PM trainer; out of scope for this course, which goes only as far as meeting and naming the gremlin</li>
+<li><strong>Fighting reality</strong> — the first move of every low drama; the internal <em>whatever is happening should not be happening</em></li>
+<li><strong>Shifting to the Responsible Game</strong> — the move out of drama: notice → name → step out → ask what is actually happening, what you want, what you can choose</li>
+<li><strong>Responsible Game</strong> — what is left when you decline drama; simpler, less stimulating, less alive at first because the gremlin is starving; sourced from Adult ego state (Day 9) and bright principles (Day 10)</li>
+<li><strong>Low-drama detector</strong> — the Day 7 practice: take a recent specific drama, walk it through position → food → Responsible Game move</li>
+<li><strong>Reactivity</strong> — any automatic internal reaction set off by something external that is not a present-time conscious choice; sorted by the Map of Reactivities into six kinds, each routing to a different tool</li>
+<li><strong>Map of Reactivities</strong> — the six kinds of reactivity and their routes: <strong>Buttons</strong> → Expand the Box · <strong>Voices</strong> → shoot the voices · <strong>Activated Traumas</strong> → EHP (stored emotion only; trauma to a clinician) · <strong>Hooks</strong> → decline the gremlin food · <strong>Triggers</strong> → close the cake · <strong>Imbalances</strong> → bring the body to balance; the first move is always to name which one fired</li>
+<li><strong>Close the cake</strong> — the route for a Trigger: stop leaving yourself energetically open to the specific sentence, person, or "vampire" energy that drains you</li>
+</ul>
+<hr>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+  </main>
+  <nav class="page-nav">
+    <a href="day-06.html">&#8592; Day 6</a>
+    <a href="../index.html">&#8962; Front Door</a>
+    <a href="day-08.html">Day 8 &#8594;</a>
+  </nav>
+</div>
+<footer>
+  <p>Archived May 2026 edition &mdash; <a href="../"
+     >current edition June 2026</a> &mdash;
+  🄯 World Copyleft 2026 &middot; CC BY-SA 4.0 &middot;
+  <a href="../LICENSE.md">LICENSE.md</a></p>
+</footer>
+</body>
+</html>

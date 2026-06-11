@@ -8,6 +8,12 @@
 
 **At a glance.** Anger → boundaries *(bones, jaw, hands)* · Sadness → release *(heart, throat, eyes)* · Fear → precision *(nerves, skin, belly)* · Joy → connection *(whole body, face, chest)*. Four only — "love," "frustration," "overwhelm," "stress" are **not** on this map. Locate the *sensation*, not the story. The shadow form is the signal a feeling was stored instead of moved.
 
+## How to explain it verbally
+
+There are four feelings, full stop: anger, sadness, fear, and joy. Each is an archetypal energy with a body location, a job, an asked-for action, and a shadow form when stored. Anger lives in your bones and jaw and makes boundaries. Sadness lives in your heart and throat and releases what is gone. Fear lives in your nerves and belly and brings precision. Joy lives in your whole body and connects. None is good, none is bad. Love is not on the list, and frustration, overwhelm, and stress are stories about mixed emotions. When you go looking, find the sensation in the actual body location, not the story.
+
+**If you only remember one thing:** four feelings, each a tool with a job; locate the sensation, not the story.
+
 ---
 
 > **This is a map card.** The full teaching and practice now live in two places:
@@ -17,4 +23,4 @@
 
 ---
 
-<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
+<sub>🄯 **World Copyleft 2026** · *Expand the Box (Digital)* · licensed **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**, consistent with the spirit of World Copyleft · re-presents Possibility Management thoughtware originated by Clinton Callahan & the Possibility Management community · this course is an independent re-presentation, **not an official Possibility Management training** · please share, share-alike · Powered by Possibility Management ([possibilitymanagement.org](https://possibilitymanagement.org)) · full terms: `LICENSE.md` in the course root</sub>
