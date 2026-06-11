@@ -1,6 +1,12 @@
 # ETB v2 Build — HANDOFF
 
-Updated 2026-06-10 (build session 2, macOS). Note: the prior session's HANDOFF.md (referenced from the Windows machine, `C:\Users\alan\...`) never synced to Drive; this file recreates it. Resume sequence for any new session: read this file, then `_build/AUDIT.md`, then `_build/ARCHITECTURE.md` (the locked plan). v1 (`../Digital Expand The Box/`) and all source folders are READ-ONLY.
+Updated 2026-06-11 (build session 2, macOS). Resume sequence for any new session: read this file, then `_build/AUDIT.md`, then `_build/ARCHITECTURE.md` (the locked plan).
+
+## THE BUILD NOW LIVES ON GITHUB (2026-06-11)
+
+- Repo: https://github.com/alanshurafa/ETB-Expand-The-Box (public). Clone OUTSIDE any cloud-synced folder: Mac `~/Projects/ETB-Expand-The-Box`, PC `C:\Projects\ETB-Expand-The-Box` (`gh repo clone alanshurafa/ETB-Expand-The-Box`). Pull before working, commit+push at every phase boundary — GitHub replaces Google Drive sync for the course (the old Drive copies are frozen snapshots with relocation notices).
+- v1 = `../Digital Expand The Box May 2026/` (frozen, tagged `v1-may-2026`, READ-ONLY). v2 = this folder, `Digital Expand The Box June 2026/`.
+- The source library (ALL ETB MAPS, SPARKS, books, Possability Lab, Mini ETB) stays on Google Drive only, READ-ONLY, at `.../My Drive/__shurafa@gmail.com/_PM Possability Manangement/` — needed for Spark citations and any future map work; build from a machine with Drive mounted when a task touches it.
 
 ## Build-order status (ARCHITECTURE §6)
 
