@@ -4,7 +4,7 @@
 
 *(No dedicated map image — the closest are the Map of Matrix and Map of 3 Games.)*
 
-**What it is.** Every action you take is sourced from some principle — there is no neutral action. PM distinguishes two structural classes by where they come from in the cultural cosmology, not by moral grade. Bright principles are sourced from archiarchy (love, integrity, possibility, courage, presence, creation) and add aliveness to the room; shadow principles are sourced from patriarchy (domination, control, scarcity, righteousness, war) and subtract it. The map is a diagnostic — *what is sourcing this action right now?* — and a prerequisite: a declaration (M23) only holds when sourced from bright.
+**What it is.** Every action you take is sourced from some principle — there is no neutral action. PM distinguishes two structural classes by the culture their sourcing generates, not by moral grade. Sourcing bright principles (love, integrity, possibility, courage, presence, creation) generates archiarchy and adds aliveness to the room; sourcing shadow principles (domination, control, scarcity, righteousness, war) generates patriarchy and subtracts it. The principle is upstream; the culture is downstream. The map is a diagnostic — *what is sourcing this action right now?* — and a prerequisite: a declaration (M23) only holds when sourced from bright.
 
 **At a glance.** Bright → archiarchy, generative of consciousness · Shadow → patriarchy, generative of separation · Structural, not moral (bright≠good, shadow≠evil — shadow has real domains: the surgeon's control) · Children are sourced by the room; adults choose · The shadow you cannot name owns you — naming puts it in the room where you can choose for or against it.
 

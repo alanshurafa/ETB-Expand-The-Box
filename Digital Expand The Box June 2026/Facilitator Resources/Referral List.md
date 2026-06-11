@@ -54,7 +54,7 @@ The verbatim language in Sections 2 and 8 is canonical. Do not paraphrase.
 - **Australia.** Lifeline — **13 11 14** (24/7). Beyond Blue — **1300 22 4636**.
 - **EU general.** **116 123** — Emotional Support Helpline (available in many EU countries; check local availability).
 - **Germany.** Telefonseelsorge — **0800 111 0 111** or **0800 111 0 222** (free, 24/7).
-- **France.** SOS Suicide Phénix — **01 40 44 46 45**.
+- **France.** **3114** — numéro national de prévention du suicide (free, 24/7).
 - **International directory.** **findahelpline.com** — point of last resort if the learner's country is not listed.
 
 ### Note to the learner (include verbatim in the packet)
@@ -273,7 +273,7 @@ For any Screen-4 learner: confirm the act of receiving this packet does not put 
 
 - **PM Trainer Path.** The structured next-step training for learners who want to become PM practitioners. See the **PM main site at possibilitymanagement.org** for current details. (CM: update with the exact URL slug at quarterly review if known. Do not invent a URL.)
 - **Possibility Lab.** Longer, immersive deepening containers — typically multi-week intensives. Run by senior PM trainers globally. See possibilitymanagement.org.
-- **Possibility Team.** Advanced PM application — small ongoing groups doing PM in working contexts. By invitation or after Trainer Path entry.
+- **Possibility Team.** Small ongoing groups (often weekly) where PM is practiced live between trainings: dangerous questions, experiments, feedback. **Open to anyone** — no invitation and no prerequisite training; a learner can join an existing team or start one. See possibilitymanagement.org. Module 11's continuation material shows a course pairing how to become one.
 - **Local PM Spark groups and Sparks salons.** Regular in-person or online gatherings where PM is practiced live. Often the most useful next step for a learner who wants community and practice without committing to a full training. The CM maintains a list of currently active Sparks and salons by region as part of the quarterly refresh.
 
 ### Reading
