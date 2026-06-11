@@ -1,6 +1,6 @@
 # PLAN: Group & Community Delivery (Telegram) — "do it together, at your own pace"
 
-Planned 2026-06-11 on Fable. Status: GO (2026-06-11). EXECUTION TARGET: the fork `Digital Expand The Box Group Version/` — the June 2026 edition stays untouched. Executors and file map in §6.
+Planned 2026-06-11 on Fable. Status: EXECUTED 2026-06-11 (X1/X2/X3 + sweep complete; link gate 1767 links 0 broken). TARGET WAS: the fork `Digital Expand The Box Group Version/` — the June 2026 edition stays untouched. Executors and file map in §6.
 
 ## §1 — What the user asked for
 
