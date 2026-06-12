@@ -1,0 +1,17 @@
+name: Deploy May 2026 (archive)
+on:
+  push:
+    branches: [main]
+    paths: ["Digital Expand The Box May 2026/**"]
+  workflow_dispatch: {}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to Vercel (production)
+        working-directory: ./Digital Expand The Box May 2026
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: prj_bKrHRklP0r87pNmQr8fSPHbU5zaO
+        run: npx -y vercel@latest deploy --prod --yes --token=${{ secrets.VERCEL_TOKEN }}

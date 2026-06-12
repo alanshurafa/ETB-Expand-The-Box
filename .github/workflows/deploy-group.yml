@@ -1,0 +1,17 @@
+name: Deploy Group Version
+on:
+  push:
+    branches: [main]
+    paths: ["Digital Expand The Box Group Version/**"]
+  workflow_dispatch: {}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to Vercel (production)
+        working-directory: ./Digital Expand The Box Group Version
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: prj_GyoHmBFV4rZ8Kges15nMoA5yniMW
+        run: npx -y vercel@latest deploy --prod --yes --token=${{ secrets.VERCEL_TOKEN }}

@@ -1,0 +1,17 @@
+name: Deploy June 2026
+on:
+  push:
+    branches: [main]
+    paths: ["Digital Expand The Box June 2026/**"]
+  workflow_dispatch: {}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to Vercel (production)
+        working-directory: ./Digital Expand The Box June 2026
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: prj_d43evYnsDmP7m1086Ll2CKN0VOmD
+        run: npx -y vercel@latest deploy --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
