@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" width="1024" height="1536">
+  <defs>
+    <style>
+      .ivory { fill:#fbf7ec; }
+      .gm { fill:none; stroke:#1f7a3a; stroke-linecap:round; stroke-linejoin:round; }
+      .gm-fill { fill:#1f7a3a; }
+      .blue { fill:#1c4fa0; }
+      .blueStroke { fill:none; stroke:#1c4fa0; }
+      .red { fill:#c0392b; }
+      .dark { fill:#2b2b2b; }
+      .acc { fill:#7a1f12; }
+      text { font-family:'Arial Black','Arial',sans-serif; font-weight:900; }
+      .disp { letter-spacing:2px; }
+    </style>
+  </defs>
+
+  <rect class="ivory" x="0" y="0" width="1024" height="1536"/>
+
+  <!-- ===================== TITLE: YOUR GREMLIN (blue, boxed) ===================== -->
+  <g>
+    <!-- hand-drawn double box -->
+    <path class="blueStroke" stroke-width="5"
+      d="M44,40 L470,38 L472,118 L42,120 Z"/>
+    <path class="blueStroke" stroke-width="2.5"
+      d="M52,49 L462,47 L463,110 L50,112 Z"/>
+    <text class="blue disp" x="68" y="98" font-size="52">YOUR GREMLIN</text>
+  </g>
+
+  <!-- ===================== LEFT TEXT BLOCK ===================== -->
+  <g>
+    <text class="blue" x="48" y="300" font-size="30">IS CURRENTLY ON</text>
+    <text class="blue" x="48" y="338" font-size="30">A LOW DRAMA</text>
+    <text class="blue" x="48" y="376" font-size="30">GREMLIN FEAST.</text>
+  </g>
+
+  <!-- ===================== RIGHT TEXT BLOCK ===================== -->
+  <g>
+    <text class="red" x="660" y="300" font-size="30">THE KING OR</text>
+    <text class="red" x="660" y="338" font-size="30">QUEEN OF YOUR</text>
+    <text class="red" x="660" y="376" font-size="30">UNDERWORLD.</text>
+    <text class="red" x="660" y="448" font-size="30">AND IT OWNS</text>
+    <text class="red" x="660" y="486" font-size="30">YOUR LIFE.</text>
+  </g>
+
+  <!-- ===================== TYPE 1 / TYPE 2 ===================== -->
+  <g>
+    <text class="blue" x="60" y="640" font-size="44">TYPE 1</text>
+    <path class="blueStroke" stroke-width="3.5" stroke-linecap="round" d="M62,655 Q150,662 232,654"/>
+    <text class="blue" x="60" y="730" font-size="44">TYPE 2</text>
+    <path class="blueStroke" stroke-width="3.5" stroke-linecap="round" d="M62,745 Q150,752 232,744"/>
+  </g>
+
+  <!-- ===================== RIGHT-LOWER SMALL BLOCK ===================== -->
+  <g>
+    <text class="dark" x="700" y="820" font-size="24">GREMLIN</text>
+    <text class="dark" x="700" y="850" font-size="24">TRANSFORMATION</text>
+    <text class="dark" x="700" y="892" font-size="22">— PROLOGUE</text>
+    <text class="dark" x="700" y="922" font-size="22">— CHAPTER 0</text>
+    <text class="dark" x="700" y="952" font-size="22">— CHAPTER 1</text>
+  </g>
+
+  <!-- ============================================================= -->
+  <!-- ======================  THE GREMLIN  ========================= -->
+  <!-- Drawn large, centered. Green marker line work.                -->
+  <!-- ============================================================= -->
+  <g class="gm" stroke-width="4.5">
+
+    <!-- ---- HORNS / spiky head crest (wiry, jittery) ---- -->
+    <path d="M470,300 Q455,255 440,228 Q452,250 458,300"/>
+    <path d="M455,295 Q438,250 448,210 Q452,248 470,298"/>
+    <path d="M512,290 Q510,235 520,200 Q520,245 526,292"/>
+    <path d="M540,300 Q560,250 588,222 Q566,248 556,300"/>
+    <path d="M560,300 Q588,258 612,238 Q586,260 576,302"/>
+    <!-- a couple of stray wiry hairs -->
+    <path d="M498,292 Q495,250 505,222"/>
+    <path d="M484,300 Q474,262 470,238"/>
+
+    <!-- ---- HEAD: narrow, angular, gaunt skull ---- -->
+    <path stroke-width="5" d="M452,300
+      Q436,330 442,372
+      Q448,412 470,448
+      Q486,476 512,492
+      Q540,476 556,448
+      Q578,412 582,370
+      Q586,330 570,300
+      Q540,288 512,288
+      Q482,288 452,300 Z"/>
+
+    <!-- cheek hollows (gaunt) -->
+    <path stroke-width="3" d="M452,372 Q462,392 480,402"/>
+    <path stroke-width="3" d="M582,372 Q572,392 552,402"/>
+
+    <!-- ---- BROW: angular, menacing ---- -->
+    <path stroke-width="5" d="M452,352 Q478,332 502,350"/>
+    <path stroke-width="5" d="M522,350 Q548,330 574,352"/>
+
+    <!-- ---- EYES: hollow, keen, deep-set ---- -->
+    <!-- left eye socket -->
+    <path stroke-width="4" d="M458,372 Q478,360 500,372 Q486,392 470,390 Q460,384 458,372 Z"/>
+    <!-- right eye socket -->
+    <path stroke-width="4" d="M524,372 Q546,360 566,372 Q558,390 542,392 Q528,388 524,372 Z"/>
+    <!-- pin pupils (keen, manic) -->
+    <circle class="gm-fill" cx="480" cy="376" r="5.5" stroke="none"/>
+    <circle class="gm-fill" cx="544" cy="376" r="5.5" stroke="none"/>
+    <!-- red rim accents under eyes -->
+    <path stroke="#7a1f12" stroke-width="3" d="M462,392 Q480,400 498,392"/>
+    <path stroke="#7a1f12" stroke-width="3" d="M526,392 Q544,400 562,392"/>
+
+    <!-- ---- NOSE: thin pointed snout ---- -->
+    <path stroke-width="3.5" d="M510,388 Q505,418 500,438 Q510,446 522,438 Q518,418 514,388"/>
+    <path stroke-width="2.5" d="M502,440 Q500,448 506,450"/>
+    <path stroke-width="2.5" d="M522,440 Q524,448 518,450"/>
+
+    <!-- ---- GRIN: wide toothy menacing mouth ---- -->
+    <path stroke-width="5" d="M456,452 Q512,470 568,452"/>
+    <path stroke-width="5" d="M460,452 Q512,510 564,452"/>
+    <!-- teeth (jagged) -->
+    <path stroke-width="2.5" d="M474,456 L482,478 L490,457"/>
+    <path stroke-width="2.5" d="M492,458 L500,482 L508,458"/>
+    <path stroke-width="2.5" d="M510,458 L518,483 L526,458"/>
+    <path stroke-width="2.5" d="M528,458 L536,481 L544,457"/>
+    <path stroke-width="2.5" d="M546,456 L552,475 L558,455"/>
+
+    <!-- ---- NECK: scrawny, long, sinewy ---- -->
+    <path stroke-width="5" d="M482,492 Q478,540 488,584"/>
+    <path stroke-width="5" d="M548,492 Q552,540 544,584"/>
+    <!-- adam's apple / throat ridges -->
+    <path stroke-width="2.5" d="M500,520 Q512,528 526,520"/>
+    <path stroke-width="2.5" d="M498,548 Q512,556 530,548"/>
+    <!-- ragged collar of skin -->
+    <path stroke-width="3" d="M470,580 Q512,600 560,580"/>
+
+    <!-- ---- SHOULDERS: bony, hunched ---- -->
+    <path stroke-width="5" d="M488,584 Q430,596 382,628"/>
+    <path stroke-width="5" d="M544,584 Q604,596 654,628"/>
+
+    <!-- ============ LEFT ARM: wiry, long, with claw hand ============ -->
+    <path stroke-width="5" d="M382,628
+      Q344,666 326,720
+      Q314,760 308,806"/>
+    <path stroke-width="4" d="M392,636
+      Q360,676 348,724
+      Q340,762 336,804"/>
+    <!-- elbow knob -->
+    <path stroke-width="3" d="M344,710 Q356,716 364,708"/>
+    <!-- LEFT CLAW HAND: spindly fingers -->
+    <path stroke-width="4" d="M308,806 Q296,840 286,872"/>
+    <path stroke-width="4" d="M318,808 Q312,846 306,884"/>
+    <path stroke-width="4" d="M330,806 Q330,846 330,886"/>
+    <path stroke-width="4" d="M340,804 Q348,842 358,876"/>
+    <!-- thumb -->
+    <path stroke-width="4" d="M306,808 Q286,820 274,840"/>
+    <!-- claw tips -->
+    <path stroke-width="2.5" d="M286,872 l-8,10 M286,872 l4,12"/>
+    <path stroke-width="2.5" d="M306,884 l-7,11 M306,884 l5,11"/>
+    <path stroke-width="2.5" d="M330,886 l-6,12 M330,886 l6,11"/>
+    <path stroke-width="2.5" d="M358,876 l-3,13 M358,876 l8,8"/>
+
+    <!-- ============ RIGHT ARM: wiry, long, with claw hand ============ -->
+    <path stroke-width="5" d="M654,628
+      Q694,666 712,720
+      Q724,760 730,806"/>
+    <path stroke-width="4" d="M644,636
+      Q678,676 690,724
+      Q698,762 702,804"/>
+    <path stroke-width="3" d="M674,710 Q686,716 694,708"/>
+    <!-- RIGHT CLAW HAND -->
+    <path stroke-width="4" d="M730,806 Q742,840 752,872"/>
+    <path stroke-width="4" d="M720,808 Q726,846 732,884"/>
+    <path stroke-width="4" d="M708,806 Q708,846 708,886"/>
+    <path stroke-width="4" d="M698,804 Q690,842 680,876"/>
+    <path stroke-width="4" d="M732,808 Q752,820 764,840"/>
+    <path stroke-width="2.5" d="M752,872 l8,10 M752,872 l-4,12"/>
+    <path stroke-width="2.5" d="M732,884 l7,11 M732,884 l-5,11"/>
+    <path stroke-width="2.5" d="M708,886 l6,12 M708,886 l-6,11"/>
+    <path stroke-width="2.5" d="M680,876 l3,13 M680,876 l-8,8"/>
+
+    <!-- ============ TORSO: ribbed / segmented, wiry not plump ============ -->
+    <!-- torso outline: narrow waisted, slightly hunched -->
+    <path stroke-width="5" d="M470,580
+      Q436,640 432,720
+      Q430,800 448,876
+      Q478,912 512,916
+      Q546,912 576,876
+      Q594,800 592,720
+      Q588,640 554,580"/>
+
+    <!-- sternum line -->
+    <path stroke-width="3" d="M512,600 Q510,660 512,720"/>
+
+    <!-- RIBS / segments (angular chevrons, not smooth turtle bands) -->
+    <path stroke-width="4" d="M452,648 Q482,636 512,640 Q542,636 572,648"/>
+    <path stroke-width="4" d="M446,690 Q482,676 512,680 Q542,676 578,690"/>
+    <path stroke-width="4" d="M442,734 Q482,720 512,724 Q542,720 582,734"/>
+    <path stroke-width="4" d="M444,778 Q482,764 512,768 Q542,764 580,778"/>
+    <path stroke-width="4" d="M450,822 Q484,810 512,814 Q540,810 574,822"/>
+    <path stroke-width="4" d="M462,860 Q486,852 512,855 Q538,852 562,860"/>
+
+    <!-- short rib ticks branching off the sternum (wiry detail) -->
+    <path stroke-width="2.5" d="M512,664 l-22,-8 M512,664 l22,-8"/>
+    <path stroke-width="2.5" d="M512,708 l-26,-6 M512,708 l26,-6"/>
+    <path stroke-width="2.5" d="M512,752 l-26,-6 M512,752 l26,-6"/>
+    <path stroke-width="2.5" d="M512,796 l-24,-6 M512,796 l24,-6"/>
+
+    <!-- navel knot -->
+    <path stroke-width="3" d="M506,838 q6,8 12,0"/>
+
+    <!-- ============ LEGS + CLAWED FEET (splayed) ============ -->
+    <!-- left leg -->
+    <path stroke-width="5" d="M470,910 Q452,990 444,1070 Q440,1110 446,1140"/>
+    <path stroke-width="4" d="M492,914 Q484,994 484,1074 Q484,1112 490,1142"/>
+    <!-- left foot claws -->
+    <path stroke-width="4" d="M446,1140 Q420,1156 398,1170"/>
+    <path stroke-width="4" d="M448,1142 Q436,1168 426,1190"/>
+    <path stroke-width="4" d="M462,1142 Q464,1170 470,1196"/>
+    <path stroke-width="4" d="M488,1142 Q500,1166 514,1186"/>
+    <path stroke-width="2.5" d="M398,1170 l-9,9 M426,1190 l-4,11 M470,1196 l3,11 M514,1186 l9,7"/>
+
+    <!-- right leg -->
+    <path stroke-width="5" d="M554,910 Q572,990 580,1070 Q584,1110 578,1140"/>
+    <path stroke-width="4" d="M532,914 Q540,994 540,1074 Q540,1112 534,1142"/>
+    <!-- right foot claws -->
+    <path stroke-width="4" d="M578,1140 Q604,1156 626,1170"/>
+    <path stroke-width="4" d="M576,1142 Q588,1168 598,1190"/>
+    <path stroke-width="4" d="M562,1142 Q560,1170 554,1196"/>
+    <path stroke-width="4" d="M536,1142 Q524,1166 510,1186"/>
+    <path stroke-width="2.5" d="M626,1170 l9,9 M598,1190 l4,11 M554,1196 l-3,11 M510,1186 l-9,7"/>
+
+    <!-- a wiry pointed tail flick peeking behind a leg -->
+    <path stroke-width="4" d="M576,940 Q620,980 640,1030 Q650,1058 642,1086"/>
+    <path stroke-width="2.5" d="M642,1086 l10,8 M642,1086 l-2,12"/>
+
+  </g>
+</svg>

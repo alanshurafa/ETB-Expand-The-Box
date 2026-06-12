@@ -50,12 +50,12 @@ Links from learner-facing files: `Practice/Practicing in a Group.md` is linked f
 
 ## 2. Map registry
 
-### 2.1 v1 set M01–M29 — SHIPPED (copied from v1, byte-identical)
+### 2.1 v1 set M01–M29 — SHIPPED (copied from v1, except redrawn photo slots)
 
 All 29 have: image in `Maps/` (except M21), Map Note card in `Map Notes/`, Atlas page in `Map Atlas/`.
 
 - **M21 (Bright and Shadow Principles): no dedicated image.** The card and module teach text-first; **M46 (Map of Matrix) and M47 (Map of 3 Games) are the named adjacent maps**, embedded with the "adjacent, not dedicated" caveat.
-- **Photo-slot regeneration pending: M01, M08, M10, M27.** These four ship v1's photo-derived renders until the parked external regeneration task lands. Flagged here; not a release blocker.
+- **Clean render (redrawn 2026-06-12): M01, M08, M10, M27.** These four former photo slots now ship as clean 1024×1536 course renders redrawn from the existing framed source PNGs. Repo copies are stored in `_build/redrawn-maps/`; the Drive library's bare-name files remain the read-only source photos.
 
 ### 2.2 New set — SHIPPED (11 clean renders, copied from `ALL ETB MAPS/<folder>/<folder>.png`)
 
