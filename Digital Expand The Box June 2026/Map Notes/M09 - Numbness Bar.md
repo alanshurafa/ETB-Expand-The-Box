@@ -1,4 +1,4 @@
-# M09 — Numbness Bar
+# Map 9 — Numbness Bar
 
 *The threshold in the emotional body below which feelings do not register — installed in childhood as protection, obsolete in adulthood, lowered through small repeated reps.*
 
@@ -6,7 +6,7 @@
 
 **What it is.** A horizontal threshold inside the emotional body. **Above the bar, feelings register. Below the bar, feelings still occur — they are just not perceived.** It was installed early, often before age six, as protection: a small child's body could not safely process adult-sized intensity, so the system cut off the lower end of the signal to stay functional. That was intelligent survival, and it is now obsolete — it is why the learner cannot register the warning anger when a colleague crosses a line, or the fear that says "do not take this meeting." Most adults live at **70–90% numb**, experiencing 10–30% of what is present and calling that their full range. The course lowers the bar one notch at a time through small, consented reps.
 
-**At a glance.** Numbness bar vs absence of feeling → numbed feelings are present but unregistered, a perceptual cutoff not a vacuum · Bar drops over time → each rep of registering a 2%, 5%, 10% feeling lowers it a notch · "Full intensity" is far less than the learner expects · The bar is local, not global → each feeling has its own bar · Numbness is the load-bearing mechanism of the Old Map (M08) · Low-intensity work is the lever, not high-intensity catharsis.
+**At a glance.** Numbness bar vs absence of feeling → numbed feelings are present but unregistered, a perceptual cutoff not a vacuum · Bar drops over time → each rep of registering a 2%, 5%, 10% feeling lowers it a notch · "Full intensity" is far less than the learner expects · The bar is local, not global → each feeling has its own bar · Numbness is the load-bearing mechanism of the Old Map (Map 8) · Low-intensity work is the lever, not high-intensity catharsis.
 
 ## How to explain it verbally
 
@@ -19,7 +19,7 @@ Picture a horizontal line across your emotional body. Above it, you feel things.
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 5 — Feelings vs Emotions, Old Map of Feelings, Numbness Bar](../Days/Day%2005%20-%20Feelings%20vs%20Emotions%2C%20Old%20Map%20of%20Feelings%2C%20Numbness%20Bar.md)
-> - **Interactive tool →** [Map Atlas · M09 Numbness Bar](../Map%20Atlas/M09%20-%20Numbness%20Bar.html)
+> - **Interactive tool →** [Map Atlas · Map 9 Numbness Bar](../Map%20Atlas/M09%20-%20Numbness%20Bar.html)
 
 ---
 

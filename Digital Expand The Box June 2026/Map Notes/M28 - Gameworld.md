@@ -1,4 +1,4 @@
-# M28 — Gameworld
+# Map 28 — Gameworld
 
 *A gameworld is a field of human commitment with a context, a purpose, and rules of engagement — and naming the one you are inside is what turns unconscious drift into chosen action.*
 
@@ -19,7 +19,7 @@ A gameworld is a field of human commitment, and every word carries weight. *Fiel
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 1 — Orientation, New Context, Radical Responsibility](../Days/Day%2001%20-%20Orientation%2C%20New%20Context%2C%20Radical%20Responsibility.md)
-> - **Interactive tool →** [Map Atlas · M28 Gameworld](../Map%20Atlas/M28%20-%20Gameworld.html)
+> - **Interactive tool →** [Map Atlas · Map 28 Gameworld](../Map%20Atlas/M28%20-%20Gameworld.html)
 
 ---
 

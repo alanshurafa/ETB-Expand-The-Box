@@ -4,7 +4,7 @@
 |---|---|
 | **Intensity** | **HIGH.** Partner check-in required before starting; no override. **Partner debrief also required after.** See the unlock checklist in `04 - Container and Gatekeeping Protocol.md` Section D. |
 | **Sittings** | 3 (break points marked in the text) |
-| **Tools for this module** | Study the map: [M11 · Mixed Emotions](../Map%20Atlas/M11%20-%20Mixed%20Emotions.html) · [M12 · Emotional Healing Process](../Map%20Atlas/M12%20-%20Emotional%20Healing%20Process.html) · [M39 · Map of Optional Healing Process](../Map%20Atlas/M39%20-%20Map%20of%20Optional%20Healing%20Process.html) · [M40 · EHP Learnings](../Map%20Atlas/M40%20-%20EHP%20Learnings.html) · [M38 · EHP Spaceholding Twins](../Map%20Atlas/M38%20-%20EHP%20Spaceholding%20Twins.html) · Run the practice: [EHP Walker](../Interactive%20Tools/Day%2006/ehp-walker.html) (gated) |
+| **Tools for this module** | Study the map: [Map 11 · Mixed Emotions](../Map%20Atlas/M11%20-%20Mixed%20Emotions.html) · [Map 12 · Emotional Healing Process](../Map%20Atlas/M12%20-%20Emotional%20Healing%20Process.html) · [Map 39 · Map of Optional Healing Process](../Map%20Atlas/M39%20-%20Map%20of%20Optional%20Healing%20Process.html) · [Map 40 · EHP Learnings](../Map%20Atlas/M40%20-%20EHP%20Learnings.html) · [Map 38 · EHP Spaceholding Twins](../Map%20Atlas/M38%20-%20EHP%20Spaceholding%20Twins.html) · Run the practice: [EHP Walker](../Interactive%20Tools/Day%2006/ehp-walker.html) (gated) |
 | **Videos** | The written module is complete on its own. Videos are optional enrichment: see [Video Manifest](../Facilitator%20Resources/Video%20Manifest.md). |
 
 **Daily spine:** Phase B — morning sit: Beep! Book + Feelings Form bar reading (8-10 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
@@ -30,7 +30,7 @@
 >
 > **Reading this without a cohort or partner?** The teaching in this module, the unmixing micro-practice, and the observation experiments are fine to run solo. **The solo EHP practice is strictly deferred until you have a live witness** recruited on the Module 0 seven-line agreement (the debrief is part of the practice, not decoration), and Demon work (Module 9) carries the same line. If anything surfaces that you cannot ground on your own, [findahelpline.com](https://findahelpline.com) lists crisis lines for every country.
 
-> **Readiness check (10 seconds).** Can you tell a feeling from an emotion, and locate one of the four feelings as a body sensation (Module 5)? The EHP applied to material you cannot yet feel is theatre. If the feeling/emotion distinction is still abstract, re-read [M10](../Map%20Notes/M10%20-%20New%20Map%20of%20Feelings.md) and [M11](../Map%20Notes/M11%20-%20Mixed%20Emotions.md) first. (Full self-check: [Learning Self-Assessment](../Facilitator%20Resources/Learning%20Self-Assessment.md), Part 2.)
+> **Readiness check (10 seconds).** Can you tell a feeling from an emotion, and locate one of the four feelings as a body sensation (Module 5)? The EHP applied to material you cannot yet feel is theatre. If the feeling/emotion distinction is still abstract, re-read [Map 10](../Map%20Notes/M10%20-%20New%20Map%20of%20Feelings.md) and [Map 11](../Map%20Notes/M11%20-%20Mixed%20Emotions.md) first. (Full self-check: [Learning Self-Assessment](../Facilitator%20Resources/Learning%20Self-Assessment.md), Part 2.)
 
 > **If your partner has gone quiet.** This module is partner-gated for a reason: you should not do it alone, and Module 6's EHP debrief is partnered by design. But a silent partner must never strand you. If your partner has not responded, **message your CM**. There is a real fallback (a witness partner, or a CM-held exchange) so you are accompanied through the "after." Do not run the EHP practice with no one to debrief with, and do not let a non-responsive pairing stall you indefinitely. The fallback is yours to ask for.
 
@@ -40,7 +40,7 @@
 
 Free recall on Module 5. No notes, no peeking.
 
-1. Take a blank page in your Beep! Book. Redraw the New Map of Feelings (M10) from memory: four feelings, body locations, asked-for actions, shadow forms. As much as comes.
+1. Take a blank page in your Beep! Book. Redraw the New Map of Feelings (Map 10) from memory: four feelings, body locations, asked-for actions, shadow forms. As much as comes.
 2. Say the core distinction out loud, in your own words. The shape to hit: a feeling is present-time, clean, three to five minutes, and for creating; an emotion is past-time, mixed, longer than five minutes, and for healing.
 3. Check against [the map](../Maps/M10.png). Mark what you missed, without verdict, and move on. This warm-up is generation, never answer-checking. Nobody scores it, including you.
 
@@ -58,7 +58,7 @@ To install the two distinctions that turn yesterday's map into today's tool: **m
 
 Module 5 named what feelings and emotions are. Module 6 is where you start working with them. Specifically: you learn the shape of a mixed emotion, you learn the **six positions of the EHP map (Position 0 through Position 5)**, and you do a **solo EHP-map practice on small stored emotion only**. Canonical EHP requires a live witness; this module is not that. What you do here is a rep: small material, the 40% hard stop before Position 3, and the partner debrief afterward. By the end of this module you will know, from your own experience, the difference between **expressing an emotion** (which leaks it onto people) and **processing an emotion** (which moves it through with structure).
 
-This module relies on Module 5's distinctions being live: feeling vs. emotion, the four feelings, the Numbness Bar. If those are still abstractions for you, pause and re-read M08, M09, M10 before continuing. Your morning bar reading continues through all of this, and from today it earns its Mixed column: when a morning number arrives as two feelings tangled together, tick **Mixed** in the [Feelings Form](../Practice/Feelings%20Form.md) row and name the pair if you can. That one tick is this module's teaching running as a daily instrument. And before Sitting 1, read your rows since Module 5 once, two minutes: which bars moved, which stayed flat. This is the first of the three row re-reads the course schedules (here, Module 7, Module 10).
+This module relies on Module 5's distinctions being live: feeling vs. emotion, the four feelings, the Numbness Bar. If those are still abstractions for you, pause and re-read Map 8, Map 9, Map 10 before continuing. Your morning bar reading continues through all of this, and from today it earns its Mixed column: when a morning number arrives as two feelings tangled together, tick **Mixed** in the [Feelings Form](../Practice/Feelings%20Form.md) row and name the pair if you can. That one tick is this module's teaching running as a daily instrument. And before Sitting 1, read your rows since Module 5 once, two minutes: which bars moved, which stayed flat. This is the first of the three row re-reads the course schedules (here, Module 7, Module 10).
 
 ---
 
@@ -93,8 +93,8 @@ By the end of this module you will:
 |---|---|---|
 | 0 | 5 min | Run Script 2 (5 min centering). Then open the module. |
 | 1 | 10 min | Recall warm-up; read the consent check; **send your partner the "before" check-in voice message** and wait for confirmation |
-| 2 | 45 min | Teaching, part one: mixed emotions · the unmixing micro-practice · healing is optional (M39) |
-| 3 | 40 min | Teaching, part two: the six EHP positions · expressing vs processing · the witness annex (M38) · what EHPs teach (M40) · scope |
+| 2 | 45 min | Teaching, part one: mixed emotions · the unmixing micro-practice · healing is optional (Map 39) |
+| 3 | 40 min | Teaching, part two: the six EHP positions · expressing vs processing · the witness annex (Map 38) · what EHPs teach (Map 40) · scope |
 | 4 | 40 min | **Small Solo EHP practice** (alone, grounding script open beside you) |
 | 5 | 10 min | Close the practice day: Script 5; Script 9 that evening |
 | 6 | 2 min | **Next-morning three-question check** before continuing |
@@ -115,9 +115,9 @@ Spread the module across 3–4 days. Do not stack the solo EHP and the partner "
 
 ![Map of Mixed Emotions](../Maps/M11.png)
 
-*▶ [Study M11 in the Map Atlas →](../Map%20Atlas/M11%20-%20Mixed%20Emotions.html)*
+*▶ [Study Map 11 in the Map Atlas →](../Map%20Atlas/M11%20-%20Mixed%20Emotions.html)*
 
-Study the map before reading on. It sits between the New Map of Feelings (M10) and the Emotional Healing Process (M12): M10 names what feelings are, this map names what they *become* when they cannot flow, and M12 is the practice that puts them back into motion. Notice it does not show four clean energies. It shows tangles: two or three feelings knotted together with the past event that froze them.
+Study the map before reading on. It sits between the New Map of Feelings (Map 10) and the Emotional Healing Process (Map 12): Map 10 names what feelings are, this map names what they *become* when they cannot flow, and Map 12 is the practice that puts them back into motion. Notice it does not show four clean energies. It shows tangles: two or three feelings knotted together with the past event that froze them.
 
 Module 5 introduced the four feelings as **clean, archetypal, time-limited** energies, each doing its job in 3–5 minutes and passing. That is what a feeling looks like when conditions allow it to move. For most adults, most of the time, conditions do not allow it. The Old Map forbade three of the four. The Numbness Bar was installed to keep feelings below registration. So a feeling arrives, is immediately blocked or swallowed or redirected or numbed, does not vanish, stops flowing, mixes with the memory of the event that set it off, picks up a story, and **stores**.
 
@@ -149,13 +149,13 @@ Note what is *not* on this list: "frustration," "irritation," "moodiness," "burn
 - *"If I'm in a mixed emotion, I'm broken."* The default adult condition is mixed-emotion soup. Not pathology: the predictable result of running the Old Map for decades. Naming the mix is the first move toward unmixing it.
 - *"Depression / anxiety / chronic stress is just how I am."* Each is a recognizable mixed-emotion pattern with identifiable component feelings, not a fixed identity. Each can be unmixed via the EHP. (Clinical depression, anxiety disorder, and PTSD are separate categories needing clinical care alongside; see the scope carve-out below.)
 
-> **Micro-practice — the Unmixing Restatement (10 minutes).** Do this now, before reading on. It is the skill the whole EHP rests on, practiced on safe material. Sit, center, ground, drop a bubble, Beep! Book nearby. Identify one mixed state you have been in within the last 48 hours — and **pick a small one**: a recurring low-grade irritation, a mild "stress," a small "overwhelm," a flicker of nostalgia, a familiar brief resentment. *Not* a major decades-old wound. First, write the state in the words you would normally use: *"I was stressed about the meeting." "I felt frustrated when she said that."* One sentence in your usual vocabulary. Now restate it in the form: *"I have some [feeling] and some [feeling] mixed together about [trigger],"* using only the four — anger, sadness, fear, joy. For each component you named, ask: *"Where in my body does this one live, and at what intensity (0–10) is it present right now?"* — write the location and number. Then for each component ask: *"What is this one asking for on the New Map of Feelings (M10)?"* — anger asks for a boundary, sadness for release, fear for precision, joy for sharing. Write the asked-for action for each. Read your unmixed version aloud and notice how differently it sits than the "stress / frustrated / overwhelmed" wording. Precision opens space. **Stop there.** Naming the components is the practice; *moving* them is the EHP below, and the larger pieces want a witness. Do not attempt to process this mixed emotion solo right now.
+> **Micro-practice — the Unmixing Restatement (10 minutes).** Do this now, before reading on. It is the skill the whole EHP rests on, practiced on safe material. Sit, center, ground, drop a bubble, Beep! Book nearby. Identify one mixed state you have been in within the last 48 hours — and **pick a small one**: a recurring low-grade irritation, a mild "stress," a small "overwhelm," a flicker of nostalgia, a familiar brief resentment. *Not* a major decades-old wound. First, write the state in the words you would normally use: *"I was stressed about the meeting." "I felt frustrated when she said that."* One sentence in your usual vocabulary. Now restate it in the form: *"I have some [feeling] and some [feeling] mixed together about [trigger],"* using only the four — anger, sadness, fear, joy. For each component you named, ask: *"Where in my body does this one live, and at what intensity (0–10) is it present right now?"* — write the location and number. Then for each component ask: *"What is this one asking for on the New Map of Feelings (Map 10)?"* — anger asks for a boundary, sadness for release, fear for precision, joy for sharing. Write the asked-for action for each. Read your unmixed version aloud and notice how differently it sits than the "stress / frustrated / overwhelmed" wording. Precision opens space. **Stop there.** Naming the components is the practice; *moving* them is the EHP below, and the larger pieces want a witness. Do not attempt to process this mixed emotion solo right now.
 
 ### Healing is optional — and that is the design
 
 ![Map of Optional Healing Process](../Maps/M39.png)
 
-*▶ [Study M39 in the Map Atlas →](../Map%20Atlas/M39%20-%20Map%20of%20Optional%20Healing%20Process.html)*
+*▶ [Study Map 39 in the Map Atlas →](../Map%20Atlas/M39%20-%20Map%20of%20Optional%20Healing%20Process.html)*
 
 Give the map a full minute before the words. Six stations down the page, drawn as a path: the golden cube of workspace at the top, two figures making contact, sounds before words, the liquid-state cloud, the old-decision/new-decision arrow, and a heart at the close. (The map numbers its stations 1 through 6; the module names the same stations Position 0 through Position 5. Same path, two numbering conventions; the course uses the 0–5 names throughout.)
 
@@ -176,7 +176,7 @@ The word to sit with is in the title: **optional**. Nobody heals you. Nothing ma
 
 ![Map of Emotional Healing Process](../Maps/M12.png)
 
-*▶ [Study M12 in the Map Atlas →](../Map%20Atlas/M12%20-%20Emotional%20Healing%20Process.html)*
+*▶ [Study Map 12 in the Map Atlas →](../Map%20Atlas/M12%20-%20Emotional%20Healing%20Process.html)*
 
 Open this map side-by-side with the module and keep it there for the rest of this section. Take its shape in before reading: six positions in relationship, not a numbered staircase. You do not march through them in order. You find yourself in one, the witness helps you locate yourself, you move when the material moves you. The positions are the terrain; the path is yours.
 
@@ -232,7 +232,7 @@ The witness's energy of being present is the medicine. That sounds soft. It is n
 
 ![EHP Spaceholding Twins](../Maps/M38.png)
 
-*▶ [Study M38 in the Map Atlas →](../Map%20Atlas/M38%20-%20EHP%20Spaceholding%20Twins.html)*
+*▶ [Study Map 38 in the Map Atlas →](../Map%20Atlas/M38%20-%20EHP%20Spaceholding%20Twins.html)*
 
 Stop here and take the map in. Shape first, labels second. Two columns under two familiar names, **Go!** and **Beep!**: the Module 4 rapid-learning grammar, applied to the witness's own craft. Spaceholding is a learnable skill with reps and design data like any other, and this map is its field log. The Go! column is what works: keep the client's attention on the emotion's expression rather than on its vocabulary; speak up, because a witness who mumbles hands the client doubt; be assertive enough that the container is unmistakably held, and hold it steadily even while the client's other feelings surge. The Beep! column is the classic spaceholder errors, each one a design specification: indecisive language ("um, maybe you could…") that drops the container; jumping between emotions instead of letting one complete; shouting an encouraging *"Go!"* in an angry tone while the client is in sadness, which collides with the feeling instead of holding it; and the Rescuer's classic, doing the client's process *for* them. You will hold space for exactly one thing this module: your partner's debrief. These columns apply at that scale too. When you catch yourself advising mid-debrief, that is a Beep!, and it goes in your Beep! Book with a Shift! line under it like any other.
 
@@ -245,7 +245,7 @@ Stop here and take the map in. Shape first, labels second. Two columns under two
 
 ![EHP Learnings](../Maps/M40.png)
 
-*▶ [Study M40 in the Map Atlas →](../Map%20Atlas/M40%20-%20EHP%20Learnings.html)*
+*▶ [Study Map 40 in the Map Atlas →](../Map%20Atlas/M40%20-%20EHP%20Learnings.html)*
 
 The map first. The text below assumes you have seen it. A second Go!/Beep! card, harvested from many EHPs, and it describes the client's discipline as much as the spaceholder's. The Go! column: the feeling is found *in the body*; the body leads and the words follow; the client gets space to experience rather than narrate; the voice stays even and strong; both people are on one team; the emotion is sensed where it actually sits, right at the surface. The Beep! column is a catalog of the ways the process gets stolen: performing instead of feeling; distractions; telling the client what they feel; firing too many questions too fast; the verdict *"you are doing this"*; coaching when the moment asked for witnessing; thinking over feeling; and managing the client toward a goal (the subtle one, because a goal-shaped EHP is no longer a discovery). If you keep one line from this map for today's solo practice, keep **thinking over feeling**. Every learner hits the moment where the mind offers a tidy explanation in exchange for not feeling the next wave. The explanation is the Beep!.
 
@@ -374,7 +374,7 @@ This is a High day. Close it deliberately:
 1. **What you heard them say.** One or two sentences paraphrasing the core. Not the whole message. The part that reached you.
 2. **That you witness them.** Say it plainly. *"I am with you in what you just did. I see that you did the practice. I am here."* This is not performative. It is the witness role's one job in an EHP debrief.
 3. **One feeling that arrived in you while listening.** Name it from the four, locate it, note intensity. *"While you were speaking I felt some sadness in my chest, low intensity."* This is so they know they are speaking to a being who is present, not to a checklist.
-4. **No advice. No suggestions. No "have you tried." No "I had a similar experience." No "you should be proud of yourself."** None of those are witnessing. They are some other thing. (Check yourself against the M38 Beep! column afterwards; a caught Beep! is a good rep.)
+4. **No advice. No suggestions. No "have you tried." No "I had a similar experience." No "you should be proud of yourself."** None of those are witnessing. They are some other thing. (Check yourself against the Map 38 Beep! column afterwards; a caught Beep! is a good rep.)
 
 If your partner names material that exceeds the module's scope (trauma surfacing, ideation, intent to act on the original event in their adult life) — gently say so. *"What you are describing is bigger than this exchange can hold. I am glad you told me. I am also asking you to message the CM today, and if there is a clinician you work with, them too. I am still with you. And I am being honest about the limits of what I can do here."* Then continue witnessing. The honesty is part of the witnessing.
 
@@ -384,9 +384,9 @@ If your partner names material that exceeds the module's scope (trauma surfacing
 
 The second of three scheduled teach-backs (the first ran at Module 3; the third comes at Module 9). Teaching a map out loud is generation: it shows you, faster than any re-read, which parts you own and which parts you have only recognized.
 
-1. **Pick one map from each module:** Module 4 (Feedback and Coaching, M25, or Rapid Learning, M26) · Module 5 (Old Map of Feelings, M08, Numbness Bar, M09, or New Map of Feelings, M10) · Module 6 (Mixed Emotions, M11, or the EHP, M12).
+1. **Pick one map from each module:** Module 4 (Feedback and Coaching, Map 25, or Rapid Learning, Map 26) · Module 5 (Old Map of Feelings, Map 8, Numbness Bar, Map 9, or New Map of Feelings, Map 10) · Module 6 (Mixed Emotions, Map 11, or the EHP, Map 12).
 2. **Explain each to your partner in your own words**, two to three minutes per map, no notes, as if your partner had never met it. Live call or voice message both work. Your partner holds meaning-listening: no correcting, no quizzing, no filling in.
-3. **Then read the card.** For each map, open its Map Note (e.g., [M26](../Map%20Notes/M26%20-%20Rapid%20Learning.md), [M10](../Map%20Notes/M10%20-%20New%20Map%20of%20Feelings.md), [M11](../Map%20Notes/M11%20-%20Mixed%20Emotions.md)) and read its "How to explain it verbally" paragraph aloud. Both of you listen for what your version carried and what it dropped.
+3. **Then read the card.** For each map, open its Map Note (e.g., [Map 26](../Map%20Notes/M26%20-%20Rapid%20Learning.md), [Map 10](../Map%20Notes/M10%20-%20New%20Map%20of%20Feelings.md), [Map 11](../Map%20Notes/M11%20-%20Mixed%20Emotions.md)) and read its "How to explain it verbally" paragraph aloud. Both of you listen for what your version carried and what it dropped.
 4. **Name one gap each, yourself.** *"I taught the EHP without the witness, the container. That is where my next rep goes."* Nobody grades this; the gap you name yourself is calibration, and it goes in the Beep! Book.
 5. **Swap roles** per map if you are working live; async, your partner records their three teach-backs in reply. Solo path: teach the three maps to your voice recorder, listen back the next day, one Beep! line per map: *where the words ran out.*
 
@@ -462,7 +462,7 @@ The universal grounding script applies at all times: Script 1, the GROUND NOW bu
 
 Between this module and Module 7 the course schedules **at least one full integration day**: ground, sleep, journal, the morning sit, a partner check-in, and nothing else due. Module 7 reads your drama patterns, and it lands cleaner on a rested system that has digested the feelings work. Open the printable schedule from Module 0 and mark the pause with a date before you close this module.
 
-One thing goes inside the pause, near its end: the **consolidation rep (15 minutes, recall-based)**. Blank page in the Beep! Book, files closed. (1) Redraw the New Map of Feelings from memory: four feelings, locations, asked-for actions, shadow forms (6 minutes). (2) Redraw the six EHP positions from memory, Position 0 through Position 5, one line each on what each is for (6 minutes). (3) Open [M10](../Maps/M10.png) and [M12](../Maps/M12.png), mark what you missed, no verdict (3 minutes). Generation, never answer-checking; the gaps you find are exactly the parts that would have silently faded before Module 7 builds on them.
+One thing goes inside the pause, near its end: the **consolidation rep (15 minutes, recall-based)**. Blank page in the Beep! Book, files closed. (1) Redraw the New Map of Feelings from memory: four feelings, locations, asked-for actions, shadow forms (6 minutes). (2) Redraw the six EHP positions from memory, Position 0 through Position 5, one line each on what each is for (6 minutes). (3) Open [Map 10](../Maps/M10.png) and [Map 12](../Maps/M12.png), mark what you missed, no verdict (3 minutes). Generation, never answer-checking; the gaps you find are exactly the parts that would have silently faded before Module 7 builds on them.
 
 ---
 
@@ -483,7 +483,7 @@ Do not post the content of your EHP. The cohort feed is not the container for th
 - **Mixed emotion**: a stored state that is part feeling, part memory, part story; two or three of the four feelings tangled with the past event that froze them; an open wound waiting for the right conditions to close
 - **Unmixing**: naming the component feelings of a mixed emotion, one at a time, so each can move through; the first move of EHP Position 3
 - **Emotional Healing Process (EHP)**: the structured PM practice for completing a stored emotion; six positions, numbered 0 through 5; non-linear; no script; optional by design (the client holds the switch); requires a witness for anything beyond small material
-- **Witness / spaceholder**: the partner, coach, or therapist who holds space during an EHP; present, grounded, no fixing, no advising; their craft has its own Go!/Beep! pair, the **spaceholding twins** (M38)
+- **Witness / spaceholder**: the partner, coach, or therapist who holds space during an EHP; present, grounded, no fixing, no advising; their craft has its own Go!/Beep! pair, the **spaceholding twins** (Map 38)
 - **The 40% hard stop**: the solo ceiling; stop before Position 3 if intensity passes 40%, present-time orientation slips, or the original event arrives as vivid body memory
 - **Expressing vs. processing**: expressing acts an emotion out at a person; processing completes the emotion in a held container with a witness; PM separates the two on purpose
 - **Scope of EHP**: for ordinary stored emotional residue; NOT for trauma; trauma requires a qualified clinician with a trauma-built protocol

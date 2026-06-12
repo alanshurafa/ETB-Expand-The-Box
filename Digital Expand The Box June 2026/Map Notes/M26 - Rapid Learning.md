@@ -1,4 +1,4 @@
-# M26 — Rapid Learning
+# Map 26 — Rapid Learning
 
 *The fast inner loop by which a person upgrades thoughtware in ordinary life — Go! → Beep! → Shift! → Go! — and the one swamp that kills it.*
 
@@ -19,7 +19,7 @@ Rapid learning is a loop, not a line, a wheel that keeps turning. You Go: you ac
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 4 — Feedback, Coaching, Rapid Learning, Experiments](../Days/Day%2004%20-%20Feedback%2C%20Coaching%2C%20Rapid%20Learning%2C%20Experiments.md)
-> - **Interactive tool →** [Map Atlas · M26 Rapid Learning](../Map%20Atlas/M26%20-%20Rapid%20Learning.html)
+> - **Interactive tool →** [Map Atlas · Map 26 Rapid Learning](../Map%20Atlas/M26%20-%20Rapid%20Learning.html)
 
 ---
 

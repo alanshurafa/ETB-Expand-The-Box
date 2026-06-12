@@ -1,4 +1,4 @@
-# M37 — Fear, Capacity, and the Feelings Form
+# Map 37 — Fear, Capacity, and the Feelings Form
 
 *One Feelings Form sentence written out in full — fear read not as an alarm to silence but as a surveyor's report on the gap between what you want to build and what you can currently hold.*
 
@@ -19,7 +19,7 @@ This map is one sentence drawn large: I feel fear that I may not have enough cap
 > **This is a map card.** The full teaching and practice live in two places:
 >
 > - **Full teaching →** [Day 5 — Feelings vs Emotions, Old Map of Feelings, Numbness Bar](../Days/Day%2005%20-%20Feelings%20vs%20Emotions%2C%20Old%20Map%20of%20Feelings%2C%20Numbness%20Bar.md)
-> - **Interactive tool →** [Map Atlas · M37 Fear Capacity Feelings Form](../Map%20Atlas/M37%20-%20Fear%20Capacity%20Feelings%20Form.html)
+> - **Interactive tool →** [Map Atlas · Map 37 Fear Capacity Feelings Form](../Map%20Atlas/M37%20-%20Fear%20Capacity%20Feelings%20Form.html)
 
 ---
 

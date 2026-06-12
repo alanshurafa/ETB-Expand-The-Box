@@ -1,4 +1,4 @@
-# M12 — Emotional Healing Process
+# Map 12 — Emotional Healing Process
 
 *The structured PM practice for completing a stored emotion so its energy returns — five positions, non-linear, no script, requires a witness for anything beyond small material, NOT trauma processing.*
 
@@ -19,7 +19,7 @@ The Emotional Healing Process completes a stored emotion so its bound energy com
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 6 — Mixed Emotions & Emotional Healing Process](../Days/Day%2006%20-%20Mixed%20Emotions%20and%20Emotional%20Healing%20Process.md)
-> - **Interactive tool →** [Map Atlas · M12 Emotional Healing Process](../Map%20Atlas/M12%20-%20Emotional%20Healing%20Process.html)
+> - **Interactive tool →** [Map Atlas · Map 12 Emotional Healing Process](../Map%20Atlas/M12%20-%20Emotional%20Healing%20Process.html)
 
 ---
 

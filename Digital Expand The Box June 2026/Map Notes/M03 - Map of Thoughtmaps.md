@@ -1,4 +1,4 @@
-# M03 — Map of Thoughtmaps
+# Map 3 — Map of Thoughtmaps
 
 *A thoughtmap is a specific cognitive map used to navigate a piece of territory — and PM gives the learner roughly twenty of them, each one a tool to use, none of them the truth to believe.*
 
@@ -19,7 +19,7 @@ The map of thoughtmaps is the map about the maps. A thoughtmap is one specific c
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 2 — Thoughtware, Thoughtmaps, Box Technology](../Days/Day%2002%20-%20Thoughtware%2C%20Thoughtmaps%2C%20Box%20Technology.md)
-> - **Interactive tool →** [Map Atlas · M03 Map of Thoughtmaps](../Map%20Atlas/M03%20-%20Map%20of%20Thoughtmaps.html)
+> - **Interactive tool →** [Map Atlas · Map 3 Map of Thoughtmaps](../Map%20Atlas/M03%20-%20Map%20of%20Thoughtmaps.html)
 
 ---
 

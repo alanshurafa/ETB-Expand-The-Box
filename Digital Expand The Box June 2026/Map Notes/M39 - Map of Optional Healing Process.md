@@ -1,4 +1,4 @@
-# M39 — Map of Optional Healing Process
+# Map 39 — Map of Optional Healing Process
 
 *The EHP path drawn as six stations, with the load-bearing word in its own title — optional. Nobody heals you, nothing makes you heal, and the choice is the first position before the first position.*
 
@@ -19,7 +19,7 @@ This map draws the healing process as six stations down a path: the golden cube 
 > **This is a map card.** Study the map here; the practice lives behind the gate.
 >
 > - **Full teaching →** [Day 6 — Mixed Emotions & Emotional Healing Process](../Days/Day%2006%20-%20Mixed%20Emotions%20and%20Emotional%20Healing%20Process.md)
-> - **Interactive tool →** [Map Atlas · M39 Map of Optional Healing Process](../Map%20Atlas/M39%20-%20Map%20of%20Optional%20Healing%20Process.html)
+> - **Interactive tool →** [Map Atlas · Map 39 Map of Optional Healing Process](../Map%20Atlas/M39%20-%20Map%20of%20Optional%20Healing%20Process.html)
 >
 > **Study-level card.** This card locates the shape and the consent principle of the process; it is not a do-it-now instruction. The EHP is the structured PM practice for completing a stored emotion, and it is **NOT trauma processing — trauma (flashbacks, dissociation, abuse history) needs a qualified clinician with a trauma-built protocol (EMDR, somatic experiencing, IFS), because treating trauma with the EHP can re-traumatize.** Any practice impulse routes to the gated, partner-debriefed walker: [Day 6 · EHP Walker](../Interactive%20Tools/Day%2006/ehp-walker.html).
 

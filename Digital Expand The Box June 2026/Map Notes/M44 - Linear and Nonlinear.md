@@ -1,4 +1,4 @@
-# M44 — Linear and Nonlinear
+# Map 44 — Linear and Nonlinear
 
 *Two kinds of possibility that are not two sizes of the same thing — linear extends the current context by ordinary steps; nonlinear becomes available only when the context itself changes.*
 
@@ -19,7 +19,7 @@ There are two kinds of possibility, and they are not big and small versions of o
 > **This is a map card.** The full teaching and practice live in two places:
 >
 > - **Full teaching →** [Day 10 — Map of Possibility, Bright Principles, Three Powers, Integration](../Days/Day%2010%20-%20Map%20of%20Possibility%2C%20Bright%20Principles%2C%20Three%20Powers%2C%20Integration.md)
-> - **Interactive tool →** [Map Atlas · M44 Linear and Nonlinear](../Map%20Atlas/M44%20-%20Linear%20and%20Nonlinear.html)
+> - **Interactive tool →** [Map Atlas · Map 44 Linear and Nonlinear](../Map%20Atlas/M44%20-%20Linear%20and%20Nonlinear.html)
 
 ---
 

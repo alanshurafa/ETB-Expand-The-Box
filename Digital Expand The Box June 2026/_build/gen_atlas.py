@@ -59,7 +59,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{TITLE} · Map Atlas {MNUM} · Expand the Box</title>
+<title>{TITLE} · Map Atlas · {MAP_LABEL} · Expand the Box</title>
 <meta name="description" content="{META_DESC}">
 <link href="../_assets/fonts/fonts.css" rel="stylesheet">
 <style>
@@ -385,7 +385,7 @@ footer.bottom .license .cc {{ color: var(--ink-soft); font-weight: 600; letter-s
   <!-- 1 · HEADER BAR -->
   <header class="top">
     <div class="left">
-      <span><span class="num">MAP ATLAS · {MNUM}</span></span>
+      <span><span class="num">MAP ATLAS · {MAP_LABEL}</span></span>
       <span class="brand">Possibility Management</span>
     </div>
     <div class="right">
@@ -1348,6 +1348,11 @@ def _undouble(template):
     return template.replace("{{", "{").replace("}}", "}")
 
 
+def map_label(mnum):
+    """Human display label: M01 -> Map 1. Files/keys keep the M## id."""
+    return "Map " + str(int(mnum[1:]))
+
+
 def render_page(mnum):
     c = CONTENT[mnum]
     day = c["day"]
@@ -1373,6 +1378,7 @@ def render_page(mnum):
         "{TITLE}": c["title"],
         "{TITLE_ATTR}": esc(c["title"]),
         "{MNUM}": mnum,
+        "{MAP_LABEL}": map_label(mnum),
         "{META_DESC}": esc(c["meta_desc"]),
         "{EYEBROW}": c["eyebrow"],
         "{H1}": c["h1"],
@@ -1647,7 +1653,7 @@ def render_index():
         for mnum, title in cards:
             href = _href_for(mnum, title)
             block.append('      <a class="map-card" data-mnum="%s" href="%s">' % (mnum, href))
-            block.append('        <span class="mc-head"><span class="mc-num">%s</span><span class="mc-dot" aria-hidden="true"></span></span>' % mnum)
+            block.append('        <span class="mc-head"><span class="mc-num">%s</span><span class="mc-dot" aria-hidden="true"></span></span>' % map_label(mnum))
             block.append('        <span class="mc-title">%s</span>' % esc(title))
             block.append('        <span class="mc-go">Study the map →</span>')
             block.append('      </a>')

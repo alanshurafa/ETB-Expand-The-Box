@@ -1,4 +1,4 @@
-# M46 — Map of Matrix
+# Map 46 — Map of Matrix
 
 *The one definition of matrix the course uses everywhere — the energetic structure you build, through practice, that determines how much consciousness you can hold. Built by reps, not by reading.*
 
@@ -19,7 +19,7 @@ The drawing is simple: a circle, and inside one wedge of it there is fine struct
 > **This is a map card.** The full teaching and practice live in two places:
 >
 > - **Full teaching →** [Day 3 — Liquid State, Center-Ground-Bubble, Five Bodies](../Days/Day%2003%20-%20Liquid%20State%2C%20Center-Ground-Bubble%2C%20Five%20Bodies.md) · revisited in [Day 10 — Map of Possibility, Bright Principles, Three Powers, Integration](../Days/Day%2010%20-%20Map%20of%20Possibility%2C%20Bright%20Principles%2C%20Three%20Powers%2C%20Integration.md)
-> - **Interactive tool →** [Map Atlas · M46 Map of Matrix](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html)
+> - **Interactive tool →** [Map Atlas · Map 46 Map of Matrix](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html)
 
 ---
 

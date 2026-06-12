@@ -4,9 +4,9 @@
 |---|---|
 | **Intensity** | **HIGH.** Partner check-in required before starting; no override. See the unlock checklist in `04 - Container and Gatekeeping Protocol.md` Section D. |
 | **Sittings** | 3 (break points marked in the text) |
-| **Tools for this module** | Study the map: [M17 · Ego States](../Map%20Atlas/M17%20-%20Ego%20States.html) · [M18 · Problem Ownership](../Map%20Atlas/M18%20-%20Problem%20Ownership.html) · [M19 · Learning Spiral](../Map%20Atlas/M19%20-%20Learning%20Spiral.html) · Run the practice: [Ego-State Locator](../Interactive%20Tools/Day%2009/ego-state-locator.html) |
+| **Tools for this module** | Study the map: [Map 17 · Ego States](../Map%20Atlas/M17%20-%20Ego%20States.html) · [Map 18 · Problem Ownership](../Map%20Atlas/M18%20-%20Problem%20Ownership.html) · [Map 19 · Learning Spiral](../Map%20Atlas/M19%20-%20Learning%20Spiral.html) · Run the practice: [Ego-State Locator](../Interactive%20Tools/Day%2009/ego-state-locator.html) |
 | **Videos** | The written module is complete on its own. Videos are optional enrichment: see [Video Manifest](../Facilitator%20Resources/Video%20Manifest.md). |
-| **Also referenced** | [M27 · Your Gremlin](../Map%20Notes/M27%20-%20Your%20Gremlin.md) (owned by Module 7: the Gremlin as one of the five ego states; named here, transformed there) |
+| **Also referenced** | [Map 27 · Your Gremlin](../Map%20Notes/M27%20-%20Your%20Gremlin.md) (owned by Module 7: the Gremlin as one of the five ego states; named here, transformed there) |
 
 **Daily spine:** Phase B — morning sit: Beep! Book + Feelings Form bar reading (8-10 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
 
@@ -33,7 +33,7 @@ This module starts **after the rest day** you scheduled at the close of Module 8
 >
 > **Reading this without a cohort or partner?** The teaching in this module, and the Parent, Child, and Adult portions of the practices, are fine to run solo. Do not do the Demon visit in the locator, or any Demon work, without a live witness you have recruited on the Module 0 seven-line agreement; until you have one, read the Demon teaching and defer the practice. If anything surfaces that you cannot ground on your own, [findahelpline.com](https://findahelpline.com) lists crisis lines for every country.
 
-> **Readiness check (10 seconds).** Can you return to center and find your Adult on demand (Modules 3 and 5)? Ego-state work needs a home base to come back to. Naming Parent, Child, Gremlin and Demon from a centered Adult is the work; doing it ungrounded is just getting tossed around by the states. If center is not reliable yet, re-read [M07](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) first. (Full self-check: [Learning Self-Assessment](../Facilitator%20Resources/Learning%20Self-Assessment.md), Part 2.)
+> **Readiness check (10 seconds).** Can you return to center and find your Adult on demand (Modules 3 and 5)? Ego-state work needs a home base to come back to. Naming Parent, Child, Gremlin and Demon from a centered Adult is the work; doing it ungrounded is just getting tossed around by the states. If center is not reliable yet, re-read [Map 7](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) first. (Full self-check: [Learning Self-Assessment](../Facilitator%20Resources/Learning%20Self-Assessment.md), Part 2.)
 
 > **If your partner has gone quiet.** This module is partner-gated for a reason: you should not do it alone. But a silent partner must never strand you. If your partner has not responded and you want to proceed, **message your CM**. There is a real fallback (a witness partner, or a CM-held exchange) so you are accompanied. Do not run the High-intensity practice with no one on the other end, and do not let a non-responsive pairing stall you indefinitely. The fallback is yours to ask for.
 
@@ -43,7 +43,7 @@ This module starts **after the rest day** you scheduled at the close of Module 8
 
 Free recall on Module 8. No notes, no peeking.
 
-1. Take a blank page in your Beep! Book. Redraw the Map of Communication (M16) from memory: the circuit, the five joins, where the gaps open.
+1. Take a blank page in your Beep! Book. Redraw the Map of Communication (Map 16) from memory: the circuit, the five joins, where the gaps open.
 2. Say the core distinction out loud, in your own words. The shape to hit: a completion loop closes a communication so it leaves no residue, and step 5 (naming it complete, out loud) is the PM-distinctive piece.
 3. Check against [the map](../Maps/M16.png). Mark what you missed, without verdict, and move on.
 
@@ -123,7 +123,7 @@ Spread this module across 3–4 days. The ego state map is not a thing you "get"
 
 ![Map of Ego-States](../Maps/M17.png)
 
-*▶ [Study M17 in the Map Atlas →](../Map%20Atlas/M17%20-%20Ego%20States.html)*
+*▶ [Study Map 17 in the Map Atlas →](../Map%20Atlas/M17%20-%20Ego%20States.html)*
 
 Study the map before reading on. Notice that the five states are drawn as separate *locations*, not stacked layers: Parent, Child, Adult, Gremlin, Demon, each a place you can stand. That is the whole point. You move between them, sometimes mid-sentence, and nothing visible changes on the outside when you do.
 
@@ -139,7 +139,7 @@ The map is *related to* the Parent/Child/Adult model from Transactional Analysis
 
 **Adult.** The present-time grown human. Not "mature" in the moralistic sense. The state from which you hold distinctions, contract, choose, take responsibility, and act. **PM is practiced from here.** When you cannot find your Adult, you cannot do PM.
 
-**Gremlin.** The part of you that wants gremlin food. You met it in Module 7 (M27, *Your Gremlin*) as the engine of Low Drama. Here it is named again as one of the five ego states: the one most likely to pass itself off as "adult insight." Gremlin speaks *sotto voce*: *"you're not enough," "they never listen," "this is hopeless," "just one more."* The voice often passes for thought, for insight, for "what I really feel." It is none of those. Naming and meeting the Gremlin is in scope here; the deeper container, Gremlin Transformation, is where the Gremlin is actually worked. Module 9 is the lens; Gremlin Transformation is the journey. (Module 7 owns the full Gremlin map; this module only borrows it as one of the five locations.)
+**Gremlin.** The part of you that wants gremlin food. You met it in Module 7 (Map 27, *Your Gremlin*) as the engine of Low Drama. Here it is named again as one of the five ego states: the one most likely to pass itself off as "adult insight." Gremlin speaks *sotto voce*: *"you're not enough," "they never listen," "this is hopeless," "just one more."* The voice often passes for thought, for insight, for "what I really feel." It is none of those. Naming and meeting the Gremlin is in scope here; the deeper container, Gremlin Transformation, is where the Gremlin is actually worked. Module 9 is the lens; Gremlin Transformation is the journey. (Module 7 owns the full Gremlin map; this module only borrows it as one of the five locations.)
 
 **Demon.** The part of you with the **capacity for real harm**. Not a force for transformation. Not a sacred shadow. The cold, intelligent, harm-capable part that can use adult resources without remorse: often in service of revenge, domination, destruction, or annihilation. Its defining feature is that it can do damage — to you, to others, to what you have built. Where the Gremlin *feeds*, the Demon *damages*. Every adult has one. Most people spend their lives pretending they do not, then are surprised by what they do under pressure. The Demon makes the affair, makes the cruelty, makes the slow erosion of a marriage by ten thousand small contemptuous looks. It also makes the slow erosion of the self.
 
@@ -176,7 +176,7 @@ The point of the lens is not to be in Adult all the time; no one is. The point i
 
 ![Map of Problem Ownership](../Maps/M18.png)
 
-*▶ [Study M18 in the Map Atlas →](../Map%20Atlas/M18%20-%20Problem%20Ownership.html)*
+*▶ [Study Map 18 in the Map Atlas →](../Map%20Atlas/M18%20-%20Problem%20Ownership.html)*
 
 Stop here and take the map in. Shape first, labels second. Three boxes, not two: *my problem · their problem · explicitly shared.* The precision is in the third box, and in the fact that it is almost always empty until two Adults put something there by explicit contract. Hold that image while you read.
 
@@ -213,7 +213,7 @@ The Rescuer pattern (Module 7) is now visible as a special case. The Rescuer tak
 
 ![Map of Learning Spiral](../Maps/M19.png)
 
-*▶ [Study M19 in the Map Atlas →](../Map%20Atlas/M19%20-%20Learning%20Spiral.html)*
+*▶ [Study Map 19 in the Map Atlas →](../Map%20Atlas/M19%20-%20Learning%20Spiral.html)*
 
 Give the map a full minute before the words. It is drawn as a coil, not an arrow and not a staircase: the same words placed at intervals on each lap. That shape is the claim. You return to the same *territory* at a *different resolution*. A circle returns to the same point at the same resolution; a line goes one way and never returns; only a spiral does what learning actually does.
 
@@ -248,7 +248,7 @@ Read the script all the way through once before you start.
 
 > **Script.**
 >
-> Stand. Both feet on the floor. Center, ground, set a bubble (Module 3 — if it has fallen out of your body, re-read M05 first).
+> Stand. Both feet on the floor. Center, ground, set a bubble (Module 3 — if it has fallen out of your body, re-read Map 5 first).
 >
 > You will visit five states. Each gets a posture and a sentence or two. Return to center between each.
 >
@@ -300,9 +300,9 @@ This is a High day. Close it deliberately:
 
 The third and last scheduled teach-back (the first ran at Module 3, the second at Module 6). Teaching a map out loud is generation: it shows you, faster than any re-read, which parts you own and which parts you have only recognized.
 
-1. **Pick one map from each module:** Module 7 (Low Drama Triangle, M13, or Your Gremlin, M27) · Module 8 (4 Listenings, M14, or Map of Communication, M16) · Module 9 (Ego States, M17, or Problem Ownership, M18).
+1. **Pick one map from each module:** Module 7 (Low Drama Triangle, Map 13, or Your Gremlin, Map 27) · Module 8 (4 Listenings, Map 14, or Map of Communication, Map 16) · Module 9 (Ego States, Map 17, or Problem Ownership, Map 18).
 2. **Explain each to your partner in your own words**, two to three minutes per map, no notes, as if your partner had never met it. Live call or voice message both work. Your partner holds meaning-listening: no correcting, no quizzing, no filling in.
-3. **Then read the card.** For each map, open its Map Note (e.g., [M17](../Map%20Notes/M17%20-%20Ego%20States.md), [M13](../Map%20Notes/M13%20-%20Low%20Drama%20Triangle.md), [M16](../Map%20Notes/M16%20-%20Map%20of%20Communication.md)) and read its "How to explain it verbally" paragraph aloud. Both of you listen for what your version carried and what it dropped.
+3. **Then read the card.** For each map, open its Map Note (e.g., [Map 17](../Map%20Notes/M17%20-%20Ego%20States.md), [Map 13](../Map%20Notes/M13%20-%20Low%20Drama%20Triangle.md), [Map 16](../Map%20Notes/M16%20-%20Map%20of%20Communication.md)) and read its "How to explain it verbally" paragraph aloud. Both of you listen for what your version carried and what it dropped.
 4. **Name one gap each, yourself.** *"I taught the triangle without the gremlin food — the engine. That is where my next rep goes."* Nobody grades this; the gap you name yourself is calibration, and it goes in the Beep! Book.
 5. **Swap roles** per map if you are working live; async, your partner records their three teach-backs in reply.
 

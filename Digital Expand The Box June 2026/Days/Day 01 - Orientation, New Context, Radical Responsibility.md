@@ -5,7 +5,7 @@
 | **Intensity** | Low |
 | **Sittings** | 3 (break points are marked in the module) |
 | **Partner check-in** | No. Your container from Module 0 must be in place: partner or witness confirmed, or the solo defer-list set. |
-| **Tools for this module** | Study the map: [M01 The Chain](../Map%20Atlas/M01%20-%20New%20Context%20%28the%20chain%29.html) · [M24 Levels of Responsibility](../Map%20Atlas/M24%20-%20Levels%20of%20Responsibility.html) · [M32 Responsibility and Culture](../Map%20Atlas/M32%20-%20Map%20of%20Responsibility%20and%20Culture.html) · [M28 Gameworld](../Map%20Atlas/M28%20-%20Gameworld.html) — Run the practice: [the chain](../Interactive%20Tools/Day%2001/the-chain.html) · [four levels](../Interactive%20Tools/Day%2001/four-levels.html) · [red-pill ceremony](../Interactive%20Tools/Day%2001/red-pill-ceremony.html) |
+| **Tools for this module** | Study the map: [Map 1 The Chain](../Map%20Atlas/M01%20-%20New%20Context%20%28the%20chain%29.html) · [Map 24 Levels of Responsibility](../Map%20Atlas/M24%20-%20Levels%20of%20Responsibility.html) · [Map 32 Responsibility and Culture](../Map%20Atlas/M32%20-%20Map%20of%20Responsibility%20and%20Culture.html) · [Map 28 Gameworld](../Map%20Atlas/M28%20-%20Gameworld.html) — Run the practice: [the chain](../Interactive%20Tools/Day%2001/the-chain.html) · [four levels](../Interactive%20Tools/Day%2001/four-levels.html) · [red-pill ceremony](../Interactive%20Tools/Day%2001/red-pill-ceremony.html) |
 
 **Daily spine:** Phase A — Beep! Book morning capture (3-5 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
 
@@ -92,7 +92,7 @@ The shift of context is the shift the course is asking you to make. Not for the 
 
 ![New Context Chain — Possibility Management map](../Maps/M01.png)
 
-*▶ [Study M01 in the Map Atlas →](../Map%20Atlas/M01%20-%20New%20Context%20%28the%20chain%29.html)*
+*▶ [Study Map 1 in the Map Atlas →](../Map%20Atlas/M01%20-%20New%20Context%20%28the%20chain%29.html)*
 
 Study the map before reading on. Notice the arrow: it runs one direction only, left to right, and the leftmost link, *context*, is the one drawn first and the one you can least see. That single direction is the whole teaching.
 
@@ -136,7 +136,7 @@ The next module goes deep on this. For now: thoughtware is not your opinions, be
 
 ![Levels of Responsibility — Possibility Management map](../Maps/M24.png)
 
-*▶ [Study M24 in the Map Atlas →](../Map%20Atlas/M24%20-%20Levels%20of%20Responsibility.html)*
+*▶ [Study Map 24 in the Map Atlas →](../Map%20Atlas/M24%20-%20Levels%20of%20Responsibility.html)*
 
 Stop here and take the map in. Shape first, labels second. It shows three levels and what each one *produces*: **child** produces blame, guilt, suffering; **adult** is your ability to create results; **radical** is consciousness in action. Notice the map files blame, guilt and suffering at child level on purpose; that placement is the teaching. (The course names four levels; the map shows the three primary ones, with *adolescent* as the transitional position between child and adult.) The word does not soften or intensify as you move up. It changes meaning, because each level is a different context. This is the chain again: context determines what the word means. Said from child level, "responsibility" means burden; said from radical, the same five syllables mean authorship.
 
@@ -163,7 +163,7 @@ Radical responsibility is **not** taking on everyone else's stuff, and it is **n
 
 ![Map of Responsibility and Culture — Possibility Management map](../Maps/M32.png)
 
-*▶ [Study M32 in the Map Atlas →](../Map%20Atlas/M32%20-%20Map%20of%20Responsibility%20and%20Culture.html)*
+*▶ [Study Map 32 in the Map Atlas →](../Map%20Atlas/M32%20-%20Map%20of%20Responsibility%20and%20Culture.html)*
 
 Give the map a full minute before the words. It plots a population curve over the same levels you just learned: number of people on the vertical axis, child through radical on the horizontal. The tall hump sits over child and teen. That hump is labeled **mainstream modern culture**. The long thin tail out toward high and radical responsibility is labeled **culture creatives**: the people sourcing next cultures.
 
@@ -181,7 +181,7 @@ Two consequences follow. First: when you said the word *responsibility* and your
 
 ![Gameworld — Possibility Management map](../Maps/M28.png)
 
-*▶ [Study M28 in the Map Atlas →](../Map%20Atlas/M28%20-%20Gameworld.html)*
+*▶ [Study Map 28 in the Map Atlas →](../Map%20Atlas/M28%20-%20Gameworld.html)*
 
 The map first; the text below assumes you have seen it. A **gameworld is a field of human commitment**. That is the entire definition, and every word carries weight. *Field*: it has an inside and an outside; you are in it or you are not. *Human*: it does not exist in nature; people bring it into being and people sustain it. *Commitment*: it is held together not by walls but by what the people inside have agreed to keep doing. The map names the three parts that make any field of commitment legible, and the red-pill choice you are about to make is the act of entering one.
 
@@ -337,7 +337,7 @@ One line each, no more (solo or witness path: same lines, into the Beep! Book):
 - **Thoughtmap:** a specific cognitive map (e.g., the Box, the Five Bodies) used to navigate
 - **Levels of responsibility:** child (someone else is responsible; produces blame, guilt, suffering) · adolescent (rebellion against the authority; still sourced from someone-else-is-in-charge) · adult (your ability to create results; bounded by "my part") · radical (consciousness in action; at cause for the whole field)
 - **Radical responsibility:** the stance "I am at cause"; author of the next move, not of your past; the level the whole course is sourced from
-- **Responsibility and culture (M32):** a culture read as the distribution of where its people stand on the levels of responsibility; mainstream modern culture clusters at child/teen; the curve moves one person at a time
+- **Responsibility and culture (Map 32):** a culture read as the distribution of where its people stand on the levels of responsibility; mainstream modern culture clusters at child/teen; the curve moves one person at a time
 - **Liquid state:** the state in which thoughtware can be changed; previewed today, worked in Module 3
 - **Box:** the survival/protection filter; previewed today, worked in Module 2
 - **The chain:** context → thoughtware → thoughtmaps → options → choices → behavior → results

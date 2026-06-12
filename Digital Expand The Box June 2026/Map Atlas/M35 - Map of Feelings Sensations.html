@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Map of Feelings Sensations · Map Atlas M35 · Expand the Box</title>
+<title>Map of Feelings Sensations · Map Atlas · Map 35 · Expand the Box</title>
 <meta name="description" content="Interactive teaching tool for the Possibility Management Map of Feelings Sensations — a lookup table of the body sensations of anger, sadness, fear, and joy, used in both directions.">
 <link href="../_assets/fonts/fonts.css" rel="stylesheet">
 <style>
@@ -329,7 +329,7 @@ footer.bottom .license .cc { color: var(--ink-soft); font-weight: 600; letter-sp
   <!-- 1 · HEADER BAR -->
   <header class="top">
     <div class="left">
-      <span><span class="num">MAP ATLAS · M35</span></span>
+      <span><span class="num">MAP ATLAS · Map 35</span></span>
       <span class="brand">Possibility Management</span>
     </div>
     <div class="right">
@@ -467,14 +467,14 @@ footer.bottom .license .cc { color: var(--ink-soft); font-weight: 600; letter-sp
 
 <script>
 /* ============================================================
-   M35 — Map of Feelings Sensations. Teaching content sourced from the v2 module
+   Map 35 — Map of Feelings Sensations. Teaching content sourced from the v2 module
    (Day 05) and the canonical-phrasing ledger (Voice and Style
    Guide §6). Local-only: the single localStorage key etb_atlas_M35.
    ============================================================ */
 
 const DISTINCTIONS = [{"kicker": "Feeling 1 of 4", "name": "Anger", "rows": [["Sensation", "Heat. Rigidity in the arms and back. A tense forehead. Energy pressing <em>outward.</em>"], ["Body", "Bones · big muscles of legs and arms · jaw · hands."], ["Reads as", "Something I value is being violated."]]}, {"kicker": "Feeling 2 of 4", "name": "Sadness", "rows": [["Sensation", "Melting. Chest-deep heaviness. A thickening throat. Slow, inward-turning energy."], ["Body", "Heart · throat · soft tissue of the face · eyes."], ["Reads as", "Something I valued is gone."]]}, {"kicker": "Feeling 3 of 4", "name": "Fear", "rows": [["Sensation", "Electricity. Shiver, contraction, racing thoughts, heightened senses, a cold or fluttering belly."], ["Body", "Nervous system · skin · small nerves · belly."], ["Reads as", "Something I value is at risk."]]}, {"kicker": "Feeling 4 of 4", "name": "Joy", "rows": [["Sensation", "Opening. A smile starting in the eyes. Lightness, expansion, warmth spreading."], ["Body", "Whole organism · face · eyes · chest."], ["Reads as", "Something I value is alive and present."]]}, {"kicker": "How to use it", "name": "A two-way lookup.", "body": "Direction one: name first, verify in the body. Direction two, the common one: an <em>unnamed sensation</em> arrives — tight throat, cold belly — and the map names the quadrant. The location is <strong>anatomy, not poetry.</strong>"}];
 const RECALL = [{"q": "How do you know which feeling you're in?", "a": "By <em>sensation.</em> The sensation is the feeling; the thought about it is the story."}, {"q": "What does anger feel like in the body?", "a": "Heat, rigidity in the arms and back, a tense forehead, energy pressing outward. Bones, big muscles, jaw, hands."}, {"q": "What does sadness feel like?", "a": "Melting — chest-deep heaviness, a thickening throat, slow inward-turning energy. Heart, throat, eyes."}, {"q": "What does fear feel like, and where?", "a": "Electricity — shiver, contraction, racing thoughts, a cold or fluttering belly. Nervous system, skin, belly."}, {"q": "Name the two directions you can read this map.", "a": "Name-then-verify (you named a feeling, check the body) and sensation-then-name (an unnamed sensation arrives, the map names the quadrant)."}, {"q": "Are the body locations metaphorical?", "a": "No — literal. Anger in bones and big muscles, sadness in heart and throat. The location is anatomy, not poetry."}];
-const MISUNDERSTANDINGS = [{"wrong": "\"The body locations are metaphorical.\"", "right": "They are literal. Anger lives in bones and big muscles; sadness in heart and throat; fear in the nervous system and belly. Look for the sensation in <em>those specific places.</em>"}, {"wrong": "\"If I can name the feeling, I don't need the sensation.\"", "right": "The naming is the story-layer; the sensation is the feeling itself. Verify the name against the body, or you may be naming a thought about a feeling."}, {"wrong": "\"A real feeling is intense and obvious.\"", "right": "Most useful sensations are faint — a flicker of heat, an <em>almost</em>-imperceptible buzz. Almost nothing is still data. The map reads the small ones."}, {"wrong": "\"Two sensations at once means I'm doing it wrong.\"", "right": "Multiple sensations often arrive together. The map sorts them by quadrant; when they tangle with a memory and a story, that is a mixed emotion (M11), not an error."}];
+const MISUNDERSTANDINGS = [{"wrong": "\"The body locations are metaphorical.\"", "right": "They are literal. Anger lives in bones and big muscles; sadness in heart and throat; fear in the nervous system and belly. Look for the sensation in <em>those specific places.</em>"}, {"wrong": "\"If I can name the feeling, I don't need the sensation.\"", "right": "The naming is the story-layer; the sensation is the feeling itself. Verify the name against the body, or you may be naming a thought about a feeling."}, {"wrong": "\"A real feeling is intense and obvious.\"", "right": "Most useful sensations are faint — a flicker of heat, an <em>almost</em>-imperceptible buzz. Almost nothing is still data. The map reads the small ones."}, {"wrong": "\"Two sensations at once means I'm doing it wrong.\"", "right": "Multiple sensations often arrive together. The map sorts them by quadrant; when they tangle with a memory and a story, that is a mixed emotion (Map 11), not an error."}];
 const STORE_KEY = 'etb_atlas_M35';
 
 function kb(e, fn) {

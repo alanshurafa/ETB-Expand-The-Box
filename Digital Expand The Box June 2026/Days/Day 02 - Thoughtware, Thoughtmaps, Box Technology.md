@@ -5,7 +5,7 @@
 | **Intensity** | **Medium** (disidentification work + Box inventory + survival-layer preview) |
 | **Sittings** | 3 (break points are marked in the module) |
 | **Partner check-in** | **Yes. This is a Medium day:** before the Box-Inventory practice (Sitting 3), confirm your partner or witness is reachable within 24 hours. A ten-second message ("starting Module 2's practice today, you around this week?") is enough. Solo path: confirm your defer-list note is current and the grounding page is bookmarked. |
-| **Tools for this module** | Study the map: [M02 Thoughtware](../Map%20Atlas/M02%20-%20Map%20of%20Thoughtware.html) · [M03 Thoughtmaps](../Map%20Atlas/M03%20-%20Map%20of%20Thoughtmaps.html) · [M04 Anatomy of the Box](../Map%20Atlas/M04%20-%20Anatomy%20of%20the%20Box.html) — Run the practice: [Box inventory](../Interactive%20Tools/Day%2002/box-inventory.html) |
+| **Tools for this module** | Study the map: [Map 2 Thoughtware](../Map%20Atlas/M02%20-%20Map%20of%20Thoughtware.html) · [Map 3 Thoughtmaps](../Map%20Atlas/M03%20-%20Map%20of%20Thoughtmaps.html) · [Map 4 Anatomy of the Box](../Map%20Atlas/M04%20-%20Anatomy%20of%20the%20Box.html) — Run the practice: [Box inventory](../Interactive%20Tools/Day%2002/box-inventory.html) |
 
 **Daily spine:** Phase A — Beep! Book morning capture (3-5 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
 
@@ -15,7 +15,7 @@
 
 ## Before you start — recall (5 minutes)
 
-Close everything. On a blank page, redraw Module 1's chain from memory: seven links, the arrow, which end is invisible. Then say Module 1's core distinction out loud, in your own words: what is context, what is content, and why does the work start on the left? Then open [the M01 map](../Maps/M01.png) and check your drawing against it. Whatever you missed is not a failure; it is this warm-up doing its job. Five minutes, no more.
+Close everything. On a blank page, redraw Module 1's chain from memory: seven links, the arrow, which end is invisible. Then say Module 1's core distinction out loud, in your own words: what is context, what is content, and why does the work start on the left? Then open [the Map 1 map](../Maps/M01.png) and check your drawing against it. Whatever you missed is not a failure; it is this warm-up doing its job. Five minutes, no more.
 
 ---
 
@@ -78,7 +78,7 @@ Honest total: about two and a half hours of seated work across the three sitting
 
 ![Map of Thoughtware](../Maps/M02.png)
 
-*▶ [Study M02 in the Map Atlas →](../Map%20Atlas/M02%20-%20Map%20of%20Thoughtware.html)*
+*▶ [Study Map 2 in the Map Atlas →](../Map%20Atlas/M02%20-%20Map%20of%20Thoughtware.html)*
 
 Study the map before reading on. It names the layer of cognition almost nobody can normally see: the operating system you think with, drawn as distinct from the thoughts that run on top of it. Hold that split, *content above, architecture below*, while you read.
 
@@ -106,7 +106,7 @@ You will know it is upgrading because **things that used to be invisible become 
 
 ![Map of Thoughtmaps](../Maps/M03.png)
 
-*▶ [Study M03 in the Map Atlas →](../Map%20Atlas/M03%20-%20Map%20of%20Thoughtmaps.html)*
+*▶ [Study Map 3 in the Map Atlas →](../Map%20Atlas/M03%20-%20Map%20of%20Thoughtmaps.html)*
 
 Stop here and take the map in. Shape first, labels second. This is the *meta-map*, the map *about* the maps. It lays out the thoughtmaps this course installs side by side and holds them all to one rule: each is a tool, none is the truth. Notice it is an index, not a hierarchy; no map sits above the others as the real one.
 
@@ -139,7 +139,7 @@ A few distinctions that keep the toolbox alive:
 
 ![Box Technology](../Maps/M04.png)
 
-*▶ [Study M04 in the Map Atlas →](../Map%20Atlas/M04%20-%20Anatomy%20of%20the%20Box.html)*
+*▶ [Study Map 4 in the Map Atlas →](../Map%20Atlas/M04%20-%20Anatomy%20of%20the%20Box.html)*
 
 Give the map a full minute before the words. It carries the load-bearing line of the whole course directly on its face: *"You have a Box. You are NOT your Box. They are NOT their Box."* It maps three layers (surface, story, survival) and the predictable ways the structure defends itself. Open it once side-by-side with this module; you will keep coming back to it.
 

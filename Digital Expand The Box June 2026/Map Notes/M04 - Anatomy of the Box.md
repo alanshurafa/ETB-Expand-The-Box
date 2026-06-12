@@ -1,4 +1,4 @@
-# M04 — Anatomy of the Box
+# Map 4 — Anatomy of the Box
 
 *The Box is the survival-and-protection thoughtware you assembled in childhood — it kept you alive then, it is largely no longer useful now, and the central work of PM is to stop confusing it for yourself.*
 
@@ -19,7 +19,7 @@ The Box is the survival kit you built as a small child to get through the exact 
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 2 — Thoughtware, Thoughtmaps, Box Technology](../Days/Day%2002%20-%20Thoughtware%2C%20Thoughtmaps%2C%20Box%20Technology.md)
-> - **Interactive tool →** [Map Atlas · M04 Anatomy of the Box](../Map%20Atlas/M04%20-%20Anatomy%20of%20the%20Box.html)
+> - **Interactive tool →** [Map Atlas · Map 4 Anatomy of the Box](../Map%20Atlas/M04%20-%20Anatomy%20of%20the%20Box.html)
 
 ---
 

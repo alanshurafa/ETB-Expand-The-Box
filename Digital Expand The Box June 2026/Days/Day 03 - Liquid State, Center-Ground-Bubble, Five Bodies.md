@@ -5,7 +5,7 @@
 | **Intensity** | Low |
 | **Sittings** | 3 (break points are marked in the module) |
 | **Partner check-in** | No (partner or witness must be active; you will exchange after the practice, and this module schedules **teach-back #1**) |
-| **Tools for this module** | Study the map: [M05 Liquid State](../Map%20Atlas/M05%20-%20Liquid%20State.html) · [M06 Five Bodies](../Map%20Atlas/M06%20-%20Five%20Bodies.html) · [M07 Center, Cord, Bubble, Cube](../Map%20Atlas/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.html) · [M46 Map of Matrix](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html) — Run the practice: [centering practice](../Interactive%20Tools/Day%2003/centering-practice.html) |
+| **Tools for this module** | Study the map: [Map 5 Liquid State](../Map%20Atlas/M05%20-%20Liquid%20State.html) · [Map 6 Five Bodies](../Map%20Atlas/M06%20-%20Five%20Bodies.html) · [Map 7 Center, Cord, Bubble, Cube](../Map%20Atlas/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.html) · [Map 46 Map of Matrix](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html) — Run the practice: [centering practice](../Interactive%20Tools/Day%2003/centering-practice.html) |
 
 **Daily spine:** Phase A — Beep! Book morning capture (3-5 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
 
@@ -15,7 +15,7 @@
 
 ## Before you start — recall (5 minutes)
 
-Close everything. On a blank page, redraw Module 2's Box map from memory: the three layers, what lives in each, and the line written on the map's face. Say Module 2's core distinction out loud in your own words: what changes between *I am this* and *I have this*, and why the grammar is the move. Then open [the M04 map](../Maps/M04.png) and check your drawing against it. The gaps you find are the warm-up working. Five minutes, then begin.
+Close everything. On a blank page, redraw Module 2's Box map from memory: the three layers, what lives in each, and the line written on the map's face. Say Module 2's core distinction out loud in your own words: what changes between *I am this* and *I have this*, and why the grammar is the move. Then open [the Map 4 map](../Maps/M04.png) and check your drawing against it. The gaps you find are the warm-up working. Five minutes, then begin.
 
 ---
 
@@ -83,7 +83,7 @@ Honest total: about two and three-quarter hours of seated work across three sitt
 
 ![Liquid State](../Maps/M05.png)
 
-*▶ [Study M05 in the Map Atlas →](../Map%20Atlas/M05%20-%20Liquid%20State.html)*
+*▶ [Study Map 5 in the Map Atlas →](../Map%20Atlas/M05%20-%20Liquid%20State.html)*
 
 Study the map before reading on. Notice it does not draw a peak or a high. It draws a *condition*: solid thoughtware on one side, the same thoughtware temporarily workable on the other, and the holding context that decides which way it resolves. That shape, not any particular feeling, is the distinction.
 
@@ -119,7 +119,7 @@ A liquid state **ends one of two ways**: new thoughtware installs and the Box is
 
 ![Map of 5 Bodies](../Maps/M06.png)
 
-*▶ [Study M06 in the Map Atlas →](../Map%20Atlas/M06%20-%20Five%20Bodies.html)*
+*▶ [Study Map 6 in the Map Atlas →](../Map%20Atlas/M06%20-%20Five%20Bodies.html)*
 
 Stop here and take the map in. Shape first, labels second: five bodies side by side, each with its own location, its own language, its own food, no one of them sitting above the others. It is an instrument panel, not a ladder. Read the image and the table together.
 
@@ -159,7 +159,7 @@ A distinction lives in **all five bodies.** Sour milk shows up in taste (physica
 
 ![Being Centered](../Maps/M07.png)
 
-*▶ [Study M07 in the Map Atlas →](../Map%20Atlas/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.html)*
+*▶ [Study Map 7 in the Map Atlas →](../Map%20Atlas/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.html)*
 
 Give the map a full minute before the words. It draws the centering distinction directly: your center as the seat of your power, authority, and real voice, and the spaceholder's clean *"no thanks, I don't want your center."* The grounding cord, bubble, and golden cube are not on this map; they live in the text and the practice script below, because the four are taught together as one set of equipment even though one image carries the first.
 
@@ -268,7 +268,7 @@ If you dissociate (float, watch yourself from outside, lose track of where you a
 
 ### Building matrix — what the practice is actually constructing
 
-*▶ [Study M46 Map of Matrix in the Map Atlas →](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html)*
+*▶ [Study Map 46 Map of Matrix in the Map Atlas →](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html)*
 
 Open the Atlas page and give the map a full minute before the words. The drawing is simple: a circle, and inside one wedge of it, fine structure, many small cells where the rest of the circle is empty space. An arrow labels the fine structure *distinction*. An arc along the outside says *build matrix*.
 
@@ -320,7 +320,7 @@ This is the first of three scheduled teach-backs in the course (the others come 
 
 **The shape.** One voice exchange or a 20-minute call, before you open Module 4. You teach your partner **two maps from Modules 1–3**, your choice (the chain, the levels, the Box, liquid state, the five bodies, or the equipment), from memory, two or three minutes each, as if they had never heard of them. Your partner does not correct or quiz you; they witness, then tell you which parts were alive and which parts sounded recited. Then swap roles.
 
-**Calibration, 10 minutes, after the teach-back:** open the Map Note card for each map you taught and read its "How to explain it verbally" paragraph once, after the attempt rather than before, so your own words come first. Both of you listen for what your version carried and what it dropped. The cards: [M01 The Chain](../Map%20Notes/M01%20-%20New%20Context%20%28the%20chain%29.md) · [M02 Thoughtware](../Map%20Notes/M02%20-%20Map%20of%20Thoughtware.md) · [M03 Thoughtmaps](../Map%20Notes/M03%20-%20Map%20of%20Thoughtmaps.md) · [M04 Anatomy of the Box](../Map%20Notes/M04%20-%20Anatomy%20of%20the%20Box.md) · [M05 Liquid State](../Map%20Notes/M05%20-%20Liquid%20State.md) · [M06 Five Bodies](../Map%20Notes/M06%20-%20Five%20Bodies.md) · [M07 Center, Cord, Bubble, Cube](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md).
+**Calibration, 10 minutes, after the teach-back:** open the Map Note card for each map you taught and read its "How to explain it verbally" paragraph once, after the attempt rather than before, so your own words come first. Both of you listen for what your version carried and what it dropped. The cards: [Map 1 The Chain](../Map%20Notes/M01%20-%20New%20Context%20%28the%20chain%29.md) · [Map 2 Thoughtware](../Map%20Notes/M02%20-%20Map%20of%20Thoughtware.md) · [Map 3 Thoughtmaps](../Map%20Notes/M03%20-%20Map%20of%20Thoughtmaps.md) · [Map 4 Anatomy of the Box](../Map%20Notes/M04%20-%20Anatomy%20of%20the%20Box.md) · [Map 5 Liquid State](../Map%20Notes/M05%20-%20Liquid%20State.md) · [Map 6 Five Bodies](../Map%20Notes/M06%20-%20Five%20Bodies.md) · [Map 7 Center, Cord, Bubble, Cube](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md).
 
 Solo path: teach the two maps out loud to your voice recorder, listen back the next day, and write one Beep! line per map: *where the words ran out.* The recorder is a thinner witness than a person; it is still a witness.
 

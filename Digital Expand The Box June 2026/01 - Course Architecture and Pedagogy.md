@@ -155,7 +155,7 @@ Solo-reader boxes appear where the Manifest flags them (Modules 00, 5, 6, 7, 9).
 
 **Map Note card** (in `Map Notes/`): map name + one-sentence framing · embedded map image (or text-first note) · **What it is** paragraph · **At a glance** compressed distinctions · the card block linking full teaching (module) and interactive tool (Atlas page). Cards are the distinction-density layer and the teach-back source; they stay terse.
 
-**Atlas page** (in `Map Atlas/`): one map, self-contained HTML on the shared design system; the map walked through interactively; unscored flip-cards framed as recall prompts; GROUND NOW in the header; completion dot + reflections in `etb_atlas_M##` localStorage; links back to module and card. Atlas M12 carries no live EHP: it describes and routes to the gated Day 6 walker.
+**Atlas page** (in `Map Atlas/`): one map, self-contained HTML on the shared design system; the map walked through interactively; unscored flip-cards framed as recall prompts; GROUND NOW in the header; completion dot + reflections in `etb_atlas_M##` localStorage; links back to module and card. Atlas Map 12 carries no live EHP: it describes and routes to the gated Day 6 walker.
 
 **Interactive tool** (in `Interactive Tools/Day NN/`): the module's "Run the practice" surface. Conventions: shared design system; per-visit consent component on gated tools (never persisted, day-specific items, `inert` gating, GROUND NOW reachable from the gate); localStorage only, keys registered in the Manifest §6; escapeHtml on all user input; real keyboard a11y; self-hosted fonts, zero external calls.
 

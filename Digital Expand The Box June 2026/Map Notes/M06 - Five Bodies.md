@@ -1,4 +1,4 @@
-# M06 — Five Bodies
+# Map 6 — Five Bodies
 
 *The PM training map of a human as five channels of intelligence and responsibility — intellectual, emotional, physical, energetic, archetypal. Experientially real, not medical anatomy and not metaphor. Most learners arrive over-identified with one.*
 
@@ -19,7 +19,7 @@ You did not arrive as a brain with plumbing. You arrived as five bodies, and the
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 3 — Liquid State, Center-Ground-Bubble, Five Bodies](../Days/Day%2003%20-%20Liquid%20State%2C%20Center-Ground-Bubble%2C%20Five%20Bodies.md)
-> - **Interactive tool →** [Map Atlas · M06 Five Bodies](../Map%20Atlas/M06%20-%20Five%20Bodies.html)
+> - **Interactive tool →** [Map Atlas · Map 6 Five Bodies](../Map%20Atlas/M06%20-%20Five%20Bodies.html)
 
 ---
 

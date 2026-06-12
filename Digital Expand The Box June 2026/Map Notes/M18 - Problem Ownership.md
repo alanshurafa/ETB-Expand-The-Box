@@ -1,4 +1,4 @@
-# M18 — Problem Ownership
+# Map 18 — Problem Ownership
 
 *The first PM question when something is "wrong" between people — whose unmet need is actually in play — and the grammar test (I-statement vs you-statement) that makes the answer visible.*
 
@@ -19,7 +19,7 @@ Problem ownership starts with a different first question. When something is wron
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 9 — Ego States, Problem Ownership, Learning Spiral](../Days/Day%2009%20-%20Ego%20States%2C%20Problem%20Ownership%2C%20Learning%20Spiral.md)
-> - **Interactive tool →** [Map Atlas · M18 Problem Ownership](../Map%20Atlas/M18%20-%20Problem%20Ownership.html)
+> - **Interactive tool →** [Map Atlas · Map 18 Problem Ownership](../Map%20Atlas/M18%20-%20Problem%20Ownership.html)
 
 ---
 

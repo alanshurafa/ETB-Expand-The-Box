@@ -4,7 +4,7 @@
 |---|---|
 | **Intensity** | **HIGH.** Partner check-in required before starting; no override. See the unlock checklist in `04 - Container and Gatekeeping Protocol.md` Section D. |
 | **Sittings** | 3 (break points marked in the text) |
-| **Tools for this module** | Study the map: [M33 · Feelings vs Emotions](../Map%20Atlas/M33%20-%20Feelings%20vs%20Emotions.html) · [M08 · Old Map of Feelings](../Map%20Atlas/M08%20-%20Old%20Map%20of%20Feelings.html) · [M09 · Numbness Bar](../Map%20Atlas/M09%20-%20Numbness%20Bar.html) · [M10 · New Map of Feelings](../Map%20Atlas/M10%20-%20New%20Map%20of%20Feelings.html) · [M35 · Map of Feelings Sensations](../Map%20Atlas/M35%20-%20Map%20of%20Feelings%20Sensations.html) · [M37 · Fear Capacity Feelings Form](../Map%20Atlas/M37%20-%20Fear%20Capacity%20Feelings%20Form.html) · Run the practice: [Feeling Locator](../Interactive%20Tools/Day%2005/feeling-locator.html) |
+| **Tools for this module** | Study the map: [Map 33 · Feelings vs Emotions](../Map%20Atlas/M33%20-%20Feelings%20vs%20Emotions.html) · [Map 8 · Old Map of Feelings](../Map%20Atlas/M08%20-%20Old%20Map%20of%20Feelings.html) · [Map 9 · Numbness Bar](../Map%20Atlas/M09%20-%20Numbness%20Bar.html) · [Map 10 · New Map of Feelings](../Map%20Atlas/M10%20-%20New%20Map%20of%20Feelings.html) · [Map 35 · Map of Feelings Sensations](../Map%20Atlas/M35%20-%20Map%20of%20Feelings%20Sensations.html) · [Map 37 · Fear Capacity Feelings Form](../Map%20Atlas/M37%20-%20Fear%20Capacity%20Feelings%20Form.html) · Run the practice: [Feeling Locator](../Interactive%20Tools/Day%2005/feeling-locator.html) |
 | **Videos** | The written module is complete on its own. Videos are optional enrichment: see [Video Manifest](../Facilitator%20Resources/Video%20Manifest.md). |
 
 **Daily spine:** Phase B — morning sit: Beep! Book + Feelings Form bar reading (8-10 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
@@ -31,7 +31,7 @@ Phase B starts with this module. The bar reading named in that line does not exi
 >
 > **Reading this without a cohort or partner?** The teaching, the bar reading, and the Low/Medium-grade practices in this module are fine to run solo. Do not run the Emotional Healing Process (Module 6) or any Demon work (Module 9) without a live witness you have recruited on the Module 0 seven-line agreement. If anything surfaces that you cannot ground on your own, [findahelpline.com](https://findahelpline.com) lists crisis lines for every country.
 
-> **Readiness check (10 seconds).** Can you find your center, drop a grounding cord, and set a bubble on demand (Module 3)? This module asks you to stay present *while feelings move*, and that takes the equipment. If you can't yet, that is not failure: re-read [M07](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) and do its practice first. (Full self-check: [Learning Self-Assessment](../Facilitator%20Resources/Learning%20Self-Assessment.md), Part 2.)
+> **Readiness check (10 seconds).** Can you find your center, drop a grounding cord, and set a bubble on demand (Module 3)? This module asks you to stay present *while feelings move*, and that takes the equipment. If you can't yet, that is not failure: re-read [Map 7](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) and do its practice first. (Full self-check: [Learning Self-Assessment](../Facilitator%20Resources/Learning%20Self-Assessment.md), Part 2.)
 
 > **If your partner has gone quiet.** This module is partner-gated for a reason: you should not do it alone. But a silent partner must never strand you. If your partner has not responded and you want to proceed, **message your CM**. There is a real fallback (a witness partner, or a CM-held exchange) so you are accompanied. Do not run the High-intensity practice with no one on the other end, and do not let a non-responsive pairing stall you indefinitely. The fallback is yours to ask for.
 
@@ -41,7 +41,7 @@ Phase B starts with this module. The bar reading named in that line does not exi
 
 Free recall on Module 4. No notes, no peeking.
 
-1. Take a blank page in your Beep! Book. Redraw the Rapid Learning loop (M26) from memory: the three stations, the arrows, the trap-door off Beep! into the swamp.
+1. Take a blank page in your Beep! Book. Redraw the Rapid Learning loop (Map 26) from memory: the three stations, the arrows, the trap-door off Beep! into the swamp.
 2. Say the core distinction out loud, in your own words. The shape to hit: a Beep! is design data, not a verdict, and feedback, criticism, and advice are the same sentence sourced from three different places.
 3. Check your drawing against [the map](../Maps/M26.png). Mark what you missed, without verdict. A missed corner is information about where the next rep goes.
 
@@ -61,7 +61,7 @@ To install the three distinctions the rest of the emotional-body work depends on
 
 Module 5 is not the module where you heal anything; Module 6 is. Module 5 is where you build the map you will be healing with. Without these distinctions, Module 6 looks like generic catharsis. With them, it looks like surgery: you know which tissue is feeling, which is emotion, which is story, and what each one is for.
 
-This module relies on the five-bodies work from Module 3. You will need to find your emotional body as distinct from your intellectual body. If that distinction is not yet living for you, pause and re-read [M06](../Map%20Notes/M06%20-%20Five%20Bodies.md) and [M07](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) before continuing.
+This module relies on the five-bodies work from Module 3. You will need to find your emotional body as distinct from your intellectual body. If that distinction is not yet living for you, pause and re-read [Map 6](../Map%20Notes/M06%20-%20Five%20Bodies.md) and [Map 7](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) before continuing.
 
 ---
 
@@ -82,7 +82,7 @@ This module relies on the five-bodies work from Module 3. You will need to find 
 By the end of this module you will:
 
 1. State, in your own words, the difference between **feeling** and **emotion**, and apply the **5-minute test** to your own experience.
-2. Name each of the **four feelings** by its archetypal purpose, body location, asked-for action, and common shadow form, and recognize each one by its **sensations** (M35).
+2. Name each of the **four feelings** by its archetypal purpose, body location, asked-for action, and common shadow form, and recognize each one by its **sensations** (Map 35).
 3. Have located, in your own history, three specific items on **your Old Map of Feelings**.
 4. Have run your first **Per-Feeling Bar Reading** and installed the **Feelings Form** as your standing morning instrument (spine Phase B).
 5. Have registered a feeling at low intensity (≤20%) that you would normally not have noticed: your Numbness Bar moving one notch.
@@ -118,7 +118,7 @@ Spread the module across 3–4 days. The emotional body needs time to digest mat
 
 ![Feelings vs Emotions — Possibility Management map](../Maps/M33.png)
 
-*▶ [Study M33 in the Map Atlas →](../Map%20Atlas/M33%20-%20Feelings%20vs%20Emotions.html)*
+*▶ [Study Map 33 in the Map Atlas →](../Map%20Atlas/M33%20-%20Feelings%20vs%20Emotions.html)*
 
 Study the map before reading on. Two panels, top and bottom, same four names in each: anger, sadness, fear, joy. The top panel says feelings originate in the present and last three to five minutes at most. The bottom panel says emotions originate in the past, last longer than five minutes, and arrive mixed. And each panel ends in a sentence that names what that class of experience is *for*: **feelings are for creating, in the now; emotions are for healing.** The whole module hangs on that split.
 
@@ -151,7 +151,7 @@ This is why the course will not let you treat feelings work as remedial therapy 
 
 ![Old Map of Feelings — Possibility Management map](../Maps/M08.png)
 
-*▶ [Study M08 in the Map Atlas →](../Map%20Atlas/M08%20-%20Old%20Map%20of%20Feelings.html)*
+*▶ [Study Map 8 in the Map Atlas →](../Map%20Atlas/M08%20-%20Old%20Map%20of%20Feelings.html)*
 
 Stop here and take the map in. Shape first, labels second. Two columns, a good one and a bad one, with three of the four feelings dropped into "bad" and the fourth held under suspicion. That sort, not the contents, is the whole error.
 
@@ -193,7 +193,7 @@ You are not here to fight your Old Map. You are here to **see** it, to identify 
 
 ![Numbness Bar — Possibility Management map](../Maps/M09.png)
 
-*▶ [Study M09 in the Map Atlas →](../Map%20Atlas/M09%20-%20Numbness%20Bar.html)*
+*▶ [Study Map 9 in the Map Atlas →](../Map%20Atlas/M09%20-%20Numbness%20Bar.html)*
 
 Give the map a full minute before the words. A single horizontal line drawn across the emotional body. Everything above it, you feel. Everything below it is still happening; you just don't perceive it. Hold that image while you read.
 
@@ -232,7 +232,7 @@ Why a form and not just a habit: **thirty rows are evidence.** One morning's row
 
 ![New Map of Feelings — Possibility Management map](../Maps/M10.png)
 
-*▶ [Study M10 in the Map Atlas →](../Map%20Atlas/M10%20-%20New%20Map%20of%20Feelings.html)*
+*▶ [Study Map 10 in the Map Atlas →](../Map%20Atlas/M10%20-%20New%20Map%20of%20Feelings.html)*
 
 The map first. The text below assumes you have seen it. Four feelings, each with a body location, a purpose, an asked-for action, and a shadow form it takes when stored. No good column. No bad column. Just four tools and what each one is for. The table below is the same map in words; read the image and the table together.
 
@@ -262,7 +262,7 @@ Three notes on the new map:
 
 ![Map of Feelings Sensations — Possibility Management map](../Maps/M35.png)
 
-*▶ [Study M35 in the Map Atlas →](../Map%20Atlas/M35%20-%20Map%20of%20Feelings%20Sensations.html)*
+*▶ [Study Map 35 in the Map Atlas →](../Map%20Atlas/M35%20-%20Map%20of%20Feelings%20Sensations.html)*
 
 Before the prose: the image. Notice what is drawn, and what is not. Four quadrants, one per feeling, and not a single abstraction in any of them. No "I felt disrespected." No "it triggered me." Heat. Racing heart. Lump in the throat. Cold belly. Tingling eyes. Shiver. Bright eyes. Pressing lips.
 
@@ -288,7 +288,7 @@ The course works the low end on purpose. Here, the rep is: notice the 5%. Lower 
 
 ![Fear Capacity Feelings Form — Possibility Management map](../Maps/M37.png)
 
-*▶ [Study M37 in the Map Atlas →](../Map%20Atlas/M37%20-%20Fear%20Capacity%20Feelings%20Form.html)*
+*▶ [Study Map 37 in the Map Atlas →](../Map%20Atlas/M37%20-%20Fear%20Capacity%20Feelings%20Form.html)*
 
 One sentence, drawn large: *"I feel fear that I may not have enough capacity to initiate a project that fills me up with joy…"* That is a Feelings Form sentence, written out in full, and it shows the instrument doing its most precise job.
 
@@ -315,7 +315,7 @@ Read the script through once before you do it.
 
 > **Script.**
 >
-> Sit. Both feet on the floor. Center, ground, drop a bubble (Module 3 practice — if it has fallen out of your body, re-read [M07](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) first).
+> Sit. Both feet on the floor. Center, ground, drop a bubble (Module 3 practice — if it has fallen out of your body, re-read [Map 7](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) first).
 >
 > Pick up the object. Hold it. Look at it.
 >
@@ -325,7 +325,7 @@ Read the script through once before you do it.
 >
 > Name the first feeling out loud: *"I feel some [anger / sadness / fear / joy] looking at this [object]."*
 >
-> Locate the sensation in the body, using M35 as your lookup table. Where exactly? Bones? Heart? Nervous system? Eyes? Be specific. Touch the place with your hand if it helps.
+> Locate the sensation in the body, using Map 35 as your lookup table. Where exactly? Bones? Heart? Nervous system? Eyes? Be specific. Touch the place with your hand if it helps.
 >
 > Stay with the sensation for 60 seconds. Do not analyze. Do not story. Do not figure out why. Just register. Breathe.
 >
@@ -339,7 +339,7 @@ Read the script through once before you do it.
 
 **What to expect.** Most learners report the first object yields almost nothing: "I don't feel anything." This is the Numbness Bar speaking. Stay another 30 seconds. Look smaller. The 2% is there. By the second or third object, the bar drops a notch and feelings register that were not available ten minutes earlier.
 
-> **Variation B — the Four-Bodies Check-In (~12 min).** If the object practice keeps you in your head, or if you want to drill the body locations directly, run this instead of or after the object version. Sit, center, ground, drop a bubble. Take the four feelings *in order — anger, sadness, fear, joy* — and give each a 3-minute micro-cycle: (1) find the body region from the M10/M35 tables — anger → bones, jaw, big muscles; sadness → heart, throat, eyes; fear → nervous system, skin, belly; joy → whole organism, face, chest; (2) place a hand there and breathe into it for 30 seconds; (3) ask out loud, *"Right now, in this place, is there any [feeling] present, even at 2%?"*; (4) stay with the sensation 60 seconds — no analysis, no story, look smaller than you think you should; (5) write one Beep! Book line: *feeling · location · sensation · approximate intensity · what it might be about, if anything came clear.* After all four, read your four lines aloud. The region easiest to land in is where your Numbness Bar is lowest today; the one furthest away is where it is highest. Finish by naming, out loud, the asked-for action of whichever feeling registered most cleanly — *"my anger is asking me to make a boundary about X"* — with no commitment to act. Just name what the feeling was for.
+> **Variation B — the Four-Bodies Check-In (~12 min).** If the object practice keeps you in your head, or if you want to drill the body locations directly, run this instead of or after the object version. Sit, center, ground, drop a bubble. Take the four feelings *in order — anger, sadness, fear, joy* — and give each a 3-minute micro-cycle: (1) find the body region from the Map 10/Map 35 tables — anger → bones, jaw, big muscles; sadness → heart, throat, eyes; fear → nervous system, skin, belly; joy → whole organism, face, chest; (2) place a hand there and breathe into it for 30 seconds; (3) ask out loud, *"Right now, in this place, is there any [feeling] present, even at 2%?"*; (4) stay with the sensation 60 seconds — no analysis, no story, look smaller than you think you should; (5) write one Beep! Book line: *feeling · location · sensation · approximate intensity · what it might be about, if anything came clear.* After all four, read your four lines aloud. The region easiest to land in is where your Numbness Bar is lowest today; the one furthest away is where it is highest. Finish by naming, out loud, the asked-for action of whichever feeling registered most cleanly — *"my anger is asking me to make a boundary about X"* — with no commitment to act. Just name what the feeling was for.
 
 If you find yourself in an emotion (a feeling about something years ago, with a story attached, lasting longer than five minutes): stop, ground, and note it in the Beep! Book. Do not try to process it. Module 6 is for the Emotional Healing Process. Today is for **registering**.
 
@@ -459,7 +459,7 @@ One line each, no more (solo or witness path: same lines, into the Beep! Book):
 - **Feelings Form**: the bar reading kept as a standing daily record; one row per day inside the morning sit; spine Phase B's instrument; 30 rows = the evidence the bar moved
 - **Low-intensity feelings**: feelings registered at 2–20%; the kind that arrive in time to use; the rep that lowers the Numbness Bar
 - **Shadow form**: what a feeling becomes when stored as emotion (anger → rage, resentment; sadness → depression, self-pity; fear → anxiety, panic; joy → mania, forced positivity)
-- **Fear-capacity reading**: fear about something you want, read as a measurement of the capacity still to build (M37); fear's asked-for action, prepare, applied to creating
+- **Fear-capacity reading**: fear about something you want, read as a measurement of the capacity still to build (Map 37); fear's asked-for action, prepare, applied to creating
 - **5-minute test**: the simplest field test for distinguishing feeling from emotion; still happening after 5 minutes? Emotion.
 
 ---

@@ -187,7 +187,7 @@ v1 had the right consent stance and one hole (a tool that persisted consent fore
 > If any of the above is not true, pause this module and come back when it is.
 > If all of the above is true and you choose to continue, take a slow breath and begin.
 
-**Implementing tools, named:** the Module 2 survival-layer shield in `Interactive Tools/Day 02/box-inventory.html`; the High-day gates in `Day 05/feeling-locator.html`, `Day 06/ehp-walker.html`, `Day 07/drama-detector.html`, and `Day 09/ego-state-locator.html`; and the Atlas: **`Map Atlas/M12` carries no live EHP walk-through; it describes the process and routes to the gated Day 6 walker.** Solo-reader variants of the Module 5/6/7/9 consent blocks carry the "Reading this without a cohort?" box (§P). Any new gated tool implements all five points or does not ship; the Manifest's no-consent-key rule (Manifest §6) is the regression check.
+**Implementing tools, named:** the Module 2 survival-layer shield in `Interactive Tools/Day 02/box-inventory.html`; the High-day gates in `Day 05/feeling-locator.html`, `Day 06/ehp-walker.html`, `Day 07/drama-detector.html`, and `Day 09/ego-state-locator.html`; and the Atlas: **`Map Atlas/Map 12` carries no live EHP walk-through; it describes the process and routes to the gated Day 6 walker.** Solo-reader variants of the Module 5/6/7/9 consent blocks carry the "Reading this without a cohort?" box (§P). Any new gated tool implements all five points or does not ship; the Manifest's no-consent-key rule (Manifest §6) is the regression check.
 
 This is not bureaucratic. It is the consent moment that distinguishes a chosen practice from a thing happening to the learner.
 

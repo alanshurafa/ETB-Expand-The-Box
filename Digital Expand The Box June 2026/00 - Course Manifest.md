@@ -12,18 +12,18 @@ Every module file lives in `Days/` and carries: free-recall warm-up (5 min, prio
 
 | # | File (in `Days/`) | Intensity | Maps embedded | Atlas pages | Tool ("Run the practice") | Practice wiring | Beats |
 |---|---|---|---|---|---|---|---|
-| 00 | `Day 00 - Start Here and Getting Your Container.md` | Low | none (imageless; M30 in redraw queue) | — | standing utilities only (`journal.html`, `ground.html`) | Beep! Book installed; **spine Phase A starts**; printable schedule + tracker; 7-line witness agreement | container decision tree (cohort / recruit / solo) |
-| 01 | `Day 01 - Orientation, New Context, Radical Responsibility.md` | Low | M01 · M24 · M28 · **M32★** (M31 in redraw queue) | M01, M24, M28, M32 | `Day 01/red-pill-ceremony.html` · `the-chain.html` · `four-levels.html` | Phase A | Screen-4 variant cue |
-| 02 | `Day 02 - Thoughtware, Thoughtmaps, Box Technology.md` | Medium | M02 · M03 · M04 | M02, M03, M04 | `Day 02/box-inventory.html` (per-visit survival-layer consent) | Phase A | partner check-in named in header |
-| 03 | `Day 03 - Liquid State, Center-Ground-Bubble, Five Bodies.md` | Low | M05 · M06 · M07 | M05, M06, M07 (M46 referenced for the matrix half-section; its embed lives in Module 10) | `Day 03/centering-practice.html` | Phase A; Script 3 named as standing daily centering practice | **teach-back #1** |
-| 04 | `Day 04 - Feedback, Coaching, Rapid Learning, Experiments.md` | Low | M25 · M26 | M25, M26 | `Day 04/experiment-designer.html` | Phase A; Beep! Book gains Go!/Beep!/Shift! grammar | per-Spark citations |
-| 05 | `Day 05 - Feelings vs Emotions, Old Map of Feelings, Numbness Bar.md` | High | M08 · M09 · M10 · **M33★ · M35★ · M37★** (M34, M36 in redraw queue; the Feelings Form instrument ships as `Practice/Feelings Form.md`) | M08, M09, M10, M33, M35, M37 | `Day 05/feeling-locator.html` (gated) | **spine Phase B starts**: Feelings Form folds into the sit | mid-course re-screen checkbox at unlock; solo box |
-| 06 | `Day 06 - Mixed Emotions and Emotional Healing Process.md` | High | M11 · M12 · **M38★ · M39★ · M40★** | M11, M12, M38, M39, M40 (M12 routes to the gated walker) | `Day 06/ehp-walker.html` (gated; 40% hard stop at point of use) | Phase B | **teach-back #2**; **integration pause after this module** (consolidation rep inside it); solo box; witness annex (M38) |
-| 07 | `Day 07 - Low Drama, Gremlin Food, Shifting to Responsible Game.md` | High | M13 · M27 · M29 · **M47★** (M41 in redraw queue) | M13, M27, M29, M47 | `Day 07/drama-detector.html` (gated) | Phase B | high-drama teaching per ledger CORRECTION 1; Screen-4 cue; solo box |
-| 08 | `Day 08 - Listening, Speaking, Communication, Completion Loops.md` | Medium | M14 · M15 · M16 · **M43★** (M42 in redraw queue) | M14, M15, M16, M43 | `Day 08/completion-loop-builder.html` | Phase B; Form gains the completion-loop line item | **feedback-quality round repeated**; Screen-4 cue; partner check-in named in header; **rest day scheduled after, before Module 9** |
-| 09 | `Day 09 - Ego States, Problem Ownership, Learning Spiral.md` | High | M17 · M18 · M19 (M27 supplementary) | M17, M18, M19, M27 | `Day 09/ego-state-locator.html` (gated) | Phase B | **teach-back #3**; solo box |
-| 10 | `Day 10 - Map of Possibility, Bright Principles, Three Powers, Integration.md` | Low | M20 · M21 (no dedicated image; M46/M47 adjacent) · M22 · M23 · M28 · **M44★ · M46★** (M45 in redraw queue; M52 excluded, culture teaching ships prose-only) | M20–M23, M28, M44, M46 | `Day 10/declaration-composer.html` | Phase B | bright/shadow per ledger CORRECTION 2; Screen-4 cue; per-Spark citations |
-| 11 | `Day 11 - Continuation, 90-Day Container and Possibility Team.md` | Low | none (text-first; M48/M49/M50 in redraw queue) | — | standing utilities (`journal.html` export ritual, `ground.html`) | My Map Book exchange close; 90-day container; spine hand-off | stopping-well half-page; alumni 30/60/90 pointers |
+| 00 | `Day 00 - Start Here and Getting Your Container.md` | Low | none (imageless; Map 30 in redraw queue) | — | standing utilities only (`journal.html`, `ground.html`) | Beep! Book installed; **spine Phase A starts**; printable schedule + tracker; 7-line witness agreement | container decision tree (cohort / recruit / solo) |
+| 01 | `Day 01 - Orientation, New Context, Radical Responsibility.md` | Low | Map 1 · Map 24 · Map 28 · **Map 32★** (Map 31 in redraw queue) | Map 1, Map 24, Map 28, Map 32 | `Day 01/red-pill-ceremony.html` · `the-chain.html` · `four-levels.html` | Phase A | Screen-4 variant cue |
+| 02 | `Day 02 - Thoughtware, Thoughtmaps, Box Technology.md` | Medium | Map 2 · Map 3 · Map 4 | Map 2, Map 3, Map 4 | `Day 02/box-inventory.html` (per-visit survival-layer consent) | Phase A | partner check-in named in header |
+| 03 | `Day 03 - Liquid State, Center-Ground-Bubble, Five Bodies.md` | Low | Map 5 · Map 6 · Map 7 | Map 5, Map 6, Map 7 (Map 46 referenced for the matrix half-section; its embed lives in Module 10) | `Day 03/centering-practice.html` | Phase A; Script 3 named as standing daily centering practice | **teach-back #1** |
+| 04 | `Day 04 - Feedback, Coaching, Rapid Learning, Experiments.md` | Low | Map 25 · Map 26 | Map 25, Map 26 | `Day 04/experiment-designer.html` | Phase A; Beep! Book gains Go!/Beep!/Shift! grammar | per-Spark citations |
+| 05 | `Day 05 - Feelings vs Emotions, Old Map of Feelings, Numbness Bar.md` | High | Map 8 · Map 9 · Map 10 · **Map 33★ · Map 35★ · Map 37★** (Map 34, Map 36 in redraw queue; the Feelings Form instrument ships as `Practice/Feelings Form.md`) | Map 8, Map 9, Map 10, Map 33, Map 35, Map 37 | `Day 05/feeling-locator.html` (gated) | **spine Phase B starts**: Feelings Form folds into the sit | mid-course re-screen checkbox at unlock; solo box |
+| 06 | `Day 06 - Mixed Emotions and Emotional Healing Process.md` | High | Map 11 · Map 12 · **Map 38★ · Map 39★ · Map 40★** | Map 11, Map 12, Map 38, Map 39, Map 40 (Map 12 routes to the gated walker) | `Day 06/ehp-walker.html` (gated; 40% hard stop at point of use) | Phase B | **teach-back #2**; **integration pause after this module** (consolidation rep inside it); solo box; witness annex (Map 38) |
+| 07 | `Day 07 - Low Drama, Gremlin Food, Shifting to Responsible Game.md` | High | Map 13 · Map 27 · Map 29 · **Map 47★** (Map 41 in redraw queue) | Map 13, Map 27, Map 29, Map 47 | `Day 07/drama-detector.html` (gated) | Phase B | high-drama teaching per ledger CORRECTION 1; Screen-4 cue; solo box |
+| 08 | `Day 08 - Listening, Speaking, Communication, Completion Loops.md` | Medium | Map 14 · Map 15 · Map 16 · **Map 43★** (Map 42 in redraw queue) | Map 14, Map 15, Map 16, Map 43 | `Day 08/completion-loop-builder.html` | Phase B; Form gains the completion-loop line item | **feedback-quality round repeated**; Screen-4 cue; partner check-in named in header; **rest day scheduled after, before Module 9** |
+| 09 | `Day 09 - Ego States, Problem Ownership, Learning Spiral.md` | High | Map 17 · Map 18 · Map 19 (Map 27 supplementary) | Map 17, Map 18, Map 19, Map 27 | `Day 09/ego-state-locator.html` (gated) | Phase B | **teach-back #3**; solo box |
+| 10 | `Day 10 - Map of Possibility, Bright Principles, Three Powers, Integration.md` | Low | Map 20 · Map 21 (no dedicated image; Map 46/Map 47 adjacent) · Map 22 · Map 23 · Map 28 · **Map 44★ · Map 46★** (Map 45 in redraw queue; Map 52 excluded, culture teaching ships prose-only) | Map 20–Map 23, Map 28, Map 44, Map 46 | `Day 10/declaration-composer.html` | Phase B | bright/shadow per ledger CORRECTION 2; Screen-4 cue; per-Spark citations |
+| 11 | `Day 11 - Continuation, 90-Day Container and Possibility Team.md` | Low | none (text-first; Map 48/Map 49/Map 50 in redraw queue) | — | standing utilities (`journal.html` export ritual, `ground.html`) | My Map Book exchange close; 90-day container; spine hand-off | stopping-well half-page; alumni 30/60/90 pointers |
 
 ★ = new-in-v2 map embed. Teach-back slots are Modules **3, 6, 9** (partner teach-back from the Map Notes' "How to explain it verbally" material). The two scheduled pause beats are **after Module 6** (integration pause, at least one full low-demand day) and the **rest day between Modules 8 and 9**.
 
@@ -33,28 +33,28 @@ Standing utilities, every module: [`Interactive Tools/journal.html`](Interactive
 
 ## 2. Map registry
 
-### 2.1 v1 set M01–M29 — SHIPPED (copied from v1, byte-identical)
+### 2.1 v1 set Map 1–Map 29 — SHIPPED (copied from v1, except redrawn photo slots)
 
-All 29 have: image in `Maps/` (except M21), Map Note card in `Map Notes/`, Atlas page in `Map Atlas/`.
+All 29 have: image in `Maps/` (except Map 21), Map Note card in `Map Notes/`, Atlas page in `Map Atlas/`.
 
-- **M21 (Bright and Shadow Principles): no dedicated image.** The card and module teach text-first; **M46 (Map of Matrix) and M47 (Map of 3 Games) are the named adjacent maps**, embedded with the "adjacent, not dedicated" caveat.
-- **Photo-slot regeneration pending: M01, M08, M10, M27.** These four ship v1's photo-derived renders until the parked external regeneration task lands. Flagged here; not a release blocker.
+- **Map 21 (Bright and Shadow Principles): no dedicated image.** The card and module teach text-first; **Map 46 (Map of Matrix) and Map 47 (Map of 3 Games) are the named adjacent maps**, embedded with the "adjacent, not dedicated" caveat.
+- **Clean render (redrawn 2026-06-12): Map 1, Map 8, Map 10, Map 27.** These four former photo slots now ship as clean 1024×1536 course renders redrawn from the existing framed source PNGs. Repo copies are stored in `_build/redrawn-maps/`; the Drive library's bare-name files remain the read-only source photos.
 
 ### 2.2 New set — SHIPPED (11 clean renders, copied from `ALL ETB MAPS/<folder>/<folder>.png`)
 
-M32 Map of Responsibility and Culture · M33 Feelings vs Emotions · M35 Map of Feelings Sensations · M37 Fear Capacity Feelings Form · M38 EHP Spaceholding Twins · M39 Map of Optional Healing Process · M40 EHP Learnings · M43 Letting Your Heart Speak · M44 Linear and Nonlinear · M46 Map of Matrix · M47 Map of 3 Games.
+Map 32 Map of Responsibility and Culture · Map 33 Feelings vs Emotions · Map 35 Map of Feelings Sensations · Map 37 Fear Capacity Feelings Form · Map 38 EHP Spaceholding Twins · Map 39 Map of Optional Healing Process · Map 40 EHP Learnings · Map 43 Letting Your Heart Speak · Map 44 Linear and Nonlinear · Map 46 Map of Matrix · Map 47 Map of 3 Games.
 
 Each gets a module embed (table above), a Map Note card, and an Atlas page (§3). All 11 PNGs are verified present in `Maps/`.
 
 ### 2.3 REDRAW QUEUE (10 — source is a framed photo; teaching ships text-first; image NOT embedded)
 
-M30 Welcome to Expand the Box · M31 Red Pill Blue Pill Choice · M34 Purpose of Feelings · M36 The Feelings Form (the daily instrument ships as `Practice/Feelings%20Form.md`; the map joins this queue) · M41 Responsible Story · M42 Possibility Speaking · M45 Nonlinear Story and Possibility Story · M48 Treasure Map · M49 Possibility Team · M50 StartOver XYZ Resources.
+Map 30 Welcome to Expand the Box · Map 31 Red Pill Blue Pill Choice · Map 34 Purpose of Feelings · Map 36 The Feelings Form (the daily instrument ships as `Practice/Feelings%20Form.md`; the map joins this queue) · Map 41 Responsible Story · Map 42 Possibility Speaking · Map 45 Nonlinear Story and Possibility Story · Map 48 Treasure Map · Map 49 Possibility Team · Map 50 StartOver XYZ Resources.
 
 When a redraw lands: copy to `Maps/`, add the embed where the table calls for it, build card + Atlas page, update this registry.
 
 ### 2.4 EXCLUDED (2 — infographics; owner's standing rule: infographics are never course maps, never embedded)
 
-M51 Building your Matrix · M52 Map of Culture Patriarchy→Archiarchy. Referenced in the Source Inventory as optional study material only. Matrix-building teaches from M46; the culture teaching ships prose-only in Module 10.
+Map 51 Building your Matrix · Map 52 Map of Culture Patriarchy→Archiarchy. Referenced in the Source Inventory as optional study material only. Matrix-building teaches from Map 46; the culture teaching ships prose-only in Module 10.
 
 ---
 

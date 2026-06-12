@@ -1,4 +1,4 @@
-# M05 — Liquid State
+# Map 5 — Liquid State
 
 *The temporary condition in which solid thoughtware loosens enough to change — symptomatic across all five bodies, transformative only when held by a context.*
 
@@ -19,7 +19,7 @@ Liquid state is when your normally solid thoughtware loosens enough to actually 
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 3 — Liquid State, Center-Ground-Bubble, Five Bodies](../Days/Day%2003%20-%20Liquid%20State%2C%20Center-Ground-Bubble%2C%20Five%20Bodies.md)
-> - **Interactive tool →** [Map Atlas · M05 Liquid State](../Map%20Atlas/M05%20-%20Liquid%20State.html)
+> - **Interactive tool →** [Map Atlas · Map 5 Liquid State](../Map%20Atlas/M05%20-%20Liquid%20State.html)
 
 ---
 

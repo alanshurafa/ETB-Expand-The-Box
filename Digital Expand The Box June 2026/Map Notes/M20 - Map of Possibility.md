@@ -1,4 +1,4 @@
-# M20 — Map of Possibility
+# Map 20 — Map of Possibility
 
 *The meta-map that locates every other PM distinction — possibility named not as a list of options but as a space the learner enters on purpose, by holding context, becoming liquid, and asking what cannot be unasked.*
 
@@ -19,7 +19,7 @@ The Map of Possibility is the meta-map, the room every other PM distinction stan
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 10 — Map of Possibility, Bright Principles, Three Powers, Integration](../Days/Day%2010%20-%20Map%20of%20Possibility%2C%20Bright%20Principles%2C%20Three%20Powers%2C%20Integration.md)
-> - **Interactive tool →** [Map Atlas · M20 Map of Possibility](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html)
+> - **Interactive tool →** [Map Atlas · Map 20 Map of Possibility](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html)
 
 ---
 

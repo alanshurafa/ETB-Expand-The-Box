@@ -1,4 +1,4 @@
-# M13 — Low Drama Triangle
+# Map 13 — Low Drama Triangle
 
 *Three drama positions — Persecutor, Victim, Rescuer — that look like three different people but are one Box-pattern rotating through three faces, producing gremlin food.*
 
@@ -19,7 +19,7 @@ The Low Drama Triangle is three positions one person rotates through: Persecutor
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 7 — Low Drama, Gremlin Food, Shifting to the Responsible Game](../Days/Day%2007%20-%20Low%20Drama%2C%20Gremlin%20Food%2C%20Shifting%20to%20Responsible%20Game.md)
-> - **Interactive tool →** [Map Atlas · M13 Low Drama Triangle](../Map%20Atlas/M13%20-%20Low%20Drama%20Triangle.html)
+> - **Interactive tool →** [Map Atlas · Map 13 Low Drama Triangle](../Map%20Atlas/M13%20-%20Low%20Drama%20Triangle.html)
 
 ---
 

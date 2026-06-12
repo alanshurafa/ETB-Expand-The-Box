@@ -1,4 +1,4 @@
-# M35 — Map of Feelings Sensations
+# Map 35 — Map of Feelings Sensations
 
 *The body-sensation lookup table for the four feelings, and the answer to "how do I know which feeling this is?" — because the sensation is the feeling and the thought about it is the story.*
 
@@ -19,7 +19,7 @@ Every learner asks the same question in their first feelings practice: how do I 
 > **This is a map card.** The full teaching and practice live in two places:
 >
 > - **Full teaching →** [Day 5 — Feelings vs Emotions, Old Map of Feelings, Numbness Bar](../Days/Day%2005%20-%20Feelings%20vs%20Emotions%2C%20Old%20Map%20of%20Feelings%2C%20Numbness%20Bar.md)
-> - **Interactive tool →** [Map Atlas · M35 Map of Feelings Sensations](../Map%20Atlas/M35%20-%20Map%20of%20Feelings%20Sensations.html)
+> - **Interactive tool →** [Map Atlas · Map 35 Map of Feelings Sensations](../Map%20Atlas/M35%20-%20Map%20of%20Feelings%20Sensations.html)
 
 ---
 

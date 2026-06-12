@@ -4,7 +4,7 @@
 |---|---|
 | **Intensity** | **MEDIUM.** Partner check-in recommended before starting; debrief after. Partner reachability is required in the 48-hour exchange window, because this module *is* the partner exchange. Send the check-in message before Sitting 1: one line, "Starting Module 8 today. Reachable for the exchange this week?" |
 | **Sittings** | 3 (break points marked in the text) |
-| **Tools for this module** | Study the map: [M14 · 4 Listenings](../Map%20Atlas/M14%20-%204%20Listenings.html) · [M15 · 4 Speakings](../Map%20Atlas/M15%20-%204%20Speakings.html) · [M16 · Map of Communication](../Map%20Atlas/M16%20-%20Map%20of%20Communication.html) · [M43 · Letting Your Heart Speak](../Map%20Atlas/M43%20-%20Letting%20Your%20Heart%20Speak.html) · Run the practice: [Completion-Loop Builder](../Interactive%20Tools/Day%2008/completion-loop-builder.html) |
+| **Tools for this module** | Study the map: [Map 14 · 4 Listenings](../Map%20Atlas/M14%20-%204%20Listenings.html) · [Map 15 · 4 Speakings](../Map%20Atlas/M15%20-%204%20Speakings.html) · [Map 16 · Map of Communication](../Map%20Atlas/M16%20-%20Map%20of%20Communication.html) · [Map 43 · Letting Your Heart Speak](../Map%20Atlas/M43%20-%20Letting%20Your%20Heart%20Speak.html) · Run the practice: [Completion-Loop Builder](../Interactive%20Tools/Day%2008/completion-loop-builder.html) |
 | **Videos** | The written module is complete on its own. Videos are optional enrichment: see [Video Manifest](../Facilitator%20Resources/Video%20Manifest.md). |
 
 **Daily spine:** Phase B — morning sit: Beep! Book + Feelings Form bar reading (8-10 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
@@ -17,7 +17,7 @@
 
 Free recall on Module 7. No notes, no peeking.
 
-1. Take a blank page in your Beep! Book. Redraw the Low Drama Triangle (M13) from memory: the three positions, the arrows, where the gremlin food flows.
+1. Take a blank page in your Beep! Book. Redraw the Low Drama Triangle (Map 13) from memory: the three positions, the arrows, where the gremlin food flows.
 2. Say the core distinction out loud, in your own words. The shape to hit: low drama runs below the threshold of noticing and produces gremlin food; the Responsible Game is what is left when you decline it.
 3. Now check your drawing against [the map](../Maps/M13.png). Mark what you missed, without verdict. A missed corner is information about where the next rep goes, nothing more.
 
@@ -96,7 +96,7 @@ Spread the module across three days. The partner exchange is not bolted onto the
 
 ![4 Listenings](../Maps/M14.png)
 
-*▶ [Study M14 in the Map Atlas →](../Map%20Atlas/M14%20-%204%20Listenings.html)*
+*▶ [Study Map 14 in the Map Atlas →](../Map%20Atlas/M14%20-%204%20Listenings.html)*
 
 Study the map before reading on. Four distinct places a listener can stand inside. The claim the map makes: the place you stand *from*, not the words the speaker says, determines what you actually hear. You are running one of these right now. The first three exist in many traditions; the fourth, Possibility Listening, is the PM-distinctive one the course is teaching toward.
 
@@ -127,7 +127,7 @@ The whole map exists for one purpose: to make the listening a **choice**. You ca
 
 ![6 Types of Speaking](../Maps/M15.png)
 
-*▶ [Study M15 in the Map Atlas →](../Map%20Atlas/M15%20-%204%20Speakings.html)*
+*▶ [Study Map 15 in the Map Atlas →](../Map%20Atlas/M15%20-%204%20Speakings.html)*
 
 Stop here and take the map in. Shape first, labels second. Speech, like listening, has locations. Symmetrically to the listening map, *where* you speak from, not *what* you say, determines what the speech does in the room. The same sentence said from the gremlin and from Adult are two different speech acts. You have been speaking from one of these for the last hour and may not have noticed which. (The course teaches four speakings; this PM map shows the fuller set of six (Neurotic/Normal, Discussion, Adult, Possibility, Discovery, Dragon), with what each is "for." The four named here map directly onto it.)
 
@@ -145,7 +145,7 @@ Stop here and take the map in. Shape first, labels second. Speech, like listenin
 
 ![Letting Your Heart Speak](../Maps/M43.png)
 
-*▶ [Study M43 in the Map Atlas →](../Map%20Atlas/M43%20-%20Letting%20Your%20Heart%20Speak.html)*
+*▶ [Study Map 43 in the Map Atlas →](../Map%20Atlas/M43%20-%20Letting%20Your%20Heart%20Speak.html)*
 
 Give the map a full minute before the words. Between Adult speech and Possibility Speaking sits a gate most adults keep shut: speech that comes from the heart instead of from the mind's editor. The mind drafts, censors, polishes, and delivers something defensible. The heart, given the channel, says the unpolished true sentence: shorter, warmer, sometimes shaky. The map draws the two routes. Heart speech is not a performance of vulnerability and not emotional venting; it is what becomes available when you stop running every sentence through the editor first. Possibility Speaking is almost never reachable through the editor. If you want the fourth speaking, this gate opens first. In the voice-memo practice below, the fourth recording is where you try it.
 
@@ -172,7 +172,7 @@ Each of the four is a real stance with its domain. The work is to *know which on
 
 ![Map of Communication](../Maps/M16.png)
 
-*▶ [Study M16 in the Map Atlas →](../Map%20Atlas/M16%20-%20Map%20of%20Communication.html)*
+*▶ [Study Map 16 in the Map Atlas →](../Map%20Atlas/M16%20-%20Map%20of%20Communication.html)*
 
 The map first. The text below assumes you have seen it. Any communication, no matter how simple, runs the following circuit:
 
@@ -283,7 +283,7 @@ Read the script through once before you do it.
 
 If feeling arises during the audio (especially with a voice message from someone close), notice it. Listening without filling the gap with reaction surfaces what was waiting under the chatter. Ground if you need to, then decide whether to continue.
 
-> **Variation B: the four-speaking voice memo (~10 min).** The speaking-side companion. You will need your phone's voice recorder and one topic that is genuinely *up* in you right now: a current frustration, a decision in front of you, a relationship. Not rehearsed. You will speak the *same* topic four times, one minute each, from the four locations. Read all four prompts first, then record. **(1) From the gremlin:** let the charge be there; be righteous, make someone wrong, indulge the heat; notice your chest, jaw, breath. **(2) From the Box:** defend a position, state opinion as identity, make it sound reasonable, refuse to bend; notice the body tighten. **(3) From Adult:** *here is what is happening, in fact; here is what I feel; here is what I want; here is what I'm asking for.* Clear, contractual, no charge; notice it go quieter. **(4) From Possibility:** the hardest. Do not perform it. Get quiet first, ground, let the heart have the channel (M43), find a bright principle (truthfulness, possibility, creation), then speak whatever wants to come *through* you about this topic: a new angle, a distinction you had not made, a door that opens. If nothing comes, sit in the silence; faked Possibility Speaking is just more Box. Listen back. Notice how different the same topic sounds in each location, which was easiest, which hardest, and whether the fourth was actually different or slipped into one of the first three. Three lines in the Beep! Book: easiest · hardest · what your body did across the four minutes.
+> **Variation B: the four-speaking voice memo (~10 min).** The speaking-side companion. You will need your phone's voice recorder and one topic that is genuinely *up* in you right now: a current frustration, a decision in front of you, a relationship. Not rehearsed. You will speak the *same* topic four times, one minute each, from the four locations. Read all four prompts first, then record. **(1) From the gremlin:** let the charge be there; be righteous, make someone wrong, indulge the heat; notice your chest, jaw, breath. **(2) From the Box:** defend a position, state opinion as identity, make it sound reasonable, refuse to bend; notice the body tighten. **(3) From Adult:** *here is what is happening, in fact; here is what I feel; here is what I want; here is what I'm asking for.* Clear, contractual, no charge; notice it go quieter. **(4) From Possibility:** the hardest. Do not perform it. Get quiet first, ground, let the heart have the channel (Map 43), find a bright principle (truthfulness, possibility, creation), then speak whatever wants to come *through* you about this topic: a new angle, a distinction you had not made, a door that opens. If nothing comes, sit in the silence; faked Possibility Speaking is just more Box. Listen back. Notice how different the same topic sounds in each location, which was easiest, which hardest, and whether the fourth was actually different or slipped into one of the first three. Three lines in the Beep! Book: easiest · hardest · what your body did across the four minutes.
 
 > **Variation C: completion-loop solo prep (~10–15 min).** Run this when you are ready to set up the between-module experiment; it doubles as rehearsal for the real loop. Sit, Beep! Book open, center, ground, set a bubble. **Step 1: identify one small unfinished communication.** Scan the last month for 3 minutes and pick *one small* item, not the biggest: *I told my partner I'd think about the vacation thing and never came back.* Write it in one sentence: what was left unsaid or unconfirmed. **Step 2: locate the gap.** Walk the circuit. Where did the original break happen: intention, encoding, reception, decoding, or response? Write the gap(s) you can locate. **Step 3: name the roadblock you ran.** What did you do *instead of* the work that would have closed the loop? Ordered, advised, lectured, reassured, interrogated, distracted? The one you reach for first tells you something about your Box. **Step 4: draft the opener.** Write the actual sentence, then say it out loud once in your own voice: small, low-key, non-dramatic. *"Small thing from [time] I want to circle back on. Two minutes. Nothing dramatic."* Then the unfinished piece said cleanly, then *"Can you tell me what landed for you?"* **Step 5: name the close.** Write and say, out loud, the actual sentence that closes the loop: *"Are we complete on this?"* Most people have almost never said it; it will feel formal. That is the practice. **Step 6: pick the time.** Write a specific 48-hour window in which you will run the loop. Without the time on paper, the gremlin keeps the debt open indefinitely. Close the Beep! Book, stand, three breaths. The live loop happens in your actual life; that is the between-module experiment.
 
@@ -415,7 +415,7 @@ One line each, no more:
 - **Possibility Listening**: listening as a vacuum space, empty of opinion, expectation, agenda or even the need to understand; sourced from the bright principle of possibility; distinct from empathic listening and NVC reflection
 - **The 4 Speakings**: speaking from the gremlin · speaking from the Box · speaking from Adult · Possibility Speaking
 - **Possibility Speaking**: speech sourced from a bright principle that brings a new context into being; hands the listener a distinction they did not previously have
-- **Letting your heart speak**: speech routed from the heart instead of the mind's editor; the gate through which Possibility Speaking becomes reachable (map M43)
+- **Letting your heart speak**: speech routed from the heart instead of the mind's editor; the gate through which Possibility Speaking becomes reachable (map Map 43)
 - **Adult Speaking**: clear, contractual, responsible speech; seven core moves: pass information · share feelings · make distinctions · declare · ask · agree/disagree · set borders
 - **Declaration**: the highest form of Possibility Speaking; a spoken act that brings something into being by being spoken and is then backed by consistent behavior (Module 10)
 - **Map of Communication**: the architecture of an exchange: intention → encoding → speech → reception → decoding → response; gaps can open at every join
