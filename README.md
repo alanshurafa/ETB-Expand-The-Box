@@ -22,4 +22,6 @@ v2 is the same course taught better: v1's teaching content, safety architecture,
 
 ## License
 
-Course content is released under CC BY-SA terms consistent with the spirit of World Copyleft — see `LICENSE.md` inside each version folder.
+World Copyleft. Everything in this repository is released under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE) (CC BY-SA 4.0), the same terms Possibility Management uses for its materials. Use, copy, modify, and distribute freely; keep the attribution and share adaptations under the same license.
+
+Each version folder carries its own `LICENSE.md` with the full attribution, scope, and lineage notes. Lineage: Possibility Management thoughtware originated by [Clinton Callahan](https://possibilitymanagement.org/) and the Possibility Management community.
