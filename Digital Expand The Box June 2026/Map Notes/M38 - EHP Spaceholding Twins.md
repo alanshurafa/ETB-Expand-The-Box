@@ -1,4 +1,4 @@
-# M38 — EHP Spaceholding Twins
+# Map 38 — EHP Spaceholding Twins
 
 *The witness's own craft as a Go!/Beep! card — spaceholding treated as a learnable skill with reps and design data, what works and the classic spaceholder errors, each one a specification.*
 
@@ -19,7 +19,7 @@ This map takes the witness's job and writes it as a Go!/Beep! card, the same rap
 > **This is a map card.** Study the map here; the practice lives behind the gate.
 >
 > - **Full teaching →** [Day 6 — Mixed Emotions & Emotional Healing Process](../Days/Day%2006%20-%20Mixed%20Emotions%20and%20Emotional%20Healing%20Process.md)
-> - **Interactive tool →** [Map Atlas · M38 EHP Spaceholding Twins](../Map%20Atlas/M38%20-%20EHP%20Spaceholding%20Twins.html)
+> - **Interactive tool →** [Map Atlas · Map 38 EHP Spaceholding Twins](../Map%20Atlas/M38%20-%20EHP%20Spaceholding%20Twins.html)
 >
 > **Study-level card.** This card locates the witness's craft so you can recognize it; it is not a do-it-now instruction. The EHP itself is the structured PM practice for completing a stored emotion, and it is **NOT trauma processing — trauma (flashbacks, dissociation, abuse history) needs a qualified clinician with a trauma-built protocol (EMDR, somatic experiencing, IFS), because treating trauma with the EHP can re-traumatize.** Any practice impulse routes to the gated, partner-debriefed walker: [Day 6 · EHP Walker](../Interactive%20Tools/Day%2006/ehp-walker.html).
 

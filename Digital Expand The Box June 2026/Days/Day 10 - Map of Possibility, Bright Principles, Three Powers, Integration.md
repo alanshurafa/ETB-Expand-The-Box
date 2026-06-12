@@ -4,7 +4,7 @@
 |---|---|
 | **Intensity** | **LOW** (closure sensitivity: watch for inflation and deflation, named in the safety callouts). Partner check-in recommended before starting; debrief after. Partner reachability required within 24 hours for the closing-declaration exchange. |
 | **Sittings** | 3 (break points marked in the text) |
-| **Tools for this module** | Study the map: [M20 · Map of Possibility](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html) · [M21 · Bright & Shadow Principles](../Map%20Atlas/M21%20-%20Bright%20Principles%20and%20Shadow%20Principles.html) · [M22 · Is-Glue](../Map%20Atlas/M22%20-%20Is-Glue%20and%20Is-Glue%20Dissolver.html) · [M23 · Three Powers](../Map%20Atlas/M23%20-%20Three%20Powers%20%28Choose%2C%20Ask%20Dangerous%20Questions%2C%20Declare%29.html) · [M44 · Linear and Nonlinear](../Map%20Atlas/M44%20-%20Linear%20and%20Nonlinear.html) · [M46 · Map of Matrix](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html) · Run the practice: [Declaration Composer](../Interactive%20Tools/Day%2010/declaration-composer.html) |
+| **Tools for this module** | Study the map: [Map 20 · Map of Possibility](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html) · [Map 21 · Bright & Shadow Principles](../Map%20Atlas/M21%20-%20Bright%20Principles%20and%20Shadow%20Principles.html) · [Map 22 · Is-Glue](../Map%20Atlas/M22%20-%20Is-Glue%20and%20Is-Glue%20Dissolver.html) · [Map 23 · Three Powers](../Map%20Atlas/M23%20-%20Three%20Powers%20%28Choose%2C%20Ask%20Dangerous%20Questions%2C%20Declare%29.html) · [Map 44 · Linear and Nonlinear](../Map%20Atlas/M44%20-%20Linear%20and%20Nonlinear.html) · [Map 46 · Map of Matrix](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html) · Run the practice: [Declaration Composer](../Interactive%20Tools/Day%2010/declaration-composer.html) |
 | **Videos** | The written module is complete on its own. Videos are optional enrichment: see [Video Manifest](../Facilitator%20Resources/Video%20Manifest.md). This module's material is distilled from the Sparks and the Map of Possibility handouts; per-Spark citations appear where a distinction can be traced to its source. |
 
 **Daily spine:** Phase B — morning sit: Beep! Book + Feelings Form bar reading (8-10 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
@@ -17,7 +17,7 @@
 
 Free recall on Module 9. No notes, no peeking.
 
-1. Take a blank page in your Beep! Book. Redraw the Map of Ego-States (M17) from memory: five locations, not three, each a place you can stand.
+1. Take a blank page in your Beep! Book. Redraw the Map of Ego-States (Map 17) from memory: five locations, not three, each a place you can stand.
 2. Say the core distinction out loud, in your own words. The shape to hit: ego states are locations, not personalities; Adult is the state PM is practiced from; PM names the Gremlin and the Demon so neither runs unrecognized.
 3. Check against [the map](../Maps/M17.png). Mark what you missed, without verdict, and continue.
 
@@ -94,7 +94,7 @@ Spread the module across two or three days. The reading is denser than it looks;
 
 ![Map of Possibility](../Maps/M20.png)
 
-*▶ [Study M20 in the Map Atlas →](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html)*
+*▶ [Study Map 20 in the Map Atlas →](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html)*
 
 Study the map before reading on. Notice its shape: the long line of *what is*, and a bounded space opening off it, empty until someone steps in. That space, not the line, is the country this module is about.
 
@@ -128,7 +128,7 @@ Most people visit this room a few times a year, accidentally, and call those vis
 
 ![Linear and Nonlinear](../Maps/M44.png)
 
-*▶ [Study M44 in the Map Atlas →](../Map%20Atlas/M44%20-%20Linear%20and%20Nonlinear.html)*
+*▶ [Study Map 44 in the Map Atlas →](../Map%20Atlas/M44%20-%20Linear%20and%20Nonlinear.html)*
 
 Give the map a full minute before the words. Two kinds of possibility, and they are not two sizes of the same thing. **Linear possibility** extends what already exists: more clients, a better apartment, a clearer version of the conversation you already have. It is reachable by ordinary steps from the current context, and most planning, goal-setting and self-improvement operates entirely inside it. **Nonlinear possibility** is not reachable by extension at all. It becomes available only when the context itself changes: a declaration, a dangerous question, a context shift that makes a different set of next actions visible. From inside the old context, nonlinear possibility looks like nothing, which is exactly why the Box never objects to it in advance. Linear gets you a better seat in the room you are in. Nonlinear changes which room exists. Neither is superior in every domain (renewing your passport is a linear job; do not declare at it), but every result you have already concluded is impossible lives, if it lives anywhere, on the nonlinear side. The vocabulary matters because the two require different equipment: linear possibility needs a plan; nonlinear possibility needs the three keys and a speech act.
 
@@ -139,9 +139,9 @@ Give the map a full minute before the words. Two kinds of possibility, and they 
 
 ### Bright and shadow principles
 
-*(M21 has no dedicated map image. The two closest maps in the course are the Map of Matrix (M46, embedded below) and the Map of 3 Games (M47, taught in Module 7) — adjacent, not dedicated. The interactive card carries the full distinction.)*
+*(Map 21 has no dedicated map image. The two closest maps in the course are the Map of Matrix (Map 46, embedded below) and the Map of 3 Games (Map 47, taught in Module 7) — adjacent, not dedicated. The interactive card carries the full distinction.)*
 
-*▶ [Study M21 in the Map Atlas →](../Map%20Atlas/M21%20-%20Bright%20Principles%20and%20Shadow%20Principles.html)*
+*▶ [Study Map 21 in the Map Atlas →](../Map%20Atlas/M21%20-%20Bright%20Principles%20and%20Shadow%20Principles.html)*
 
 Every action you take is **sourced** from some principle. You do not act from "your values" in the soft modern sense; you act from a principle that, for the duration of the action, has hold of you. There is no neutral action. The principle in the driver's seat determines what the action *is*, regardless of its content. Two parents can both say "go to bed," one sourced from presence, one from control: same words, different acts, different rooms afterward. PM distinguishes two classes of principles, and the classes are named by what their sourcing *generates*, not by moral grade.
 
@@ -169,7 +169,7 @@ Two things to be precise about. **Shadow is not "bad" in the moralistic sense.**
 
 ![Map of Matrix](../Maps/M46.png)
 
-*▶ [Study M46 in the Map Atlas →](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html)*
+*▶ [Study Map 46 in the Map Atlas →](../Map%20Atlas/M46%20-%20Map%20of%20Matrix.html)*
 
 Before the prose: the image. Notice what is drawn, and what is not. The course has used the word *matrix* in passing since Module 2; here is its one definition, the same one everywhere in this course. **Your matrix is the energetic structure you build, through practice, that determines how much consciousness you can hold.** Distinctions, feelings at higher intensity, responsibility at larger scale: each requires matrix to hold it. Matrix is built through conscious practice: reps, feelings work, holding attention, taking on responsibility slightly beyond current capacity. It is not built by insight, reading, or intention. Thoughtware upgrades install onto matrix; without enough matrix, an upgrade has nowhere to live. This is why the course runs on experiments and a daily sit instead of on explanations: every rep you have logged since Module 0 has been matrix construction, whether or not it felt like progress that day.
 
@@ -193,7 +193,7 @@ That brings the two cultures into focus, and this teaching ships as prose by des
 
 ![Is-Glue](../Maps/M22.png)
 
-*▶ [Study M22 in the Map Atlas →](../Map%20Atlas/M22%20-%20Is-Glue%20and%20Is-Glue%20Dissolver.html)*
+*▶ [Study Map 22 in the Map Atlas →](../Map%20Atlas/M22%20-%20Is-Glue%20and%20Is-Glue%20Dissolver.html)*
 
 Look at the map until you could redraw it with your eyes closed. Then continue. The "to be" weld on one side, the dissolver swap on the other. The weld closes a room; the swap reopens it without throwing the perception away.
 
@@ -227,7 +227,7 @@ This is the language layer that has been running underneath every Box catch sinc
 
 ![Map of 3 Powers](../Maps/M23.png)
 
-*▶ [Study M23 in the Map Atlas →](../Map%20Atlas/M23%20-%20Three%20Powers%20%28Choose%2C%20Ask%20Dangerous%20Questions%2C%20Declare%29.html)*
+*▶ [Study Map 23 in the Map Atlas →](../Map%20Atlas/M23%20-%20Three%20Powers%20%28Choose%2C%20Ask%20Dangerous%20Questions%2C%20Declare%29.html)*
 
 Three stances drawn in sequence, not in parallel: Choosing, Asking Dangerous Questions, Declaring. The Map of Possibility named where you are standing; bright and shadow named what is sourcing you; the Three Powers are the moves you can make from there.
 

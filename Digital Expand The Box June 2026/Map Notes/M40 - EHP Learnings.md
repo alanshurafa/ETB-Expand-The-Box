@@ -1,4 +1,4 @@
-# M40 — EHP Learnings
+# Map 40 — EHP Learnings
 
 *A second Go!/Beep! card, harvested from many EHPs — the client's discipline as much as the spaceholder's, and the one line worth keeping for any solo rep: thinking over feeling is the Beep!*
 
@@ -19,7 +19,7 @@ This is the second Go!/Beep! card from the healing work, and it is about the cli
 > **This is a map card.** Study the map here; the practice lives behind the gate.
 >
 > - **Full teaching →** [Day 6 — Mixed Emotions & Emotional Healing Process](../Days/Day%2006%20-%20Mixed%20Emotions%20and%20Emotional%20Healing%20Process.md)
-> - **Interactive tool →** [Map Atlas · M40 EHP Learnings](../Map%20Atlas/M40%20-%20EHP%20Learnings.html)
+> - **Interactive tool →** [Map Atlas · Map 40 EHP Learnings](../Map%20Atlas/M40%20-%20EHP%20Learnings.html)
 >
 > **Study-level card.** This card harvests what running the process teaches; it is not a do-it-now instruction. The EHP is the structured PM practice for completing a stored emotion, and it is **NOT trauma processing — trauma (flashbacks, dissociation, abuse history) needs a qualified clinician with a trauma-built protocol (EMDR, somatic experiencing, IFS), because treating trauma with the EHP can re-traumatize.** Any practice impulse routes to the gated, partner-debriefed walker: [Day 6 · EHP Walker](../Interactive%20Tools/Day%2006/ehp-walker.html).
 

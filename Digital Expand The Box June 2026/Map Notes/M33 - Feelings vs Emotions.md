@@ -1,4 +1,4 @@
-# M33 — Feelings vs Emotions
+# Map 33 — Feelings vs Emotions
 
 *The two-panel distinction the whole emotional-body work hangs on — feelings originate now and last minutes; emotions originate in the past and last longer; feelings are for creating, emotions are for healing.*
 
@@ -19,7 +19,7 @@ Picture two panels with the same four feelings in each. The top panel is feeling
 > **This is a map card.** The full teaching and practice live in two places:
 >
 > - **Full teaching →** [Day 5 — Feelings vs Emotions, Old Map of Feelings, Numbness Bar](../Days/Day%2005%20-%20Feelings%20vs%20Emotions%2C%20Old%20Map%20of%20Feelings%2C%20Numbness%20Bar.md)
-> - **Interactive tool →** [Map Atlas · M33 Feelings vs Emotions](../Map%20Atlas/M33%20-%20Feelings%20vs%20Emotions.html)
+> - **Interactive tool →** [Map Atlas · Map 33 Feelings vs Emotions](../Map%20Atlas/M33%20-%20Feelings%20vs%20Emotions.html)
 
 ---
 

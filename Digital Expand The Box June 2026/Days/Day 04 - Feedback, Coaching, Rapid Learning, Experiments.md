@@ -5,7 +5,7 @@
 | **Intensity** | Low |
 | **Sittings** | 2 (the break point is marked in the module) |
 | **Partner check-in** | No |
-| **Tools for this module** | Study the map: [M25 Feedback and Coaching](../Map%20Atlas/M25%20-%20Feedback%20and%20Coaching.html) · [M26 Rapid Learning](../Map%20Atlas/M26%20-%20Rapid%20Learning.html) — Run the practice: [experiment designer](../Interactive%20Tools/Day%2004/experiment-designer.html) |
+| **Tools for this module** | Study the map: [Map 25 Feedback and Coaching](../Map%20Atlas/M25%20-%20Feedback%20and%20Coaching.html) · [Map 26 Rapid Learning](../Map%20Atlas/M26%20-%20Rapid%20Learning.html) — Run the practice: [experiment designer](../Interactive%20Tools/Day%2004/experiment-designer.html) |
 
 **Daily spine:** Phase A — Beep! Book morning capture (3-5 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
 
@@ -15,7 +15,7 @@
 
 ## Before you start — recall (5 minutes)
 
-Close the files. On a blank page, redraw Module 3's equipment map (M07) from memory: center, grounding cord, bubble, golden cube, in their places. Say Module 3's core distinction out loud: what a liquid state is, and why it is transformative only inside a holding context. Then open [M07](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) and check your drawing against the map. Gaps are normal; finding them is the point of the warm-up.
+Close the files. On a blank page, redraw Module 3's equipment map (Map 7) from memory: center, grounding cord, bubble, golden cube, in their places. Say Module 3's core distinction out loud: what a liquid state is, and why it is transformative only inside a holding context. Then open [Map 7](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) and check your drawing against the map. Gaps are normal; finding them is the point of the warm-up.
 
 ---
 
@@ -83,7 +83,7 @@ The whole module spreads across ~3 days and two sittings. Reading + design is ~9
 
 ![Feedback and Coaching — Possibility Management map](../Maps/M25.png)
 
-*▶ [Study M25 in the Map Atlas →](../Map%20Atlas/M25%20-%20Feedback%20and%20Coaching.html)*
+*▶ [Study Map 25 in the Map Atlas →](../Map%20Atlas/M25%20-%20Feedback%20and%20Coaching.html)*
 
 Study the map before reading on. One page, split down the middle. Left half: **Feedback**. Right half: **Coaching**. Each half carries an **Old Map** (the distorted version you arrived with) and a **New Map**, the PM version, with the central sentence sitting in the middle of each half. Feedback's center: *Feedback is about the PAST*. What happened, what worked, what did not. Coaching's center: *Coaching is about the FUTURE*. Possibilities, experiments, "here's an option…", "what about…?" That single axis, past versus future, is the whole map. Everything else hangs off it.
 
@@ -119,7 +119,7 @@ You can hear the difference in your body. Criticism contracts you. Advice bypass
 
 A fourth costume hides on the "positive" side. Spark 034: *"There is a difference between positive feedback and praise. Praise is conditioning."* "Good job!" can be a clean report that something worked, or it can be a treat dispensed to keep a behavior coming: dog training in word form. Praise and blame both try to take over the other person's responsibility for choosing what to do next. Clean positive feedback hands it back: *that worked.* Watch for this one with children especially.
 
-This is the **Old Map of feedback** that M25 names on its left side: distance, judgement, right/wrong, a power move, manipulation. The other person treated as *under threat*, the room thick with anger and fear. The **New Map** is the clean version: accurate information about the past, sourced from the witness. Most people, most of the time, are running the Old Map while sincerely believing they are giving feedback. The footer of the map holds the whole thing together: real feedback comes from **care, clarity, and connection**, never from superiority or threat. If the move is sourced from the need to be right or bigger, it has already fallen off the map no matter how accurate the words are.
+This is the **Old Map of feedback** that Map 25 names on its left side: distance, judgement, right/wrong, a power move, manipulation. The other person treated as *under threat*, the room thick with anger and fear. The **New Map** is the clean version: accurate information about the past, sourced from the witness. Most people, most of the time, are running the Old Map while sincerely believing they are giving feedback. The footer of the map holds the whole thing together: real feedback comes from **care, clarity, and connection**, never from superiority or threat. If the move is sourced from the need to be right or bigger, it has already fallen off the map no matter how accurate the words are.
 
 ### Coaching is not solving the client's problem
 
@@ -129,7 +129,7 @@ PM coaching does not solve the client's problem. The job is to offer **possibili
 
 A coach who tells you the answer has made themselves your authority and undone the work. A coach who hands you fifteen things to try has handed you back your own life. Almost every learner arriving here has been trained to coach by fixing. Module 4 is where you stop.
 
-The right side of the M25 map names the **Old Map of coaching** the same way: advice from superiority (*I know better, you should do this*), hidden agenda, no real connection. The **New Map** is the offer: *here's an option, what about…?, here's something to experiment with*, and then the choice handed back. The test is simple: does the move hand the choice back to them, or take it away? If it takes the choice away, it is old-map coaching, no matter how kindly phrased.
+The right side of the Map 25 map names the **Old Map of coaching** the same way: advice from superiority (*I know better, you should do this*), hidden agenda, no real connection. The **New Map** is the offer: *here's an option, what about…?, here's something to experiment with*, and then the choice handed back. The test is simple: does the move hand the choice back to them, or take it away? If it takes the choice away, it is old-map coaching, no matter how kindly phrased.
 
 **Knowing which move to make** is the other half of the map. Reach for **feedback** when there is agreement on goals, the person is asking, and you care enough to be honest: the same gate as before, now stated as a positive. Reach for **coaching** when you are exploring options, creating new possibility, or encouraging growth. Two questions sort almost everything before you open your mouth: *Am I pointing at the past or the future?* and *Where in me is this coming from: witness, gremlin, or rescuer?*
 
@@ -145,7 +145,7 @@ The right side of the M25 map names the **Old Map of coaching** the same way: ad
 
 ![Map of Rapid Learning — Possibility Management map](../Maps/M26.png)
 
-*▶ [Study M26 in the Map Atlas →](../Map%20Atlas/M26%20-%20Rapid%20Learning.html)*
+*▶ [Study Map 26 in the Map Atlas →](../Map%20Atlas/M26%20-%20Rapid%20Learning.html)*
 
 Stop here and take the map in. Shape first, labels second. It is a loop, not a line and not a ladder: three stations on a wheel that keeps turning. **GO!** at the top: you act, you try the thing. → **BEEP!**: something did not work as planned. → **SHIFT!**: you change one specific thing and run it again. → arrow back up to **GO!** That last arrow is a **do-over**, and the do-over is the whole point. You were never meant to get it right on the first turn. You were meant to keep the wheel turning, because reps install thoughtware and insight does not.
 
@@ -193,7 +193,7 @@ That is the whole upgrade. Same book, same sit, same chair. The reason the book 
 
 Spark 098: *"There are two kinds of learning: defensive and expansive."* Defensive learning fits each new piece into the puzzle you have already assembled, and silently discards whatever does not fit; you can only learn about what you already know about. Expansive learning lets a new piece exist in you before it fits anywhere, and it feels disorderly, because it is. Most of this course will not fit your existing puzzle. That sensation of standing on less-solid ground is what expansive learning feels like from inside, and it is the sensation to stay with rather than to fix.
 
-Go · Beep · Shift is the **fast inner loop**: seconds to minutes, the move you make inside a single conversation. It is one half of a pair. The **slow outer loop** is the [Learning Spiral](../Map%20Notes/M19%20-%20Learning%20Spiral.md) (M19): the same distinction returning on a deeper lap over weeks, months, years. You run a thousand fast loops inside one turn of the spiral. Module 4 installs the fast loop; Module 9 installs the slow one. Confusing them makes you expect a single Shift! to do the work that only the spiral does over time. The thing the loop upgrades is [thoughtware](../Map%20Notes/M02%20-%20Map%20of%20Thoughtware.md) (M02, Module 2).
+Go · Beep · Shift is the **fast inner loop**: seconds to minutes, the move you make inside a single conversation. It is one half of a pair. The **slow outer loop** is the [Learning Spiral](../Map%20Notes/M19%20-%20Learning%20Spiral.md) (Map 19): the same distinction returning on a deeper lap over weeks, months, years. You run a thousand fast loops inside one turn of the spiral. Module 4 installs the fast loop; Module 9 installs the slow one. Confusing them makes you expect a single Shift! to do the work that only the spiral does over time. The thing the loop upgrades is [thoughtware](../Map%20Notes/M02%20-%20Map%20of%20Thoughtware.md) (Map 2, Module 2).
 
 PM distinguishes three states relative to any piece of thoughtware: *I read about it* (cognitive only, worth roughly nothing on its own), *I tried it* (you ran an experiment, got a Beep or a Go), *it changed how I am* (reps have compounded; the thoughtware now runs when you are not looking, which is what the course is for). Most learners spend years parked at *I read about it.* Module 4 pushes you to *I tried it* every week, on something specific. And one more Spark belongs here, because it names where this course is heading: Spark 037, *"The best way to learn something is to teach it."* At Module 6 you will explain these maps to your partner out loud, from memory. Knowing that now changes how you read.
 

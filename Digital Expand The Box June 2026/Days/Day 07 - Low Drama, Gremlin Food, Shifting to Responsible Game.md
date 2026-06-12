@@ -4,9 +4,9 @@
 |---|---|
 | **Intensity** | **HIGH.** Partner check-in required before starting; no override. See the unlock checklist in `04 - Container and Gatekeeping Protocol.md` Section D. |
 | **Sittings** | 3 (break points marked in the text) |
-| **Tools for this module** | Study the map: [M13 · Low Drama Triangle](../Map%20Atlas/M13%20-%20Low%20Drama%20Triangle.html) · [M27 · Your Gremlin](../Map%20Atlas/M27%20-%20Your%20Gremlin.html) · [M47 · Map of 3 Games](../Map%20Atlas/M47%20-%20Map%20of%203%20Games.html) · [M29 · Map of Reactivities](../Map%20Atlas/M29%20-%20Map%20of%20Reactivities.html) · Run the practice: [Drama Detector](../Interactive%20Tools/Day%2007/drama-detector.html) |
+| **Tools for this module** | Study the map: [Map 13 · Low Drama Triangle](../Map%20Atlas/M13%20-%20Low%20Drama%20Triangle.html) · [Map 27 · Your Gremlin](../Map%20Atlas/M27%20-%20Your%20Gremlin.html) · [Map 47 · Map of 3 Games](../Map%20Atlas/M47%20-%20Map%20of%203%20Games.html) · [Map 29 · Map of Reactivities](../Map%20Atlas/M29%20-%20Map%20of%20Reactivities.html) · Run the practice: [Drama Detector](../Interactive%20Tools/Day%2007/drama-detector.html) |
 | **Videos** | The written module is complete on its own. Videos are optional enrichment: see [Video Manifest](../Facilitator%20Resources/Video%20Manifest.md). |
-| **Also referenced** | [M20 · Map of Possibility](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html) (owned by Module 10: it is the course's own map of where low drama and high drama actually sit) |
+| **Also referenced** | [Map 20 · Map of Possibility](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html) (owned by Module 10: it is the course's own map of where low drama and high drama actually sit) |
 
 **Daily spine:** Phase B — morning sit: Beep! Book + Feelings Form bar reading (8-10 min). See [Daily Practice Spine](../Practice/Daily%20Practice%20Spine.md).
 
@@ -33,7 +33,7 @@
 
 > **Where you are on the climb.** Modules 5, 6 and 7 are three High modules close together, and this one closes that cluster. To be accurate about what remains: **Module 8 is Medium** (demanding partner work, not emotionally engineered) **with a scheduled rest day after it, and Module 9 is High** (ego states, the Demon locator). Pace accordingly; the pause architecture continues past this module, and the rest day before Module 9 is part of the route.
 
-> **Readiness check (10 seconds).** Can you locate a 5% feeling in your body (Module 5)? Without it you will not catch your own Victim or Persecutor performance in the act, and the drama work flattens into personality typing. If not, re-read [M10](../Map%20Notes/M10%20-%20New%20Map%20of%20Feelings.md) first. (Full self-check: [Learning Self-Assessment](../Facilitator%20Resources/Learning%20Self-Assessment.md), Part 2.)
+> **Readiness check (10 seconds).** Can you locate a 5% feeling in your body (Module 5)? Without it you will not catch your own Victim or Persecutor performance in the act, and the drama work flattens into personality typing. If not, re-read [Map 10](../Map%20Notes/M10%20-%20New%20Map%20of%20Feelings.md) first. (Full self-check: [Learning Self-Assessment](../Facilitator%20Resources/Learning%20Self-Assessment.md), Part 2.)
 
 > **If your partner has gone quiet.** This module is partner-gated for a reason: you should not do it alone. But a silent partner must never strand you. If your partner has not responded and you want to proceed, **message your CM**. There is a real fallback (a witness partner, or a CM-held exchange) so you are accompanied. Do not run the High-intensity practice with no one on the other end, and do not let a non-responsive pairing stall you indefinitely. The fallback is yours to ask for.
 
@@ -43,7 +43,7 @@
 
 Free recall on Module 6. No notes, no peeking.
 
-1. Take a blank page in your Beep! Book. Redraw the EHP map (M12) from memory: the six positions, Position 0 through Position 5, one line each on what each is for.
+1. Take a blank page in your Beep! Book. Redraw the EHP map (Map 12) from memory: the six positions, Position 0 through Position 5, one line each on what each is for.
 2. Say the core distinction out loud, in your own words. The shape to hit: expressing acts a stored emotion out at a person and creates damage; processing completes it with a witness in a held container.
 3. Check against [the map](../Maps/M12.png). Mark what you missed, without verdict, and move on.
 
@@ -65,14 +65,14 @@ Module 7 is direct work. Drama is produced, not received: you generate it, on pu
 
 You install four distinctions. The **Low Drama Triangle** (Persecutor, Victim, Rescuer). The **gremlin** and what it eats. The way out: **shifting to the Responsible Game**. And the destination that shift points toward: **high drama**, radical responsibility taken at gameworld scale. None of this is moral. All of it is operational. By the end you will be able to detect a drama position in yourself in real time and name the food it is producing: the precondition for choosing differently.
 
-This module relies on Modules 5 and 6. If your distinction between feeling and emotion is not yet living in you, the drama work reads as personality typing rather than as the energetic accounting it actually is. If you can't yet locate a 5% sadness in your chest, you will not catch your Victim performance in the act. Pause and re-read M10 if you need to. Your morning bar reading continues through all of this; drama days make distinctive rows. Before Sitting 1, take the second scheduled row re-read: scan your rows since Module 5 and mark the days a drama episode ran. The bars on those days are the energetic accounting in plain numbers.
+This module relies on Modules 5 and 6. If your distinction between feeling and emotion is not yet living in you, the drama work reads as personality typing rather than as the energetic accounting it actually is. If you can't yet locate a 5% sadness in your chest, you will not catch your Victim performance in the act. Pause and re-read Map 10 if you need to. Your morning bar reading continues through all of this; drama days make distinctive rows. Before Sitting 1, take the second scheduled row re-read: scan your rows since Module 5 and mark the days a drama episode ran. The bars on those days are the energetic accounting in plain numbers.
 
 ---
 
 ## Core PM concepts
 
 - **Low drama.** The daily-life, sub-threshold kind of drama: complaint, blame, "I had to," "you always," the sigh, the eye-roll, the rescue nobody asked for. Low not because the stakes are low but because it operates **below the threshold of noticing**. Runs on unconscious purpose. Produces gremlin food.
-- **High drama.** Taking **radical responsibility at gameworld scale**: consciously sourcing bright principles to hold and shift what happens in a whole field of commitment (a team, a family, a culture, a gameworld). Sits under Conscious Purpose on the course's own map (M20). The *destination* of the drama work, not a variant of the disease.
+- **High drama.** Taking **radical responsibility at gameworld scale**: consciously sourcing bright principles to hold and shift what happens in a whole field of commitment (a team, a family, a culture, a gameworld). Sits under Conscious Purpose on the course's own map (Map 20). The *destination* of the drama work, not a variant of the disease.
 - **The Low Drama Triangle.** Three positions a person rotates through: **Persecutor** (attacks, blames, controls), **Victim** (collapses, "this is happening to me," manipulates through helplessness), **Rescuer** (steps in unasked, takes over, builds dependency). All three are the same Box-pattern. One machine, not three personalities.
 - **Gremlin.** The part of you that wants drama. Distinct from the Box (which keeps you safe). Hungrier and louder. Part of the system; naming it is not condemning it.
 - **Gremlin food.** What low drama is actually for. Being right, being wronged, being special, being misunderstood, being a victim, being a savior, being above it all, being beneath it all. The drama produces the food; the gremlin eats. The Low Drama Triangle is gremlin food production at industrial scale.
@@ -129,11 +129,11 @@ It is low not because the stakes are low (over years the stakes are enormous; mo
 
 **High drama is the other end of that same axis, not a louder version of the disease.** High drama is taking **radical responsibility at gameworld scale**: consciously sourcing bright principles to hold and shift what happens in a whole field of commitment — a team, a family, a culture, a gameworld. The person playing high drama has stopped asking *who did this to me?* and started asking *what am I building, and what does it need from me next?* They are at cause for a space larger than their own comfort: the facilitator holding a charged room from presence rather than control, the founder declaring a context and then standing in it with their actions, the parent consciously authoring the emotional climate of a household for twenty years. Same energy budget the triangle was burning, now spent on creating instead of on producing food.
 
-The course's own map already says this. Open [M20, the Map of Possibility](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html) (image: [M20](../Maps/M20.png)), which Module 10 teaches in full: LOW DRAMA sits under **Unconscious Purpose**, and HIGH DRAMA sits under **Conscious Purpose**, inside the Responsible Game. The two are not siblings on the wrong side of the map. They are the before and after of the whole drama work. Low drama feeds the gremlin; high drama feeds nothing to the gremlin, because there is no victim story in it anywhere. That is also why the gremlin finds it boring. This module goes after the low kind because it is the one you cannot see yet, and the one that runs your life. But hold the destination from the start: you are not learning to decline drama so you can live a smaller, quieter, drama-free life. You are reclaiming the energy so it can be spent at scale, by choice.
+The course's own map already says this. Open [Map 20, the Map of Possibility](../Map%20Atlas/M20%20-%20Map%20of%20Possibility.html) (image: [Map 20](../Maps/M20.png)), which Module 10 teaches in full: LOW DRAMA sits under **Unconscious Purpose**, and HIGH DRAMA sits under **Conscious Purpose**, inside the Responsible Game. The two are not siblings on the wrong side of the map. They are the before and after of the whole drama work. Low drama feeds the gremlin; high drama feeds nothing to the gremlin, because there is no victim story in it anywhere. That is also why the gremlin finds it boring. This module goes after the low kind because it is the one you cannot see yet, and the one that runs your life. But hold the destination from the start: you are not learning to decline drama so you can live a smaller, quieter, drama-free life. You are reclaiming the energy so it can be spent at scale, by choice.
 
 **Common misunderstandings about high drama.**
 
-- *"High drama means theatrical, staged performance — a surgeon in an emergency, an actor holding a stage."* No. That misreading puts high drama next to low drama as another kind of show, and it is exactly what this course refuses. High drama is not performance and not staging; it is radical responsibility sourced from bright principles at gameworld scale. A surgeon's controlled intensity is professional skill; an actor's craft is art. Neither is what M20 means.
+- *"High drama means theatrical, staged performance — a surgeon in an emergency, an actor holding a stage."* No. That misreading puts high drama next to low drama as another kind of show, and it is exactly what this course refuses. High drama is not performance and not staging; it is radical responsibility sourced from bright principles at gameworld scale. A surgeon's controlled intensity is professional skill; an actor's craft is art. Neither is what Map 20 means.
 - *"Both kinds of drama are gremlin food."* False, and worth saying plainly because v1 of this course taught it. Only low drama produces gremlin food. High drama starves the gremlin: there is no being-right, no being-wronged, no rescue in it to eat.
 - *"I should skip the low-drama work and go straight to high drama."* Nobody holds a gameworld from bright principles while their gremlin is still eating triangle food underneath. The detector work in this module is the training ground; high drama is what the reclaimed energy becomes (Module 10 gives it the full map).
 
@@ -141,7 +141,7 @@ The course's own map already says this. Open [M20, the Map of Possibility](../Ma
 
 ![Low Drama Triangle](../Maps/M13.png)
 
-*▶ [Study M13 in the Map Atlas →](../Map%20Atlas/M13%20-%20Low%20Drama%20Triangle.html)*
+*▶ [Study Map 13 in the Map Atlas →](../Map%20Atlas/M13%20-%20Low%20Drama%20Triangle.html)*
 
 Study the map before reading on. It is a triangle: **Persecutor** at one upper corner, **Rescuer** at the other, **Victim** at the bottom, with arrows showing the rotation between them. Three positions. But read the arrows, not the corners. The corners look like three different people; the arrows are the truth: one machine, rotating.
 
@@ -178,7 +178,7 @@ One machine, three faces. The faces look different. The function is the same: **
 
 ![Your Gremlin](../Maps/M27.png)
 
-*▶ [Study M27 in the Map Atlas →](../Map%20Atlas/M27%20-%20Your%20Gremlin.html)*
+*▶ [Study Map 27 in the Map Atlas →](../Map%20Atlas/M27%20-%20Your%20Gremlin.html)*
 
 Stop here and take the map in. A hand-drawn creature, impish, clawed, grinning. Not a diagram of parts: a *portrait of the thing itself*, drawn so you stop treating it as an abstraction and start treating it as a resident. The text on the map names it exactly: **the King or Queen of your Underworld — and it owns your life. Currently on a low-drama gremlin feast.** Hold that phrase. The gremlin is sovereign down below, running the show from beneath your awareness, and the map states the cost plainly: until you meet it on purpose, *it owns your life.*
 
@@ -192,7 +192,7 @@ The gremlin also comes in **types**; the map marks *Type 1 / Type 2*. Your greml
 
 The gremlin is not a bad part of you. **The gremlin is part of the system.** Naming the gremlin is not condemnation. You have a gremlin. You are not your gremlin. The gremlin will be with you for life. You do not kill it, you cannot, and trying to eliminate it is usually the gremlin's own strategy. The work is to **meet it, know its diet, befriend it, and put it to conscious use.** A gremlin you know can be directed. A gremlin you refuse to look at runs your life.
 
-> **Scope note — what is in this room and what is not.** Meeting your gremlin, naming it, and catching its low-drama feast in progress is **in scope** for this course. Deep gremlin process work, **Gremlin Transformation** (the map's *Preface, Chapter 0, Chapter 1*), is a separate, longer container held by a PM trainer (the GT training). **Do not attempt to "transform" your gremlin solo.** Naming it is the work here; processing it is a different room. (Same discipline as the Demon scope note in M17 and the EHP carve-out: naming is the entry, processing is held elsewhere.)
+> **Scope note — what is in this room and what is not.** Meeting your gremlin, naming it, and catching its low-drama feast in progress is **in scope** for this course. Deep gremlin process work, **Gremlin Transformation** (the map's *Preface, Chapter 0, Chapter 1*), is a separate, longer container held by a PM trainer (the GT training). **Do not attempt to "transform" your gremlin solo.** Naming it is the work here; processing it is a different room. (Same discipline as the Demon scope note in Map 17 and the EHP carve-out: naming is the entry, processing is held elsewhere.)
 
 The classic gremlin foods; your list will overlap and have its own colors:
 
@@ -248,7 +248,7 @@ A learner in the cohort, mid-conversation with a partner: *I told her where my a
 
 ![Map of 3 Games](../Maps/M47.png)
 
-*▶ [Study M47 in the Map Atlas →](../Map%20Atlas/M47%20-%20Map%20of%203%20Games.html)*
+*▶ [Study Map 47 in the Map Atlas →](../Map%20Atlas/M47%20-%20Map%20of%203%20Games.html)*
 
 Give the map a full minute before the words. Three numbered setups, three ways a game between people can be built, and the Responsible Game you just learned gets its ground from the third.
 
@@ -278,7 +278,7 @@ The retelling discipline is the four-level sentence from Module 1, applied to na
 
 ![Map of Reactivities](../Maps/M29.png)
 
-*▶ [Study M29 in the Map Atlas →](../Map%20Atlas/M29%20-%20Map%20of%20Reactivities.html)*
+*▶ [Study Map 29 in the Map Atlas →](../Map%20Atlas/M29%20-%20Map%20of%20Reactivities.html)*
 
 The map first. The text below assumes you have seen it. A **reactivity** is when something external sets off an automatic internal reaction that is *not* a present-time conscious choice: something happens and you are already reacting before you decided to. The hook you just met is one kind of reactivity. So is the button that opens a drama. The map's claim is the one that spares you a great deal of wasted work: **not all reactivity is the same kind, and each kind has a different antidote.** From the inside they all feel identical (a jolt, a charge, a sudden *no*), so the untrained reflex is to grab one favourite tool every time (process it, push through it, analyse it). The map says: stop, and ask *which of the six is this?*
 
@@ -286,14 +286,14 @@ The six types, each with what it is and **where it routes**:
 
 | Reactivity | What it is | Route (the tool it needs) |
 |---|---|---|
-| **Buttons** | Box rules and sensibilities firing automatically: quick, neurotic, repeatable. Someone leaves a cup out and *people should clean up after themselves* fires before you choose. The button is on the Box, not on you. | **Expand the Box** (Module 2 / M04). |
+| **Buttons** | Box rules and sensibilities firing automatically: quick, neurotic, repeatable. Someone leaves a cup out and *people should clean up after themselves* fires before you choose. The button is on the Box, not on you. | **Expand the Box** (Module 2 / Map 4). |
 | **Voices** | Internalised external authority: the shoulds, the nags. A parent's, a teacher's, a culture's voice replaying as if it were yours. Cousin to the Critical Parent (Module 9). | **Shoot the voices**: recognise the voice is not yours and decline its authority. |
-| **Activated Traumas** | The past happening in the present: a present-time trigger reaches old stored material and it floods forward as if the original event were happening now. | **The Emotional Healing Process** (Module 6 / M12) for the in-scope stored *emotion*, with the hard carve-out below. |
+| **Activated Traumas** | The past happening in the present: a present-time trigger reaches old stored material and it floods forward as if the original event were happening now. | **The Emotional Healing Process** (Module 6 / Map 12) for the in-scope stored *emotion*, with the hard carve-out below. |
 | **Hooks** | Gremlin seductions into a low-drama game (this module): the pull toward drama, righteousness, sex-energy, and *becoming hookable*, leaving the loop open so the gremlin gets fed. | **Catch the hook, decline the gremlin food**: the Responsible Game shift you just learned. |
 | **Triggers** | Specific trigger sentences and draining "vampire" energies: the exact phrase, person, or energy that drains you the instant it arrives. | **Close the cake**: stop leaving yourself energetically open to the thing that feeds on you. |
-| **Imbalances** | The reactivity that is really just one of the **5 bodies** (Module 3 / M06) out of balance: tired, hungry, energetically leaking. Not a psychological event at all. | **Bring the body to balance**: eat, sleep, ground, stop the leak. |
+| **Imbalances** | The reactivity that is really just one of the **5 bodies** (Module 3 / Map 6) out of balance: tired, hungry, energetically leaking. Not a psychological event at all. | **Bring the body to balance**: eat, sleep, ground, stop the leak. |
 
-> **The hard line on Activated Traumas.** The EHP completes a stored *emotion*; it does not process **trauma**. Actual trauma (the early situations in which you first learned a drama position included) goes to a qualified clinician, not the EHP and not this module. (This is the same carve-out the safety callouts state below and that M12 holds. Naming which reactivity fired is in scope; trauma processing is a different room.)
+> **The hard line on Activated Traumas.** The EHP completes a stored *emotion*; it does not process **trauma**. Actual trauma (the early situations in which you first learned a drama position included) goes to a qualified clinician, not the EHP and not this module. (This is the same carve-out the safety callouts state below and that Map 12 holds. Naming which reactivity fired is in scope; trauma processing is a different room.)
 
 **The diagnostic move.** When you catch yourself reacting, do not reach for a tool yet. Ask first: *which of the six is this?* Treating an Imbalance as if it were an Activated Trauma (sitting down to do deep inner work when you were actually just hungry) wastes the work and teaches your body the wrong lesson. Treating a Hook as a Button keeps you "expanding the Box" while the gremlin quietly eats. Naming the kind is what tells you the route. Often more than one is present at once. **Name the loudest first.** This is why Module 7 puts the hook beside the other five: the gremlin's hook is one reactivity among several, and the discipline that catches it is the discipline that sorts them all.
 
@@ -327,7 +327,7 @@ Read the script through once before you do it.
 
 > **Script.**
 >
-> Sit. Both feet on the floor. Beep! Book open. Center, ground, drop a bubble (Module 3 equipment; re-read [M07](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) if it has fallen out of your body).
+> Sit. Both feet on the floor. Beep! Book open. Center, ground, drop a bubble (Module 3 equipment; re-read [Map 7](../Map%20Notes/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.md) if it has fallen out of your body).
 >
 > **Bring the drama to mind.** The specific one. Who was there, what happened, what was said, how it ended. Spend ~3 minutes letting it become present. Notice your body. Notice the charge that arrives with the memory. The charge is data.
 >
@@ -471,7 +471,7 @@ One line each, no more (solo or witness path: same lines, into the Beep! Book):
 ## Glossary additions
 
 - **Low drama**: the daily-life, sub-threshold kind of drama; low because it runs below the threshold of noticing and below the line of responsibility; unconscious purpose at kitchen scale; produces gremlin food
-- **High drama**: radical responsibility taken at gameworld scale: consciously sourcing bright principles to hold and shift a whole field of commitment; sits under Conscious Purpose in the Responsible Game (map M20); NOT theatrical performance, NOT gremlin food; the destination of the drama work
+- **High drama**: radical responsibility taken at gameworld scale: consciously sourcing bright principles to hold and shift a whole field of commitment; sits under Conscious Purpose in the Responsible Game (map Map 20); NOT theatrical performance, NOT gremlin food; the destination of the drama work
 - **Low Drama Triangle**: three positions of a single Box-pattern: Persecutor, Victim, Rescuer; person rotates between them; produces gremlin food
 - **Persecutor**: drama position: attacks, blames, controls, makes wrong; food is being right, being superior
 - **Victim**: drama position: collapses, "this is happening to me," controls through helplessness; food is being wronged, being innocent, being special in suffering

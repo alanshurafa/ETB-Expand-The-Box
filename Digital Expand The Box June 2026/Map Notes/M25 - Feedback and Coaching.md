@@ -1,4 +1,4 @@
-# M25 — Feedback and Coaching
+# Map 25 — Feedback and Coaching
 
 *Two distinct moves people constantly blur: feedback reports the past — what worked, what did not — and coaching opens the future — possibilities, experiments, options to try.*
 
@@ -19,7 +19,7 @@ Feedback and coaching are two moves people blur, and the axis that separates the
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 4 — Feedback, Coaching, Rapid Learning, Experiments](../Days/Day%2004%20-%20Feedback%2C%20Coaching%2C%20Rapid%20Learning%2C%20Experiments.md)
-> - **Interactive tool →** [Map Atlas · M25 Feedback and Coaching](../Map%20Atlas/M25%20-%20Feedback%20and%20Coaching.html)
+> - **Interactive tool →** [Map Atlas · Map 25 Feedback and Coaching](../Map%20Atlas/M25%20-%20Feedback%20and%20Coaching.html)
 
 ---
 

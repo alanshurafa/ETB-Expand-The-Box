@@ -59,7 +59,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{TITLE} · Map Atlas {MNUM} · Expand the Box</title>
+<title>{TITLE} · Map Atlas · {MAP_LABEL} · Expand the Box</title>
 <meta name="description" content="{META_DESC}">
 <link href="../_assets/fonts/fonts.css" rel="stylesheet">
 <style>
@@ -385,7 +385,7 @@ footer.bottom .license .cc {{ color: var(--ink-soft); font-weight: 600; letter-s
   <!-- 1 · HEADER BAR -->
   <header class="top">
     <div class="left">
-      <span><span class="num">MAP ATLAS · {MNUM}</span></span>
+      <span><span class="num">MAP ATLAS · {MAP_LABEL}</span></span>
       <span class="brand">Possibility Management</span>
     </div>
     <div class="right">
@@ -512,7 +512,7 @@ footer.bottom .license .cc {{ color: var(--ink-soft); font-weight: 600; letter-s
 
 <script>
 /* ============================================================
-   {MNUM} — {TITLE}. Teaching content sourced from the v2 module
+   {MAP_LABEL} — {TITLE}. Teaching content sourced from the v2 module
    ({DAY_LABEL}) and the canonical-phrasing ledger (Voice and Style
    Guide §6). Local-only: the single localStorage key {STORE_KEY}.
    ============================================================ */
@@ -913,7 +913,7 @@ CONTENT = {
     {"wrong": "\"The body locations are metaphorical.\"", "right": "They are literal. Anger lives in bones and big muscles; sadness in heart and throat; fear in the nervous system and belly. Look for the sensation in <em>those specific places.</em>"},
     {"wrong": "\"If I can name the feeling, I don't need the sensation.\"", "right": "The naming is the story-layer; the sensation is the feeling itself. Verify the name against the body, or you may be naming a thought about a feeling."},
     {"wrong": "\"A real feeling is intense and obvious.\"", "right": "Most useful sensations are faint — a flicker of heat, an <em>almost</em>-imperceptible buzz. Almost nothing is still data. The map reads the small ones."},
-    {"wrong": "\"Two sensations at once means I'm doing it wrong.\"", "right": "Multiple sensations often arrive together. The map sorts them by quadrant; when they tangle with a memory and a story, that is a mixed emotion (M11), not an error."},
+    {"wrong": "\"Two sensations at once means I'm doing it wrong.\"", "right": "Multiple sensations often arrive together. The map sorts them by quadrant; when they tangle with a memory and a story, that is a mixed emotion (Map 11), not an error."},
   ],
   "closer_h": "Use it as your morning <em>lookup table.</em>",
   "closer_prose": "In the Day 5 bar reading and the Feeling Locator, this is the map you reach for when a sensation arrives unnamed. Keep it open beside the practice: tight throat to sadness, cold belly to fear, heat to anger, eye-smile to joy.",
@@ -938,7 +938,7 @@ CONTENT = {
   ),
   "distinctions": [
     {"kicker": "Anatomy 1", "name": "Name the feeling plainly.",
-      "body": "<em>I feel fear.</em> No euphemism, no \"a bit stressed,\" no \"anxious about.\" The form will not work on a softened word — name the feeling on the New Map (M10) by its real name."},
+      "body": "<em>I feel fear.</em> No euphemism, no \"a bit stressed,\" no \"anxious about.\" The form will not work on a softened word — name the feeling on the New Map (Map 10) by its real name."},
     {"kicker": "Anatomy 2", "name": "Name what it is about.",
       "body": "Not the project — <strong>capacity.</strong> The fear is about your own current size relative to what you want to create. \"Capacity\" is the variable the sentence measures, and the thing you can build."},
     {"kicker": "Anatomy 3", "name": "Keep the joy in the sentence.",
@@ -1278,7 +1278,7 @@ CONTENT = {
       ["A Beep! here", "Design data, not defeat — the Beep! Book has been training game 3 since Module 0."],
       ["Where it lives", "The Responsible Game at kitchen scale; high drama at gameworld scale."]]},
     {"kicker": "High drama", "name": "Lives in game 3.",
-      "body": "<strong>High drama is radical responsibility at gameworld scale</strong> — under Conscious Purpose, in the Responsible Game, where M20 places it. It is a game-3 setup: nobody has to lose, because what is produced is creation, not food. <em>High drama is not theatrical performance, and it is not gremlin food.</em>"},
+      "body": "<strong>High drama is radical responsibility at gameworld scale</strong> — under Conscious Purpose, in the Responsible Game, where Map 20 places it. It is a game-3 setup: nobody has to lose, because what is produced is creation, not food. <em>High drama is not theatrical performance, and it is not gremlin food.</em>"},
     {"kicker": "The move", "name": "Change the game, not just your seat.",
       "body": "Changing your position inside game 1 is good work. Changing the <em>game</em> is the bigger move. When you decline a drama, ask: <em>what game was I invited into, and what game do I want to set up instead?</em>"},
   ],
@@ -1287,7 +1287,7 @@ CONTENT = {
     {"q": "Which game does the Low Drama Triangle live in, and why?", "a": "Game 1. Every low drama is a game-1 round — somebody has to lose for the gremlin food to be produced. The map writes <em>gremlin</em> into that line."},
     {"q": "What is game 2's shadow?", "a": "Secret competition and compromise, and lose-lose — where each party's main consolation is that the other one also didn't get what they wanted."},
     {"q": "What is game 3, winning happening?", "a": "A game built so there is no option to lose: always learning, generous, sharing. A Beep! here is design data, not defeat."},
-    {"q": "Where does high drama sit on this map?", "a": "In game 3 — radical responsibility at gameworld scale, under Conscious Purpose, in the Responsible Game (M20). Not theatrical, not gremlin food."},
+    {"q": "Where does high drama sit on this map?", "a": "In game 3 — radical responsibility at gameworld scale, under Conscious Purpose, in the Responsible Game (Map 20). Not theatrical, not gremlin food."},
     {"q": "What is the bigger move when you decline a drama?", "a": "Changing the <em>game</em>, not just your position inside game 1. Ask what game you were invited into and what game you want to set up instead."},
   ],
   "mis": [
@@ -1348,6 +1348,11 @@ def _undouble(template):
     return template.replace("{{", "{").replace("}}", "}")
 
 
+def map_label(mnum):
+    """Human display label: M01 -> Map 1. Files/keys keep the M## id."""
+    return "Map " + str(int(mnum[1:]))
+
+
 def render_page(mnum):
     c = CONTENT[mnum]
     day = c["day"]
@@ -1373,6 +1378,7 @@ def render_page(mnum):
         "{TITLE}": c["title"],
         "{TITLE_ATTR}": esc(c["title"]),
         "{MNUM}": mnum,
+        "{MAP_LABEL}": map_label(mnum),
         "{META_DESC}": esc(c["meta_desc"]),
         "{EYEBROW}": c["eyebrow"],
         "{H1}": c["h1"],
@@ -1647,12 +1653,12 @@ def render_index():
         for mnum, title in cards:
             href = _href_for(mnum, title)
             block.append('      <a class="map-card" data-mnum="%s" href="%s">' % (mnum, href))
-            block.append('        <span class="mc-head"><span class="mc-num">%s</span><span class="mc-dot" aria-hidden="true"></span></span>' % mnum)
+            block.append('        <span class="mc-head"><span class="mc-num">%s</span><span class="mc-dot" aria-hidden="true"></span></span>' % map_label(mnum))
             block.append('        <span class="mc-title">%s</span>' % esc(title))
             block.append('        <span class="mc-go">Study the map →</span>')
             block.append('      </a>')
             if mnum == "M21":
-                block.append('      <p class="slot-note">M21 · Bright &amp; Shadow Principles has no dedicated map image — the Map of Matrix (M46) and the Map of 3 Games (M47) are the adjacent maps; the card itself carries the full distinction.</p>')
+                block.append('      <p class="slot-note">M21 · Bright &amp; Shadow Principles has no dedicated map image — the Map of Matrix (Map 46) and the Map of 3 Games (Map 47) are the adjacent maps; the card itself carries the full distinction.</p>')
         block.append('    </div>')
         block.append('  </section>')
         groups_html.append("\n".join(block))

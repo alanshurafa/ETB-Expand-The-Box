@@ -1,4 +1,4 @@
-# M22 — Is-Glue and Is-Glue Dissolver
+# Map 22 — Is-Glue and Is-Glue Dissolver
 
 *The linguistic mechanism by which the Box defends itself — the verb "to be" fusing perception to identity and identity to permanence — and the simple swap that restores the perception's provisional status without making it less true.*
 
@@ -19,7 +19,7 @@ Is-glue is how the Box defends itself, using the cheapest verb there is: to be. 
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 10 — Map of Possibility, Bright Principles, Three Powers, Integration](../Days/Day%2010%20-%20Map%20of%20Possibility%2C%20Bright%20Principles%2C%20Three%20Powers%2C%20Integration.md)
-> - **Interactive tool →** [Map Atlas · M22 Is-Glue and Is-Glue Dissolver](../Map%20Atlas/M22%20-%20Is-Glue%20and%20Is-Glue%20Dissolver.html)
+> - **Interactive tool →** [Map Atlas · Map 22 Is-Glue and Is-Glue Dissolver](../Map%20Atlas/M22%20-%20Is-Glue%20and%20Is-Glue%20Dissolver.html)
 
 ---
 

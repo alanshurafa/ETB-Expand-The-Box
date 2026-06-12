@@ -17,7 +17,7 @@
 
 Free recall on Module 10. No notes, no peeking.
 
-1. Take a blank page in your Beep! Book. Redraw the Map of Possibility (M20) from memory: the line of *what is*, the space opening off it, the three keys that put you inside.
+1. Take a blank page in your Beep! Book. Redraw the Map of Possibility (Map 20) from memory: the line of *what is*, the space opening off it, the three keys that put you inside.
 2. Say the core distinction out loud, in your own words. The shape to hit: possibility is not a list of options the world hands you; possibility is a space you enter on purpose, by held context, liquid state and a dangerous question together.
 3. Check against [the map](../Maps/M20.png). Mark what you missed, without verdict, and continue.
 

@@ -1,4 +1,4 @@
-# M01 — New Context (the chain)
+# Map 1 — New Context (the chain)
 
 *The causal sequence by which a chosen context, not an attempted behavior, produces a new result — and the reason most personal change fails when it starts on the wrong end of the chain.*
 
@@ -19,7 +19,7 @@ When I teach the chain, I draw an arrow that runs one way only: context, then th
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 1 — Orientation, New Context, Radical Responsibility](../Days/Day%2001%20-%20Orientation%2C%20New%20Context%2C%20Radical%20Responsibility.md)
-> - **Interactive tool →** [Map Atlas · M01 New Context (the chain)](../Map%20Atlas/M01%20-%20New%20Context%20%28the%20chain%29.html)
+> - **Interactive tool →** [Map Atlas · Map 1 New Context (the chain)](../Map%20Atlas/M01%20-%20New%20Context%20%28the%20chain%29.html)
 
 ---
 

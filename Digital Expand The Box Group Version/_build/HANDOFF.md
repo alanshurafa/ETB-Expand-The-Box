@@ -29,4 +29,4 @@ Updated 2026-06-11 (build session 2, macOS). Resume sequence for any new session
 - Module md filenames stay v1-style `Days/Day NN - <title>.md` (per ARCHITECTURE §2 tree); learner-facing naming inside content and rendered pages is "Module NN" (`Course/module-NN.html`).
 - New HTML must link `_assets/fonts/fonts.css` (relative), never Google Fonts CDN.
 - Consent is per-visit, in-memory only — no etb_*consent* localStorage keys may ever be written (journal.html enforces on import).
-- Deferred/excluded maps (ARCHITECTURE §4): teaching ships text-first, no embed; manifest carries the redraw queue (M30/M31/M34/M36/M41/M42/M45/M48/M49/M50 + v1 photo slots M01/M08/M10/M27).
+- Deferred/excluded maps (ARCHITECTURE §4): teaching ships text-first, no embed; manifest carries the redraw queue (M30/M31/M34/M36/M41/M42/M45/M48/M49/M50).

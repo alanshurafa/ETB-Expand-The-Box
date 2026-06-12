@@ -138,11 +138,11 @@ This ledger is the canon control. Every major distinction has exactly one canoni
 
 #### ⚠ CORRECTION 1 — HIGH DRAMA
 
-**Canonical:** High drama sits under **Conscious Purpose**, in the **Responsible Game**; the course's own map M20 (`Maps/M20.png`) places it there. **High drama is taking radical responsibility at gameworld scale**: consciously sourcing bright principles to hold and shift what happens in a whole field of commitment — a team, a family, a culture, a gameworld. Low drama is unconscious purpose at kitchen scale; high drama is conscious purpose at world scale. High drama is the *destination* of the drama work, not a variant of the disease.
+**Canonical:** High drama sits under **Conscious Purpose**, in the **Responsible Game**; the course's own map Map 20 (`Maps/M20.png`) places it there. **High drama is taking radical responsibility at gameworld scale**: consciously sourcing bright principles to hold and shift what happens in a whole field of commitment — a team, a family, a culture, a gameworld. Low drama is unconscious purpose at kitchen scale; high drama is conscious purpose at world scale. High drama is the *destination* of the drama work, not a variant of the disease.
 
 **What v1 got wrong:** v1 Day 07 (lines ~51, ~95–103, ~385) and the Glossary (lines ~355–357) defined high drama as "theatrical, staged, often productive drama — a surgeon in an emergency, a trainer holding a charged moment, an actor in a play" and then claimed **"Both are gremlin food."**
 
-**That sentence is FALSE and is banned.** High drama is NOT theatrical, staged performance. High drama is NOT gremlin food. Only low drama feeds the Gremlin. The v1 wording also contradicted the course's own M20 map, which shows HIGH DRAMA under Conscious Purpose.
+**That sentence is FALSE and is banned.** High drama is NOT theatrical, staged performance. High drama is NOT gremlin food. Only low drama feeds the Gremlin. The v1 wording also contradicted the course's own Map 20 map, which shows HIGH DRAMA under Conscious Purpose.
 
 **Regression check (must return zero hits in every v2 file):**
 ```
@@ -191,7 +191,7 @@ Each entry: term, canonical wording (quote-ready; use these words or words plain
 | **Box** | The survival-and-protection thoughtware you assembled in childhood. What kept you alive then. Not the enemy. *You have a Box; you are not your Box.* | Glossary; Day 02 |
 | **Being** | What you actually are, prior to the Box. You have a Box. You have a Gremlin. You are neither. You are Being, which has both. | Glossary |
 | **Disidentification** | The move from *I am this* to *I have this*. The grammatical shift is the energetic shift. Not destruction. | Glossary; Day 02 |
-| **Is-glue / is-glue dissolver** | The verb *to be* + a noun, fusing a transient perception to a permanent identity. The dissolver restores provisional status without softening the perception. | Glossary; Map Note M22 |
+| **Is-glue / is-glue dissolver** | The verb *to be* + a noun, fusing a transient perception to a permanent identity. The dissolver restores provisional status without softening the perception. | Glossary; Map Note Map 22 |
 | **Liquid state** | The temporary condition in which solid thoughtware loosens and new thoughtware can be installed. Transformative only inside a holding context. | Glossary; Day 03 |
 | **Holding context** | The structural conditions inside which a liquid state becomes transformative rather than merely spectacular. | Glossary; Day 03 |
 | **Five bodies** | Intellectual, emotional, physical, energetic, archetypal. The intellectual body is the loudest for most modern adults; the other four run on emergency power. | Glossary; Day 03 |
@@ -212,7 +212,7 @@ Each entry: term, canonical wording (quote-ready; use these words or words plain
 | **Expressing vs processing** | Expressing acts a feeling out at a person and creates damage; processing completes a stored emotion with a witness in a held container. Different practices. Different rooms. | Glossary; Day 06 |
 | **Witness** | (1) The inner location feedback is sourced from — observed without verdict. (2) The person holding space during an EHP. Does not fix, advise, narrate, or "send love." The witness's energy of being present is the medicine. | Glossary; Days 04/06 |
 | **Low drama** | The daily-life, sub-threshold kind of drama. Low not because the stakes are low but because it operates below the threshold of noticing. Produces gremlin food. | Glossary; Day 07 |
-| **High drama** | See ⚠ CORRECTION 1. Radical responsibility at gameworld scale, under Conscious Purpose, in the Responsible Game (map M20). NOT theatrical performance. NOT gremlin food. | M20; v2 canon |
+| **High drama** | See ⚠ CORRECTION 1. Radical responsibility at gameworld scale, under Conscious Purpose, in the Responsible Game (map Map 20). NOT theatrical performance. NOT gremlin food. | Map 20; v2 canon |
 | **Low Drama Triangle** | Persecutor, Victim, Rescuer: three positions of one Box-pattern, one machine, three costumes, producing gremlin food. | Glossary; Day 07 |
 | **Gremlin** | The part of you that wants gremlin food. Hungrier than the Box, more cunning, louder. You have a Gremlin. You are not your Gremlin. | Glossary; Day 07 |
 | **Gremlin food** | What drama is actually for. Being right. Being wronged. Being special. Being misunderstood. The uncomfortable one is usually the most operational. | Glossary; Day 07 |

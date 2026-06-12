@@ -1,4 +1,4 @@
-# M10 — New Map of Feelings
+# Map 10 — New Map of Feelings
 
 *Four pure archetypal feelings — anger, sadness, fear, joy — each functional, time-limited, body-located, present-time, asking for specific action; none good, none bad; each with a shadow form when stored as emotion.*
 
@@ -19,7 +19,7 @@ There are four feelings, full stop: anger, sadness, fear, and joy. Each is an ar
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 5 — Feelings vs Emotions, Old Map of Feelings, Numbness Bar](../Days/Day%2005%20-%20Feelings%20vs%20Emotions%2C%20Old%20Map%20of%20Feelings%2C%20Numbness%20Bar.md)
-> - **Interactive tool →** [Map Atlas · M10 New Map of Feelings](../Map%20Atlas/M10%20-%20New%20Map%20of%20Feelings.html)
+> - **Interactive tool →** [Map Atlas · Map 10 New Map of Feelings](../Map%20Atlas/M10%20-%20New%20Map%20of%20Feelings.html)
 
 ---
 

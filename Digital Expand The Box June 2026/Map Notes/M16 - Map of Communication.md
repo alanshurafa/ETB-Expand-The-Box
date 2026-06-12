@@ -1,4 +1,4 @@
-# M16 — Map of Communication · Completion Loops · 12 Roadblocks
+# Map 16 — Map of Communication · Completion Loops · 12 Roadblocks
 
 *The architecture of an exchange between two people, the discipline of finishing what was started, and Thomas Gordon's catalog of the twelve things people reliably do instead of listening.*
 
@@ -19,7 +19,7 @@ This map bundles three things. The Map of Communication says any exchange runs a
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 8 — Listening, Speaking, Communication, Completion Loops](../Days/Day%2008%20-%20Listening%2C%20Speaking%2C%20Communication%2C%20Completion%20Loops.md)
-> - **Interactive tool →** [Map Atlas · M16 Map of Communication](../Map%20Atlas/M16%20-%20Map%20of%20Communication.html)
+> - **Interactive tool →** [Map Atlas · Map 16 Map of Communication](../Map%20Atlas/M16%20-%20Map%20of%20Communication.html)
 
 ---
 

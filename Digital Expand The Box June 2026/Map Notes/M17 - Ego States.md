@@ -1,4 +1,4 @@
-# M17 — Ego States
+# Map 17 — Ego States
 
 *Five distinct locations from which you speak, feel and choose — Parent, Child, Adult, Gremlin, Demon — and the lens that lets you see, in real time, which one is on the line.*
 
@@ -19,7 +19,7 @@ Ego states are five locations you speak, feel, and choose from: Parent, Child, A
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 9 — Ego States, Problem Ownership, Learning Spiral](../Days/Day%2009%20-%20Ego%20States%2C%20Problem%20Ownership%2C%20Learning%20Spiral.md)
-> - **Interactive tool →** [Map Atlas · M17 Ego States](../Map%20Atlas/M17%20-%20Ego%20States.html)
+> - **Interactive tool →** [Map Atlas · Map 17 Ego States](../Map%20Atlas/M17%20-%20Ego%20States.html)
 
 ---
 

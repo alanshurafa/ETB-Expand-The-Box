@@ -345,7 +345,7 @@ And the canonical closing paragraph, read after a pause:
 
 > **Script.**
 >
-> Sit. Both feet on the floor. Center, ground, drop a bubble (Day 3 practice — if it has fallen out of your body, re-read M05 first).
+> Sit. Both feet on the floor. Center, ground, drop a bubble (Day 3 practice — if it has fallen out of your body, re-read Map 5 first).
 >
 > Pick up the object. Hold it. Look at it.
 >
@@ -445,7 +445,7 @@ Also record, at the end of the track, the module's two stop instructions, verbat
 
 > **Script.**
 >
-> Stand. Both feet on the floor. Center, ground, drop a bubble (Day 3 — if it has fallen out of your body, re-read M05 first).
+> Stand. Both feet on the floor. Center, ground, drop a bubble (Day 3 — if it has fallen out of your body, re-read Map 5 first).
 >
 > You will visit five states. Each gets a posture and a sentence or two. Return to center between each.
 >

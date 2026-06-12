@@ -1,4 +1,4 @@
-# M14 — The 4 Listenings
+# Map 14 — The 4 Listenings
 
 *Four distinct internal stances a listener can choose between — and the fact that the stance you take, not the words the speaker says, determines what you actually hear.*
 
@@ -19,7 +19,7 @@ Listening is not one thing, it is at least four, and you are always doing one ev
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 8 — Listening, Speaking, Communication, Completion Loops](../Days/Day%2008%20-%20Listening%2C%20Speaking%2C%20Communication%2C%20Completion%20Loops.md)
-> - **Interactive tool →** [Map Atlas · M14 4 Listenings](../Map%20Atlas/M14%20-%204%20Listenings.html)
+> - **Interactive tool →** [Map Atlas · Map 14 4 Listenings](../Map%20Atlas/M14%20-%204%20Listenings.html)
 
 ---
 

@@ -1,4 +1,4 @@
-# M15 — The 4 Speakings
+# Map 15 — The 4 Speakings
 
 *Four distinct locations the speaker can speak from — and the fact that the location, not the topic, determines what the speech actually does in the room.*
 
@@ -19,7 +19,7 @@ Speaking has locations too, parallel to the listenings, and you have been speaki
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 8 — Listening, Speaking, Communication, Completion Loops](../Days/Day%2008%20-%20Listening%2C%20Speaking%2C%20Communication%2C%20Completion%20Loops.md)
-> - **Interactive tool →** [Map Atlas · M15 4 Speakings](../Map%20Atlas/M15%20-%204%20Speakings.html)
+> - **Interactive tool →** [Map Atlas · Map 15 4 Speakings](../Map%20Atlas/M15%20-%204%20Speakings.html)
 
 ---
 

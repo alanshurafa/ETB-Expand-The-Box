@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fear Capacity Feelings Form · Map Atlas M37 · Expand the Box</title>
+<title>Fear Capacity Feelings Form · Map Atlas · Map 37 · Expand the Box</title>
 <meta name="description" content="Interactive teaching tool for the Possibility Management Fear Capacity Feelings Form — fear about something you want, read as a measurement of the capacity still to build.">
 <link href="../_assets/fonts/fonts.css" rel="stylesheet">
 <style>
@@ -329,7 +329,7 @@ footer.bottom .license .cc { color: var(--ink-soft); font-weight: 600; letter-sp
   <!-- 1 · HEADER BAR -->
   <header class="top">
     <div class="left">
-      <span><span class="num">MAP ATLAS · M37</span></span>
+      <span><span class="num">MAP ATLAS · Map 37</span></span>
       <span class="brand">Possibility Management</span>
     </div>
     <div class="right">
@@ -467,12 +467,12 @@ footer.bottom .license .cc { color: var(--ink-soft); font-weight: 600; letter-sp
 
 <script>
 /* ============================================================
-   M37 — Fear Capacity Feelings Form. Teaching content sourced from the v2 module
+   Map 37 — Fear Capacity Feelings Form. Teaching content sourced from the v2 module
    (Day 05) and the canonical-phrasing ledger (Voice and Style
    Guide §6). Local-only: the single localStorage key etb_atlas_M37.
    ============================================================ */
 
-const DISTINCTIONS = [{"kicker": "Anatomy 1", "name": "Name the feeling plainly.", "body": "<em>I feel fear.</em> No euphemism, no \"a bit stressed,\" no \"anxious about.\" The form will not work on a softened word — name the feeling on the New Map (M10) by its real name."}, {"kicker": "Anatomy 2", "name": "Name what it is about.", "body": "Not the project — <strong>capacity.</strong> The fear is about your own current size relative to what you want to create. \"Capacity\" is the variable the sentence measures, and the thing you can build."}, {"kicker": "Anatomy 3", "name": "Keep the joy in the sentence.", "body": "<em>…a project that fills me up with joy.</em> The fear only exists because something worth creating is in view. Drop the joy and the fear looks like a verdict; keep it and the fear is a measurement <em>of</em> something you want."}, {"kicker": "The reading", "name": "Fear means prepare.", "body": "Fear's asked-for action is <strong>prepare</strong> — and here, prepare means build the capacity the sentence just measured. The named version is almost always smaller than the unnamed dread it replaces."}, {"kicker": "When to use it", "name": "The weeks you are deciding.", "body": "Run the full form — <em>I feel fear that I may not have enough ___ to ___</em> — when a fear reading in your morning row is attached to something you want. Not every day. The weeks something is on the table."}];
+const DISTINCTIONS = [{"kicker": "Anatomy 1", "name": "Name the feeling plainly.", "body": "<em>I feel fear.</em> No euphemism, no \"a bit stressed,\" no \"anxious about.\" The form will not work on a softened word — name the feeling on the New Map (Map 10) by its real name."}, {"kicker": "Anatomy 2", "name": "Name what it is about.", "body": "Not the project — <strong>capacity.</strong> The fear is about your own current size relative to what you want to create. \"Capacity\" is the variable the sentence measures, and the thing you can build."}, {"kicker": "Anatomy 3", "name": "Keep the joy in the sentence.", "body": "<em>…a project that fills me up with joy.</em> The fear only exists because something worth creating is in view. Drop the joy and the fear looks like a verdict; keep it and the fear is a measurement <em>of</em> something you want."}, {"kicker": "The reading", "name": "Fear means prepare.", "body": "Fear's asked-for action is <strong>prepare</strong> — and here, prepare means build the capacity the sentence just measured. The named version is almost always smaller than the unnamed dread it replaces."}, {"kicker": "When to use it", "name": "The weeks you are deciding.", "body": "Run the full form — <em>I feel fear that I may not have enough ___ to ___</em> — when a fear reading in your morning row is attached to something you want. Not every day. The weeks something is on the table."}];
 const RECALL = [{"q": "How does this map ask you to read fear about a project you want?", "a": "As a <em>capacity reading</em> — a measurement of the gap between what you want to build and what you can currently hold. A surveyor's report, not an alarm."}, {"q": "What is the full form sentence?", "a": "<em>I feel fear that I may not have enough ___ to ___.</em> Name the feeling, name what it is about (usually capacity), keep the joy in view."}, {"q": "What is fear's asked-for action — and what does it mean here?", "a": "<em>Prepare.</em> At this resolution, prepare means build the capacity the sentence just measured."}, {"q": "Why keep the joy in the same sentence?", "a": "The fear only exists because something worth creating is in view. The joy is what makes the fear a capacity reading rather than a verdict on the project."}, {"q": "When do you reach for this annex?", "a": "The weeks you are deciding something — when a fear reading attaches to something you want. Not every day."}, {"q": "Why name the feeling plainly, with no euphemism?", "a": "The form will not work on \"a bit stressed.\" Naming it <em>fear</em> on the New Map is what lets it read as a capacity measurement instead of a vague dread."}];
 const MISUNDERSTANDINGS = [{"wrong": "\"Fear means stop.\"", "right": "Fear means <em>prepare.</em> It only means move away when the signal says <em>actual</em> danger. Fear about a project you want is usually a capacity reading, not a verdict on the project."}, {"wrong": "\"The named fear will be bigger and scarier once I write it out.\"", "right": "Most learners discover the named version is <em>smaller</em> than the unnamed dread it replaces. Precision shrinks it; vagueness inflates it."}, {"wrong": "\"If I feel fear about it, I shouldn't do it.\"", "right": "The fear is measuring capacity, not vetoing the project. The move is to build the capacity the sentence named — prepare — not to abandon what fills you up with joy."}, {"wrong": "\"I need this annex every morning.\"", "right": "You do not. The standing instrument is the bar reading; this annex is for the weeks a fear reading attaches to something you are deciding."}];
 const STORE_KEY = 'etb_atlas_M37';

@@ -1,4 +1,4 @@
-# M07 — Center, Grounding Cord, Bubble, Golden Cube
+# Map 7 — Center, Grounding Cord, Bubble, Golden Cube
 
 *The four energetic-body practices, used together — the equipment that lets the learner stay present while thoughtware is loosening.*
 
@@ -19,7 +19,7 @@ These four are the equipment that lets you stay present while your thoughtware i
 > **This is a map card.** The full teaching and practice now live in two places:
 >
 > - **Full teaching →** [Day 3 — Liquid State, Center-Ground-Bubble, Five Bodies](../Days/Day%2003%20-%20Liquid%20State%2C%20Center-Ground-Bubble%2C%20Five%20Bodies.md)
-> - **Interactive tool →** [Map Atlas · M07 Center, Grounding Cord, Bubble, Golden Cube](../Map%20Atlas/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.html)
+> - **Interactive tool →** [Map Atlas · Map 7 Center, Grounding Cord, Bubble, Golden Cube](../Map%20Atlas/M07%20-%20Center%2C%20Grounding%20Cord%2C%20Bubble%2C%20Golden%20Cube.html)
 
 ---
 
