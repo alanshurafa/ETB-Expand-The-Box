@@ -1332,6 +1332,22 @@ def _json(obj):
     return json.dumps(obj, ensure_ascii=False)
 
 
+def _undouble(template):
+    """Collapse the doubled literal braces in a template string.
+
+    The TEMPLATE / INDEX_TEMPLATE constants were authored str.format-style,
+    with every literal CSS/JS brace doubled ({{ }}) and placeholders written
+    as single-brace {NAME}. But the generator fills them with str.replace(),
+    which does NOT collapse {{ -> { the way str.format() does — that was the
+    bug that shipped pages full of literal "{{".
+
+    We run this on the *template text only*, before any placeholder or JSON
+    content is substituted, so single-brace {NAME} placeholders survive and
+    JSON object literals (single braces, injected afterwards) are never
+    touched. Result: brace-correct output identical to the hand-fixed pages."""
+    return template.replace("{{", "{").replace("}}", "}")
+
+
 def render_page(mnum):
     c = CONTENT[mnum]
     day = c["day"]
@@ -1374,7 +1390,7 @@ def render_page(mnum):
         "{RECALL_JSON}": _json(recall),
         "{MIS_JSON}": _json(c["mis"]),
     }
-    out = TEMPLATE
+    out = _undouble(TEMPLATE)
     for k, v in repl.items():
         out = out.replace(k, v)
     return out
@@ -1640,7 +1656,7 @@ def render_index():
         block.append('    </div>')
         block.append('  </section>')
         groups_html.append("\n".join(block))
-    out = INDEX_TEMPLATE.replace("{COUNT}", str(total)).replace("{GROUPS}", "\n\n".join(groups_html))
+    out = _undouble(INDEX_TEMPLATE).replace("{COUNT}", str(total)).replace("{GROUPS}", "\n\n".join(groups_html))
     return out
 
 
@@ -1668,7 +1684,10 @@ def main():
         written.append(fn)
 
     # index regroup
-    idx_path = os.path.join(ATLAS_DIR, "index.html")
+    # GUARD (2026-06-11): the shipped Map Atlas index.html is the hand-built
+    # list-layout page (name + picture + click-through) and must NOT be
+    # overwritten by this generator's old grid template.
+    idx_path = os.path.join(ATLAS_DIR, "index.generated.html.IGNORE")
     with open(idx_path, "w", encoding="utf-8") as f:
         f.write(render_index())
     written.append("index.html (regrouped)")
